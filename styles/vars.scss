@@ -1,0 +1,25 @@
+@import './mixins.scss';
+
+// Colours
+$color-primary: #ff4500;
+$color-dark: #404040;
+
+$grid-columns: 12;
+$grid-gutter-width: 2rem;
+
+$break-sm: 576px;
+$break-md: 768px;
+$break-lg: 992px;
+$break-xl: 1200px;
+
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: $break-sm,
+//   md: $break-md,
+//   lg: $break-lg,
+//   xl: $break-xl,
+// );
+
+$container-max-widths: (
+  xl: 1440px,
+);

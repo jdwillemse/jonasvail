@@ -1,0 +1,28 @@
+@import '../../styles/vars.scss';
+
+.container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 50%;
+  height: 100vh;
+  transform: translateX(-50%);
+  pointer-events: none;
+  z-index: 999999;
+}
+
+.testRow {
+  * {
+    height: 100vh;
+  }
+}
+
+.main {
+  flex: 1;
+}
+
+.inner {
+    outline: 1px solid rgba(255, 0, 0, 0.1);
+  background: rgba(255, 0, 0, 0.05);
+}
