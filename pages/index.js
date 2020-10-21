@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { values, get } from 'lodash'
 
 import { getAllProjects, getAllClients } from '../lib/api'
 import Layout from '../components/Layout'
@@ -21,14 +20,14 @@ export default function Index(props) {
     <FilterContext.Provider value={filter}>
       <Layout {...props} setFilter={setFilter}>
         <div className="row">
-          <div className="col-sm-3">
+          <div className="col-sm-3 col-lg-2">
             <Sidebar>
               <Header />
               <Menu {...props} setFilter={setFilter} />
               <SubMenu />
             </Sidebar>
           </div>
-          <div className="col-sm-9">
+          <div className="col-sm-9 col-lg-10">
             <main>
               <ProjectList {...props} />
             </main>
@@ -36,31 +35,6 @@ export default function Index(props) {
         </div>
       </Layout>
     </FilterContext.Provider>
-  )
-
-  return null
-  return (
-    <>
-      <Layout preview={preview}>
-        <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
-        </Head>
-        <Container>
-          <Intro />
-          {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverimage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost._meta.uid}
-              excerpt={heroPost.excerpt}
-            />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-        </Container>
-      </Layout>
-    </>
   )
 }
 

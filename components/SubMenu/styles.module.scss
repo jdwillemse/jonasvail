@@ -1,4 +1,4 @@
-@import '../../styles/main.scss';
+@import '../../styles/vars.scss';
 
 .wrap {
   margin: 2rem 0;
@@ -7,7 +7,7 @@
 .secondary {
   display: block;
   color: $color-dark;
-  
+
   &:hover {
     color: $color-primary;
   }

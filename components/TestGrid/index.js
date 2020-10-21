@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import classnames from 'classnames'
 
 import css from './styles.module.scss'
 
@@ -14,19 +14,16 @@ const TestGrid = () => {
 
   for (let i = 0; i < COLUMN_COUNT; i++) {
     columns.push(
-      <Col key={i}>
+      <div className="col" key={i}>
         <div className={css.inner}></div>
-      </Col>
+      </div>
     )
   }
 
   return (
-    <Container className={css.wrap}>
-      <Row className={css.testRow}>
-        <h1>xxxx</h1>
-        {columns}
-      </Row>
-    </Container>
+    <div className={classnames('container-fluid', css.wrap)}>
+      <div className={classnames('row', css.testRow)}>{columns}</div>
+    </div>
   )
 }
 

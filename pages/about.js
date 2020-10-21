@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import { graphql } from 'gatsby'
 
 import { getAbout } from '../lib/api'
 import Layout from '../components/Layout'
@@ -20,12 +19,12 @@ export default function PageContainer(props) {
     <FilterContext.Provider value={filter}>
       <Layout {...props} setFilter={setFilter}>
         <div className="row">
-          <div className="col-sm-3">
+          <div className="col-sm-3 col-lg-2">
             <Header />
             <Menu />
             <SubMenu />
           </div>
-          <div className="col-sm-9">
+          <div className="col-sm-9 col-lg-10">
             <main>
               <PageDetail {...props.data}>
                 <AboutContent {...props.data} />

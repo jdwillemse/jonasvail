@@ -7,7 +7,7 @@ import Head from './Head'
 
 const Layout = ({ children, preview }) => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <Notification preview={preview} />
 
       {/* <Head {...data} /> */}

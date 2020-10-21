@@ -1,5 +1,4 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap'
 
 import css from './styles.module.scss'
 import Wysiwyg from '../Wysiwyg'
@@ -14,11 +13,11 @@ const MediaRow = ({ primary, fields }) => {
     const { image, video } = fields[i]
     if (image || video) {
       mediaBlocks.push(
-        <Col key={video?.uri || image.url}>
+        <div className="col" key={video?.uri || image.url}>
           {video && <Video {...video} />}
           {/* if there is both video and image only show video */}
           {image && !video && <Image image={image} className={css.image} />}
-        </Col>
+        </div>
       )
     }
   }
@@ -34,7 +33,7 @@ const MediaRow = ({ primary, fields }) => {
           <Wysiwyg content={primary.description} />
         </div>
       )}
-      <Row>{mediaBlocks}</Row>
+      <div className="row">{mediaBlocks}</div>
     </div>
   )
 }

@@ -1,7 +1,4 @@
 import React from 'react'
-// import { graphql } from 'gatsby'
-import get from 'lodash/get'
-import values from 'lodash/values'
 
 import { getAllProjects, getProjectAndMoreProjects } from '../lib/api'
 import Layout from '../components/Layout'
@@ -15,12 +12,12 @@ export default function ProjectTemplate(props) {
   return (
     <Layout {...props}>
       <div className="row">
-        <div className="col-sm-3">
+        <div className="col-sm-3 col-lg-2">
           <Header />
           <Menu />
           <SubMenu />
         </div>
-        <div className="col-sm-9">
+        <div className="col-sm-9 col-lg-10">
           <main>
             <PageDetail {...props.project}>
               <Slices {...props.project} />
