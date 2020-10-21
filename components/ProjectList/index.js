@@ -1,31 +1,30 @@
-import React, { useState, useEffect, useContext } from 'react'
-import PropTypes from 'prop-types'
+import React, { useState, useEffect } from 'react'
+// import PropTypes from 'prop-types'
 import Masonry from 'react-masonry-css'
 import { get } from 'lodash'
+import { useRouter } from 'next/router'
 
 import css from './styles.module.scss'
 import ProjectItem from '../ProjectItem'
-import { FilterContext } from '../../context/FilterProvider'
 
 const ProjectList = ({ allProjects = [] }) => {
   const [list, setList] = useState(allProjects)
-  const filter = useContext(FilterContext)
-  // const filter = "EA Sports";
+  const router = useRouter()
+  const { client } = router.query
+
+  console.log('===', { client })
 
   useEffect(() => {
-    // console.log({filter});
-
-    if (!filter || filter === 'All') {
+    if (!client) {
       setList(allProjects)
     } else {
+      const filter = client?.toLowerCase()
       const filteredList = allProjects.filter(
-        (item) => get(item, 'node.client.name', 'noFilter') === filter
+        (item) => get(item, 'node.client.name', '').toLowerCase() === filter
       )
       setList(filteredList)
     }
-  }, [allProjects, filter])
-
-  // console.log(list)
+  }, [allProjects, client])
 
   return (
     <section className={css.wrap}>

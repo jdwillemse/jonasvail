@@ -1,14 +1,15 @@
 import { PrismicClient } from '../../lib/api'
+import linkResolver from '../../utils/linkResolver'
 
-function linkResolver(doc) {
-  // Pretty URLs for known types
-  if (doc.type === 'post') {
-    return `/posts/${doc.uid}`
-  }
+// function linkResolver(doc) {
+//   // Pretty URLs for known types
+//   if (doc.type === 'post') {
+//     return `/posts/${doc.uid}`
+//   }
 
-  // Fallback for other types, in case new custom types get created
-  return `/${doc.uid}`
-}
+//   // Fallback for other types, in case new custom types get created
+//   return `/${doc.uid}`
+// }
 
 export default async function preview(req, res) {
   const { token: ref, documentId } = req.query
@@ -18,6 +19,8 @@ export default async function preview(req, res) {
     linkResolver,
     '/'
   )
+
+  console.log('===================', { url })
 
   if (!url) {
     return res.status(401).json({ message: 'Invalid token' })
