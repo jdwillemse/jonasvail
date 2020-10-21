@@ -1,0 +1,163 @@
+{
+  "Metadata": {
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "URL – do not use punctuation or capitalisation",
+        "placeholder": "Readable URL"
+      }
+    },
+    "meta_title": {
+      "type": "Text",
+      "config": {
+        "label": "Title",
+        "placeholder": "By deafaul the page heading is used but if can be overriden here",
+        "useAsTitle": true
+      }
+    },
+    "meta_description": {
+      "type": "Text",
+      "config": {
+        "label": "Description",
+        "placeholder": "Page-specific description text"
+      }
+    },
+    "meta_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Social media image"
+      }
+    }
+  },
+  "List view": {
+    "list_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "List image",
+        "placeholder": "Product grid image"
+      }
+    },
+    "list_image_gif": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "List GIF",
+        "placeholder": "Product grid GIF"
+      }
+    }
+  },
+  "Detail page": {
+    "title": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1",
+        "label": "title"
+      }
+    },
+    "body": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "allowTargetBlank": true,
+        "label": "body"
+      }
+    },
+    "client": {
+      "type": "Link",
+      "config": {
+        "select": "document",
+        "customtypes": ["client"],
+        "label": "client",
+        "placeholder": "Select a client…"
+      }
+    },
+    "date": {
+      "type": "Date",
+      "config": {
+        "label": "Date"
+      }
+    },
+    "awards": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "award": {
+            "type": "Text",
+            "config": {
+              "label": "award"
+            }
+          }
+        },
+        "label": "awards"
+      }
+    },
+
+    "slices": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": {
+          "media_block": [],
+          "textBlock": []
+        },
+        "choices": {
+          "mediaRow": {
+            "type": "Slice",
+            "fieldset": "Media row",
+            "description": "Row with multiple images next to each other",
+            "icon": "image",
+            "display": "list",
+            "non-repeat": {
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "allowTargetBlank": true,
+                  "label": "description"
+                }
+              }
+            },
+            "repeat": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [],
+                  "label": "Image"
+                }
+              },
+              "video": {
+                "type": "Embed",
+                "config": {
+                  "label": "Video"
+                }
+              }
+            }
+          },
+          "textBlock": {
+            "type": "Slice",
+            "fieldset": "Text block",
+            "description": "Block of structured text",
+            "icon": "format_color_text",
+            "display": "list",
+            "non-repeat": {
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "allowTargetBlank": true,
+                  "label": "description"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

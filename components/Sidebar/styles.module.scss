@@ -1,0 +1,12 @@
+@import '../../styles/main.scss';
+
+.wrap {
+  position: sticky;
+  top: 3rem;
+  height: auto;
+}
+
+.scroller {
+height: 100%;
+  overflow: auto;
+}

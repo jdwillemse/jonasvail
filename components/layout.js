@@ -1,16 +1,19 @@
-import Alert from '../components/alert'
-import Footer from '../components/footer'
-import Meta from '../components/meta'
+import React from 'react'
 
-export default function Layout({ preview, children }) {
+import Notification from './Notification'
+import Head from './Head'
+// import Header from './Header'
+// import Menu from './Menu'
+
+const Layout = ({ children, preview }) => {
   return (
-    <>
-      <Meta />
-      <div className="min-h-screen">
-        <Alert preview={preview} />
-        <main>{children}</main>
-      </div>
-      <Footer />
-    </>
+    <div className="container">
+      <Notification preview={preview} />
+
+      {/* <Head {...data} /> */}
+      {children}
+    </div>
   )
 }
+
+export default Layout
