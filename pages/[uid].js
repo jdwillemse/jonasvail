@@ -7,9 +7,6 @@ import {
 } from '../lib/api'
 import Layout from '../components/Layout'
 import PageDetail from '../components/PageDetail'
-import Header from '../components/Header'
-import Menu from '../components/Menu'
-import SubMenu from '../components/SubMenu'
 import Slices from '../components/Slices'
 
 export default function ProjectTemplate(props) {

@@ -12,8 +12,6 @@ const ProjectList = ({ allProjects = [] }) => {
   const router = useRouter()
   const { client } = router.query
 
-  console.log('===', { client })
-
   useEffect(() => {
     if (!client) {
       setList(allProjects)
