@@ -12,7 +12,9 @@ const ProjectItem = ({ node }) => {
   return (
     <article className={css.wrap}>
       <Link link={node} className={css.link}>
-        <Image className={css.image} image={listImage} {...listImageSharp} />
+        <div className={css.imageWrap}>
+          <Image className={css.image} image={listImage} {...listImageSharp} />
+        </div>
         <h1 className={css.title}>{asText(title)}</h1>
         {client?.name && <div className={css.client}>{client.name}</div>}
       </Link>

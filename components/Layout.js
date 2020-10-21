@@ -4,7 +4,6 @@ import Notification from './Notification'
 import Head from './Head'
 import Header from './Header'
 import Menu from './Menu'
-import SubMenu from './SubMenu'
 import Sidebar from './Sidebar'
 
 const Layout = ({ children, preview, ...props }) => {
@@ -18,7 +17,6 @@ const Layout = ({ children, preview, ...props }) => {
           <Sidebar>
             <Header />
             <Menu {...props} />
-            <SubMenu />
           </Sidebar>
         </div>
         <div className="col-sm-9 col-lg-10">

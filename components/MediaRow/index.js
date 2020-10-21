@@ -1,4 +1,5 @@
 import React from 'react'
+import classnames from 'classnames'
 
 import css from './styles.module.scss'
 import Wysiwyg from '../Wysiwyg'
@@ -33,7 +34,7 @@ const MediaRow = ({ primary, fields }) => {
           <Wysiwyg content={primary.description} />
         </div>
       )}
-      <div className="row">{mediaBlocks}</div>
+      <div className={classnames('row', css.row)}>{mediaBlocks}</div>
     </div>
   )
 }

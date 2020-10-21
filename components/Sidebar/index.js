@@ -5,14 +5,8 @@ import css from './styles.module.scss'
 
 // component
 // ========================================================================
-const Sidebar = ({children}) => {
-
-  return (
-    <div className={css.wrap}>
-      <div className={css.scroller}>
-        {children}</div>
-    </div>
-  )
+const Sidebar = ({ children }) => {
+  return <div className={css.wrap}>{children}</div>
 }
 
 export default Sidebar

@@ -8,14 +8,31 @@ import css from './styles.module.scss'
 const Menu = ({ allClients = [] }) => {
   return (
     <nav>
-      <div className={css.primaryLink}>
-        <Link href="/">Clients</Link>
+      <Link href="/">
+        <a className={css.link}>
+          <span className={css.linkInner}>Clients</span>
+        </a>
+      </Link>
+      <div className={css.clientWrap}>
+        {allClients.map(({ node: { name, _meta } }) => (
+          <Link href={`/?client=${name}`} key={_meta.id}>
+            <a className={css.link}>
+              <span className={css.linkInner}>{name}</span>
+            </a>
+          </Link>
+        ))}
       </div>
-      {allClients.map(({ node: { name, _meta } }) => (
-        <div className={css.clientLink} key={_meta.id}>
-          <Link href={`/?client=${name}`}>{name}</Link>
-        </div>
-      ))}
+      <Link href="/about">
+        <a className={css.link}>
+          <span className={css.linkInner}>About</span>
+        </a>
+      </Link>
+      <a
+        href="mailto:jonasvail@gmail.com?Subject=Hoi%20Hoi%20Hello!"
+        className={css.link}
+      >
+        <span className={css.linkInner}>Contact</span>
+      </a>
     </nav>
   )
 }
