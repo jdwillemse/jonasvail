@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import { RichText, Date } from 'prismic-reactjs'
 
-import resolver from './linkResolver'
+import linkResolver from './linkResolver'
 
 // prop-types
 export const structuredTextPropType = PropTypes.arrayOf(
@@ -37,15 +37,15 @@ export const imageSharpPropType = PropTypes.shape({
 })
 
 //  rendering
-export const asText = data => {
+export const asText = (data) => {
   if (!data) {
     return null
   }
   return typeof data === 'string' ? data : RichText.asText(data)
 }
 
-export const renderer = data =>
-  data ? <RichText render={data} linkResolver={resolver.linkResolver} /> : null
+export const renderer = (data) =>
+  data ? <RichText render={data} linkResolver={linkResolver} /> : null
 
 const options = {
   year: 'numeric',
@@ -53,7 +53,7 @@ const options = {
   day: 'numeric',
 }
 
-export const renderDate = date => {
+export const renderDate = (date) => {
   if (!date) {
     return null
   }
