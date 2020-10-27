@@ -21,6 +21,7 @@ export default function ProjectTemplate(props) {
 
 export async function getStaticProps({ params, preview = false, previewData }) {
   const data = await getProjectAndMoreProjects(params.uid, previewData)
+  const allProjects = await getAllProjects(previewData)
   const allClients = await getAllClients(previewData)
 
   return {
@@ -28,6 +29,7 @@ export async function getStaticProps({ params, preview = false, previewData }) {
       preview,
       project: data.node,
       allClients,
+      allProjects,
       // morePosts: data?.morePosts ?? [],
     },
   }
@@ -35,6 +37,7 @@ export async function getStaticProps({ params, preview = false, previewData }) {
 
 export async function getStaticPaths() {
   const allProjects = await getAllProjects()
+
   return {
     paths: (allProjects || []).map(({ node }) => `/${node._meta.uid}`),
     fallback: true,

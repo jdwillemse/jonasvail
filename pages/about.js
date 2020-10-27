@@ -1,4 +1,4 @@
-import { getAbout, getAllClients } from '../lib/api'
+import { getAbout, getAllClients, getAllProjects } from '../lib/api'
 import Layout from '../components/Layout'
 import PageDetail from '../components/PageDetail'
 import AboutContent from '../components/AboutContent'
@@ -16,9 +16,10 @@ export default function PageContainer(props) {
 
 export async function getStaticProps({ preview = false, previewData }) {
   const { node } = await getAbout(previewData)
+  const allProjects = await getAllProjects(previewData)
   const allClients = await getAllClients(previewData)
 
   return {
-    props: { preview, allClients, data: node },
+    props: { preview, allClients, allProjects, data: node },
   }
 }
