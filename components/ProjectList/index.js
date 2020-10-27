@@ -27,13 +27,6 @@ const ProjectList = ({ allProjects = [] }) => {
 
   // loop over grid items and calculate size for each
   function resizeAllGridItems() {
-    // matches media query where multicolumn grid kicks in
-    const mediaQuery = window.matchMedia('(min-width: 768px)')
-    // only start calculating grid when more than one column
-    if (!mediaQuery.matches) {
-      return null
-    }
-
     const gridComputedStyle = window.getComputedStyle(gridRef.current)
     rowHeight.current = parseInt(
       gridComputedStyle.getPropertyValue('grid-auto-rows')

@@ -1,7 +1,12 @@
 @import '../../styles/vars.scss';
 
 .clientWrap {
-  margin: 0.5rem 0 2rem 0.5rem;
+  margin: 0.5rem 0 1rem -1rem;
+
+  @media (min-width: $break-sm) {
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+  }
 }
 
 .link {
@@ -15,6 +20,16 @@
       &:after {
         transform: scale3d(1, 1, 1);
       }
+    }
+  }
+
+  .clientWrap & {
+    display: inline-block;
+    margin-left: 1.5rem;
+
+    @media (min-width: $break-sm) {
+      display: block;
+      margin-left: 0;
     }
   }
 }

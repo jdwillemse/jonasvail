@@ -1,7 +1,11 @@
 @import '../../styles/vars.scss';
 
 .wrap {
-  margin: 3rem 0;
+  margin: 1rem 0;
+
+  @media (min-width: $break-md) {
+    margin: 3rem 0;
+  }
 }
 
 .grid {
@@ -22,13 +26,13 @@
 }
 
 .masonry {
-  @media (min-width: 768px) {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(100px, 1fr));
-    grid-gap: 5px 2rem;
-    grid-auto-rows: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 1fr));
+  grid-gap: 5px 1rem;
+  grid-auto-rows: 0;
 
-    grid-template-columns: repeat(2, minmax(100px, 1fr));
+  @media (min-width: 768px) {
+    grid-gap: 5px 2rem;
   }
 
   @media (min-width: 1024px) {

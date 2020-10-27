@@ -1,7 +1,11 @@
 @import '../../styles/vars.scss';
 
 .wrap {
-  padding: 3rem 0 3rem;
+  padding: 1rem 0;
+
+  @media (min-width: $break-md) {
+    padding: 3rem 0;
+  }
 }
 
 .logo {
