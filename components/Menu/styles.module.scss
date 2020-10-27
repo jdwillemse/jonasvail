@@ -27,8 +27,8 @@
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
-    height: 50%;
+    bottom: -3px;
+    height: 5px;
     background: $color-primary;
     transform: scale3d(1, 0, 1);
     transform-origin: 0 bottom;

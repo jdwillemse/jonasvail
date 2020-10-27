@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 import css from './styles.module.scss'
 import { asText } from '../../utils/prismic'

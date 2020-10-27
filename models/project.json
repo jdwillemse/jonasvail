@@ -41,13 +41,10 @@
         "placeholder": "Product grid image"
       }
     },
-    "list_image_gif": {
-      "type": "Image",
+    "date": {
+      "type": "Date",
       "config": {
-        "constraint": {},
-        "thumbnails": [],
-        "label": "List GIF",
-        "placeholder": "Product grid GIF"
+        "label": "Date dictates the list order on home page"
       }
     }
   },
@@ -56,7 +53,8 @@
       "type": "StructuredText",
       "config": {
         "single": "heading1",
-        "label": "title"
+        "label": "title",
+        "placeholder": "Do not add the client's name"
       }
     },
     "body": {
@@ -74,12 +72,6 @@
         "customtypes": ["client"],
         "label": "client",
         "placeholder": "Select a client…"
-      }
-    },
-    "date": {
-      "type": "Date",
-      "config": {
-        "label": "Date"
       }
     },
     "awards": {
@@ -128,13 +120,15 @@
                 "config": {
                   "constraint": {},
                   "thumbnails": [],
-                  "label": "Image"
+                  "label": "Image",
+                  "placeholder": "Either an image or video"
                 }
               },
               "video": {
                 "type": "Embed",
                 "config": {
-                  "label": "Video"
+                  "label": "Video",
+                  "placeholder": "Either a video or image"
                 }
               }
             }
