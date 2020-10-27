@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 
+import { ModalContext } from '../context/ModalProvider'
 import {
   getAllProjects,
   getProjectAndMoreProjects,
@@ -8,14 +9,20 @@ import {
 import Layout from '../components/Layout'
 import PageDetail from '../components/PageDetail'
 import Slices from '../components/Slices'
+import Modal from '../components/Modal'
 
 export default function ProjectTemplate(props) {
+  const [image, setImage] = useState(null)
+
   return (
-    <Layout {...props}>
-      <PageDetail {...props.project}>
-        <Slices {...props.project} />
-      </PageDetail>
-    </Layout>
+    <ModalContext.Provider value={{ image, setImage }}>
+      <Layout {...props}>
+        <Modal />
+        <PageDetail {...props.project}>
+          <Slices {...props.project} />
+        </PageDetail>
+      </Layout>
+    </ModalContext.Provider>
   )
 }
 

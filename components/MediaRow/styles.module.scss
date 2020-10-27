@@ -12,7 +12,14 @@
   align-items: flex-end;
 }
 
+.button {
+  padding: 0;
+  border: none;
+  appearance: none;
+}
+
 .image {
   width: 100%;
   height: auto;
+  pointer-events: none;
 }
