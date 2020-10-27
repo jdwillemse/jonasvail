@@ -3,13 +3,14 @@ import React from 'react'
 
 import css from './styles.module.scss'
 import { asText } from '../../utils/prismic'
-import Wysiwyg from '../Wysiwyg'
+import RichText from '../RichText'
 
-const PageDetail = ({ title, body, children }) => {
+const PageDetail = ({ title, body, client, children }) => {
   return (
     <article className={css.wrap}>
+      {client && <div className={css.chapeau}>{client.name}</div>}
       <h1 className={css.title}>{asText(title)}</h1>
-      <Wysiwyg content={body} className={css.content} />
+      <RichText content={body} className={css.content} />
       {children}
     </article>
   )
