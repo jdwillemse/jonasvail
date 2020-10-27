@@ -2,7 +2,7 @@ import React from 'react'
 import classnames from 'classnames'
 
 import css from './styles.module.scss'
-import Wysiwyg from '../Wysiwyg'
+import RichText from '../RichText'
 import Image from '../Image'
 import Video from '../Video'
 
@@ -31,7 +31,7 @@ const MediaRow = ({ primary, fields }) => {
     <div className={css.wrap}>
       {primary.description && (
         <div className={css.copy}>
-          <Wysiwyg content={primary.description} />
+          <RichText content={primary.description} />
         </div>
       )}
       <div className={classnames('row', css.row)}>{mediaBlocks}</div>
