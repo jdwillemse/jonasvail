@@ -23,12 +23,20 @@ const MediaRow = ({ primary, fields }) => {
 
     if (image || video) {
       mediaBlocks.push(
-        <div className="col" key={video?.uri || image.url}>
-          {video && <Video {...video} />}
+        <div
+          className={fields.length > 1 ? 'col-sm-12 col-md-6 col-lg' : 'col'}
+          key={video?.uri || image.url}
+        >
+          {video && (
+            <div className={css.mediaWrap}>
+              {' '}
+              <Video {...video} />
+            </div>
+          )}
           {/* if there is both video and image only show video */}
           {image && !video && (
             <button
-              className={css.button}
+              className={classnames(css.button, css.mediaWrap)}
               onClick={handleClick}
               data-src={image.url}
               type="button"

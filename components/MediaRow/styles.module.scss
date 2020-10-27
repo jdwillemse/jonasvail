@@ -1,7 +1,7 @@
 @import '../../styles/vars.scss';
 
 .wrap {
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
 }
 
 .copy {
@@ -10,6 +10,10 @@
 
 .row {
   align-items: flex-end;
+}
+
+.mediaWrap {
+  margin-bottom: 2rem;
 }
 
 .button {
