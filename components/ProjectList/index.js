@@ -64,7 +64,7 @@ const ProjectList = ({ allProjects = [] }) => {
   }, [])
 
   return (
-    <section className={css.wrap} onLoad={resizeAllGridItems}>
+    <section className={css.wrap}>
       <div className={css.masonryWrapper}>
         <div className={css.masonry} ref={gridRef}>
           {list.map((project) => (
