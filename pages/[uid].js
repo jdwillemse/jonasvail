@@ -47,6 +47,6 @@ export async function getStaticPaths() {
 
   return {
     paths: (allProjects || []).map(({ node }) => `/${node._meta.uid}`),
-    fallback: true,
+    fallback: false,
   }
 }
