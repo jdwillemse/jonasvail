@@ -12,18 +12,21 @@
   align-items: flex-end;
 }
 
+.col {
+  min-width: 1px;
+}
+
 .mediaWrap {
   margin-bottom: 2rem;
 }
 
 .button {
+  max-width: 100%;
   padding: 0;
   border: none;
   appearance: none;
-}
 
-.image {
-  width: 100%;
-  height: auto;
-  pointer-events: none;
+  & > * {
+    pointer-events: none;
+  }
 }

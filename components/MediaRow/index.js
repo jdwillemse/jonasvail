@@ -1,9 +1,10 @@
 import React, { useCallback, useContext } from 'react'
 import classnames from 'classnames'
+import Image from 'next/image'
 
 import css from './styles.module.scss'
 import RichText from '../RichText'
-import Image from '../Image'
+// import Image from '../Image'
 import Video from '../Video'
 import { ModalContext } from '../../context/ModalProvider'
 
@@ -24,7 +25,11 @@ const MediaRow = ({ primary, fields }) => {
     if (image || video) {
       mediaBlocks.push(
         <div
-          className={fields.length > 1 ? 'col-sm-12 col-md-6 col-lg' : 'col'}
+          className={
+            fields.length > 1
+              ? classnames(css.col, 'col-sm-12 col-md-6 col-lg')
+              : 'col'
+          }
           key={video?.uri || image.url}
         >
           {video && (
@@ -41,7 +46,13 @@ const MediaRow = ({ primary, fields }) => {
               data-src={image.url}
               type="button"
             >
-              <Image image={image} className={css.image} />
+              <Image
+                src={image.url}
+                {...image.dimensions}
+                className={css.image}
+              />
+
+              {/* <Image image={image} className={css.image} /> */}
             </button>
           )}
         </div>
