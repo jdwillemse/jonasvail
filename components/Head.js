@@ -9,21 +9,17 @@ const HeadComponent = ({ project, data, settings = {} }) => {
   const pageDescription = metaDescription || description
   const pageImage = metaImage || image || {}
   const meta = [
-    {
-      name: 'viewport',
-      content:
-        'width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no',
-    },
-    { name: `description`, content: pageDescription },
-    { property: `og:title`, content: title },
-    { property: `og:description`, content: pageDescription },
-    { property: `og:type`, content: `website` },
-    { property: `og:image`, content: pageImage.url },
-    { property: `og:image:width`, content: pageImage.width },
-    { property: `og:image:height`, content: pageImage.height },
-    { name: `twitter:card`, content: `summary` },
-    { name: `twitter:title`, content: title },
-    { name: `twitter:description`, content: pageDescription },
+    { name: 'description', content: pageDescription },
+    // { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { property: 'og:title', content: title },
+    { property: 'og:description', content: pageDescription },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: pageImage.url },
+    { property: 'og:image:width', content: pageImage.width },
+    { property: 'og:image:height', content: pageImage.height },
+    { name: 'twitter:card', content: 'summary' },
+    { name: 'twitter:title', content: title },
+    { name: 'twitter:description', content: pageDescription },
   ]
   const links = [
     {
