@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/Information",
+      "destination": "/about",
+      "permanent": true
+    }
+  ]
+}
