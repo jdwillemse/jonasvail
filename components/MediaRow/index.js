@@ -4,7 +4,6 @@ import Image from 'next/image'
 
 import css from './styles.module.scss'
 import RichText from '../RichText'
-// import Image from '../Image'
 import Video from '../Video'
 import { ModalContext } from '../../context/ModalProvider'
 
@@ -34,7 +33,6 @@ const MediaRow = ({ primary, fields }) => {
         >
           {video && (
             <div className={css.mediaWrap}>
-              {' '}
               <Video {...video} />
             </div>
           )}

@@ -5,6 +5,7 @@ import {
   getAllProjects,
   getProjectAndMoreProjects,
   getAllClients,
+  getSettings,
 } from '../lib/api'
 import Layout from '../components/Layout'
 import PageDetail from '../components/PageDetail'
@@ -30,6 +31,7 @@ export async function getStaticProps({ params, preview = false, previewData }) {
   const data = await getProjectAndMoreProjects(params.uid, previewData)
   const allProjects = await getAllProjects(previewData)
   const allClients = await getAllClients(previewData)
+  const settings = await getSettings(previewData)
 
   return {
     props: {
@@ -37,7 +39,7 @@ export async function getStaticProps({ params, preview = false, previewData }) {
       project: data.node,
       allClients,
       allProjects,
-      // morePosts: data?.morePosts ?? [],
+      settings,
     },
   }
 }

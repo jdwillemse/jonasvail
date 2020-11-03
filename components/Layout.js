@@ -10,8 +10,7 @@ const Layout = ({ children, preview, ...props }) => {
   return (
     <div className="container-fluid">
       <Notification preview={preview} />
-
-      {/* <Head {...data} /> */}
+      <Head {...props} />
       <div className="row">
         <div className="col-sm-3 col-lg-2">
           <Sidebar>

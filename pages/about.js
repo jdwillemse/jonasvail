@@ -1,4 +1,9 @@
-import { getAbout, getAllClients, getAllProjects } from '../lib/api'
+import {
+  getAbout,
+  getAllClients,
+  getAllProjects,
+  getSettings,
+} from '../lib/api'
 import Layout from '../components/Layout'
 import PageDetail from '../components/PageDetail'
 import AboutContent from '../components/AboutContent'
@@ -18,8 +23,9 @@ export async function getStaticProps({ preview = false, previewData }) {
   const { node } = await getAbout(previewData)
   const allProjects = await getAllProjects(previewData)
   const allClients = await getAllClients(previewData)
+  const settings = await getSettings(previewData)
 
   return {
-    props: { preview, allClients, allProjects, data: node },
+    props: { preview, allClients, allProjects, settings, data: node },
   }
 }
