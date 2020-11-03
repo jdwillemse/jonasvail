@@ -54,14 +54,19 @@ const ProjectList = ({ allProjects = [] }) => {
 
   // cache grid item list and add window resize listener
   useEffect(() => {
-    allItems.current = gridRef.current.children
-    resizeAllGridItems()
     window.addEventListener('resize', resizeAllGridItems)
-
     return () => {
       window.removeEventListener('resize', resizeAllGridItems)
     }
   }, [])
+
+  // update masonry layout if list updates
+  useEffect(() => {
+    if (!allItems.current) {
+      allItems.current = gridRef.current.children
+    }
+    resizeAllGridItems()
+  }, [list])
 
   return (
     <section className={css.wrap}>
