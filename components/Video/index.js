@@ -4,8 +4,8 @@ import css from './styles.module.scss'
 
 // component
 // ==========================================================================================
-const Video = ({ embed_url, type, html }) => {
-  if (!embed_url || type !== 'video') {
+const Video = ({ type, html }) => {
+  if (!html || type !== 'video') {
     return null
   }
 
