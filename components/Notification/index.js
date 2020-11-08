@@ -1,7 +1,4 @@
-import cn from 'classnames'
-
 import css from './styles.module.scss'
-import { EXAMPLE_PATH } from '../../lib/constants'
 
 export default function Notification({ preview }) {
   return preview ? (
