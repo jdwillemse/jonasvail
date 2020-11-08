@@ -18,7 +18,6 @@ const data = {
 describe('Video', () => {
   it('renders when content passed', () => {
     const { container } = render(<Video {...data} />)
-    console.log(container.querySelector('.wrap').childNodes)
     expect(container.querySelector('iframe').src.includes(data.video_id)).toBe(
       true
     )
