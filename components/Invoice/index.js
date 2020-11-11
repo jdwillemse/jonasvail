@@ -3,7 +3,58 @@ import cn from 'classnames'
 
 import css from './styles.module.scss'
 
-const Invoice = () => {
+{
+  /* 
+  tax label
+{
+  "de":"none"
+  "eu":"VAT number"
+  "us":"Tax ID number"
+} 
+*/
+}
+const Invoice = ({
+  number,
+  date,
+  dueDate,
+  recipient,
+  address1,
+  address2,
+  country,
+  taxNumber,
+  invoiceItems = [],
+}) => {
+  const subtotal = invoiceItems.reduce(
+    (sum, { rate, quantity }) => sum + rate * quantity,
+    0
+  )
+  const tax = { amount: 0 }
+  const formatter = new Intl.NumberFormat('en', {
+    style: 'currency',
+    currency: 'EUR',
+  })
+
+  switch (country) {
+    case 'de':
+      tax.amountLabel = 'VAT (19%)'
+      tax.amount = (subtotal / 100) * 19
+      break
+
+    case 'us':
+      tax.numberLabel = 'Tax ID number'
+      tax.amountLabel = 'VAT reverse charged'
+      tax.amount = 0
+      break
+
+    default:
+      tax.numberLabel = 'VAT number'
+      tax.amountLabel = 'VAT reverse charged'
+      tax.amount = 0
+      break
+  }
+
+  const total = formatter.format(subtotal + tax.amount)
+
   return (
     <article className={cn('page', css.wrap)}>
       <div className={css.subpage}>
@@ -19,15 +70,15 @@ const Invoice = () => {
             <dl>
               <div className={css.listItem}>
                 <dt className={css.listTitle}>Invoice №:</dt>
-                <dd className={css.listDescription}>2020-23-923</dd>
+                <dd className={css.listDescription}>{number}</dd>
               </div>
               <div className={css.listItem}>
                 <dt className={css.listTitle}>Date:</dt>
-                <dd className={css.listDescription}>23 August 2020</dd>
+                <dd className={css.listDescription}>{date}</dd>
               </div>
               <div className={css.listItem}>
                 <dt className={css.listTitle}>Payment due:</dt>
-                <dd className={css.listDescription}>31 December 2020</dd>
+                <dd className={css.listDescription}>{dueDate}</dd>
               </div>
             </dl>
           </div>
@@ -37,20 +88,22 @@ const Invoice = () => {
           <div className={css.recipient}>
             <h6>Recipient</h6>
             <div>
-              <strong>Gypsy Inc. LLC</strong>
+              <strong>{recipient}</strong>
               <br />
-              4080 Glencoe Ave. Unit 401
+              {address1}
+              {address2 && (
+                <>
+                  <br />
+                  {address2}
+                </>
+              )}
               <br />
-              Marina Del Rey, California
-              <br />
-              90292 USA
-              <br />
-              Tax ID number: 35-2661334
+              {taxNumber && `${tax.numberLabel}: ${taxNumber}`}
             </div>
           </div>
           <div className={'hhh'}>
             <h6>Total due</h6>
-            <h4>€ 3630</h4>
+            <h4>{total}</h4>
           </div>
         </section>
         <section className={css.section}>
@@ -64,32 +117,36 @@ const Invoice = () => {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>
-                  Strategic/Creative Development for Twitch Creators Campaign.
-                </td>
-                <td>€ 600</td>
-                <td>40</td>
-                <td>€ 3000</td>
-              </tr>
+              {invoiceItems.map(({ description, rate, quantity }) => (
+                <tr key={description}>
+                  <td>{description}</td>
+                  <td>€{rate}</td>
+                  <td>{quantity}</td>
+                  <td>{formatter.format(rate * quantity)}</td>
+                </tr>
+              ))}
             </tbody>
             <tfoot>
               <tr>
                 <td></td>
                 <td colSpan="2">
                   <div className={css.calcItem}>Subtotal</div>
-                  <div className={css.calcItem}>VAT reverse charged</div>
+                  <div className={css.calcItem}>{tax.amountLabel}</div>
                 </td>
                 <td>
-                  <div className={css.calcItem}>€ 3000</div>
-                  <div className={css.calcItem}>€ 630</div>
+                  <div className={css.calcItem}>
+                    {formatter.format(subtotal)}
+                  </div>
+                  <div className={css.calcItem}>
+                    {formatter.format(tax.amount)}
+                  </div>
                 </td>
               </tr>
               <tr>
                 <td></td>
                 <td className={css.totalColumn}>Total</td>
                 <td className={css.totalColumn}></td>
-                <td className={css.totalColumn}>€ 3630</td>
+                <td className={css.totalColumn}>{total}</td>
               </tr>
             </tfoot>
           </table>
@@ -114,7 +171,7 @@ const Invoice = () => {
               </div>
               <div className={css.listItem}>
                 <dt className={css.listTitle}>Reference:</dt>
-                <dd className={css.listDescription}>2020–08–001</dd>
+                <dd className={css.listDescription}>{number}</dd>
               </div>
             </dl>
           </div>
@@ -127,6 +184,16 @@ const Invoice = () => {
             Germany
             <br />
             <a href="mailto:hello@jonasvail.com">hello@jonasvail.com</a>
+          </div>
+        </section>
+        <section className={cn(css.section, css.twoColumn)}>
+          <div></div>
+          <div>
+            <small>
+              VAT no: DE325311319
+              <br />
+              Tax ID: 31/569/03703
+            </small>
           </div>
         </section>
       </div>
