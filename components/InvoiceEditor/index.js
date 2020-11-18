@@ -6,6 +6,7 @@ import Select from 'react-select-material-ui'
 import css from './styles.module.scss'
 import countries from './countries.json'
 import Input from './Input'
+import Login from '../Login'
 
 const DAY_IN_MS = 1000 * 60 * 60 * 24
 
@@ -43,6 +44,8 @@ const InvoiceEditor = ({ setInvoiceDetails }) => {
 
   return (
     <section className={css.wrap}>
+      <Login />
+
       <Form>
         <section className={css.section}>
           <div className="row">

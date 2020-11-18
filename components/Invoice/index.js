@@ -1,5 +1,6 @@
 import React from 'react'
 import cn from 'classnames'
+import { useSession } from 'next-auth/client'
 
 import css from './styles.module.scss'
 
@@ -24,6 +25,8 @@ const Invoice = ({
   taxNumber,
   invoiceItems = [],
 }) => {
+  const [session] = useSession()
+
   const subtotal = invoiceItems.reduce(
     (sum, { rate, quantity }) => sum + rate * quantity,
     0
@@ -55,7 +58,8 @@ const Invoice = ({
 
   const total = formatter.format(subtotal + tax.amount)
 
-  return (
+  // do not show invoice if not logged in
+  return session ? (
     <article className={cn('page', css.wrap)}>
       <div className={css.subpage}>
         <header className={cn(css.header, css.twoColumn)}>
@@ -198,7 +202,7 @@ const Invoice = ({
         </section>
       </div>
     </article>
-  )
+  ) : null
 }
 
 export default Invoice
