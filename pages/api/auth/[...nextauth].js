@@ -55,7 +55,16 @@ const options = {
      *                           Return `false` to deny access
      */
     signIn: async (user, account, profile) => {
-      return true
+      const authorizedEmails = process.env.AUTHORIZED_EMAIL_ADDRESSES.split(' ')
+      if (
+        account.provider === 'google' &&
+        profile.verified_email === true &&
+        authorizedEmails.includes(profile.email)
+      ) {
+        return Promise.resolve(true)
+      } else {
+        return Promise.resolve(false)
+      }
     },
 
     /**
