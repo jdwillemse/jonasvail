@@ -50,23 +50,6 @@ const InvoiceEditor = ({ setInvoiceDetails }) => {
         <section className={css.section}>
           <div className="row">
             <fieldset className="col">
-              <legend className={css.legend}>Invoice details</legend>
-              <Input field="number" type="text" label="Number" />
-              <Input
-                field="date"
-                type="date"
-                label="Date"
-                defaultValue={today}
-              />
-              <Input
-                field="dueDate"
-                type="date"
-                label="Payment due"
-                defaultValue={dueDate}
-              />
-            </fieldset>
-
-            <fieldset className="col">
               <legend className={css.legend}>Recipient</legend>
               <Input field="recipient" type="text" label="Name" />
               <Input field="address1" type="text" label="Address line 1" />
@@ -84,10 +67,29 @@ const InvoiceEditor = ({ setInvoiceDetails }) => {
                 <InputField
                   field="country"
                   type="hidden"
-                  defaultValue={country}
+                  defaultValue={country || ''}
                 />
               </div>
-              <Input field="taxNumber" type="text" label="Tax/VAT ID" />
+            </fieldset>
+
+            <fieldset className="col">
+              <legend className={css.legend}>Invoice details</legend>
+              <Input field="number" type="text" label="Number" />
+              <Input
+                field="date"
+                type="date"
+                label="Date"
+                defaultValue={today}
+              />
+              <Input
+                field="dueDate"
+                type="date"
+                label="Payment due"
+                defaultValue={dueDate}
+              />
+              {country && country !== 'de' && (
+                <Input field="taxNumber" type="text" label="Tax/VAT ID" />
+              )}
             </fieldset>
           </div>
         </section>

@@ -10,6 +10,10 @@
   @media screen {
     display: block;
   }
+
+  @media (min-width: $break-md) {
+    min-width: 500px;
+  }
 }
 
 .section {

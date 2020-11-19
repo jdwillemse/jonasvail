@@ -64,5 +64,7 @@ img {
 }
 
 .invoiceWrap {
-  display: flex;
+  @media (min-width: $break-md) {
+    display: flex;
+  }
 }
