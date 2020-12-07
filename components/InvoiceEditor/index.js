@@ -14,7 +14,7 @@ const InvoiceEditor = ({ setInvoiceDetails }) => {
   const [count, setCount] = useState(1)
   const [country, setCountry] = useState()
   const handleSubmit = (formData) => {
-    setInvoiceDetails(formData)
+    setInvoiceDetails({ ...formData, country })
   }
   const { Form } = useForm({ onSubmit: handleSubmit, debugForm: false })
   const today = new Date().toISOString().substr(0, 10)
@@ -47,11 +47,6 @@ const InvoiceEditor = ({ setInvoiceDetails }) => {
                   onChange={(value) => {
                     setCountry(value)
                   }}
-                />
-                <Input
-                  field="country"
-                  type="hidden"
-                  defaultValue={country || ''}
                 />
               </div>
             </fieldset>

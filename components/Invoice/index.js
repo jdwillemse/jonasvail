@@ -39,8 +39,8 @@ const Invoice = ({
 
   switch (country) {
     case 'de':
-      tax.amountLabel = 'VAT (19%)'
-      tax.amount = (subtotal / 100) * 19
+      tax.amountLabel = 'VAT (16%)'
+      tax.amount = (subtotal / 100) * 16
       break
 
     case 'us':
