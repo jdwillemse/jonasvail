@@ -4,16 +4,6 @@ import { useSession } from 'next-auth/client'
 
 import css from './styles.module.scss'
 
-{
-  /* 
-  tax label
-{
-  "de":"none"
-  "eu":"VAT number"
-  "us":"Tax ID number"
-} 
-*/
-}
 const Invoice = ({
   number,
   date,

@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react'
 import cn from 'classnames'
-import { useForm, useField, splitFormProps } from 'react-form'
+import { useForm } from 'react-form'
 import Select from 'react-select-material-ui'
 
 import css from './styles.module.scss'
@@ -35,7 +35,7 @@ const InvoiceEditor = ({ setInvoiceDetails }) => {
           <div className="row">
             <fieldset className="col">
               <legend className={css.legend}>Recipient</legend>
-              <Input field="recipient" type="text" label="Name" />
+              <Input field="recipient" type="text" label="Name" required />
               <Input field="address1" type="text" label="Address line 1" />
               <Input field="address2" type="text" label="Address line 2" />
               <div className={css.selectWrap}>
@@ -53,7 +53,7 @@ const InvoiceEditor = ({ setInvoiceDetails }) => {
 
             <fieldset className="col">
               <legend className={css.legend}>Invoice details</legend>
-              <Input field="number" type="text" label="Number" />
+              <Input field="number" type="text" label="Number" required />
               <Input
                 field="date"
                 type="date"
@@ -67,7 +67,12 @@ const InvoiceEditor = ({ setInvoiceDetails }) => {
                 defaultValue={dueDate}
               />
               {country && country !== 'de' && (
-                <Input field="taxNumber" type="text" label="Tax/VAT ID" />
+                <Input
+                  field="taxNumber"
+                  type="text"
+                  label="Tax/VAT ID"
+                  required
+                />
               )}
             </fieldset>
           </div>
