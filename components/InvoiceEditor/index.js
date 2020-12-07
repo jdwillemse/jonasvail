@@ -1,4 +1,4 @@
-import React, { useCallback, useRef, useState } from 'react'
+import React, { useCallback, useState } from 'react'
 import cn from 'classnames'
 import { useForm, useField, splitFormProps } from 'react-form'
 import Select from 'react-select-material-ui'
@@ -9,22 +9,6 @@ import Input from './Input'
 import Login from '../Login'
 
 const DAY_IN_MS = 1000 * 60 * 60 * 24
-
-const InputField = React.forwardRef((props, ref) => {
-  // Let's use splitFormProps to get form-specific props
-  const [field, fieldOptions, rest] = splitFormProps({
-    // default added to prevent react "controlled input" warning
-    defaultValue: '',
-    ...props,
-  })
-
-  // Use the useField hook with a field and field options
-  // to access field state
-  const { getInputProps } = useField(field, fieldOptions)
-
-  // Build the field
-  return <input {...getInputProps({ ref, ...rest })} />
-})
 
 const InvoiceEditor = ({ setInvoiceDetails }) => {
   const [count, setCount] = useState(1)
@@ -64,7 +48,7 @@ const InvoiceEditor = ({ setInvoiceDetails }) => {
                     setCountry(value)
                   }}
                 />
-                <InputField
+                <Input
                   field="country"
                   type="hidden"
                   defaultValue={country || ''}

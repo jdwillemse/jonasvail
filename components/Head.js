@@ -25,7 +25,7 @@ const HeadComponent = ({ project, data, settings = {} }) => {
     {
       rel: 'preconnect',
       href: 'https://fonts.gstatic.com',
-      crossorigin: true,
+      crossOrigin: 'true',
     },
     {
       rel: 'preload',

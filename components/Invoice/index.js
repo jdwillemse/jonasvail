@@ -59,7 +59,7 @@ const Invoice = ({
   const total = formatter.format(subtotal + tax.amount)
 
   // do not show invoice if not logged in
-  return session ? (
+  return session || process.env.NODE_ENV === 'development' ? (
     <article className={cn('page', css.wrap)}>
       <div className={css.subpage}>
         <header className={cn(css.header, css.twoColumn)}>
@@ -121,14 +121,19 @@ const Invoice = ({
               </tr>
             </thead>
             <tbody>
-              {invoiceItems.map(({ description, rate, quantity }) => (
-                <tr key={description}>
-                  <td>{description}</td>
-                  <td>€{rate}</td>
-                  <td>{quantity}</td>
-                  <td>{formatter.format(rate * quantity)}</td>
-                </tr>
-              ))}
+              {invoiceItems.map(
+                ({ description, rate, quantity }) =>
+                  description &&
+                  rate &&
+                  quantity && (
+                    <tr key={description}>
+                      <td>{description}</td>
+                      <td>€{rate}</td>
+                      <td>{quantity}</td>
+                      <td>{formatter.format(rate * quantity)}</td>
+                    </tr>
+                  )
+              )}
             </tbody>
             <tfoot>
               <tr>
@@ -187,7 +192,7 @@ const Invoice = ({
             <br />
             Germany
             <br />
-            <a href="mailto:hello@jonasvail.com">hello@jonasvail.com</a>
+            <a href="mailto:jonasvail@gmail.com">jonasvail@gmail.com</a>
           </div>
         </section>
         <section className={cn(css.section, css.twoColumn)}>

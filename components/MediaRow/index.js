@@ -7,7 +7,7 @@ import RichText from '../RichText'
 import Video from '../Video'
 import { ModalContext } from '../../context/ModalProvider'
 
-const MediaRow = ({ primary, fields }) => {
+const MediaRow = ({ primary, fields = [] }) => {
   const { setImage } = useContext(ModalContext)
   const mediaBlocks = []
   const handleClick = useCallback(
