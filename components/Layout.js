@@ -5,6 +5,7 @@ import Head from './Head'
 import Header from './Header'
 import Menu from './Menu'
 import Sidebar from './Sidebar'
+import Analytics from './Analytics'
 
 const Layout = ({ children, preview, ...props }) => {
   return (
@@ -22,6 +23,7 @@ const Layout = ({ children, preview, ...props }) => {
           <main>{children}</main>
         </div>
       </div>
+      <Analytics />
     </div>
   )
 }
