@@ -4,6 +4,8 @@ import { useSession } from 'next-auth/client'
 
 import css from './styles.module.scss'
 
+const dateOptions = { year: 'numeric', month: 'numeric', day: 'numeric' }
+
 const Invoice = ({
   number,
   date,
@@ -26,6 +28,8 @@ const Invoice = ({
     style: 'currency',
     currency: 'EUR',
   })
+  const dateFormatter = (date) =>
+    date ? new Date(date).toLocaleString('de', dateOptions) : null
 
   switch (country) {
     case 'de':
@@ -68,11 +72,13 @@ const Invoice = ({
               </div>
               <div className={css.listItem}>
                 <dt className={css.listTitle}>Date:</dt>
-                <dd className={css.listDescription}>{date}</dd>
+                <dd className={css.listDescription}>{dateFormatter(date)}</dd>
               </div>
               <div className={css.listItem}>
                 <dt className={css.listTitle}>Payment due:</dt>
-                <dd className={css.listDescription}>{dueDate}</dd>
+                <dd className={css.listDescription}>
+                  {dateFormatter(dueDate)}
+                </dd>
               </div>
             </dl>
           </div>
