@@ -24,6 +24,7 @@ const Invoice = ({
     0
   )
   const tax = { amount: 0 }
+  const vat = new Date(date) > new Date('2020-12-31') ? 19 : 16
   const formatter = new Intl.NumberFormat('en', {
     style: 'currency',
     currency: 'EUR',
@@ -33,8 +34,8 @@ const Invoice = ({
 
   switch (country) {
     case 'de':
-      tax.amountLabel = 'VAT (16%)'
-      tax.amount = (subtotal / 100) * 16
+      tax.amountLabel = `VAT (${vat}%)`
+      tax.amount = (subtotal / 100) * vat
       break
 
     case 'us':
