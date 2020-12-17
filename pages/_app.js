@@ -5,7 +5,7 @@ import { Provider } from 'next-auth/client'
 // TODO: remove bootstrap dependency
 import '../styles/bootstrap.css'
 import '../styles/main.scss'
-import '../styles/pdf.css'
+// import '../styles/pdf.css'
 
 function MyApp({ Component, pageProps }) {
   const { session } = pageProps

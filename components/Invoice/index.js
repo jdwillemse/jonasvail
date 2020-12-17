@@ -4,7 +4,7 @@ import { useSession } from 'next-auth/client'
 
 import css from './styles.module.scss'
 
-const dateOptions = { year: 'numeric', month: 'numeric', day: 'numeric' }
+const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' }
 
 const Invoice = ({
   number,
@@ -18,7 +18,6 @@ const Invoice = ({
   invoiceItems = [],
 }) => {
   const [session] = useSession()
-
   const subtotal = invoiceItems.reduce(
     (sum, { rate, quantity }) => sum + rate * quantity,
     0
@@ -30,7 +29,7 @@ const Invoice = ({
     currency: 'EUR',
   })
   const dateFormatter = (date) =>
-    date ? new Date(date).toLocaleString('de', dateOptions) : null
+    date ? new Date(date).toLocaleString('en-GB', dateOptions) : null
 
   switch (country) {
     case 'de':
@@ -66,7 +65,7 @@ const Invoice = ({
           </div>
           <div>
             <h1>Invoice</h1>
-            <dl>
+            <dl className={css.dlWrap}>
               <div className={css.listItem}>
                 <dt className={css.listTitle}>Invoice №:</dt>
                 <dd className={css.listDescription}>{number}</dd>
@@ -160,7 +159,7 @@ const Invoice = ({
         <section className={cn(css.section, css.twoColumn)}>
           <div>
             <h6>Payment details</h6>
-            <dl>
+            <dl className={css.dlWrap}>
               <div className={css.listItem}>
                 <dt className={css.listTitle}>Account name:</dt>
                 <dd className={css.listDescription}>Jonas Vail</dd>
