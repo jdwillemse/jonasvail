@@ -1,43 +1,33 @@
-import React, { useState, useEffect, useRef } from 'react'
-// import PropTypes from 'prop-types'
+import React, { useState, useEffect, useRef, useCallback } from 'react'
 import { get } from 'lodash'
 import { useRouter } from 'next/router'
+import { debounce } from 'lodash'
 
 import css from './styles.module.scss'
 import ProjectItem from '../ProjectItem'
 
-// Masonry strategy from https://bit.ly/3dVysYj
 const ProjectList = ({ allProjects = [] }) => {
   const [list, setList] = useState(allProjects)
   const router = useRouter()
   const gridRef = useRef()
   const allItems = useRef()
-  const rowHeight = useRef()
-  const rowGap = useRef()
   const { client } = router.query
 
-  // calculate grid item height and apply this to item
-  function resizeGridItem(item) {
-    const rowSpan = Math.ceil(
-      (item.firstChild.getBoundingClientRect().height + rowGap.current) /
-        (rowHeight.current + rowGap.current)
-    )
-    item.style.gridRowEnd = 'span ' + rowSpan
-  }
+  // loop over grid items and calculate size for each to conclude container height
+  const resizeAllGridItems = useCallback(
+    debounce(() => {
+      const winWidth = window.innerWidth
+      const columnCount = winWidth >= 768 ? 3 : 2
+      const columnHeight = Array.from(gridRef.current.children).reduce(
+        (sum, element) => sum + element.getBoundingClientRect().height,
+        0
+      )
 
-  // loop over grid items and calculate size for each
-  function resizeAllGridItems() {
-    const gridComputedStyle = window.getComputedStyle(gridRef.current)
-    rowHeight.current = parseInt(
-      gridComputedStyle.getPropertyValue('grid-auto-rows')
-    )
-    rowGap.current = parseInt(
-      gridComputedStyle.getPropertyValue('grid-row-gap')
-    )
-    for (let item of allItems.current) {
-      resizeGridItem(item)
-    }
-  }
+      gridRef.current.style.height = `${
+        columnHeight / columnCount + winWidth * 0.4
+      }px`
+    }, 200)
+  )
 
   // filter list of grid items based on client
   useEffect(() => {
@@ -65,19 +55,19 @@ const ProjectList = ({ allProjects = [] }) => {
     if (!allItems.current) {
       allItems.current = gridRef.current.children
     }
-    resizeAllGridItems()
+    setTimeout(() => {
+      resizeAllGridItems()
+    }, 1000)
   }, [list])
 
   return (
     <section className={css.wrap}>
-      <div className={css.masonryWrapper}>
-        <div className={css.masonry} ref={gridRef}>
-          {list.map((project) => (
-            <div key={project.node._meta.id}>
-              <ProjectItem {...project} />
-            </div>
-          ))}
-        </div>
+      <div className={css.masonry} ref={gridRef}>
+        {list.map((project) => (
+          <div className={css.item} key={project.node._meta.id}>
+            <ProjectItem {...project} />
+          </div>
+        ))}
       </div>
     </section>
   )

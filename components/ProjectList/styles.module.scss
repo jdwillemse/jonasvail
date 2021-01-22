@@ -8,34 +8,48 @@
   }
 }
 
-.grid {
-  display: flex;
-  margin-left: -2rem; /* gutter size offset */
-  width: auto;
-}
-.column {
-  padding-left: 2rem; /* gutter size */
-  background-clip: padding-box;
-}
-
-/* Style your items */
-.column > div {
-  /* change div to reference your elements you put in <Masonry> */
-  background: grey;
-  margin-bottom: 2rem;
-}
-
+// masonry grid from https://tobiasahlin.com/blog/masonry-with-css/
 .masonry {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(100px, 1fr));
-  grid-gap: 10px 1rem;
-  grid-auto-rows: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  /* Your container needs a fixed height, and it 
+   * needs to be taller than your tallest column. */
+  height: 1000vw;
 
-  @media (min-width: 768px) {
-    grid-gap: 10px 2rem;
+  /* Force new columns */
+  &::before,
+  &::after {
+    content: '';
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+  }
+}
+
+.item {
+  width: calc(50% - 1rem);
+
+  /* Re-order items into 2 rows */
+  &:nth-child(2n + 1) {
+    order: 1;
+  }
+  &:nth-child(2n + 2) {
+    order: 2;
   }
 
-  @media (min-width: 1024px) {
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
+  @media (min-width: 768px) {
+    width: calc(33.33334% - 1rem);
+
+    /* Re-order items into 3 rows */
+    &:nth-child(3n + 1) {
+      order: 1;
+    }
+    &:nth-child(3n + 2) {
+      order: 2;
+    }
+    &:nth-child(3n) {
+      order: 3;
+    }
   }
 }
