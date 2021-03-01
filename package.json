@@ -29,7 +29,7 @@
     "react-form": "^4.0.1",
     "react-masonry-css": "^1.0.14",
     "react-modal": "^3.12.1",
-    "react-select": "^3.2.0",
+    "react-select": "^4.1.0",
     "react-select-material-ui": "^6.7.0",
     "sass": "^1.28.0"
   },
