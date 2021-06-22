@@ -1,7 +1,9 @@
-import React, { useCallback, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import cn from 'classnames'
 import { useForm } from 'react-form'
 import Select from 'react-select-material-ui'
+import { useRouter } from 'next/router'
+import _ from 'lodash'
 
 import css from './styles.module.scss'
 import countries from './countries.json'
@@ -11,12 +13,16 @@ import Login from '../Login'
 const DAY_IN_MS = 1000 * 60 * 60 * 24
 
 const InvoiceEditor = ({ setInvoiceDetails }) => {
+  const router = useRouter()
   const [count, setCount] = useState(1)
   const [country, setCountry] = useState()
   const handleSubmit = (formData) => {
     setInvoiceDetails({ ...formData, country })
   }
-  const { Form } = useForm({ onSubmit: handleSubmit, debugForm: false })
+  const { Form, setFieldValue } = useForm({
+    onSubmit: handleSubmit,
+    debugForm: false,
+  })
   const today = new Date().toISOString().substr(0, 10)
   const dueDate = new Date(Date.now() + 22 * DAY_IN_MS)
     .toISOString()
@@ -25,6 +31,13 @@ const InvoiceEditor = ({ setInvoiceDetails }) => {
   const addInvoiceItem = useCallback(() => {
     setCount(count + 1)
   }, [count, setCount])
+
+  useEffect(() => {
+    const savedValues = router.query
+    _.keys(savedValues).forEach((key) => {
+      setFieldValue(key, savedValues[key])
+    })
+  }, [router])
 
   return (
     <section className={css.wrap}>
