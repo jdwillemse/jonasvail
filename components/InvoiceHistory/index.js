@@ -8,16 +8,35 @@ import css from './styles.module.scss'
 
 export const LOCAL_STORAGE_KEY = 'invoice_history'
 
-const mergeData = (newData = {}) => {
+// get data that was stored in a previous session
+const getSavedData = () => {
   try {
-    const storedData = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || []
-    if (newData.recipient) {
-      const collated = [newData, ...storedData]
-      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(collated))
-      return collated
-    }
-    return storedData
-  } catch (err) {}
+    const storedData = localStorage.getItem(LOCAL_STORAGE_KEY)
+    return JSON.parse(storedData) || []
+  } catch (err) {
+    return []
+  }
+}
+
+// merge new data into previous session data
+const mergeData = (sessionData = [], newData = {}) => {
+  const index = _.findIndex(sessionData, { number: newData.number })
+  const collated = [...sessionData]
+  // if newData has a previously saved invoice number it gets merged with that entry
+  if (index > -1) {
+    const mergedItem = { ...sessionData[index], ...newData }
+    collated.splice(index, 1, mergedItem)
+  } else {
+    // add new data to the top of the list
+    collated.unshift(newData)
+  }
+  return collated
+}
+
+const setUpdatedData = (collatedData) => {
+  if (collatedData.length) {
+    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(collatedData))
+  }
 }
 
 const InvoiceHistory = ({ data }) => {
@@ -25,8 +44,10 @@ const InvoiceHistory = ({ data }) => {
   const [history, setHistory] = useState([])
 
   useEffect(() => {
-    const collatedData = mergeData(data)
-    setHistory(_.groupBy(collatedData, 'recipient'))
+    const sessionData = getSavedData()
+    const mergedData = mergeData(sessionData, data)
+    setUpdatedData(mergedData)
+    setHistory(_.groupBy(mergedData, 'recipient'))
   }, [data, setHistory])
 
   // do not show invoice if not logged in
