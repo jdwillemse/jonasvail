@@ -5619,10 +5619,10 @@ raw-body@2.4.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-cookie-consent@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/react-cookie-consent/-/react-cookie-consent-6.2.0.tgz#4697813dc57321fd5d111bae21bea424b166a7cd"
-  integrity sha512-B9zTzdhCsasVZBQKuKIeq0rItIugo55GHaDhdrQnFHFpwC5Edo3yl7PW8vgQRN5aXOK3jKt78azNGfiSKzEfRA==
+react-cookie-consent@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/react-cookie-consent/-/react-cookie-consent-6.3.0.tgz#d305c121e883840d7623c03e9f1dd83db8b43f16"
+  integrity sha512-ynDLIJwedf0btR3sHsrRdcng6KWi9lJKLOUxo7BCof0F3DAFPxBRlAgUy4u1UdiPYR0gcjYHGVu5hE+22IWKmg==
   dependencies:
     js-cookie "^2.2.1"
     prop-types "^15.7.2"
