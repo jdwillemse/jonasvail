@@ -1,5 +1,4 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
 import Image from 'next/image'
 
 import css from './styles.module.scss'
@@ -13,7 +12,7 @@ const ProjectItem = ({ node }) => {
     <article className={css.wrap}>
       <Link link={node} className={css.link}>
         <div className={css.imageWrap}>
-          <Image src={listImage.url} {...listImage.dimensions} />
+          <Image src={listImage.url} {...listImage.dimensions} alt="" />
         </div>
         <h1 className={css.title}>{asText(title)}</h1>
         {client?.name && <div className={css.client}>{client.name}</div>}

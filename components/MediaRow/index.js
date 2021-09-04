@@ -48,6 +48,7 @@ const MediaRow = ({ primary, fields = [] }) => {
                 src={image.url}
                 {...image.dimensions}
                 className={css.image}
+                alt=""
               />
 
               {/* <Image image={image} className={css.image} /> */}

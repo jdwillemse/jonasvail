@@ -12,9 +12,8 @@ const ProjectList = ({ allProjects = [] }) => {
   const gridRef = useRef()
   const allItems = useRef()
   const { client } = router.query
-
   // loop over grid items and calculate size for each to conclude container height
-  const resizeAllGridItems = useCallback(
+  const debounced = useRef(
     debounce(() => {
       const winWidth = window.innerWidth
       const columnCount = winWidth >= 768 ? 3 : 2
@@ -28,6 +27,10 @@ const ProjectList = ({ allProjects = [] }) => {
       }px`
     }, 200)
   )
+
+  // pattern from https://stackoverflow.com/questions/54666401/how-to-use-throttle-or-debounce-with-react-hook
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const resizeAllGridItems = useCallback(debounced.current, [gridRef])
 
   // filter list of grid items based on client
   useEffect(() => {
@@ -48,7 +51,7 @@ const ProjectList = ({ allProjects = [] }) => {
     return () => {
       window.removeEventListener('resize', resizeAllGridItems)
     }
-  }, [])
+  }, [resizeAllGridItems])
 
   // update masonry layout if list updates
   useEffect(() => {
@@ -58,7 +61,7 @@ const ProjectList = ({ allProjects = [] }) => {
     setTimeout(() => {
       resizeAllGridItems()
     }, 1000)
-  }, [list])
+  }, [list, resizeAllGridItems])
 
   return (
     <section className={css.wrap}>

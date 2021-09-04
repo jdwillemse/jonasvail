@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import css from './styles.module.scss'
 
 export default function Notification({ preview }) {
@@ -5,7 +7,10 @@ export default function Notification({ preview }) {
     <div className={css.wrap}>
       <div className="py-2 text-center text-sm">
         <div>
-          This is page is a preview. <a href="/api/exit-preview">Click here</a>{' '}
+          This is page is a preview.{' '}
+          <Link href="/api/exit-preview">
+            <a>Click here</a>
+          </Link>{' '}
           to exit preview mode.
         </div>
       </div>

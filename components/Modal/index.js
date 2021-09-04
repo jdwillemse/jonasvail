@@ -11,7 +11,7 @@ const ModalComponent = () => {
 
   const closeModal = useCallback(() => {
     setImage(null)
-  })
+  }, [setImage])
 
   return (
     <Modal
@@ -27,7 +27,7 @@ const ModalComponent = () => {
         </span>
         <span className={css.closeLabel}>close</span>
       </button>
-      <img src={image} />
+      <img src={image} alt="" />
     </Modal>
   )
 }

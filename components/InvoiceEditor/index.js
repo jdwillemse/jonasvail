@@ -37,7 +37,7 @@ const InvoiceEditor = ({ setInvoiceDetails }) => {
     _.keys(savedValues).forEach((key) => {
       setFieldValue(key, savedValues[key])
     })
-  }, [router])
+  }, [router, setFieldValue])
 
   return (
     <section className={css.wrap}>
