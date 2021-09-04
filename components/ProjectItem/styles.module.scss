@@ -45,6 +45,7 @@
   }
 
   & > * {
+    display: block !important;
     transition: transform 0.9s;
     transform: scale(1);
   }
