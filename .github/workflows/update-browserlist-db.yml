@@ -1,0 +1,33 @@
+name: Update caniuse-lite database
+
+on:
+  schedule:
+    - cron: '0 3 1 */3 *' # At 03:00 on day-of-month 1 in every 3rd month
+
+jobs:
+  update-db:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Restore cache
+        id: npm-cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            node_modules
+            */*/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+
+      - name: Install project dependencies
+        if: steps.npm-cache.outputs.cache-hit != 'true'
+        run: yarn install --frozen-lockfile
+
+      - name: Upgrade browser list
+        run: npx browserslist@latest --update-db
+
+      - name: Commit updated lockfile
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'chore: update caniuse-lite database'
