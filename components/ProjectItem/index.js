@@ -12,7 +12,13 @@ const ProjectItem = ({ node }) => {
     <article className={css.wrap}>
       <Link link={node} className={css.link}>
         <div className={css.imageWrap}>
-          <Image src={listImage.url} {...listImage.dimensions} alt="" />
+          <Image
+            src={listImage.url}
+            {...listImage.dimensions}
+            alt=""
+            placeholder="blur"
+            blurDataURL={`/_next/image?url=${listImage.url}&w=16&q=1`}
+          />
         </div>
         <h1 className={css.title}>{asText(title)}</h1>
         {client?.name && <div className={css.client}>{client.name}</div>}
