@@ -62,7 +62,7 @@ export default function Analytics() {
       expires={91}
       onAccept={handleAccept}
     >
-      We would like to use data about your interaction with this site for
+      I would like to use data about your interaction with this site for
       analytics purposes only.
     </CookieConsent>
   )
