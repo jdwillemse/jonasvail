@@ -21,26 +21,6 @@ const HeadComponent = ({ project, data, settings = {} }) => {
     { name: 'twitter:title', content: title },
     { name: 'twitter:description', content: pageDescription },
   ]
-  const links = [
-    {
-      rel: 'preconnect',
-      href: 'https://fonts.gstatic.com',
-      crossOrigin: 'true',
-    },
-    {
-      rel: 'preload',
-      as: 'style',
-      href: encodeURI(
-        'https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap'
-      ),
-    },
-    {
-      rel: 'stylesheet',
-      href: encodeURI(
-        'https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap'
-      ),
-    },
-  ]
 
   // Favicon created by Adrien Coquet from the Noun Project
   return (
@@ -50,9 +30,6 @@ const HeadComponent = ({ project, data, settings = {} }) => {
       </title>
       {meta.map((props, i) => (
         <meta {...props} key={i} />
-      ))}
-      {links.map((props, i) => (
-        <link {...props} key={i} />
       ))}
     </Head>
   )
