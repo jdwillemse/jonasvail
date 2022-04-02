@@ -47,13 +47,12 @@ const MediaRow = ({ primary, fields = [] }) => {
               <Image
                 src={image.url}
                 {...image.dimensions}
-                className={css.image}
                 alt=""
                 placeholder="blur"
                 blurDataURL={`/_next/image?url=${image.url}&w=16&q=1`}
+                layout="responsive"
+                sizes="50vw"
               />
-
-              {/* <Image image={image} className={css.image} /> */}
             </button>
           )}
         </div>

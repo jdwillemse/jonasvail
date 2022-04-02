@@ -9,8 +9,17 @@ const Video = ({ type, html }) => {
     return null
   }
 
+  const optimisedHtml = html
+    .split('></iframe>')
+    .join(' loading="lazy"></iframe>')
+
+  console.log(optimisedHtml)
+
   return (
-    <div className={css.wrap} dangerouslySetInnerHTML={{ __html: html }}></div>
+    <div
+      className={css.wrap}
+      dangerouslySetInnerHTML={{ __html: optimisedHtml }}
+    ></div>
   )
 }
 

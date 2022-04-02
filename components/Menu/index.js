@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
+import classNames from 'classnames'
 
 import css from './styles.module.scss'
 import linkResolver from '../../utils/linkResolver'
@@ -7,10 +9,18 @@ import linkResolver from '../../utils/linkResolver'
 // component
 // ========================================================================
 const Menu = ({ allClients = [], allProjects }) => {
+  const router = useRouter()
+  const query = router.query.client
+  const pathname = router.asPath
+
   return (
     <nav>
       <Link href="/">
-        <a className={css.link}>
+        <a
+          className={classNames(css.link, {
+            [css.active]: pathname === '/' && !query,
+          })}
+        >
           <span className={css.linkInner}>Clients</span>
         </a>
       </Link>
@@ -19,14 +29,18 @@ const Menu = ({ allClients = [], allProjects }) => {
           const filteredProjects = allProjects.filter(
             ({ node }) => node.client.name === name
           )
-          const link =
+          const href =
             filteredProjects.length > 1
-              ? { href: `/?client=${name}` }
-              : { href: linkResolver(filteredProjects[0].node._meta) }
+              ? `/?client=${name}`
+              : linkResolver(filteredProjects[0].node._meta)
 
           return (
-            <Link {...link} key={_meta.id}>
-              <a className={css.link}>
+            <Link href={href} key={_meta.id}>
+              <a
+                className={classNames(css.link, {
+                  [css.active]: query === name,
+                })}
+              >
                 <span className={css.linkInner}>{name}</span>
               </a>
             </Link>
@@ -34,7 +48,11 @@ const Menu = ({ allClients = [], allProjects }) => {
         })}
       </div>
       <Link href="/about">
-        <a className={css.link}>
+        <a
+          className={classNames(css.link, {
+            [css.active]: pathname === '/about',
+          })}
+        >
           <span className={css.linkInner}>About</span>
         </a>
       </Link>

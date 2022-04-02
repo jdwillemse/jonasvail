@@ -16,9 +16,10 @@ const ProjectItem = ({ node }) => {
             src={listImage.url}
             {...listImage.dimensions}
             alt=""
-            // placeholder="blur"
-            // blurDataURL={`/_next/image?url=${listImage.url}&w=16&q=1`}
+            placeholder="blur"
+            blurDataURL={`/_next/image?url=${listImage.url}&w=16&q=1`}
             layout="responsive"
+            sizes="50vw"
           />
         </div>
         <h1 className={css.title}>{asText(title)}</h1>

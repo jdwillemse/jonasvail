@@ -45,7 +45,7 @@ export const asText = (data) => {
 }
 
 export const renderer = (data) =>
-  data ? <PrismicText render={data} linkResolver={linkResolver} /> : null
+  data ? <PrismicText field={data} linkResolver={linkResolver} /> : null
 
 const options = {
   year: 'numeric',

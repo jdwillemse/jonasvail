@@ -16,9 +16,11 @@
   &:hover {
     color: inherit;
 
-    .linkInner {
-      &:after {
-        transform: scale3d(1, 1, 1);
+    &:not(.active) {
+      .linkInner {
+        &:after {
+          transform: scale3d(1, 1, 1);
+        }
       }
     }
   }
@@ -49,5 +51,11 @@
     transform-origin: 0 bottom;
     transition: transform 0.3s ease-out;
     z-index: -1;
+  }
+}
+
+.active .linkInner {
+  &:after {
+    transform: scale3d(1, 1, 1) translate(0, -9px);
   }
 }
