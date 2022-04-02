@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react'
-import { get } from 'lodash'
 import { useRouter } from 'next/router'
-import { debounce } from 'lodash'
+import get from 'lodash.get'
+import debounce from 'lodash.debounce'
 
 import css from './styles.module.scss'
 import ProjectItem from '../ProjectItem'
