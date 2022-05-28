@@ -40,7 +40,7 @@
     "eslint-config-next": "11.1.2",
     "husky": "^7.0.4",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^27.5.1",
+    "jest": "^28.1.0",
     "postcss-preset-env": "^6.7.1",
     "prettier": "^2.6.1"
   },
