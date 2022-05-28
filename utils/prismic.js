@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import { PrismicText, Date } from '@prismicio/react'
+import { PrismicText, PrismicRichText, Date } from '@prismicio/react'
 
 import linkResolver from './linkResolver'
 
@@ -45,7 +45,7 @@ export const asText = (data) => {
 }
 
 export const renderer = (data) =>
-  data ? <PrismicText field={data} linkResolver={linkResolver} /> : null
+  data ? <PrismicRichText field={data} linkResolver={linkResolver} /> : null
 
 const options = {
   year: 'numeric',

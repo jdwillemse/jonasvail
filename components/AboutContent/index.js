@@ -7,10 +7,10 @@ import RichText from '../RichText'
 const AboutContent = ({ experience, awards }) => {
   return (
     <div className="row">
-      <div className="col">
+      <div className="col-sm-12 col-md-6">
         <RichText content={experience} className={css.content} />
       </div>
-      <div className="col">
+      <div className="col-sm-12 col-md-6">
         <RichText content={awards} className={css.content} />
       </div>
     </div>
