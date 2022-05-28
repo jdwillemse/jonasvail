@@ -1,0 +1,142 @@
+{
+  "experience": [
+    { "type": "paragraph", "text": "WORK EXPERIENCE", "spans": [] },
+    {
+      "type": "paragraph",
+      "text": "December 2017 to Present\nFreelance Brand and Advertising Strategist",
+      "spans": [{ "start": 25, "end": 67, "type": "strong" }]
+    },
+    {
+      "type": "paragraph",
+      "text": "Clients: adidas Brand Design, Gypsy, Inc. for Twitch, 180 Amsterdam for PlayStation and Lay’s, Seventy Agency Stockholm for Ericsson, Tommy Hilfiger\nPitches won: Twitch EMEA\n\n\nApril 2011 – December 2017\nStrategic Planning Director\n180 Amsterdam\n\nClients: Sony PlayStation (PS4, PS VR, games), Hewlett-Packard, Diageo, Lilly Diabetes UK, ASICS\nPitches won: Ketel One, Sky, Lilly, Replay, Qatar Airways, Al Jazeera, VAT 69, PlayStation\n",
+      "spans": [{ "start": 231, "end": 244, "type": "strong" }]
+    },
+    {
+      "type": "paragraph",
+      "text": "\nSeptember 2007 – April 2011\nStrategic Planning Director\nWieden+Kennedy, Amsterdam\n\nClients: EA SPORTS FIFA, BASF, Nokia\nPitches won: BASF\n\n\nMarch 2005 – June 2007\nPlanning Director\nSaatchi & Saatchi, London\n\nClients: Dr. Martens, T-Mobile, Sagatiba\n\n\nDecember 1999 - March 2005\nSenior Account Planner \nGoodby, Silverstein & Partners, San Francisco\n\nClients: Hewlett-Packard (HP), Saturn (a division of GM), Frito-Lay, Hotwire.com, Epinions.com\n\n\nJanuary 1998 - December 1999\nAccount Planner\nFoote, Cone & Belding, San Francisco\n\nClients: Sega, MTV, Slates (a Levi-Strauss & Co. brand)\n\n\nSeptember 1995 - December 1997\nMarket Research/Product Development\nLambesis, Inc., Del Mar\n\nClients: Cadillac, Airwalk, The NFL, Rossignol, Mattel, Columbia-Tristar, Calvin Klein",
+      "spans": [
+        { "start": 57, "end": 82, "type": "strong" },
+        { "start": 182, "end": 207, "type": "strong" },
+        { "start": 232, "end": 233, "type": "strong" },
+        { "start": 303, "end": 348, "type": "strong" },
+        { "start": 366, "end": 367, "type": "strong" },
+        { "start": 413, "end": 414, "type": "strong" },
+        { "start": 492, "end": 528, "type": "strong" },
+        { "start": 564, "end": 565, "type": "strong" },
+        { "start": 655, "end": 678, "type": "strong" },
+        { "start": 744, "end": 745, "type": "strong" }
+      ]
+    }
+  ],
+  "awards": [
+    { "type": "paragraph", "text": "AWARDS & RECOGNITION", "spans": [] },
+    {
+      "type": "paragraph",
+      "text": "2014/15\nGrand Prix and Gold Euro Effie, and Global Effie Finalist\nPS4 Launch campaign\n\n\n2013\nBronze Cannes Lion\nThe Last of Us\n\n\n2010\nSilver Euro Effie\nFIFA 10 campaign\n\n\n2004\nCampaign Magazine’s “International Advertiser of the Year”\n+hp Brand Campaign\n\n\n2003\nCreativity Magazine’s “Campaign of the Year”\n+hp Brand Campaign\n\n\n2000/2001\nBronze and Silver North America Effies\nSega Dreamcast Launch Campaign\n\n\n1997\nMentioned in the New Yorker article “The Coolhunt”, by Malcolm Gladwell",
+      "spans": [
+        {
+          "start": 66,
+          "end": 85,
+          "type": "hyperlink",
+          "data": {
+            "id": "XpBc6RAAAO7Gza0K",
+            "type": "project",
+            "tags": [],
+            "lang": "en-gb",
+            "slug": "ps4-launch-this-is-for-the-players",
+            "first_publication_date": "2020-04-10T11:47:59+0000",
+            "last_publication_date": "2020-10-25T14:25:10+0000",
+            "uid": "ps4-launch-this-is-for-the-players",
+            "link_type": "Document",
+            "isBroken": false
+          }
+        },
+        {
+          "start": 112,
+          "end": 126,
+          "type": "hyperlink",
+          "data": {
+            "id": "XpBiRxAAAO7FzcVW",
+            "type": "project",
+            "tags": [],
+            "lang": "en-gb",
+            "slug": "the-last-of-us-could-you-be-the-last-of-us",
+            "first_publication_date": "2020-04-10T12:10:54+0000",
+            "last_publication_date": "2020-10-28T10:38:20+0000",
+            "uid": "could-you-be-the-last-of-us",
+            "link_type": "Document",
+            "isBroken": false
+          }
+        },
+        {
+          "start": 152,
+          "end": 169,
+          "type": "hyperlink",
+          "data": {
+            "id": "XdqieBEAACMAEhJt",
+            "type": "project",
+            "tags": [],
+            "lang": "en-gb",
+            "slug": "ea-sports-fifa-10-how-big-can-football-get",
+            "first_publication_date": "2019-11-24T15:32:11+0000",
+            "last_publication_date": "2020-10-28T10:38:20+0000",
+            "uid": "ea-sports-fifa10-how-big-can-football-get",
+            "link_type": "Document",
+            "isBroken": false
+          }
+        },
+        {
+          "start": 235,
+          "end": 254,
+          "type": "hyperlink",
+          "data": {
+            "id": "XpBmNhAAACzKzdeG",
+            "type": "project",
+            "tags": [],
+            "lang": "en-gb",
+            "slug": "hp-everything-is-possible",
+            "first_publication_date": "2020-04-10T12:27:39+0000",
+            "last_publication_date": "2020-10-21T17:19:11+0000",
+            "uid": "hp-everything-is-possible",
+            "link_type": "Document",
+            "isBroken": false
+          }
+        },
+        {
+          "start": 306,
+          "end": 325,
+          "type": "hyperlink",
+          "data": {
+            "id": "XpBmNhAAACzKzdeG",
+            "type": "project",
+            "tags": [],
+            "lang": "en-gb",
+            "slug": "hp-everything-is-possible",
+            "first_publication_date": "2020-04-10T12:27:39+0000",
+            "last_publication_date": "2020-10-21T17:19:11+0000",
+            "uid": "hp-everything-is-possible",
+            "link_type": "Document",
+            "isBroken": false
+          }
+        },
+        {
+          "start": 376,
+          "end": 406,
+          "type": "hyperlink",
+          "data": {
+            "id": "XdqfxxEAACEAEgZ4",
+            "type": "project",
+            "tags": [],
+            "lang": "en-gb",
+            "slug": "sega-dreamcast-launch-its-thinking",
+            "first_publication_date": "2019-11-24T15:20:43+0000",
+            "last_publication_date": "2020-10-27T20:52:16+0000",
+            "uid": "sega-dreamcast-its-thinking",
+            "link_type": "Document",
+            "isBroken": false
+          }
+        }
+      ]
+    }
+  ]
+}
