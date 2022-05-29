@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutContent renders when content is passed 1`] = `
+<div>
+  <div
+    class="row"
+  >
+    <div
+      class="col-sm-12 col-md-6"
+    >
+      <div
+        class="content wrap"
+      >
+        <p>
+          WORK EXPERIENCE
+        </p>
+        <p>
+          December 2017 to Present
+          <br />
+          <strong>
+            Freelance Brand and Advertising Strategist
+          </strong>
+        </p>
+        <p>
+          Clients: adidas Brand Design, Gypsy, Inc. for Twitch, 180 Amsterdam for PlayStation and Lay’s, Seventy Agency Stockholm for Ericsson, Tommy Hilfiger
+          <br />
+          Pitches won: Twitch EMEA
+          <br />
+          <br />
+          <br />
+          April 2011 – December 2017
+          <br />
+          Strategic Planning Director
+          <br />
+          <strong>
+            180 Amsterdam
+          </strong>
+          <br />
+          <br />
+          Clients: Sony PlayStation (PS4, PS VR, games), Hewlett-Packard, Diageo, Lilly Diabetes UK, ASICS
+          <br />
+          Pitches won: Ketel One, Sky, Lilly, Replay, Qatar Airways, Al Jazeera, VAT 69, PlayStation
+          <br />
+        </p>
+        <p>
+          <br />
+          September 2007 – April 2011
+          <br />
+          Strategic Planning Director
+          <br />
+          <strong>
+            Wieden+Kennedy, Amsterdam
+          </strong>
+          <br />
+          <br />
+          Clients: EA SPORTS FIFA, BASF, Nokia
+          <br />
+          Pitches won: BASF
+          <br />
+          <br />
+          <br />
+          March 2005 – June 2007
+          <br />
+          Planning Director
+          <br />
+          <strong>
+            Saatchi & Saatchi, London
+          </strong>
+          <br />
+          <br />
+          Clients: Dr. Martens, T
+          <strong>
+            -
+          </strong>
+          Mobile, Sagatiba
+          <br />
+          <br />
+          <br />
+          December 1999 - March 2005
+          <br />
+          Senior Account Planner 
+          <br />
+          <strong>
+            Goodby, Silverstein & Partners, San Francisco
+          </strong>
+          <br />
+          <br />
+          Clients: Hewlett
+          <strong>
+            -
+          </strong>
+          Packard (HP), Saturn (a division of GM), Frito
+          <strong>
+            -
+          </strong>
+          Lay, Hotwire.com, Epinions.com
+          <br />
+          <br />
+          <br />
+          January 1998 - December 1999
+          <br />
+          Account Planner
+          <br />
+          <strong>
+            Foote, Cone & Belding, San Francisco
+          </strong>
+          <br />
+          <br />
+          Clients: Sega, MTV, Slates (a Levi
+          <strong>
+            -
+          </strong>
+          Strauss & Co. brand)
+          <br />
+          <br />
+          <br />
+          September 1995 - December 1997
+          <br />
+          Market Research/Product Development
+          <br />
+          <strong>
+            Lambesis, Inc., Del Mar
+          </strong>
+          <br />
+          <br />
+          Clients: Cadillac, Airwalk, The NFL, Rossignol, Mattel, Columbia
+          <strong>
+            -
+          </strong>
+          Tristar, Calvin Klein
+        </p>
+      </div>
+    </div>
+    <div
+      class="col-sm-12 col-md-6"
+    >
+      <div
+        class="content wrap"
+      >
+        <p>
+          AWARDS & RECOGNITION
+        </p>
+        <p>
+          2014/15
+          <br />
+          Grand Prix and Gold Euro Effie, and Global Effie Finalist
+          <br />
+          <a
+            href="/ps4-launch-this-is-for-the-players"
+          >
+            PS4 Launch campaign
+          </a>
+          <br />
+          <br />
+          <br />
+          2013
+          <br />
+          Bronze Cannes Lion
+          <br />
+          <a
+            href="/could-you-be-the-last-of-us"
+          >
+            The Last of Us
+          </a>
+          <br />
+          <br />
+          <br />
+          2010
+          <br />
+          Silver Euro Effie
+          <br />
+          <a
+            href="/ea-sports-fifa10-how-big-can-football-get"
+          >
+            FIFA 10 campaign
+            <br />
+          </a>
+          <br />
+          <br />
+          2004
+          <br />
+          Campaign Magazine’s “International Advertiser of the Year”
+          <br />
+          <a
+            href="/hp-everything-is-possible"
+          >
+            +hp Brand Campaign
+            <br />
+          </a>
+          <br />
+          <br />
+          2003
+          <br />
+          Creativity Magazine’s “Campaign of the Year”
+          <br />
+          <a
+            href="/hp-everything-is-possible"
+          >
+            +hp Brand Campaign
+            <br />
+          </a>
+          <br />
+          <br />
+          2000/2001
+          <br />
+          Bronze and Silver North America Effies
+          <br />
+          <a
+            href="/sega-dreamcast-its-thinking"
+          >
+            Sega Dreamcast Launch Campaign
+          </a>
+          <br />
+          <br />
+          <br />
+          1997
+          <br />
+          Mentioned in the New Yorker article “The Coolhunt”, by Malcolm Gladwell
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

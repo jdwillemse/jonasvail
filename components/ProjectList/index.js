@@ -65,7 +65,7 @@ const ProjectList = ({ allProjects = [] }) => {
 
   return (
     <section className={css.wrap}>
-      <div className={css.masonry} ref={gridRef}>
+      <div className={css.masonry} ref={gridRef} data-test-id="masonry-wrap">
         {list.map((project) => (
           <div className={css.item} key={project.node._meta.id}>
             <ProjectItem {...project} />
