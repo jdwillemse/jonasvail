@@ -1,0 +1,698 @@
+{
+  "allClients": [
+    {
+      "node": {
+        "_meta": { "id": "X5BU4RIAACAAfdnF", "uid": null, "type": "client" },
+        "name": "Twitch"
+      }
+    },
+    {
+      "node": {
+        "_meta": { "id": "X5BUpRIAACEAfdiv", "uid": null, "type": "client" },
+        "name": "adidas"
+      }
+    },
+    {
+      "node": {
+        "_meta": { "id": "XdqWlREAACEAEd3-", "uid": null, "type": "client" },
+        "name": "PlayStation"
+      }
+    },
+    {
+      "node": {
+        "_meta": { "id": "XdqWYhEAACEAEd0b", "uid": null, "type": "client" },
+        "name": "Al Jazeera"
+      }
+    },
+    {
+      "node": {
+        "_meta": { "id": "XdqWVREAACBFEdzY", "uid": null, "type": "client" },
+        "name": "HP"
+      }
+    },
+    {
+      "node": {
+        "_meta": { "id": "XdqWLhEAACMAEdwo", "uid": null, "type": "client" },
+        "name": "Ketel One"
+      }
+    },
+    {
+      "node": {
+        "_meta": { "id": "XdqWEREAACMAEdum", "uid": null, "type": "client" },
+        "name": "Lilly"
+      }
+    },
+    {
+      "node": {
+        "_meta": { "id": "XdqV8xEAACBFEdsd", "uid": null, "type": "client" },
+        "name": "EA Sports"
+      }
+    },
+    {
+      "node": {
+        "_meta": { "id": "XdqVuxEAACMAEdoc", "uid": null, "type": "client" },
+        "name": "Dr. Martens"
+      }
+    },
+    {
+      "node": {
+        "_meta": { "id": "XdqVhhEAACMAEdkw", "uid": null, "type": "client" },
+        "name": "Sega"
+      }
+    },
+    {
+      "node": {
+        "_meta": { "id": "Xa9lxxAAACAA65dI", "uid": null, "type": "client" },
+        "name": "MTV"
+      }
+    }
+  ],
+  "allProjects": [
+    {
+      "node": {
+        "_meta": {
+          "id": "X5Be0hIAACEAfgX0",
+          "uid": "twitch-creators-campaign",
+          "type": "project"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Twitch Creators Campaign",
+            "spans": []
+          }
+        ],
+        "listImage": {
+          "dimensions": { "width": 1200, "height": 675 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/c95286cf-7de8-44c0-90f0-9122f77fe5db_Twitch+logo.jpg?auto=compress,format"
+        },
+        "date": "2020-09-28",
+        "client": { "name": "Twitch" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpCc9RAAAO7Gzs__",
+          "uid": "adidas-futurecraft-loop",
+          "type": "project"
+        },
+        "title": [
+          { "type": "heading1", "text": "[FUTURECRAFT] Loop", "spans": [] }
+        ],
+        "listImage": {
+          "dimensions": { "width": 7000, "height": 4950 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/070c2ce5-ca64-4565-bc5e-1ef307689489_551468.jpg?auto=compress,format"
+        },
+        "date": "2019-04-10",
+        "client": { "name": "adidas" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBkZRAAAO7Fzc8p",
+          "uid": "ps4-this-could-be-you",
+          "type": "project"
+        },
+        "title": [
+          { "type": "heading1", "text": "This Could Be You", "spans": [] }
+        ],
+        "listImage": {
+          "dimensions": { "width": 1280, "height": 720 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/2dc740e4-ee89-492a-be4a-9c10b727f1d2_This+could+be+you+Fortnite+skydiver.jpg?auto=compress,format"
+        },
+        "date": "2018-11-15",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpCb4RAAACzKzssV",
+          "uid": "detroit-how-far-would-you-go-to-be-free",
+          "type": "project"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "How far would you go to be free?",
+            "spans": []
+          }
+        ],
+        "listImage": {
+          "dimensions": { "width": 1200, "height": 675 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/7f0c56d9-2181-4098-b505-73a28d836144_detroit-become-human.jpg?auto=compress,format"
+        },
+        "date": "2018-04-13",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBfkhAAAO7FzbkU",
+          "uid": "gt-sport-where-the-world-comes-to-race",
+          "type": "project"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Where the World Comes to Race",
+            "spans": []
+          }
+        ],
+        "listImage": {
+          "dimensions": { "width": 780, "height": 780 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/78bf9234-89d0-4bd0-86e4-997e0816fc53_SIEE_GT_SPORT_WTWCTR_2017_MCLAREN_VSN_30_w4KTAG+%281%29.jpeg?auto=compress,format"
+        },
+        "date": "2017-11-23",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBj-hAAAJ2-zc09",
+          "uid": "playlink-all-in-play-on",
+          "type": "project"
+        },
+        "title": [
+          { "type": "heading1", "text": "All in. Play on.", "spans": [] }
+        ],
+        "listImage": {
+          "dimensions": { "width": 1950, "height": 1304 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/d52ea317-fd18-4860-8f1a-18a5483c002b_Screen+Shot+2017-10-26+at+11.29.05+AM.png?auto=compress,format"
+        },
+        "date": "2017-11-16",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "Xa9jDBAAACMA64sD",
+          "uid": "al-jazeera-demandpressfreedom",
+          "type": "project"
+        },
+        "title": [
+          { "type": "heading1", "text": "#DemandPressFreedom", "spans": [] }
+        ],
+        "listImage": {
+          "dimensions": { "width": 833, "height": 972 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/85992254-0095-4d9c-a1ff-662477acbb37_Screen+Shot+2017-10-26+at+11.01.24+AM2.jpg?auto=compress,format"
+        },
+        "date": "2017-06-02",
+        "client": { "name": "Al Jazeera" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBg_BAAACzKzb9y",
+          "uid": "psvr-launch-live-the-game",
+          "type": "project"
+        },
+        "title": [{ "type": "heading1", "text": "Live the Game", "spans": [] }],
+        "listImage": {
+          "dimensions": { "width": 2552, "height": 1434 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/70b0ebba-db91-4fad-9ced-1d5d9179c4d6_Screen+Shot+2017-10-26+at+11.40.08+AM.png?auto=compress,format"
+        },
+        "date": "2016-09-16",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XdqivBEAADk9EhOa",
+          "uid": "lilly-diabetes-uk",
+          "type": "project"
+        },
+        "title": [
+          { "type": "heading1", "text": "Lilly Diabetes UK", "spans": [] }
+        ],
+        "listImage": {
+          "dimensions": { "width": 1882, "height": 2635 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/433f32e4-df33-40b0-ad78-2d955f68efab_thumb.jpg?auto=compress,format"
+        },
+        "date": "2016-05-22",
+        "client": { "name": "Lilly" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBgNhAAAJ2-zbv7",
+          "uid": "earth-is-ours-no-more",
+          "type": "project"
+        },
+        "title": [
+          { "type": "heading1", "text": "Earth is Ours No More", "spans": [] }
+        ],
+        "listImage": {
+          "dimensions": { "width": 1512, "height": 1079 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/ea3fbfdd-6f39-4280-acdf-2b5efa53aae2_thumb-1a.jpg?auto=compress,format"
+        },
+        "date": "2016-04-14",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBeaBAAAJ2-zbPJ",
+          "uid": "wonderful-life-of-a-ps4-player",
+          "type": "project"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "The Wonderful Life of a PS4 Player",
+            "spans": []
+          }
+        ],
+        "listImage": {
+          "dimensions": { "width": 1221, "height": 939 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/7d388b48-d62c-4938-8c1f-814b283b157d_PS4_60sec_International_Master_11-02-1080p_HD_MPEG_4.jpeg?auto=compress,format"
+        },
+        "date": "2015-11-19",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBsrxAAAO7GzfV9",
+          "uid": "hp-epicmehp",
+          "type": "project"
+        },
+        "title": [{ "type": "heading1", "text": "#EpicMeHP", "spans": [] }],
+        "listImage": {
+          "dimensions": { "width": 1004, "height": 1010 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/ca60d584-4c27-432f-b5d6-8c35c023728c_Screen+Shot+2017-06-10+at+3.55.17+PM.png?auto=compress,format"
+        },
+        "date": "2015-10-30",
+        "client": { "name": "HP" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBrNBAAAJ2-ze5_",
+          "uid": "hp-ellie-goulding-burn",
+          "type": "project"
+        },
+        "title": [
+          { "type": "heading1", "text": "Ellie Goulding", "spans": [] }
+        ],
+        "listImage": {
+          "dimensions": { "width": 1620, "height": 1080 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/a322934c-f601-4e9d-95c1-586f2b6d1356_HP_ELLIE_GOULDING_CASE_STUDY_091015trimmed.jpg?auto=compress,format"
+        },
+        "date": "2015-10-21",
+        "client": { "name": "HP" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBtzRAAAO7GzfrM",
+          "uid": "hp-omen-challenge",
+          "type": "project"
+        },
+        "title": [
+          { "type": "heading1", "text": "The HP Omen Challenge", "spans": [] }
+        ],
+        "listImage": {
+          "dimensions": { "width": 672, "height": 448 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/93ab3bec-6545-4ac1-9cb3-439e066ebd3b_omen1thumb.jpg?auto=compress,format"
+        },
+        "date": "2015-10-15",
+        "client": { "name": "HP" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpCaTRAAAO7FzsPS",
+          "uid": "psfc-welcome-the-worlds-biggest-club",
+          "type": "project"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Welcome to the World's Biggest Club",
+            "spans": []
+          }
+        ],
+        "listImage": {
+          "dimensions": { "width": 1876, "height": 1454 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/cc888635-20f3-427a-9f40-61e858f66f3b_Screen+Shot+2020-04-10+at+18.06.21.jpg?auto=compress,format"
+        },
+        "date": "2015-09-10",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBfARAAAJ2-zbaG",
+          "uid": "driveclub-drive-together-win-together",
+          "type": "project"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Drive Together, Win Together",
+            "spans": []
+          }
+        ],
+        "listImage": {
+          "dimensions": { "width": 654, "height": 505 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/101742ef-b583-46f5-a795-baa9db4bb9ba_PS_driveclub30-GENERIC_WIP_2014_09_23.jpeg?auto=compress,format"
+        },
+        "date": "2015-07-16",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBdxhAAAJ2-zbDd",
+          "uid": "welcome-to-the-future-of-play",
+          "type": "project"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Welcome to the Future of Play",
+            "spans": []
+          }
+        ],
+        "listImage": {
+          "dimensions": { "width": 350, "height": 262 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/5e66dc80-e863-4ad1-af1e-0c13f8272eee_vikings.jpg?auto=compress,format"
+        },
+        "date": "2014-11-20",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBc6RAAAO7Gza0K",
+          "uid": "ps4-launch-this-is-for-the-players",
+          "type": "project"
+        },
+        "title": [
+          { "type": "heading1", "text": "This is for the Players", "spans": [] }
+        ],
+        "listImage": {
+          "dimensions": { "width": 1008, "height": 720 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/6e6dd2ba-9a0a-4bcb-a7f6-65beb04725c8_thumb5.jpeg?auto=compress,format"
+        },
+        "date": "2013-11-15",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "Xdqi7BEAACMAEhRw",
+          "uid": "ketel-one-do-one-thing-well",
+          "type": "project"
+        },
+        "title": [
+          { "type": "heading1", "text": "Do One Thing Well ", "spans": [] }
+        ],
+        "listImage": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/89d915b9-0637-4b78-bd3e-e19dd2c4dfdd_K1_GIFiti_PRESS-031_600.jpg?auto=compress,format"
+        },
+        "date": "2013-06-06",
+        "client": { "name": "Ketel One" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBiRxAAAO7FzcVW",
+          "uid": "could-you-be-the-last-of-us",
+          "type": "project"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Could you be the Last of Us?",
+            "spans": []
+          }
+        ],
+        "listImage": {
+          "dimensions": { "width": 1026, "height": 1437 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/3ad29c2d-694c-4835-84ea-f043b73532c7_Last+of+Us+thumb2.jpg?auto=compress,format"
+        },
+        "date": "2012-11-22",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBhmxAAACzKzcJG",
+          "uid": "playstation-all-stars-battle-royale",
+          "type": "project"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "The Best of the Best of the Best",
+            "spans": []
+          }
+        ],
+        "listImage": {
+          "dimensions": { "width": 576, "height": 576 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/0caf5f83-b588-4c95-84a0-dab07a814d04_thumb2.jpg?auto=compress,format"
+        },
+        "date": "2012-11-15",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBjPhAAAO7FzcnY",
+          "uid": "ps-vita-the-world-is-in-play",
+          "type": "project"
+        },
+        "title": [
+          { "type": "heading1", "text": "The World is in Play", "spans": [] }
+        ],
+        "listImage": {
+          "dimensions": { "width": 1280, "height": 720 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/99b21ec8-1cb8-4b0a-8fc6-b5a8a16df9ee_The_World_Is_In_Play_70sec_Directors_Flame_Temp_Grade_PS_logo_H264-1.jpg?auto=compress,format"
+        },
+        "date": "2012-02-14",
+        "client": { "name": "PlayStation" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XdqieBEAACMAEhJt",
+          "uid": "ea-sports-fifa10-how-big-can-football-get",
+          "type": "project"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "How Big Can Football Get? ",
+            "spans": []
+          }
+        ],
+        "listImage": {
+          "dimensions": { "width": 308, "height": 400 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/1ad49d20-b09a-4ac8-ad7c-2452fdfe7cc7_Wayne+thumb.jpg?auto=compress,format"
+        },
+        "date": "2010-09-24",
+        "client": { "name": "EA Sports" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XdqhoxEAADk9Eg61",
+          "uid": "ea-sports-fifa-street-3",
+          "type": "project"
+        },
+        "title": [{ "type": "heading1", "text": "FIFA Street 3", "spans": [] }],
+        "listImage": {
+          "dimensions": { "width": 414, "height": 414 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/1549b414-9692-41ae-a136-48b9e0317397_FIFA+STREET+3.jpeg?auto=compress,format"
+        },
+        "date": "2007-10-10",
+        "client": { "name": "EA Sports" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XdqgZREAADk9Egky",
+          "uid": "dr-martens-freedm",
+          "type": "project"
+        },
+        "title": [{ "type": "heading1", "text": "FREEDM", "spans": [] }],
+        "listImage": {
+          "dimensions": { "width": 1723, "height": 1221 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/ceacf5bd-92ab-411b-b5cb-dece2c5946a3_Abel+Page+_Page_08.jpg?auto=compress,format"
+        },
+        "date": "2007-03-26",
+        "client": { "name": "Dr. Martens" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBnGBAAAO7Fzduh",
+          "uid": "apple-ipod-from-hp",
+          "type": "project"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "You Let Musical Worlds Collide",
+            "spans": []
+          }
+        ],
+        "listImage": {
+          "dimensions": { "width": 629, "height": 480 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/7bd29af8-6958-4f1e-90ec-349f29f67f86_HP_iPod_Mashup-1.jpeg?auto=compress,format"
+        },
+        "date": "2004-08-06",
+        "client": { "name": "HP" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBqnRAAACzKzevE",
+          "uid": "youhp",
+          "type": "project"
+        },
+        "title": [{ "type": "heading1", "text": "You+hp", "spans": [] }],
+        "listImage": {
+          "dimensions": { "width": 2416, "height": 3224 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/695f8c29-c383-4377-baa6-a6db5821360a_Camera.jpg?auto=compress,format"
+        },
+        "date": "2004-03-11",
+        "client": { "name": "HP" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XpBmNhAAACzKzdeG",
+          "uid": "hp-everything-is-possible",
+          "type": "project"
+        },
+        "title": [
+          { "type": "heading1", "text": "Everything is Possible", "spans": [] }
+        ],
+        "listImage": {
+          "dimensions": { "width": 512, "height": 665 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/ff16671a-04f4-4846-9ec7-679d00a04aa8_thumb.jpg?auto=compress,format"
+        },
+        "date": "2003-10-09",
+        "client": { "name": "HP" }
+      }
+    },
+    {
+      "node": {
+        "_meta": {
+          "id": "XdqfxxEAACEAEgZ4",
+          "uid": "sega-dreamcast-its-thinking",
+          "type": "project"
+        },
+        "title": [{ "type": "heading1", "text": "It’s Thinking", "spans": [] }],
+        "listImage": {
+          "dimensions": { "width": 1280, "height": 720 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/b65d63c5-5b52-46e4-98b9-9f56a9e153dc_dreamcast+Its+Thinking+ads+%28Clean%292.jpeg?auto=compress,format"
+        },
+        "date": "1999-09-09",
+        "client": { "name": "Sega" }
+      }
+    },
+    {
+      "node": {
+        "_meta": { "id": "Xa9ivRAAACEA64me", "uid": "mtv", "type": "project" },
+        "title": [{ "type": "heading1", "text": "MTV", "spans": [] }],
+        "listImage": {
+          "dimensions": { "width": 750, "height": 1012 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/jonasvail/f4f52125-d0a7-4b24-80b9-fc10a74647ef_mtv_bustarhymes_1998.jpg?auto=compress,format"
+        },
+        "date": "1999-06-21",
+        "client": { "name": "MTV" }
+      }
+    }
+  ]
+}

@@ -30,7 +30,6 @@ describe('ProjectList', () => {
     })
     const { container } = render(<ProjectList allProjects={data} />)
     container.querySelectorAll('.client').forEach((element) => {
-      console.log(element)
       expect(element.textContent).toMatchSnapshot(clientName)
     })
   })
