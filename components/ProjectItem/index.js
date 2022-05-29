@@ -6,7 +6,7 @@ import { asText } from '../../utils/prismic'
 import Link from '../Link'
 
 const ProjectItem = ({ node }) => {
-  const { title, client, listImage } = node
+  const { title, client, listImage, previewImage } = node
 
   return (
     <article className={css.wrap}>
@@ -17,7 +17,7 @@ const ProjectItem = ({ node }) => {
             {...listImage.dimensions}
             alt=""
             placeholder="blur"
-            blurDataURL={`/_next/image?url=${listImage.url}&w=16&q=1`}
+            blurDataURL={previewImage}
             layout="responsive"
             sizes="50vw"
           />
