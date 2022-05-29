@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectList filters the list based on the route: playstation 1`] = `"Twitch"`;
+
+exports[`ProjectList filters the list based on the route: playstation 2`] = `"adidas"`;
+
+exports[`ProjectList filters the list based on the route: playstation 3`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 4`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 5`] = `"PlayStation"`;
+
+exports[`ProjectList renders a list of projects 1`] = `
+<div>
+  <section
+    class="wrap"
+  >
+    <div
+      class="masonry"
+      data-test-id="masonry-wrap"
+    >
+      <div
+        class="item"
+      >
+        <article
+          class="wrap"
+        >
+          <a
+            class="link"
+            href="/twitch-creators-campaign"
+          >
+            <div
+              class="imageWrap"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 56.25% 0px 0px 0px;"
+                />
+                <img
+                  alt=""
+                  data-nimg="responsive"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(/_next/image?url=https://images.prismic.io/jonasvail/c95286cf-7de8-44c0-90f0-9122f77fe5db_Twitch+logo.jpg?auto=compress,format&w=16&q=1); background-position: 0% 0%;"
+                />
+                <noscript />
+              </span>
+            </div>
+            <h1
+              class="title"
+            >
+              Twitch Creators Campaign
+            </h1>
+            <div
+              class="client"
+            >
+              Twitch
+            </div>
+          </a>
+        </article>
+      </div>
+      <div
+        class="item"
+      >
+        <article
+          class="wrap"
+        >
+          <a
+            class="link"
+            href="/adidas-futurecraft-loop"
+          >
+            <div
+              class="imageWrap"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 70.71428571428572% 0px 0px 0px;"
+                />
+                <img
+                  alt=""
+                  data-nimg="responsive"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(/_next/image?url=https://images.prismic.io/jonasvail/070c2ce5-ca64-4565-bc5e-1ef307689489_551468.jpg?auto=compress,format&w=16&q=1); background-position: 0% 0%;"
+                />
+                <noscript />
+              </span>
+            </div>
+            <h1
+              class="title"
+            >
+              [FUTURECRAFT] Loop
+            </h1>
+            <div
+              class="client"
+            >
+              adidas
+            </div>
+          </a>
+        </article>
+      </div>
+      <div
+        class="item"
+      >
+        <article
+          class="wrap"
+        >
+          <a
+            class="link"
+            href="/ps4-this-could-be-you"
+          >
+            <div
+              class="imageWrap"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 56.25% 0px 0px 0px;"
+                />
+                <img
+                  alt=""
+                  data-nimg="responsive"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(/_next/image?url=https://images.prismic.io/jonasvail/2dc740e4-ee89-492a-be4a-9c10b727f1d2_This+could+be+you+Fortnite+skydiver.jpg?auto=compress,format&w=16&q=1); background-position: 0% 0%;"
+                />
+                <noscript />
+              </span>
+            </div>
+            <h1
+              class="title"
+            >
+              This Could Be You
+            </h1>
+            <div
+              class="client"
+            >
+              PlayStation
+            </div>
+          </a>
+        </article>
+      </div>
+      <div
+        class="item"
+      >
+        <article
+          class="wrap"
+        >
+          <a
+            class="link"
+            href="/detroit-how-far-would-you-go-to-be-free"
+          >
+            <div
+              class="imageWrap"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 56.25% 0px 0px 0px;"
+                />
+                <img
+                  alt=""
+                  data-nimg="responsive"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(/_next/image?url=https://images.prismic.io/jonasvail/7f0c56d9-2181-4098-b505-73a28d836144_detroit-become-human.jpg?auto=compress,format&w=16&q=1); background-position: 0% 0%;"
+                />
+                <noscript />
+              </span>
+            </div>
+            <h1
+              class="title"
+            >
+              How far would you go to be free?
+            </h1>
+            <div
+              class="client"
+            >
+              PlayStation
+            </div>
+          </a>
+        </article>
+      </div>
+      <div
+        class="item"
+      >
+        <article
+          class="wrap"
+        >
+          <a
+            class="link"
+            href="/gt-sport-where-the-world-comes-to-race"
+          >
+            <div
+              class="imageWrap"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+                />
+                <img
+                  alt=""
+                  data-nimg="responsive"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(/_next/image?url=https://images.prismic.io/jonasvail/78bf9234-89d0-4bd0-86e4-997e0816fc53_SIEE_GT_SPORT_WTWCTR_2017_MCLAREN_VSN_30_w4KTAG+%281%29.jpeg?auto=compress,format&w=16&q=1); background-position: 0% 0%;"
+                />
+                <noscript />
+              </span>
+            </div>
+            <h1
+              class="title"
+            >
+              Where the World Comes to Race
+            </h1>
+            <div
+              class="client"
+            >
+              PlayStation
+            </div>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+</div>
+`;
