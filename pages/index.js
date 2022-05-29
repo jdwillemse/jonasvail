@@ -33,7 +33,7 @@ export async function getStaticProps({ preview = false, previewData }) {
       allProjects: allProjects.map((item, i) => ({
         node: {
           ...item.node,
-          previewImage: previewImages[i],
+          previewImage: previewImages[i].base64,
         },
       })),
       allClients,

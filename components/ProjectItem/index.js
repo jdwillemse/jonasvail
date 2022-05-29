@@ -17,7 +17,7 @@ const ProjectItem = ({ node }) => {
             {...listImage.dimensions}
             alt=""
             placeholder="blur"
-            blurDataURL={previewImage.base64}
+            blurDataURL={previewImage}
             layout="responsive"
             sizes="50vw"
           />
