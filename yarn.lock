@@ -879,35 +879,40 @@
     "@prismicio/helpers" "^2.3.0"
     "@prismicio/types" "^0.1.27"
 
-"@prismicio/helpers@^2.2.1", "@prismicio/helpers@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@prismicio/helpers/-/helpers-2.3.0.tgz#316cdfdf668efd379a8c2ccfc169e320da30a346"
-  integrity sha512-/3YJ3F7bN56Pn9y2B4a3t0y4QD0zVPqaHf0Rzd5jCA7Bf0wi3oQ35KHGmP3DrYzz16aQNOZgQy/IO/80QsOYTg==
+"@prismicio/helpers@^2.3.0", "@prismicio/helpers@^2.3.1":
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/@prismicio/helpers/-/helpers-2.3.5.tgz#facb441c35d0ce19996350e1cc9c6f7fc676b6ee"
+  integrity sha512-lL9TQG+GKtOATvLOlTFoaDfEZOgrNXHRuD+TxCSwLPKRBtYVs6zBoU6SkkcISm/DCe8PwGD0zo44zDdPtFJuBA==
   dependencies:
-    "@prismicio/richtext" "^2.0.1"
-    "@prismicio/types" "^0.1.27"
+    "@prismicio/richtext" "^2.1.1"
+    "@prismicio/types" "^0.2.3"
     escape-html "^1.0.3"
     imgix-url-builder "^0.0.3"
 
-"@prismicio/react@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.npmjs.org/@prismicio/react/-/react-2.2.0.tgz"
-  integrity sha512-HTBhhtS5MvhmSmkV/GRUEFdFZ/0PhKNIFXMPOuNTWcnWi9Nlw3Co+jurIYUdI+mGt/nfyr4Wnj5XwO+94sBPRA==
+"@prismicio/react@^2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@prismicio/react/-/react-2.5.0.tgz#2fa27467e153db8d761b72eeec648ac4e7ed910b"
+  integrity sha512-1EYdvoU2bpVEkmVDDVyTUK22C580tTWR96HJ9PMUex0oGeJLBAMKiRinyachN42r1uCH5nRAH54A90ZtBjjZhw==
   dependencies:
-    "@prismicio/helpers" "^2.2.1"
+    "@prismicio/helpers" "^2.3.1"
     "@prismicio/richtext" "^2.0.1"
 
-"@prismicio/richtext@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/@prismicio/richtext/-/richtext-2.0.1.tgz"
-  integrity sha512-sM+eusvE4PsKnwefDRd0ai3Ny59XJ54dn6xfwq0Fyqj0LAcuyB2gRjSufbIqYOZ1r4JKMQArDKrypNEcrbBFkA==
+"@prismicio/richtext@^2.0.1", "@prismicio/richtext@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@prismicio/richtext/-/richtext-2.1.1.tgz#45b76b0bcfe40a5465c14d7d458e3354f6510068"
+  integrity sha512-/99JR2NUU2WV0025eAIqjd9OnF4ITaM57SVuhLc1XBUgnJe0HZrC9f24YKVW43jFR5HYTJtLgz01WjEddymqmA==
   dependencies:
-    "@prismicio/types" "^0.1.22"
+    "@prismicio/types" "^0.2.0"
 
-"@prismicio/types@^0.1.22", "@prismicio/types@^0.1.27":
+"@prismicio/types@^0.1.27":
   version "0.1.27"
   resolved "https://registry.npmjs.org/@prismicio/types/-/types-0.1.27.tgz"
   integrity sha512-+Oc7EFcp6RGVMvFKQl9y9D4HtBhHeOtE0asfYhedCflQDf3OOzjE8POIu1bXTkk8i1kEWM3oYvz6yLN4yAyGWQ==
+
+"@prismicio/types@^0.2.0", "@prismicio/types@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@prismicio/types/-/types-0.2.3.tgz#9f4c5bce441e1d59242f1795acb77f7a583cad99"
+  integrity sha512-mHsZ9ora8He6PAn+Q/0MCVdlfc0Xv8rSEYJyfwywDApuvssGvgUbeHE6XTqPhK2dJwb0mAkJzCpZiQJRt9+bvw==
 
 "@rushstack/eslint-patch@^1.0.6":
   version "1.0.6"
