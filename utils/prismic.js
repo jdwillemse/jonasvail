@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import { PrismicText, PrismicRichText, Date } from '@prismicio/react'
+import { PrismicText, PrismicRichText } from '@prismicio/react'
 
 import linkResolver from './linkResolver'
 
@@ -58,7 +58,7 @@ export const renderDate = (date) => {
     return null
   }
 
-  return Date(date).toLocaleDateString('en-GB', options)
+  return new Date(date).toLocaleDateString('en-GB', options)
 }
 
 // helpers
