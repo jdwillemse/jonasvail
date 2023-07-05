@@ -25,23 +25,23 @@ const Menu = ({ allClients = [], allProjects }) => {
         </a>
       </Link>
       <div className={css.clientWrap}>
-        {allClients.map(({ node: { name, _meta } }) => {
+        {allClients.map(({ data, ..._meta }) => {
           const filteredProjects = allProjects.filter(
-            ({ node }) => node.client.name === name
+            ({ data }) => data.client.id === _meta.id
           )
           const href =
             filteredProjects.length > 1
-              ? `/?client=${name}`
-              : linkResolver(filteredProjects[0].node._meta)
+              ? `/?client=${data.name}`
+              : linkResolver(filteredProjects[0])
 
           return (
             <Link href={href} key={_meta.id}>
               <a
                 className={classNames(css.link, {
-                  [css.active]: query === name,
+                  [css.active]: query === data.name,
                 })}
               >
-                <span className={css.linkInner}>{name}</span>
+                <span className={css.linkInner}>{data.name}</span>
               </a>
             </Link>
           )

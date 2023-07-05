@@ -1,13 +1,14 @@
 import React, { useCallback, useContext } from 'react'
 import classnames from 'classnames'
 import Image from 'next/image'
+import _ from 'lodash'
 
 import css from './styles.module.scss'
 import RichText from '../RichText'
 import Video from '../Video'
 import { ModalContext } from '../../context/ModalProvider'
 
-const MediaRow = ({ primary, fields = [] }) => {
+const MediaRow = ({ primary, items = [] }) => {
   const { setImage } = useContext(ModalContext)
   const mediaBlocks = []
   const handleClick = useCallback(
@@ -18,26 +19,25 @@ const MediaRow = ({ primary, fields = [] }) => {
     [setImage]
   )
 
-  for (let i = 0; i < fields.length; i++) {
-    const { image, video } = fields[i]
-
-    if (image || video) {
+  for (let i = 0; i < items.length; i++) {
+    const { image, video } = items[i]
+    if (!_.isEmpty(image) || !_.isEmpty(video)) {
       mediaBlocks.push(
         <div
           className={
-            fields.length > 1
+            items.length > 1
               ? classnames(css.col, 'col-sm-12 col-md-6 col-lg')
               : 'col'
           }
           key={video?.uri || image.url}
         >
-          {video && (
+          {!_.isEmpty(video) && (
             <div className={css.mediaWrap}>
               <Video {...video} />
             </div>
           )}
           {/* if there is both video and image only show video */}
-          {image && !video && (
+          {!_.isEmpty(image) && _.isEmpty(video) && (
             <button
               className={classnames(css.button, css.mediaWrap)}
               onClick={handleClick}
@@ -74,10 +74,6 @@ const MediaRow = ({ primary, fields = [] }) => {
       <div className={classnames('row', css.row)}>{mediaBlocks}</div>
     </div>
   )
-}
-
-MediaRow.propTypes = {
-  // children: PropTypes.node.isRequired,
 }
 
 export default MediaRow

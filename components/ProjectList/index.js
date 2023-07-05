@@ -39,7 +39,8 @@ const ProjectList = ({ allProjects = [] }) => {
     } else {
       const filter = client?.toLowerCase()
       const filteredList = allProjects.filter(
-        (item) => get(item, 'node.client.name', '').toLowerCase() === filter
+        (project) =>
+          get(project, 'data.client.data.name', '').toLowerCase() === filter
       )
       setList(filteredList)
     }
@@ -67,7 +68,7 @@ const ProjectList = ({ allProjects = [] }) => {
     <section className={css.wrap}>
       <div className={css.masonry} ref={gridRef} data-test-id="masonry-wrap">
         {list.map((project) => (
-          <div className={css.item} key={project.node._meta.id}>
+          <div className={css.item} key={project.id}>
             <ProjectItem {...project} />
           </div>
         ))}

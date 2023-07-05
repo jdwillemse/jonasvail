@@ -24,15 +24,11 @@ const LinkComponent = ({ link, children, className }) => {
     )
   }
 
-  return link._meta ? (
-    <Link
-      href={linkResolver(link._meta)}
-      key={link._meta.id}
-      activeClassName="active"
-    >
+  return (
+    <Link href={linkResolver(link)} key={link.id} activeClassName="active">
       <a className={className}>{children}</a>
     </Link>
-  ) : null
+  )
 }
 
 export default LinkComponent

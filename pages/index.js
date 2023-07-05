@@ -18,7 +18,7 @@ export async function getStaticProps({ preview = false, previewData }) {
   const settings = await getSettings(previewData)
 
   const previewImages = await Promise.all(
-    allProjects.map(({ node }) => fetch(node.listImage.url))
+    allProjects.map(({ data }) => fetch(data.list_image?.url))
   )
     .then((images) => Promise.all(images.map((image) => image.arrayBuffer())))
     .then((imageBuffers) =>
@@ -31,8 +31,9 @@ export async function getStaticProps({ preview = false, previewData }) {
     props: {
       preview,
       allProjects: allProjects.map((item, i) => ({
-        node: {
-          ...item.node,
+        ...item,
+        data: {
+          ...item.data,
           previewImage: previewImages[i].base64,
         },
       })),

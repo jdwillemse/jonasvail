@@ -12,20 +12,20 @@ import AboutContent from '../components/AboutContent'
 export default function PageContainer(props) {
   return (
     <Layout {...props}>
-      <PageDetail {...props.data}>
-        <AboutContent {...props.data} />
+      <PageDetail {...props.aboutPage}>
+        <AboutContent {...props.aboutPage} />
       </PageDetail>
     </Layout>
   )
 }
 
 export async function getStaticProps({ preview = false, previewData }) {
-  const { node } = await getAbout(previewData)
+  const aboutPage = await getAbout(previewData)
   const allProjects = await getAllProjects(previewData)
   const allClients = await getAllClients(previewData)
   const settings = await getSettings(previewData)
 
   return {
-    props: { preview, allClients, allProjects, settings, data: node },
+    props: { preview, allClients, allProjects, settings, aboutPage },
   }
 }

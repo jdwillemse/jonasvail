@@ -1,10 +1,9 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
 
 import css from './styles.module.scss'
 import RichText from '../RichText'
 
-const AboutContent = ({ experience, awards }) => {
+const AboutContent = ({ data: { experience, awards } }) => {
   return (
     <div className="row">
       <div className="col-sm-12 col-md-6">
@@ -15,10 +14,6 @@ const AboutContent = ({ experience, awards }) => {
       </div>
     </div>
   )
-}
-
-AboutContent.propTypes = {
-  // children: PropTypes.node.isRequired,
 }
 
 export default AboutContent

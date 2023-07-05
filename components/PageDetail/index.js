@@ -1,11 +1,10 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
 
 import css from './styles.module.scss'
 import { asText } from '../../utils/prismic'
 import RichText from '../RichText'
 
-const PageDetail = ({ title, body, client, children }) => {
+const PageDetail = ({ data: { title, body, client }, children }) => {
   return (
     <article className={css.wrap}>
       {client && <div className={css.chapeau}>{client.name}</div>}

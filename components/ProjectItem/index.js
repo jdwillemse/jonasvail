@@ -5,16 +5,16 @@ import css from './styles.module.scss'
 import { asText } from '../../utils/prismic'
 import Link from '../Link'
 
-const ProjectItem = ({ node }) => {
-  const { title, client, listImage, previewImage } = node
+const ProjectItem = ({ data, ...document }) => {
+  const { title, client, list_image, previewImage } = data
 
   return (
     <article className={css.wrap}>
-      <Link link={node} className={css.link}>
+      <Link link={document} className={css.link}>
         <div className={css.imageWrap}>
           <Image
-            src={listImage.url}
-            {...listImage.dimensions}
+            src={list_image.url}
+            {...list_image.dimensions}
             alt=""
             placeholder="blur"
             blurDataURL={previewImage}

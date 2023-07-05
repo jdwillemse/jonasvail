@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import { PrismicText, PrismicRichText } from '@prismicio/react'
+import { PrismicRichText } from '@prismicio/react'
+import * as prismic from '@prismicio/client'
 
 import linkResolver from './linkResolver'
 
@@ -41,7 +42,7 @@ export const asText = (data) => {
   if (!data) {
     return null
   }
-  return typeof data === 'string' ? data : <PrismicText field={data} />
+  return typeof data === 'string' ? data : prismic.asText(data)
 }
 
 export const renderer = (data) =>
@@ -51,28 +52,4 @@ const options = {
   year: 'numeric',
   month: 'short',
   day: 'numeric',
-}
-
-export const renderDate = (date) => {
-  if (!date) {
-    return null
-  }
-
-  return new Date(date).toLocaleDateString('en-GB', options)
-}
-
-// helpers
-export const getPublicationDate = ({
-  publicationDate,
-  documentMeta: { firstPublicationDate },
-}) => renderDate(publicationDate || firstPublicationDate)
-
-export const getEventDate = ({ startDate, endDate }) => {
-  if (!startDate) {
-    return null
-  }
-  if (endDate) {
-    return `${renderDate(startDate)} – ${renderDate(endDate)}`
-  }
-  return renderDate(startDate)
 }

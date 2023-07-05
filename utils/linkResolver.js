@@ -1,10 +1,9 @@
-export default function linkResolver ({ type, uid } = {}) {
+export default function linkResolver({ type, uid, slugs } = {}) {
   switch (type) {
-
     case 'project':
       return `/${uid}`
 
     default:
-      return `/${uid}`
+      return `/${slugs[0]}`
   }
 }
