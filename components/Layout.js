@@ -15,7 +15,7 @@ const Layout = ({ children, preview, ...props }) => {
       <div className="row">
         <div className="col-sm-3 col-lg-2">
           <Sidebar>
-            <Header />
+            <Header {...props.settings} />
             <Menu {...props} />
           </Sidebar>
         </div>

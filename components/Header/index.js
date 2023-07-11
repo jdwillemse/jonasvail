@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 import css from './styles.module.scss'
 
-const Grid = () => (
+const Header = ({ data }) => (
   <header className={css.wrap}>
     <Link href="/">
-      <a className={css.logo}>Jonas Vail</a>
+      <a className={css.logo}>{data.company_name}</a>
     </Link>
-    <div>Brand and Advertising Strategy Consultant</div>
+    <div>{data.subtitle}</div>
   </header>
 )
 
-export default Grid
+export default Header
