@@ -1023,12 +1023,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/bundle-analyzer@npm:^13.1.6":
-  version: 13.1.6
-  resolution: "@next/bundle-analyzer@npm:13.1.6"
+"@next/bundle-analyzer@npm:^13.4.12":
+  version: 13.4.12
+  resolution: "@next/bundle-analyzer@npm:13.4.12"
   dependencies:
     webpack-bundle-analyzer: 4.7.0
-  checksum: 4f6b42d5c0068b0d71186462843f20e1352541c1da46be857166194531d16745fe54342cf7f2e059f8b1f88ec607b8dac6699169ef05baad4458698ef535fe72
+  checksum: 4fdd226df19e830537f460d019af9d17e2e2c70b516100f1ab31d86de21b7753630f7ccc7d37d44dd6abdc4823ed4a502e10747140d5de7a40e9e7832cf5fcc0
   languageName: node
   linkType: hard
 
@@ -4812,7 +4812,7 @@ __metadata:
   resolution: "jonasvail.com@workspace:."
   dependencies:
     "@fullhuman/postcss-purgecss": ^4.1.3
-    "@next/bundle-analyzer": ^13.1.6
+    "@next/bundle-analyzer": ^13.4.12
     "@prismicio/client": ^7.1.0
     "@prismicio/react": ^2.7.1
     "@testing-library/dom": ^9.2.0
