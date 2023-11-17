@@ -6,7 +6,7 @@ export default async function PageContainer(props) {
   const aboutPage = await getAbout()
 
   return (
-    <PageDetail {...aboutPage}>
+    <PageDetail content={aboutPage}>
       <AboutContent {...aboutPage} />
     </PageDetail>
   )

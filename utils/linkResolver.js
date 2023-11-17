@@ -1,7 +1,7 @@
-export default function linkResolver({ type, uid, slugs, client } = {}) {
+export default function linkResolver({ type, uid, slugs, tags } = {}) {
   switch (type) {
     case 'project':
-      return `${client.uid}/${uid}`
+      return `/${tags[0]}/${uid}`
 
     case 'client':
       return `/${uid}`

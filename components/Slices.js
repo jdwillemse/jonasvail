@@ -3,7 +3,9 @@ import MediaRow from './MediaRow'
 // component
 // ==========================================================================================
 const Slices = ({ project }) => {
-  if (!Array.isArray(project?.data?.slices)) {
+  const { slices } = project?.data
+
+  if (!Array.isArray(slices)) {
     return null
   }
 

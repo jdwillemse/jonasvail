@@ -1,6 +1,5 @@
 'use client'
-// import { getAbout } from '../../lib/api'
-// import PageDetail from '../../components/PageDetail'
+
 import { ModalContext } from '../../../context/ModalProvider'
 import PageDetail from '../../../components/PageDetail'
 import Slices from '../../../components/Slices'
@@ -16,11 +15,10 @@ export default function ProjectPage({ project }) {
     throw new Error('Project not found')
   }
 
-  console.log(project)
   return (
     <ModalContext.Provider value={{ image, setImage }}>
       <Modal />
-      <PageDetail project={project}>
+      <PageDetail content={project}>
         <Slices project={project} />
       </PageDetail>
     </ModalContext.Provider>

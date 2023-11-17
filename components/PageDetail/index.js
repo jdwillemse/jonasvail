@@ -4,12 +4,12 @@ import css from './styles.module.scss'
 import { asText } from '../../utils/prismic'
 import RichText from '../RichText'
 
-const PageDetail = ({ project, children }) => {
-  if (typeof project.data === 'undefined') {
+const PageDetail = ({ content, children }) => {
+  if (typeof content.data === 'undefined') {
     return null
   }
 
-  const { title, body, client } = project.data
+  const { title, body, client } = content.data
 
   return (
     <article className={css.wrap}>

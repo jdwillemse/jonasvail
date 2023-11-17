@@ -1,6 +1,6 @@
 import React, { useCallback, useContext } from 'react'
 import classnames from 'classnames'
-import Image from "next/legacy/image"
+import Image from 'next/legacy/image'
 import _ from 'lodash'
 
 import css from './styles.module.scss'
@@ -49,7 +49,7 @@ const MediaRow = ({ primary, items = [] }) => {
                 {...image.dimensions}
                 alt=""
                 placeholder="blur"
-                blurDataURL={`/_next/image?url=${image.url}&w=16&q=1`}
+                blurDataURL={`${image.url}&w=10&q=1`}
                 layout="responsive"
                 sizes="50vw"
               />
