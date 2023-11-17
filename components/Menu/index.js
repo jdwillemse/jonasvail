@@ -1,7 +1,6 @@
-import React from 'react'
-
 import css from './styles.module.scss'
-import { getAllClients, getAllProjects } from '../../lib/api'
+import { getAllClients } from '../../lib/api'
+import ClientList from './ClientList'
 import ClientItem from './ClientItem'
 import HeaderItem from './HeaderItem'
 import SecondaryItem from './SecondaryItem'
@@ -9,17 +8,12 @@ import SecondaryItem from './SecondaryItem'
 // component
 // ========================================================================
 const Menu = async () => {
-  const allClients = (await getAllClients()) || []
-  const allProjects = (await getAllProjects()) || []
+  const clients = (await getAllClients()) || []
 
   return (
     <nav>
       <HeaderItem />
-      <div className={css.clientWrap}>
-        {(allClients || []).map((client) => (
-          <ClientItem {...client} key={client.id} />
-        ))}
-      </div>
+      <ClientList clients={clients} />
       <SecondaryItem label="About" />
       <a
         href="mailto:jonasvail@gmail.com?Subject=Hoi%20Hoi%20Hello!"

@@ -2,8 +2,6 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/main.scss'
 
-import TestGrid from '../components/TestGrid'
-import Head from 'next/head'
 import Layout from '../components/Layout'
 import { Karla } from 'next/font/google'
 
@@ -18,7 +16,6 @@ export default function RootLayout({ children }) {
     <html lang="en" className={karla.className}>
       <body>
         <div id="app-root">
-          <TestGrid />
           <Layout>{children}</Layout>
         </div>
       </body>
