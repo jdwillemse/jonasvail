@@ -8,7 +8,6 @@ import Link from '../Link'
 
 const ProjectItem = ({ data, ..._meta }) => {
   const { title, client, list_image } = data
-  console.log(data)
 
   return (
     <article className={css.wrap}>

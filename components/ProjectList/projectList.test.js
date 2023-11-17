@@ -16,7 +16,7 @@ describe('ProjectList', () => {
   })
 
   it('renders a list of projects', () => {
-    const { container } = render(<ProjectList allProjects={data} />)
+    const { container } = render(<ProjectList projects={data} />)
     expect(container).toMatchSnapshot()
   })
 
@@ -28,7 +28,7 @@ describe('ProjectList', () => {
       query: { client: clientName },
       asPath: '',
     })
-    const { container } = render(<ProjectList allProjects={data} />)
+    const { container } = render(<ProjectList projects={data} />)
     container.querySelectorAll('.client').forEach((element) => {
       expect(element.textContent).toMatchSnapshot(clientName)
     })
