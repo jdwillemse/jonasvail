@@ -2,7 +2,7 @@
 
 import Masonry from 'react-masonry-css'
 
-import css from './styles.module.scss'
+import css from './styles.module.css'
 import ProjectItem from '../ProjectItem'
 
 const breakpointColumnsObj = {

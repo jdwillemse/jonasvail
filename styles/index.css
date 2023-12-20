@@ -1,0 +1,16 @@
+/* 
+$break-sm: 576px;
+$break-md: 768px;
+$break-lg: 992px;
+$break-xl: 1200px; 
+*/
+
+:root {
+  --gutter: 30px;
+}
+
+@media all and (max-width: 768px) {
+  :root {
+    --gutter: 16px;
+  }
+}

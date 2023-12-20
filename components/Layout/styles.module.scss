@@ -1,8 +1,8 @@
 @import '../../styles/vars.scss';
 
 .wrap {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .link {
@@ -23,4 +23,11 @@
   max-width: 100%;
   height: auto;
   margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .wrap {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
 }
