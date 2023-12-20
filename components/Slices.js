@@ -1,11 +1,11 @@
-import React from 'react'
-
 import MediaRow from './MediaRow'
 
 // component
 // ==========================================================================================
-const Slices = ({ data: { slices } }) => {
-  if (!Array.isArray(slices)) return null
+const Slices = ({ project }) => {
+  if (!Array.isArray(project?.data?.slices)) {
+    return null
+  }
 
   const mappedSlices = slices.map((slice) => {
     switch (slice.slice_type) {

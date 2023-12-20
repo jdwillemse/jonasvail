@@ -25,8 +25,13 @@ const LinkComponent = ({ link, children, className }) => {
   }
 
   return (
-    <Link href={linkResolver(link)} key={link.id} activeClassName="active">
-      <a className={className}>{children}</a>
+    <Link
+      href={linkResolver(link)}
+      key={link.id}
+      // activeClassName="active"
+      className={className}
+    >
+      {children}
     </Link>
   )
 }

@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { ModalContext } from '../context/ModalProvider'
 import {
   getAllProjects,
-  getProjectAndMoreProjects,
+  getProject,
   getAllClients,
   getSettings,
 } from '../lib/api'
@@ -28,7 +28,7 @@ export default function ProjectTemplate(props) {
 }
 
 export async function getStaticProps({ params, preview = false, previewData }) {
-  const project = await getProjectAndMoreProjects(params.uid, previewData)
+  const project = await getProject(params.uid, previewData)
   const allProjects = await getAllProjects(previewData)
   const allClients = await getAllClients(previewData)
   const settings = await getSettings(previewData)

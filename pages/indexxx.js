@@ -14,7 +14,6 @@ export default function Index(props) {
 
 export async function getStaticProps({ preview = false, previewData }) {
   const allProjects = await getAllProjects(previewData)
-  const allClients = await getAllClients(previewData)
   const settings = await getSettings(previewData)
 
   const previewImages = await Promise.all(

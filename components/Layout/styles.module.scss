@@ -1,0 +1,26 @@
+@import '../../styles/vars.scss';
+
+.wrap {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.link {
+  color: $color-dark;
+}
+
+.title {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.content {
+  margin-bottom: 2rem;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}

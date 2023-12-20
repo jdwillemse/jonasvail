@@ -1,6 +1,6 @@
 import React, { useCallback, useContext } from 'react'
 import classnames from 'classnames'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import _ from 'lodash'
 
 import css from './styles.module.scss'

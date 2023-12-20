@@ -1,10 +1,8 @@
-import React, { useCallback, useContext } from 'react'
+import React, { useCallback, useContext, useEffect } from 'react'
 import Modal from 'react-modal'
 
 import css from './styles.module.scss'
 import { ModalContext } from '../../context/ModalProvider'
-
-Modal.setAppElement('#__next')
 
 const ModalComponent = () => {
   const { image, setImage } = useContext(ModalContext)
@@ -12,6 +10,10 @@ const ModalComponent = () => {
   const closeModal = useCallback(() => {
     setImage(null)
   }, [setImage])
+
+  useEffect(() => {
+    Modal.setAppElement('#app-root')
+  }, [])
 
   return (
     <Modal
