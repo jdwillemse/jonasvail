@@ -46,6 +46,7 @@
     right: 0;
     bottom: -3px;
     height: 5px;
+    background: $color-primary-fallback;
     background: $color-primary;
     transform: scale3d(1, 0, 1);
     transform-origin: 0 bottom;

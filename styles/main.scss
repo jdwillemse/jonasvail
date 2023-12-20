@@ -37,6 +37,7 @@ a {
   text-decoration: underline;
 
   &:hover {
+    color: $color-primary-fallback;
     color: $color-primary;
     text-decoration: inherit;
   }
