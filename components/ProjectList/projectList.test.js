@@ -1,20 +1,10 @@
 import { render } from '@testing-library/react'
 
 import ProjectList from '.'
-import data from './mockdata.json'
+import data from '../../__mocks__/allProjects.json'
 import { mockNextUseRouter } from '../../utils/testUtils'
 
 describe('ProjectList', () => {
-  beforeEach(() => {
-    // Mocks Next.js route
-    mockNextUseRouter({
-      route: '/',
-      pathname: '/',
-      query: {},
-      asPath: '',
-    })
-  })
-
   it('renders a list of projects', () => {
     const { container } = render(<ProjectList projects={data} />)
     expect(container).toMatchSnapshot()
@@ -22,12 +12,6 @@ describe('ProjectList', () => {
 
   it('filters the list based on the route', () => {
     const clientName = 'playstation'
-    mockNextUseRouter({
-      route: '/',
-      pathname: '/',
-      query: { client: clientName },
-      asPath: '',
-    })
     const { container } = render(<ProjectList projects={data} />)
     container.querySelectorAll('.client').forEach((element) => {
       expect(element.textContent).toMatchSnapshot(clientName)

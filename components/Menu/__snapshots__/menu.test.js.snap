@@ -58,7 +58,7 @@ exports[`Menu renders the list correctly 1`] = `
     >
       <a
         class="link"
-        href="/twitch-creators-campaign"
+        href="/twitch"
       >
         <span
           class="linkInner"
@@ -68,7 +68,7 @@ exports[`Menu renders the list correctly 1`] = `
       </a>
       <a
         class="link"
-        href="/adidas-futurecraft-loop"
+        href="/adidas"
       >
         <span
           class="linkInner"
@@ -78,7 +78,7 @@ exports[`Menu renders the list correctly 1`] = `
       </a>
       <a
         class="link"
-        href="/?client=PlayStation"
+        href="/playstation"
       >
         <span
           class="linkInner"
@@ -88,7 +88,7 @@ exports[`Menu renders the list correctly 1`] = `
       </a>
       <a
         class="link"
-        href="/al-jazeera-demandpressfreedom"
+        href="/al-jazeera"
       >
         <span
           class="linkInner"
@@ -98,7 +98,7 @@ exports[`Menu renders the list correctly 1`] = `
       </a>
       <a
         class="link"
-        href="/?client=HP"
+        href="/hp"
       >
         <span
           class="linkInner"
@@ -108,7 +108,7 @@ exports[`Menu renders the list correctly 1`] = `
       </a>
       <a
         class="link"
-        href="/ketel-one-do-one-thing-well"
+        href="/ketel-one"
       >
         <span
           class="linkInner"
@@ -118,7 +118,7 @@ exports[`Menu renders the list correctly 1`] = `
       </a>
       <a
         class="link"
-        href="/lilly-diabetes-uk"
+        href="/lilly"
       >
         <span
           class="linkInner"
@@ -128,7 +128,7 @@ exports[`Menu renders the list correctly 1`] = `
       </a>
       <a
         class="link"
-        href="/?client=EA%20Sports"
+        href="/ea-sports"
       >
         <span
           class="linkInner"
@@ -138,7 +138,7 @@ exports[`Menu renders the list correctly 1`] = `
       </a>
       <a
         class="link"
-        href="/dr-martens-freedm"
+        href="/dr-martens"
       >
         <span
           class="linkInner"
@@ -148,7 +148,7 @@ exports[`Menu renders the list correctly 1`] = `
       </a>
       <a
         class="link"
-        href="/sega-dreamcast-its-thinking"
+        href="/sega"
       >
         <span
           class="linkInner"

@@ -1,7 +1,6 @@
 import css from './styles.module.scss'
 import { getAllClients } from '../../lib/api'
 import ClientList from './ClientList'
-import ClientItem from './ClientItem'
 import HeaderItem from './HeaderItem'
 import SecondaryItem from './SecondaryItem'
 

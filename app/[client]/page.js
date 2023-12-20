@@ -6,7 +6,7 @@ export default async function ClientPage({ params }) {
   const projects = await getProjectsByClient(client?.id)
 
   // if no ID redirect to 404
-  if (projects.length === 0) {
+  if (!projects || projects.length === 0) {
     throw new Error('Client not found')
   }
 
