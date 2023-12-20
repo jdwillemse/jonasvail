@@ -17,6 +17,7 @@
   padding: 4px 10px;
   border: none;
   border-radius: 3px;
+  background: $color-primary-fallback;
   background: $color-primary;
   color: #fff;
   transform: scale(1);
@@ -29,5 +30,5 @@
 }
 
 .declineButton {
-  background: rgba($color-primary, 0.8);
+  background: $color-dark;
 }

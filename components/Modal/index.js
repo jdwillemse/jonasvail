@@ -27,7 +27,7 @@ const ModalComponent = () => {
         <span className={css.closeIcon} aria-hidden>
           ✖
         </span>
-        <span className={css.closeLabel}>close</span>
+        <span className="screen-reader">close</span>
       </button>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={image} alt="" />
