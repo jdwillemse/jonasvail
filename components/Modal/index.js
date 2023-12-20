@@ -29,6 +29,7 @@ const ModalComponent = () => {
         </span>
         <span className={css.closeLabel}>close</span>
       </button>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={image} alt="" />
     </Modal>
   )
