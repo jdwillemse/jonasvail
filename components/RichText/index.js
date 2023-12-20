@@ -11,7 +11,7 @@ const RichText = ({ content, className }) => {
     return null
   }
 
-  let rendered = renderer(content)
+  const rendered = renderer(content)
 
   return <div className={classNames(className, css.wrap)}>{rendered}</div>
 }

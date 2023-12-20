@@ -1,23 +1,24 @@
+'use client'
 import React from 'react'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 
 import css from './styles.module.scss'
 import { asText } from '../../utils/prismic'
 import Link from '../Link'
 
-const ProjectItem = ({ data, ...document }) => {
-  const { title, client, list_image, previewImage } = data
+const ProjectItem = ({ data, ..._meta }) => {
+  const { title, client, list_image } = data
 
   return (
     <article className={css.wrap}>
-      <Link link={document} className={css.link}>
+      <Link link={_meta} className={css.link}>
         <div className={css.imageWrap}>
           <Image
             src={list_image.url}
             {...list_image.dimensions}
             alt=""
             placeholder="blur"
-            blurDataURL={previewImage}
+            blurDataURL={`${list_image.url}&w=10&q=1`}
             layout="responsive"
             sizes="50vw"
           />
@@ -27,10 +28,6 @@ const ProjectItem = ({ data, ...document }) => {
       </Link>
     </article>
   )
-}
-
-ProjectItem.propTypes = {
-  // children: PropTypes.node.isRequired,
 }
 
 export default ProjectItem

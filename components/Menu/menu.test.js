@@ -2,26 +2,32 @@ import { render } from '@testing-library/react'
 
 import Menu from './'
 import mockData from './mockdata.json'
-import { mockNextUseRouter } from '../../utils/testUtils'
+
+const mockedGetAllClients = jest.fn()
+const mockUsePathname = jest.fn(() => '/')
+
+jest.mock('../../lib/api', () => ({
+  getAllClients() {
+    return mockedGetAllClients()
+  },
+}))
+
+jest.mock('next/navigation', () => ({
+  usePathname() {
+    return mockUsePathname()
+  },
+}))
 
 describe('Menu', () => {
-  beforeEach(() => {
-    // Mocks Next.js route
-    mockNextUseRouter({
-      route: '/',
-      pathname: '/',
-      query: {},
-      asPath: '',
-    })
-  })
-
-  it('renders the list correctly', () => {
-    const { container } = render(<Menu {...mockData} />)
+  it('does not throw errors when data is not passed', async () => {
+    const { container } = render(await Menu())
     expect(container).toMatchSnapshot()
   })
 
-  it('does not throw errors when data is not passed', () => {
-    const { container } = render(<Menu />)
+  it('renders the list correctly', async () => {
+    mockedGetAllClients.mockImplementationOnce(() => mockData)
+    const { container } = render(await Menu())
+
     expect(container).toMatchSnapshot()
   })
 })

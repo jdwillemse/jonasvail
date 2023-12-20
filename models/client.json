@@ -1,9 +1,9 @@
 {
-  "Main" : {
-    "name" : {
-      "type" : "Text",
-      "config" : {
-        "label" : "name"
+  "Main": {
+    "name": {
+      "type": "Text",
+      "config": {
+        "label": "name"
       }
     }
   }

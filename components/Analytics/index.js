@@ -1,6 +1,9 @@
+'use client'
+
 import { useEffect, useState, useCallback } from 'react'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+import { usePathname } from 'next/navigation'
 import CookieConsent, { Cookies } from 'react-cookie-consent'
 import cn from 'classnames'
 
@@ -11,7 +14,7 @@ const ANALYTICS_STORAGE_KEY = 'ANALYTICS_CONSENT'
 
 export default function Analytics() {
   const [permission, setPermission] = useState(false)
-  const { asPath, ...props } = useRouter()
+  const pathname = usePathname()
   const handleAccept = useCallback(() => {
     setPermission(true)
   }, [])
@@ -24,12 +27,12 @@ export default function Analytics() {
 
   // every page load will trigger track event if cookie is set
   // useEffect(() => {
-  //   console.log({ asPath })
+  //   console.log({ pathname })
   //   // if (getConsentCookie() === 'true') {
   //   //   ga('create', analyticsId, 'auto');
   //   //   ga('send', 'pageview');
   //   // }
-  // }, [asPath])
+  // }, [pathname])
 
   return permission ? (
     <Head>

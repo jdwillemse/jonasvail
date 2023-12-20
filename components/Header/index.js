@@ -5,10 +5,10 @@ import css from './styles.module.scss'
 
 const Header = ({ data }) => (
   <header className={css.wrap}>
-    <Link href="/">
-      <a className={css.logo}>{data.company_name}</a>
+    <Link href="/" className={css.logo}>
+      {data?.company_name}
     </Link>
-    <div>{data.subtitle}</div>
+    <div>{data?.subtitle}</div>
   </header>
 )
 

@@ -1,9 +1,10 @@
 @import './vars.scss';
 
-// @import '~bootstrap/scss/bootstrap-reboot.scss';
-// @import '~bootstrap/scss/bootstrap-grid.scss';
+// TODO: remove bootstrap dependency
+@import '~bootstrap/scss/bootstrap-reboot.scss';
+@import '~bootstrap/scss/bootstrap-grid.scss';
 
-// @import './typography.scss';
+@import './typography.scss';
 
 // html,
 // body {
@@ -29,7 +30,7 @@
 
 a {
   position: relative;
-  color: inherit;
+  color: $color-dark;
   transition: color 0.2s;
   text-decoration: underline;
 

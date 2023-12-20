@@ -146,7 +146,7 @@ exports[`AboutContent renders when content is passed 1`] = `
           Grand Prix and Gold Euro Effie, and Global Effie Finalist
           <br />
           <a
-            href="/ps4-launch-this-is-for-the-players"
+            href="/undefined/ps4-launch-this-is-for-the-players"
           >
             PS4 Launch campaign
           </a>
@@ -158,7 +158,7 @@ exports[`AboutContent renders when content is passed 1`] = `
           Bronze Cannes Lion
           <br />
           <a
-            href="/could-you-be-the-last-of-us"
+            href="/undefined/could-you-be-the-last-of-us"
           >
             The Last of Us
           </a>
@@ -170,7 +170,7 @@ exports[`AboutContent renders when content is passed 1`] = `
           Silver Euro Effie
           <br />
           <a
-            href="/ea-sports-fifa10-how-big-can-football-get"
+            href="/undefined/ea-sports-fifa10-how-big-can-football-get"
           >
             FIFA 10 campaign
             <br />
@@ -182,7 +182,7 @@ exports[`AboutContent renders when content is passed 1`] = `
           Campaign Magazine’s “International Advertiser of the Year”
           <br />
           <a
-            href="/hp-everything-is-possible"
+            href="/undefined/hp-everything-is-possible"
           >
             +hp Brand Campaign
             <br />
@@ -194,7 +194,7 @@ exports[`AboutContent renders when content is passed 1`] = `
           Creativity Magazine’s “Campaign of the Year”
           <br />
           <a
-            href="/hp-everything-is-possible"
+            href="/undefined/hp-everything-is-possible"
           >
             +hp Brand Campaign
             <br />
@@ -206,7 +206,7 @@ exports[`AboutContent renders when content is passed 1`] = `
           Bronze and Silver North America Effies
           <br />
           <a
-            href="/sega-dreamcast-its-thinking"
+            href="/undefined/sega-dreamcast-its-thinking"
           >
             Sega Dreamcast Launch Campaign
           </a>

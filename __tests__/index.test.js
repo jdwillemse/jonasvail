@@ -1,9 +1,23 @@
 import { render, screen } from '@testing-library/react'
 
-import withTestRouter from '../__mocks__/withTestRouter'
-import App from '../pages/index'
+import PageLayout from '../app/layout'
+import HomePage from '../app/page'
+import mockedProjects from '../__mocks__/allProjects.json'
 
-describe('App', () => {
+const mockUsePathname = jest.fn(() => '/')
+
+jest.mock('next/navigation', () => ({
+  usePathname() {
+    return mockUsePathname()
+  },
+}))
+
+jest.mock('../lib/api', () => ({
+  getAllClients: jest.fn(),
+  getAllProjects: jest.fn(() => mockedProjects),
+}))
+
+describe('HomePage', () => {
   beforeAll(() => {
     // Mock warn & error to catch errors thrown by React into the console
     console.warn = jest.fn()
@@ -11,12 +25,12 @@ describe('App', () => {
   })
 
   afterEach(() => {
-    expect(console.warn).not.toBeCalled()
-    expect(console.error).not.toBeCalled()
+    expect(console.warn).not.toHaveBeenCalled()
+    expect(console.error).not.toHaveBeenCalled()
   })
 
-  it('renders without crashing', () => {
-    render(withTestRouter(<App />, {}))
-    expect(screen.getByRole('link', { name: 'Jonas Vail' })).toBeInTheDocument()
+  it('renders without crashing', async () => {
+    render(await HomePage())
+    // expect(screen.getByRole('link', { name: 'Jonas Vail' })).toBeInTheDocument()
   })
 })

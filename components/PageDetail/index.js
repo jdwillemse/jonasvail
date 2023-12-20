@@ -4,7 +4,13 @@ import css from './styles.module.scss'
 import { asText } from '../../utils/prismic'
 import RichText from '../RichText'
 
-const PageDetail = ({ data: { title, body, client }, children }) => {
+const PageDetail = ({ content, children }) => {
+  if (typeof content.data === 'undefined') {
+    return null
+  }
+
+  const { title, body, client } = content.data
+
   return (
     <article className={css.wrap}>
       {client && <div className={css.chapeau}>{client.name}</div>}
@@ -13,10 +19,6 @@ const PageDetail = ({ data: { title, body, client }, children }) => {
       {children}
     </article>
   )
-}
-
-PageDetail.propTypes = {
-  // children: PropTypes.node.isRequired,
 }
 
 export default PageDetail
