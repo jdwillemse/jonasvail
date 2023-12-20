@@ -5,7 +5,7 @@ import data from './mockdata.json'
 
 describe('AboutContent', () => {
   it('renders when content is passed', () => {
-    const { container } = render(<AboutContent {...data} />)
+    const { container } = render(<AboutContent data={data} />)
     expect(container).toMatchSnapshot()
   })
 

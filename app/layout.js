@@ -1,5 +1,3 @@
-// TODO: remove bootstrap dependency
-import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/main.scss'
 
 import Layout from '../components/Layout'
