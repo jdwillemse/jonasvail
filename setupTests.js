@@ -5,7 +5,14 @@ process.env = {
   __NEXT_IMAGE_OPTS: {
     deviceSizes: [320, 420, 768, 1024, 1200],
     imageSizes: [],
-    domains: ['images.prismic.io'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.prismic.io',
+        port: '',
+        pathname: '/**',
+      },
+    ],
     path: '/_next/image',
     loader: 'default',
   },
