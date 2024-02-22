@@ -27,7 +27,7 @@ jobs:
           last_date_ms=`date -d "$last_date" +%s000`
           echo "https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$first_date_ms&end=$last_date_ms&expand=1"
           echo 'https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$first_date_ms&end=$last_date_ms&expand=1'
-          curl 'https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$first_date_ms&end=$last_date_ms&expand=1' > temp.json
+          curl "https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$first_date_ms&end=$last_date_ms&expand=1" > temp.json
 
       - name: Create data directory if it doesn't exist
         run: mkdir -p data
