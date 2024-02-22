@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.email "robot@github.com"
           git config user.name "${{ github.actor }}"
-          git add "data/calendar.json"
+          git add .
           git diff --quiet && git diff --staged --quiet || git commit -m "ci: update calander data file"
           git push
 
