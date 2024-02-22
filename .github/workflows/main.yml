@@ -23,8 +23,6 @@ jobs:
           first_date_ms=$(($(first_date +%s%N)/1000000))
           newDate=`date -d "$first_date" +%s000`
           echo "First date: $newDate"
-          first_date=$(date +%Y-%m-01)
-          (($(first_date +%s%N)/1000000))
           # Get the last date of this month
           last_date=$(date -d "`date +%Y%m01` +2  month -1 day" +%Y-%m-%d)
           curl 'https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$(($(first_date +%s%N)/1000000))&end=$(($(last_date +%s%N)/1000000))&expand=1' > temp.json
