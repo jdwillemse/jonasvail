@@ -192,6 +192,19 @@
     "description": "Calling all neurodivergent individuals! Are you tired of starting hobbies that you never seem to finish? Join us for an evening of guilt-free creativity where there is absolutely no pressure to complete anything. This event is designed to be a safe space where you can freely express your creativity without fear of judgment or criticism.\n\nWe will have a variety of crafting supplies available including paint, yarn, crochet needles, beads, coloring books, and air clay. However, feel free to bring your own supplies or current projects if you'd like to work on something specific."
   },
   {
+    "created": "2024-02-22T22:16:33Z",
+    "dtstamp": "2024-02-22T22:19:30Z",
+    "last-modified": "2024-02-22T22:19:30Z",
+    "sequence": 2,
+    "uid": "b3987ffd-f735-450f-a191-eb527b9c9e79",
+    "dtstart": "2024-03-03T13:30:00Z",
+    "dtend": "2024-03-03T17:00:00Z",
+    "status": "CONFIRMED",
+    "summary": "Resin 3D Printing Intro/Workshop",
+    "location": "Lobby/3Dlab",
+    "description": "The Resin 3D Printing Workshop/Intro will be for all Resin Printer since the Workflow is more or less Identical. If you bring your own device,  it would be nice if you install Prusa Slicer and UVtools in advance.\nhttps://github.com/sn4k3/UVtools/releases\n\n\nIt would be nice if you enter your Chat Nick or a +1 in this Pad to see how crowded it may get:\n\nhttps://pad.x-hain.de/p/BD35y-JfI3xGtKRDybDD"
+  },
+  {
     "created": "2024-02-13T18:21:52Z",
     "dtstamp": "2024-02-13T18:22:07Z",
     "last-modified": "2024-02-13T18:22:07Z",
