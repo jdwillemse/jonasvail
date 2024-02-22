@@ -1,0 +1,29 @@
+name: test-dates
+run-name: Test Dates
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fetch-calendar:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Test date scripts
+        run: |
+          # Last month:
+          l_first_date=$(date -d "`date +%Y%m01` -1 month" +%Y-%m-%d)
+          l_last_date=$(date -d "`date +%Y%m01` -1 day" +%Y-%m-%d)
+          
+          # This month:
+          t_first_date=$(date +%Y-%m-01)
+          t_last_date=$(date -d "`date +%Y%m01` +1 month -1 day" +%Y-%m-%d)
+          
+          # Next month:
+          n_first_date=$(date -d "`date +%Y%m01` +1 month" +%Y-%m-%d)
+          n_last_date=$(date -d "`date +%Y%m01` +2  month -1 day" +%Y-%m-%d)
+          
+          # Print everything
+          echo "Last month: $l_first_date to $l_last_date"
+          echo "This month: $t_first_date to $t_last_date"
+          echo "Next month: $n_first_date to $n_last_date"
