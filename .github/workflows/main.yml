@@ -1,29 +1,43 @@
-name: test-dates
-run-name: Test Dates
+name: update-calendar
+run-name: Update calendar
 
 on:
   workflow_dispatch:
+  schedule:
+    # Run every hour
+    - cron: "0 */1 * * *"
 
 jobs:
   fetch-calendar:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Test date scripts
+      - name: Download calendar from Nextcloud
         run: |
-          # Last month:
-          l_first_date=$(date -d "`date +%Y%m01` -1 month" +%Y-%m-%d)
-          l_last_date=$(date -d "`date +%Y%m01` -1 day" +%Y-%m-%d)
-          
-          # This month:
-          t_first_date=$(date +%Y-%m-01)
-          t_last_date=$(date -d "`date +%Y%m01` +1 month -1 day" +%Y-%m-%d)
-          
-          # Next month:
-          n_first_date=$(date -d "`date +%Y%m01` +1 month" +%Y-%m-%d)
-          n_last_date=$(date -d "`date +%Y%m01` +2  month -1 day" +%Y-%m-%d)
-          
-          # Print everything
-          echo "Last month: $l_first_date to $l_last_date"
-          echo "This month: $t_first_date to $t_last_date"
-          echo "Next month: $n_first_date to $n_last_date"
+          # Get the first date of this month
+          first_date=$(date +%Y-%m-01)
+          # Get the last date of this month
+          last_date=$(date -d "`date +%Y%m01` +2  month -1 day" +%Y-%m-%d)
+          curl 'https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$first_date&end=$last_date&expand=1' > temp.json
+
+      - name: Create data directory if it doesn't exist
+        run: mkdir -p data
+
+      - name: Convert CalDav format to useful JSON
+        uses: sergeysova/jq-action@v2
+        with:
+          cmd: 'jq ".[2][][1] | map({key:.[0], value:.[3]}) | from_entries" ./temp.json | jq -s > data/calendar.json'
+          multiline: true
+
+      - name: Commit and push changes to facts file
+        run: |
+          git config user.email "robot@github.com"
+          git config user.name "${{ github.actor }}"
+          git add "data/calendar.json"
+          git diff --quiet && git diff --staged --quiet || git commit -m "ci: update calander data file"
+          git push
+
