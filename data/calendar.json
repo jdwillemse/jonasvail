@@ -134,15 +134,15 @@
   },
   {
     "created": "2024-01-12T12:32:40Z",
-    "dtstamp": "2024-01-12T12:36:33Z",
-    "last-modified": "2024-01-12T12:36:33Z",
-    "sequence": 2,
+    "dtstamp": "2024-02-24T11:13:17Z",
+    "last-modified": "2024-02-24T11:13:17Z",
+    "sequence": 3,
     "uid": "3d1424ba-f0c0-4402-95c0-799bd15c62a1",
     "dtstart": "2024-02-25T13:00:00Z",
     "dtend": "2024-02-25T15:00:00Z",
     "status": "CONFIRMED",
-    "summary": "OpenSCAD intro workshop",
-    "description": "Introduction to the OpenSCAD modeling software. With OpenSCAD, you can create 2D and 3D models for eg lasercutting or 3D-printing. The program does not use a graphical interface, but lets you \"program\" your design. For more info, see https://openscad.org/."
+    "summary": "canceled: OpenSCAD intro workshop",
+    "description": "The presenter has no voice, so the workshop cannot go forward this time. \n\nIntroduction to the OpenSCAD modeling software. With OpenSCAD, you can create 2D and 3D models for eg lasercutting or 3D-printing. The program does not use a graphical interface, but lets you \"program\" your design. For more info, see https://openscad.org/."
   },
   {
     "created": "2024-01-16T22:03:17Z",
