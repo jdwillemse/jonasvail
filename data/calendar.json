@@ -837,12 +837,12 @@
     "recurrence-id": "2024-03-27T19:15:00Z"
   },
   {
-    "created": "2023-11-29T21:54:33Z",
-    "dtstamp": "2024-01-17T09:48:02Z",
-    "last-modified": "2024-01-17T09:48:02Z",
-    "sequence": 5,
+    "created": "2024-02-27T09:58:10Z",
+    "dtstamp": "2024-02-27T09:58:10Z",
+    "last-modified": "2024-02-27T09:58:10Z",
+    "sequence": 1,
     "uid": "cc7d642c-054f-485c-8813-b61adba27a60",
-    "dtstart": "2024-02-28T17:00:00Z",
+    "dtstart": "2024-02-28T18:30:00Z",
     "dtend": "2024-02-28T21:00:00Z",
     "status": "CONFIRMED",
     "summary": "Elixir Lounge",
