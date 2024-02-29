@@ -455,6 +455,17 @@
     "location": "Lobby"
   },
   {
+    "created": "2024-02-29T09:15:04Z",
+    "dtstamp": "2024-02-29T09:15:16Z",
+    "last-modified": "2024-02-29T09:15:16Z",
+    "sequence": 2,
+    "uid": "3b113247-980a-4880-aea5-009f50cc8dbc",
+    "dtstart": "2024-03-02T15:30:00Z",
+    "dtend": "2024-03-02T21:30:00Z",
+    "status": "CONFIRMED",
+    "summary": "Open Hackspace Day"
+  },
+  {
     "created": "2024-01-14T22:01:53Z",
     "dtstamp": "2024-02-01T14:07:49Z",
     "last-modified": "2024-02-01T14:07:49Z",
