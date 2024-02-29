@@ -456,14 +456,15 @@
   },
   {
     "created": "2024-02-29T09:15:04Z",
-    "dtstamp": "2024-02-29T09:15:16Z",
-    "last-modified": "2024-02-29T09:15:16Z",
-    "sequence": 2,
+    "dtstamp": "2024-02-29T09:20:20Z",
+    "last-modified": "2024-02-29T09:20:20Z",
+    "sequence": 3,
     "uid": "3b113247-980a-4880-aea5-009f50cc8dbc",
     "dtstart": "2024-03-02T15:30:00Z",
     "dtend": "2024-03-02T21:30:00Z",
     "status": "CONFIRMED",
-    "summary": "Open Hackspace Day"
+    "summary": "Tag Des Offenen Hackspaces",
+    "description": "\"Dieser Tag richtet sich an an alle Neugierigen und an alle, die in Technik mehr sehen als nur ein apolitisches Mittel zum Zweck und die sich mit Gleichgesinnten umgeben wollen.\"\n\nhttps://events.ccc.de/2024/02/23/tag-des-offenen-hackspace-einladung/\nhttps://md.ccc-mannheim.de/tdoh-spaces?view"
   },
   {
     "created": "2024-01-14T22:01:53Z",
