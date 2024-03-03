@@ -340,14 +340,16 @@
   },
   {
     "created": "2024-01-14T22:01:53Z",
-    "dtstamp": "2024-02-01T14:07:49Z",
-    "last-modified": "2024-02-01T14:07:49Z",
-    "sequence": 3,
+    "dtstamp": "2024-03-03T11:39:28Z",
+    "last-modified": "2024-03-03T11:39:28Z",
+    "sequence": 4,
     "uid": "3b86be46-8aef-4250-a845-5521eb3ed28d",
     "dtstart": "2024-03-19T18:00:00Z",
     "dtend": "2024-03-19T21:00:00Z",
     "status": "CONFIRMED",
-    "summary": "Gespräch unter Bäumen mit Franziska Schneider"
+    "summary": "Gespräch unter Bäumen mit Franziska Schneider",
+    "description": "Am Dienstag, 19.03.2024, kommt die Künstlerin Franziska Schneider zum Gespräch unter Bäumen. Franziska hat ursprünglich Design studiert, bis Fotos von raumfüllenden Röhrenrechnern und ein Buch über Automatentheorie sie zur Informatik gebracht haben. Heute kombiniert sie Design und Informatik, um zum Vorschein zu bringen, was Computer in ihrem Innersten umtreibt. Zu uns bringt Franziska zwei Sachen mit: einen selbstgebauten, murmelbasierten Binäraddierer (glänzende Teile, rollende Kugeln!) - und die Frage, ob wir unseren rechnenden Maschinen im Alltag mit mehr Verständnis begegnen sollten. Wir freuen uns sehr, Franziska!",
+    "location": "Lobby"
   },
   {
     "created": "2024-01-06T12:10:20Z",
