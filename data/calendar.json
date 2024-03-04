@@ -257,26 +257,42 @@
   },
   {
     "created": "2024-02-13T08:49:52Z",
-    "dtstamp": "2024-02-13T08:52:01Z",
-    "last-modified": "2024-02-13T08:52:01Z",
-    "sequence": 2,
+    "dtstamp": "2024-03-04T09:20:26Z",
+    "last-modified": "2024-03-04T09:20:26Z",
+    "sequence": 3,
     "uid": "a8f9d9b0-8a2a-4e0e-8333-1f36be12c11d",
     "dtstart": "2024-04-07T12:00:00Z",
     "dtend": "2024-04-07T15:00:00Z",
     "status": "CONFIRMED",
-    "summary": "Bengoshi&derMicha Workshop Reservierung"
+    "summary": "JugendHackt - Python II (pygames)",
+    "description": "Geeignet für Fortgeschrittene(*) zwischen 12 und 18 Jahren\n\n\nDu hast die ersten Schritte in Python bereits gemacht und Begriffe wie Integer und Strings sind keine Fremdworte mehr für dich? Mit For- und While-Schleifen kommst du bereits zurecht und Funktionen hast du schon mal benutzt? Dann lass uns zusammen pygames kennen lernen! Mit pygames kann man Spiele programmieren. Zusammen wollen wir ein kleines Weltraumspiel coden, welches zu zweit gespielt werden kann.\nBitte bring dein Notebook mit, auf dem idealerweise bereits mindestens Python 3.10, virtualenv und PyCharm installiert ist. Wenn du kein eigenes Notebook hast, sag uns bitte rechtzeitig Bescheid. Dann erhältst du von uns ein Leihgerät.\nDu bist dir unsicher, ob du fit genug für den Workshop bist? Kein Problem – der Workshops ist für junge Menschen ausgerichtet, die ungefähr auf dem Niveau des 7. Kyo nach coderdojo.red  sind. Die dortigen Aufgaben solltest du mit Ausnahme des Teils „Löten“ selber lösen können. Der Workshop knüpft zwar an den Workshop Python I an, die Teilnahme an dem ersten Workshop ist aber keine Teilnahmevoraussetzung.\n\nBitte meldet euch hier an: \nhttps://anmeldung.jugendhackt.org/berlin/pythonII/"
+  },
+  {
+    "created": "2024-03-04T07:29:11Z",
+    "description": "Organizer: gueldi (@gueldi:x-hain.de)",
+    "dtend": "2024-03-28T21:00:00Z",
+    "dtstamp": "2024-03-04T07:29:12Z",
+    "dtstart": "2024-03-28T17:00:00Z",
+    "last-modified": "2024-03-04T07:29:11Z",
+    "sequence": 0,
+    "summary": "Synthesizer Meetup",
+    "transp": "OPAQUE",
+    "uid": "B67900E8-E1F2-410B-96B3-EFBC8AA9871B",
+    "url": "",
+    "x-apple-creator-identity": "com.apple.mobilecal",
+    "x-apple-creator-team-identity": "0000000000"
   },
   {
     "created": "2024-01-06T12:07:31Z",
-    "dtstamp": "2024-01-06T12:08:55Z",
-    "last-modified": "2024-01-06T12:08:55Z",
-    "sequence": 2,
+    "dtstamp": "2024-03-04T09:22:41Z",
+    "last-modified": "2024-03-04T09:22:41Z",
+    "sequence": 4,
     "uid": "790435db-1218-4379-b19b-13878155b23a",
     "dtstart": "2024-03-23T13:00:00Z",
     "dtend": "2024-03-23T16:00:00Z",
     "status": "CONFIRMED",
-    "summary": "JugendHackt - Python II (pygames)",
-    "description": "Geeignet für Fortgeschrittene zwischen 12 und 18 Jahren\n\n\nDu hast die ersten Schritte in Python bereits gemacht und Begriffe wie Integer und Strings sind keine Fremdworte mehr für dich? Mit For- und While-Schleifen kommst du bereits zurecht und Funktionen hast du schon mal benutzt? Dann lass uns zusammen pygames kennen lernen! Mit pygames kann man Spiele programmieren. Zusammen wollen wir ein kleines Weltraumspiel coden, welches zu zweit gespielt werden kann.\nBitte bring dein Notebook mit, auf dem idealerweise bereits mindestens Python 3.10, virtualenv und PyCharm installiert ist. Wenn du kein eigenes Notebook hast, sag uns bitte rechtzeitig Bescheid. Dann erhältst du von uns ein Leihgerät.\nDu bist dir unsicher, ob du fit genug für den Workshop bist? Kein Problem – der Workshops ist für junge Menschen ausgerichtet, die ungefähr auf dem Niveau des 7. Kyo sind. Die dortigen Aufgaben solltest du mit Ausnahme des Teils „Löten“ selber lösen können.\n\nBitte meldet euch hier an: \nhttps://anmeldung.jugendhackt.org/berlin/pythonII/"
+    "summary": "VERLEGT! - JugendHackt - Python II (pygames)",
+    "description": "Der Workshop ist auf den 7. April verlegt worden. Bitte schaut in den dortigen Kalendereintrag bzw. https://jugendhackt.org/lab/berlin/"
   },
   {
     "created": "2024-01-25T18:06:04Z",
@@ -398,6 +414,21 @@
     "status": "CONFIRMED",
     "summary": "Amateurfunklehrgang - Theorie E05",
     "description": "Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funkamateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Rufzeichen ausgestattet, darf man empfangend und sendend am weltweiten Amateurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: https://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de"
+  },
+  {
+    "created": "2024-03-04T07:29:43Z",
+    "description": "Join us at #synthesizer:x-hain.de in matrix! \n\nOrganizer: gueldi (@gueldi:x-hain.de)",
+    "dtend": "2024-04-25T20:00:00Z",
+    "dtstamp": "2024-03-04T07:29:44Z",
+    "dtstart": "2024-04-25T16:00:00Z",
+    "last-modified": "2024-03-04T07:29:43Z",
+    "sequence": 0,
+    "summary": "Synthesizer Meetup",
+    "transp": "OPAQUE",
+    "uid": "FF030EA2-11A5-4A08-868A-4348E3A8E0A9",
+    "url": "",
+    "x-apple-creator-identity": "com.apple.mobilecal",
+    "x-apple-creator-team-identity": "0000000000"
   },
   {
     "dtstamp": "2023-12-08T00:35:31Z",
