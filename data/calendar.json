@@ -770,21 +770,7 @@
     "recurrence-id": "2024-04-05"
   },
   {
-    "dtstamp": "2024-01-19T15:56:01Z",
-    "uid": "6e7cef59-5c78-438f-8503-cda52a523cc9",
-    "summary": "XMPP-Meetup",
-    "dtstart": "2024-03-13T17:00:00Z",
-    "dtend": "2024-03-13T20:00:00Z",
-    "status": "CONFIRMED",
-    "related-to": "8aeb6d7c-5442-45d2-9b86-8948190eb4e6",
-    "created": "2024-01-19T15:49:39Z",
-    "last-modified": "2024-01-19T15:56:01Z",
-    "sequence": 1,
-    "description": "Monthly Meeting of XMPP Enthusiasts in Berlin\n\n* Website: https://xmpp-meetup.in-berlin.de/\n* MUC: xmpp://berlin-meetup@conference.conversations.im",
-    "recurrence-id": "2024-03-13T17:00:00Z"
-  },
-  {
-    "dtstamp": "2024-01-19T15:56:01Z",
+    "dtstamp": "2024-03-04T23:01:21Z",
     "uid": "6e7cef59-5c78-438f-8503-cda52a523cc9",
     "summary": "XMPP-Meetup",
     "dtstart": "2024-04-10T16:00:00Z",
@@ -792,8 +778,8 @@
     "status": "CONFIRMED",
     "related-to": "8aeb6d7c-5442-45d2-9b86-8948190eb4e6",
     "created": "2024-01-19T15:49:39Z",
-    "last-modified": "2024-01-19T15:56:01Z",
-    "sequence": 1,
+    "last-modified": "2024-03-04T23:01:21Z",
+    "sequence": 2,
     "description": "Monthly Meeting of XMPP Enthusiasts in Berlin\n\n* Website: https://xmpp-meetup.in-berlin.de/\n* MUC: xmpp://berlin-meetup@conference.conversations.im",
     "recurrence-id": "2024-04-10T16:00:00Z"
   },
