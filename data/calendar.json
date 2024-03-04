@@ -309,6 +309,18 @@
     "x-apple-creator-team-identity": "0000000000"
   },
   {
+    "created": "2024-03-04T19:18:44Z",
+    "dtstamp": "2024-03-04T19:18:58Z",
+    "last-modified": "2024-03-04T19:18:58Z",
+    "sequence": 2,
+    "uid": "da9bdda3-7a89-4863-b9c6-cc47eaaf683c",
+    "dtstart": "2024-03-09T12:00:00Z",
+    "dtend": "2024-03-09T18:00:00Z",
+    "status": "CONFIRMED",
+    "description": "We'll get together to fix things at xHain and get to know each other while sorting screws etc. - if you're new or want to get to know the space, this is a good time.",
+    "summary": "Infrastructure And Dinner"
+  },
+  {
     "created": "2023-04-24T09:49:29Z",
     "dtstamp": "2023-04-24T09:50:11Z",
     "last-modified": "2023-04-24T09:50:11Z",
@@ -462,22 +474,9 @@
   },
   {
     "created": "2023-05-31T18:25:02Z",
-    "dtstamp": "2023-06-10T21:12:09Z",
-    "last-modified": "2023-06-10T21:12:09Z",
-    "sequence": 3,
-    "uid": "15b97b06-067b-4bbd-8d35-6e53fb3c0915",
-    "dtstart": "2024-03-09T12:00:00Z",
-    "dtend": "2024-03-09T18:00:00Z",
-    "status": "CONFIRMED",
-    "summary": "Infrastructure+Dinner",
-    "description": "We'll get together to fix things at xHain and get to know each other while sorting screws etc. - if you're new or want to get to know the space, this is a good time.",
-    "recurrence-id": "2024-03-09T12:00:00Z"
-  },
-  {
-    "created": "2023-05-31T18:25:02Z",
-    "dtstamp": "2023-06-10T21:12:09Z",
-    "last-modified": "2023-06-10T21:12:09Z",
-    "sequence": 3,
+    "dtstamp": "2024-03-04T19:29:28Z",
+    "last-modified": "2024-03-04T19:29:28Z",
+    "sequence": 4,
     "uid": "15b97b06-067b-4bbd-8d35-6e53fb3c0915",
     "dtstart": "2024-04-13T11:00:00Z",
     "dtend": "2024-04-13T17:00:00Z",
