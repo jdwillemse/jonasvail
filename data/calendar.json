@@ -72,6 +72,18 @@
     "description": "siehe oben"
   },
   {
+    "created": "2024-03-06T10:53:03Z",
+    "dtstamp": "2024-03-06T10:53:38Z",
+    "last-modified": "2024-03-06T10:53:38Z",
+    "sequence": 2,
+    "uid": "a8c32af0-d70c-434b-8532-48da2a98027a",
+    "dtstart": "2024-03-06T17:30:00Z",
+    "dtend": "2024-03-06T19:00:00Z",
+    "status": "CONFIRMED",
+    "summary": "Godot Engine Stammtisch",
+    "description": "We are a group of people passionate about the cross-platform, Free and Open Source Godot game engine.\n\nFor more information see:\nhttps://www.meetup.com/godot-user-group-berlin/\nhttps://mastodon.gamedev.place/@GodotUserGroupBerlin\nOr ask Matteo"
+  },
+  {
     "created": "2024-02-05T22:40:05Z",
     "dtstamp": "2024-02-12T20:33:04Z",
     "last-modified": "2024-02-12T20:33:04Z",
