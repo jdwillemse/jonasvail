@@ -37,6 +37,30 @@
     "description": "We will have a small Meetup of Meshtastic and Freifunk enthusiasts to measure and build some Antennas.\n\nThere will be some NanoVNA/NanoVNA V2 and a MiniVNA Including SMA to X Adapter available."
   },
   {
+    "created": "2024-03-07T15:44:23Z",
+    "dtstamp": "2024-03-07T15:44:36Z",
+    "last-modified": "2024-03-07T15:44:36Z",
+    "sequence": 2,
+    "uid": "7254160d-1640-4ce4-b1c5-58bcd44bedc4",
+    "dtstart": "2024-04-02T18:00:00Z",
+    "dtend": "2024-04-02T21:00:00Z",
+    "status": "CONFIRMED",
+    "summary": "Neurodivergent Crafting Night",
+    "description": "Calling all neurodivergent individuals! Are you tired of starting hobbies that you never seem to finish? Join us for an evening of guilt-free creativity where there is absolutely no pressure to complete anything. This event is designed to be a safe space where you can freely express your creativity without fear of judgment or criticism.\n\nWe will have a variety of crafting supplies available including paint, yarn, crochet needles, beads, coloring books, and air clay. However, feel free to bring your own supplies or current projects if you'd like to work on something specific."
+  },
+  {
+    "created": "2024-03-07T15:45:58Z",
+    "dtstamp": "2024-03-07T15:46:13Z",
+    "last-modified": "2024-03-07T15:46:13Z",
+    "sequence": 2,
+    "uid": "ee97a0ac-48a6-4daa-87c9-485be021dafb",
+    "dtstart": "2024-04-23T18:00:00Z",
+    "dtend": "2024-04-23T21:00:00Z",
+    "status": "CONFIRMED",
+    "description": "Calling all neurodivergent individuals! Are you tired of starting hobbies that you never seem to finish? Join us for an evening of guilt-free creativity where there is absolutely no pressure to complete anything. This event is designed to be a safe space where you can freely express your creativity without fear of judgment or criticism.\n\nWe will have a variety of crafting supplies available including paint, yarn, crochet needles, beads, coloring books, and air clay. However, feel free to bring your own supplies or current projects if you'd like to work on something specific.",
+    "summary": "Neurodivergent Crafting Night"
+  },
+  {
     "created": "2024-01-06T12:03:05Z",
     "dtstamp": "2024-01-06T12:03:52Z",
     "last-modified": "2024-01-06T12:03:52Z",
@@ -134,12 +158,12 @@
   },
   {
     "created": "2024-02-12T20:30:51Z",
-    "dtstamp": "2024-02-12T20:31:28Z",
-    "last-modified": "2024-02-12T20:31:28Z",
-    "sequence": 2,
+    "dtstamp": "2024-03-07T15:54:01Z",
+    "last-modified": "2024-03-07T15:54:01Z",
+    "sequence": 3,
     "uid": "b0adfdca-4c67-462f-833d-aee565d6349e",
-    "dtstart": "2024-03-24T19:30:00Z",
-    "dtend": "2024-03-24T21:00:00Z",
+    "dtstart": "2024-03-20T19:30:00Z",
+    "dtend": "2024-03-20T21:00:00Z",
     "status": "CONFIRMED",
     "summary": "xHain Round Table",
     "location": "Lobby"
@@ -358,12 +382,12 @@
   },
   {
     "created": "2024-02-12T20:33:55Z",
-    "dtstamp": "2024-02-12T20:34:22Z",
-    "last-modified": "2024-02-12T20:34:22Z",
-    "sequence": 2,
+    "dtstamp": "2024-03-07T15:52:09Z",
+    "last-modified": "2024-03-07T15:52:09Z",
+    "sequence": 4,
     "uid": "52e62d56-8fce-4c46-9fec-bf281acb8f8b",
-    "dtstart": "2024-04-23T18:30:00Z",
-    "dtend": "2024-04-23T20:00:00Z",
+    "dtstart": "2024-04-17T18:30:00Z",
+    "dtend": "2024-04-17T20:00:00Z",
     "status": "CONFIRMED",
     "summary": "xHain Round Table",
     "location": "Lobby"
