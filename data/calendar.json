@@ -133,6 +133,17 @@
     "location": "Lobby"
   },
   {
+    "created": "2024-03-14T18:16:14Z",
+    "dtstamp": "2024-03-14T18:16:30Z",
+    "last-modified": "2024-03-14T18:16:30Z",
+    "sequence": 2,
+    "uid": "b6c064e7-cc21-4391-bebb-247d59a51221",
+    "dtstart": "2024-04-26T14:00:00Z",
+    "dtend": "2024-04-26T16:00:00Z",
+    "status": "CONFIRMED",
+    "summary": "Jugend Chillt"
+  },
+  {
     "created": "2024-02-12T20:35:48Z",
     "dtstamp": "2024-02-12T20:36:27Z",
     "last-modified": "2024-02-12T20:36:27Z",
@@ -193,6 +204,17 @@
     "description": "Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funkamateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Rufzeichen ausgestattet, darf man empfangend und sendend am weltweiten Amateurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: https://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de"
   },
   {
+    "created": "2024-03-14T18:13:56Z",
+    "dtstamp": "2024-03-14T18:14:15Z",
+    "last-modified": "2024-03-14T18:14:15Z",
+    "sequence": 2,
+    "uid": "6ff08a8c-ad74-4db5-8319-a9e322aa3af3",
+    "dtstart": "2024-03-15T15:00:00Z",
+    "dtend": "2024-03-15T17:00:00Z",
+    "status": "CONFIRMED",
+    "summary": "Jugend Chillt"
+  },
+  {
     "created": "2023-12-08T11:47:13Z",
     "dtstamp": "2024-01-06T15:51:29Z",
     "last-modified": "2024-01-06T15:51:29Z",
@@ -240,6 +262,39 @@
     "status": "CONFIRMED",
     "description": "Calling all neurodivergent individuals! Are you tired of starting hobbies that you never seem to finish? Join us for an evening of guilt-free creativity where there is absolutely no pressure to complete anything. This event is designed to be a safe space where you can freely express your creativity without fear of judgment or criticism.\n\nWe will have a variety of crafting supplies available including paint, yarn, crochet needles, beads, coloring books, and air clay. However, feel free to bring your own supplies or current projects if you'd like to work on something specific.",
     "summary": "Neurodivergent Crafting Night"
+  },
+  {
+    "created": "2024-03-14T18:14:18Z",
+    "dtstamp": "2024-03-14T18:14:37Z",
+    "last-modified": "2024-03-14T18:14:37Z",
+    "sequence": 2,
+    "uid": "f6126461-b493-4cda-966d-2b8b7b4e69e8",
+    "dtstart": "2024-03-22T03:00:00Z",
+    "dtend": "2024-03-22T04:00:00Z",
+    "status": "CONFIRMED",
+    "summary": "Jugend Chillt"
+  },
+  {
+    "created": "2024-03-14T18:15:48Z",
+    "dtstamp": "2024-03-14T18:16:10Z",
+    "last-modified": "2024-03-14T18:16:10Z",
+    "sequence": 2,
+    "uid": "7ff940c1-2859-481f-907c-f887eea79f78",
+    "dtstart": "2024-04-19T14:00:00Z",
+    "dtend": "2024-04-19T16:00:00Z",
+    "status": "CONFIRMED",
+    "summary": "Jugend Chillt"
+  },
+  {
+    "created": "2024-03-14T18:15:02Z",
+    "dtstamp": "2024-03-14T18:15:27Z",
+    "last-modified": "2024-03-14T18:15:27Z",
+    "sequence": 2,
+    "uid": "40511646-c31f-41ed-af0e-9475af483aca",
+    "dtstart": "2024-04-05T14:00:00Z",
+    "dtend": "2024-04-05T16:00:00Z",
+    "status": "CONFIRMED",
+    "summary": "Jugend Chillt"
   },
   {
     "created": "2023-12-08T11:44:28Z",
@@ -403,6 +458,17 @@
     "status": "CONFIRMED",
     "summary": "xHain Round Table",
     "location": "Lobby"
+  },
+  {
+    "created": "2024-03-14T18:15:30Z",
+    "dtstamp": "2024-03-14T18:15:46Z",
+    "last-modified": "2024-03-14T18:15:46Z",
+    "sequence": 2,
+    "uid": "75741925-9664-49c4-ad45-9476f62c318c",
+    "dtstart": "2024-04-12T02:00:00Z",
+    "dtend": "2024-04-12T04:00:00Z",
+    "status": "CONFIRMED",
+    "summary": "Jugend Chillt"
   },
   {
     "created": "2024-01-14T22:02:15Z",
