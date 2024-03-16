@@ -96,18 +96,6 @@
     "summary": "Amateurfunklehrgang - Praxis"
   },
   {
-    "created": "2023-12-08T11:48:20Z",
-    "dtstamp": "2023-12-08T11:48:37Z",
-    "last-modified": "2023-12-08T11:48:37Z",
-    "sequence": 2,
-    "uid": "1aa05d5d-9e9f-4ff4-b524-c35ecee278cc",
-    "dtstart": "2024-04-20T11:00:00Z",
-    "dtend": "2024-04-20T14:00:00Z",
-    "status": "CONFIRMED",
-    "summary": "Amateurfunklehrgang - Praxis",
-    "description": "siehe oben"
-  },
-  {
     "created": "2024-03-06T10:53:03Z",
     "dtstamp": "2024-03-06T10:53:38Z",
     "last-modified": "2024-03-06T10:53:38Z",
@@ -190,18 +178,6 @@
     "status": "CONFIRMED",
     "summary": "xHain Round Table",
     "location": "Lobby"
-  },
-  {
-    "created": "2023-12-08T11:47:58Z",
-    "dtstamp": "2024-01-06T15:51:38Z",
-    "last-modified": "2024-01-06T15:51:38Z",
-    "sequence": 3,
-    "uid": "73b2c73f-bcd2-4f58-99c9-84d55865fe53",
-    "dtstart": "2024-04-20T08:00:00Z",
-    "dtend": "2024-04-20T10:30:00Z",
-    "status": "CONFIRMED",
-    "summary": "Amateurfunklehrgang - Theorie E07",
-    "description": "Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funkamateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Rufzeichen ausgestattet, darf man empfangend und sendend am weltweiten Amateurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: https://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de"
   },
   {
     "created": "2024-03-14T18:13:56Z",
@@ -337,14 +313,14 @@
   },
   {
     "created": "2023-12-08T11:48:51Z",
-    "dtstamp": "2024-01-06T15:51:46Z",
-    "last-modified": "2024-01-06T15:51:46Z",
-    "sequence": 3,
+    "dtstamp": "2024-03-16T07:59:27Z",
+    "last-modified": "2024-03-16T07:59:27Z",
+    "sequence": 4,
     "uid": "45ee4c4b-de67-4bda-8cf8-6abc94613da3",
     "dtstart": "2024-04-27T08:00:00Z",
     "dtend": "2024-04-27T10:30:00Z",
     "status": "CONFIRMED",
-    "summary": "Amateurfunklehrgang - Theorie E08",
+    "summary": "Amateurfunklehrgang - Theorie E07",
     "description": "Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funkamateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Rufzeichen ausgestattet, darf man empfangend und sendend am weltweiten Amateurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: https://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de"
   },
   {
