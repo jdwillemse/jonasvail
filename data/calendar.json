@@ -121,6 +121,18 @@
     "location": "Lobby"
   },
   {
+    "created": "2024-03-20T20:54:32Z",
+    "dtstamp": "2024-03-20T21:08:32Z",
+    "last-modified": "2024-03-20T21:08:32Z",
+    "sequence": 3,
+    "uid": "97c4a74c-98cb-4b37-944d-19d9795ef3a2",
+    "dtstart": "2024-04-05T16:00:00Z",
+    "dtend": "2024-04-05T18:00:00Z",
+    "status": "CONFIRMED",
+    "summary": "Meshtastic Meetup",
+    "description": "Meshtastic is a Open Source medium range mesh network each node has about 2-5km range.Last known Berlin has about 100 more or less active Nodes in the 868 MHz band.\n\nThere are a few VNAs around to measure Antennas,  Bandpass filter etc and Elektra wants to have a small Antenna build workshop.\n\nLast time we were 10-12 or so Pople\n"
+  },
+  {
     "created": "2024-03-14T18:16:14Z",
     "dtstamp": "2024-03-14T18:16:30Z",
     "last-modified": "2024-03-14T18:16:30Z",
