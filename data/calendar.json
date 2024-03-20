@@ -483,6 +483,19 @@
     "location": "Lobby"
   },
   {
+    "created": "2024-03-20T22:05:56Z",
+    "dtstamp": "2024-03-20T22:13:47Z",
+    "last-modified": "2024-03-20T22:13:47Z",
+    "sequence": 2,
+    "uid": "d3d8d3f6-73a3-4c1b-b6bf-bfb57e8afebb",
+    "dtstart": "2024-03-30T11:00:00Z",
+    "dtend": "2024-03-30T15:45:00Z",
+    "status": "CONFIRMED",
+    "summary": "Infrastructure & Nussecken",
+    "location": "Lobby",
+    "description": "This month we are having an additional Infrastructure Saturday to clean the windows, add two shelves and arrange our exhibits. There will be coffee and cookies.\n\nContact: @olli:x-hain.de & @richard:x-hain.de"
+  },
+  {
     "created": "2024-01-06T12:10:20Z",
     "dtstamp": "2024-01-06T12:10:53Z",
     "last-modified": "2024-01-06T12:10:53Z",
