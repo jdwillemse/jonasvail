@@ -192,6 +192,19 @@
     "location": "Lobby"
   },
   {
+    "created": "2024-03-21T09:06:07Z",
+    "dtstamp": "2024-03-21T09:09:24Z",
+    "last-modified": "2024-03-21T09:09:24Z",
+    "sequence": 2,
+    "uid": "7de5ca36-a73e-49c0-8827-81e2a831ded8",
+    "dtstart": "2024-03-27T15:30:00Z",
+    "dtend": "2024-03-27T17:00:00Z",
+    "status": "CONFIRMED",
+    "summary": "x-hain Soldering Kit Workgroup",
+    "location": "x-hain lobby",
+    "description": "we plan to design our own workshop soldering kit, this meeting is about collecting ideas and discuss how to proceed. \n\nContact: @dermicha:matrix.cyber4edu.org"
+  },
+  {
     "created": "2024-03-14T18:13:56Z",
     "dtstamp": "2024-03-14T18:14:15Z",
     "last-modified": "2024-03-14T18:14:15Z",
