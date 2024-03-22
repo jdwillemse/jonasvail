@@ -630,6 +630,18 @@
     "x-apple-creator-team-identity": "0000000000"
   },
   {
+    "created": "2024-03-22T09:37:39Z",
+    "dtstamp": "2024-03-22T09:38:03Z",
+    "last-modified": "2024-03-22T09:38:03Z",
+    "sequence": 2,
+    "uid": "b4ef361b-8de4-4dfe-a646-93c6bdfe01f7",
+    "dtstart": "2024-04-02T08:00:00Z",
+    "dtend": "2024-04-02T17:00:00Z",
+    "status": "CONFIRMED",
+    "description": "Join us on our co-working day, where we get together to share skills, knowledge, and get shit done!\n\nQueering Code is a regular meetup that gives queer and marginalised folks who interact with code the opportunity to connect, share skills and knowledge, learn and build things together. \n\nOn our co-working day, we’ll be free to either work on our own or together, to guide or be guided. We will give just enough structure to make it clear who could help out whom 💞\n\nWe are an inclusive group, open to everyone who participates in or supports our community. Feel free to bring friends along who might be interested. We have a suggested donation of 2-5€ to support xHain.\n\nSee you at the next event!\n\nxHain - coordinator: @nicl:x-hain.de",
+    "summary": "Queering Code Co-Working"
+  },
+  {
     "dtstamp": "2023-12-08T00:35:31Z",
     "uid": "93e4d352-d46c-4802-ba39-3070d3f3c21b",
     "summary": "Spieleabend - Game Night",
