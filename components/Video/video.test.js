@@ -5,7 +5,7 @@ import Video from './'
 const data = {
   embed_url: 'https://vimeo.com/470656424',
   height: 240,
-  html: '<iframe src="https://player.vimeo.com/video/470656424?app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>',
+  html: '<iframe src="https://player.vimeo.com/video/470656424?app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen"></iframe>',
   provider_name: 'Vimeo',
   provider_url: 'https://vimeo.com/',
   type: 'video',

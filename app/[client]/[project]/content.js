@@ -5,7 +5,7 @@ import PageDetail from '../../../components/PageDetail'
 import Slices from '../../../components/Slices'
 import Modal from '../../../components/Modal'
 import { useState } from 'react'
-import isEmpty from 'lodash.isempty'
+import isEmpty from 'lodash/isEmpty'
 
 export default function ProjectPage({ project }) {
   const [image, setImage] = useState(null)

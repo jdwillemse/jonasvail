@@ -1,7 +1,7 @@
 import React, { useCallback, useContext } from 'react'
 import classnames from 'classnames'
 import Image from 'next/legacy/image'
-import _ from 'lodash'
+import isEmpty from 'lodash/isEmpty'
 
 import css from './styles.module.scss'
 import RichText from '../RichText'
@@ -21,7 +21,7 @@ const MediaRow = ({ primary, items = [] }) => {
 
   for (let i = 0; i < items.length; i++) {
     const { image, video } = items[i]
-    if (!_.isEmpty(image) || !_.isEmpty(video)) {
+    if (!isEmpty(image) || !isEmpty(video)) {
       mediaBlocks.push(
         <div
           className={
@@ -31,13 +31,13 @@ const MediaRow = ({ primary, items = [] }) => {
           }
           key={video?.uri || image.url}
         >
-          {!_.isEmpty(video) && (
+          {!isEmpty(video) && (
             <div className={css.mediaWrap}>
               <Video {...video} />
             </div>
           )}
           {/* if there is both video and image only show video */}
-          {!_.isEmpty(image) && _.isEmpty(video) && (
+          {!isEmpty(image) && isEmpty(video) && (
             <button
               className={classnames(css.button, css.mediaWrap)}
               onClick={handleClick}
