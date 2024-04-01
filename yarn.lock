@@ -1616,15 +1616,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prismicio/react@npm:^2.7.3":
-  version: 2.7.3
-  resolution: "@prismicio/react@npm:2.7.3"
+"@prismicio/react@npm:^2.7.4":
+  version: 2.7.4
+  resolution: "@prismicio/react@npm:2.7.4"
   dependencies:
     "@prismicio/richtext": "npm:^2.1.5"
   peerDependencies:
     "@prismicio/client": ^6 || ^7
     react: ^18
-  checksum: 10/0df26301c5b464cb2d192c79d7918742b512e2794f3a603d3952174a3d616f40f4632e8e0b3edd80537c3f4f0992a8acc7cdd255b96325273dccc15b5c79652f
+  checksum: 10/ecac298b343d0ac56d16df021e246812c708acf82eeaa6f7db5d0c8a4f250d3da0d33914bb2a0a4ae102b485c9892cc20fdd10ee2dbe7ec91c9a46bea2b8b6c8
   languageName: node
   linkType: hard
 
@@ -5295,7 +5295,7 @@ __metadata:
     "@fullhuman/postcss-purgecss": "npm:^5.0.0"
     "@next/bundle-analyzer": "npm:^14.1.4"
     "@prismicio/client": "npm:^7.3.1"
-    "@prismicio/react": "npm:^2.7.3"
+    "@prismicio/react": "npm:^2.7.4"
     "@testing-library/dom": "npm:^9.3.4"
     "@testing-library/jest-dom": "npm:^6.4.2"
     "@testing-library/react": "npm:^14.2.2"
