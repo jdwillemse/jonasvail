@@ -13,7 +13,7 @@
     "prettier": "prettier --check --cache \"**/*.{js,jsx,md,mdx,ts,tsx,mjs,json,css,scss}\""
   },
   "dependencies": {
-    "@prismicio/client": "^7.3.1",
+    "@prismicio/client": "^7.4.1",
     "@prismicio/react": "^2.7.3",
     "bootstrap": "^5.3.3",
     "classnames": "^2.5.1",

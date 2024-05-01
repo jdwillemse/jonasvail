@@ -1607,12 +1607,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prismicio/client@npm:^7.3.1":
-  version: 7.3.1
-  resolution: "@prismicio/client@npm:7.3.1"
+"@prismicio/client@npm:^7.4.1":
+  version: 7.4.1
+  resolution: "@prismicio/client@npm:7.4.1"
   dependencies:
     imgix-url-builder: "npm:^0.0.4"
-  checksum: 10/074b466797b51b6d6e86047d04879dd1ccc21f210fb2f9ba20a48a8deea9a40a6bb651ba4b1d10c354f3e3fba7ea8ac2072f0da7408bbed4f7b6c277f11e9826
+  checksum: 10/59479534de104ad1512165120ee084e134266f5114242dd09b1c00df6d35d768e66a56c600eed698ad9a13bf9b7ce25a335d6bd45e67c33c44c1a919804d24de
   languageName: node
   linkType: hard
 
@@ -5294,7 +5294,7 @@ __metadata:
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:^5.0.0"
     "@next/bundle-analyzer": "npm:^14.1.4"
-    "@prismicio/client": "npm:^7.3.1"
+    "@prismicio/client": "npm:^7.4.1"
     "@prismicio/react": "npm:^2.7.3"
     "@testing-library/dom": "npm:^9.3.4"
     "@testing-library/jest-dom": "npm:^6.4.2"
