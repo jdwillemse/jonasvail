@@ -4,16 +4,14 @@ import getYouTubeID from 'get-youtube-id'
 import Video from './'
 
 const data = {
-  "url": "https://www.youtube.com/watch?v=JYs2cC5mt5M"
+  url: 'https://www.youtube.com/watch?v=JYs2cC5mt5M',
 }
 
 describe('Video', () => {
   it('renders when content passed', () => {
     const { container } = render(<Video {...data} />)
     const id = getYouTubeID(data.url)
-    expect(container.querySelector('iframe').src.includes(id)).toBe(
-      true
-    )
+    expect(container.querySelector('iframe').src.includes(id)).toBe(true)
   })
 
   it('renders when content not passed', () => {

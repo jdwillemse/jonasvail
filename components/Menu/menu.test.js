@@ -3,7 +3,6 @@ import { render } from '@testing-library/react'
 import Menu from './'
 import mockData from '../../__mocks__/clients.json'
 
-
 const mockedGetAllClients = jest.fn()
 const mockUsePathname = jest.fn(() => '/')
 

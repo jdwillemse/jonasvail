@@ -10,7 +10,8 @@
     "test:watch": "jest --watch",
     "test": "jest --coverage",
     "lint": "next lint",
-    "prettier": "prettier --check --cache \"**/*.{js,jsx,md,mdx,ts,tsx,mjs,json,css,scss}\""
+    "prettier": "prettier --check --cache \"**/*.{js,jsx,md,mdx,ts,tsx,mjs,json,css,scss}\"",
+    "prettier:fix": "npx prettier --write \"**/*.{js,jsx,md,mdx,ts,tsx,mjs,json,css,scss}\""
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
