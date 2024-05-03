@@ -2,10 +2,10 @@
 
 import { ModalContext } from '../../../context/ModalProvider'
 import PageDetail from '../../../components/PageDetail'
-import Slices from '../../../components/Slices'
 import Modal from '../../../components/Modal'
 import { useState } from 'react'
-import isEmpty from 'lodash/isEmpty'
+import isEmpty from 'lodash.isempty'
+import MediaBlock from '../../../components/MediaBlock'
 
 export default function ProjectPage({ project }) {
   const [image, setImage] = useState(null)
@@ -19,7 +19,7 @@ export default function ProjectPage({ project }) {
     <ModalContext.Provider value={{ image, setImage }}>
       <Modal />
       <PageDetail content={project}>
-        <Slices project={project} />
+        <MediaBlock {...project} />
       </PageDetail>
     </ModalContext.Provider>
   )

@@ -1,17 +1,28 @@
 import React from 'react'
 
 import css from './styles.module.scss'
-import RichText from '../RichText'
+import AwardItem from './AwardItem'
+import ExperienceItem from './ExperienceItem'
 
-const AboutContent = ({ data } = {}) => {
-  const { experience, awards } = data || {}
+const AboutContent = ({
+  experienceTitle,
+  experienceList,
+  accoladesTitle,
+  accoladesList,
+} = {}) => {
   return (
     <div className="row">
       <div className="col-sm-12 col-md-6">
-        <RichText content={experience} className={css.content} />
+        <h3 className={css.title}>{experienceTitle}</h3>
+        {experienceList.items.map((item) => (
+          <ExperienceItem {...item} key={item.sys.id} />
+        ))}
       </div>
       <div className="col-sm-12 col-md-6">
-        <RichText content={awards} className={css.content} />
+        <h3 className={css.title}>{accoladesTitle}</h3>
+        {accoladesList.items.map((item) => (
+          <AwardItem {...item} key={item.sys.id} />
+        ))}
       </div>
     </div>
   )

@@ -20,7 +20,7 @@ const ProjectList = ({ projects = [] }) => {
       data-test-id="masonry-wrap"
     >
       {projects.map((project) => (
-        <ProjectItem {...project} key={project.id} />
+        <ProjectItem {...project} key={project.sys.id} />
       ))}
     </Masonry>
   )

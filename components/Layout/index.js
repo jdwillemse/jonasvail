@@ -14,19 +14,17 @@ const Layout = async ({ children, preview }) => {
     <div className="container-fluid">
       <Notification preview={preview} />
       <Head settings={settings} />
-      <div className="row">
-        <div className="col-sm-3 col-lg-2">
-          <Sidebar>
-            <Header {...settings} />
-            <Menu />
-          </Sidebar>
-        </div>
-        <div className="col-sm-9 col-lg-10">
-          <main>
-            <section className={css.wrap}>{children}</section>
-          </main>
-        </div>
+
+      <div className="sidebar">
+        <Sidebar>
+          <Header {...settings} />
+          <Menu />
+        </Sidebar>
       </div>
+      <main className="content">
+        <section className={css.wrap}>{children}</section>
+      </main>
+
       <Analytics />
     </div>
   )

@@ -7,14 +7,14 @@ import linkResolver from '../../utils/linkResolver'
 
 // component
 // ========================================================================
-const ClientItem = ({ data, isActive, ..._meta }) => {
+const ClientItem = ({ name, uid, isActive }) => {
   return (
     <Link
-      href={linkResolver(_meta)}
-      key={_meta.id}
+      href={linkResolver({ uid, type: 'client' })}
+      key={uid}
       className={classNames(css.link, { [css.active]: isActive })}
     >
-      <span className={css.linkInner}>{data.name}</span>
+      <span className={css.linkInner}>{name}</span>
     </Link>
   )
 }

@@ -2,7 +2,9 @@
 
 .wrap {
   position: relative;
-  padding-bottom: 56.25%;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 2rem;
 
   * {
     position: absolute;

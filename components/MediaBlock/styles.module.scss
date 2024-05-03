@@ -1,0 +1,39 @@
+@import '../../styles/vars.scss';
+
+.wrap {
+  // margin-bottom: 2rem;
+}
+
+.copy {
+  margin-bottom: 2rem;
+  max-width: var(--max-copy-width);
+}
+
+.row {
+  align-items: flex-end;
+}
+
+.col {
+  min-width: 1px;
+}
+
+.gallery {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.imageWrap {
+  margin-bottom: 2rem;
+}
+
+.button {
+  // width: 100%;
+  // max-width: 100%;
+  padding: 0;
+  border: none;
+  appearance: none;
+
+  & > * {
+    pointer-events: none;
+  }
+}
