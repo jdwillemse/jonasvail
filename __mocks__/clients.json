@@ -1,0 +1,79 @@
+[
+  {
+    "sys": {
+      "id": "3wWSkBXhytWDd8FJ4aCtdR"
+    },
+    "name": "Twitch",
+    "uid": "twitch"
+  },
+  {
+    "sys": {
+      "id": "5Az9s63TDsS5Xc6Nco9p1Q"
+    },
+    "name": "adidas",
+    "uid": "adidas"
+  },
+  {
+    "sys": {
+      "id": "7lxbas4vu5iUik9lgCZUEw"
+    },
+    "name": "PlayStation",
+    "uid": "playstation"
+  },
+  {
+    "sys": {
+      "id": "6fm5t7kT1KUhlczkJTsZTm"
+    },
+    "name": "Al Jazeera",
+    "uid": "al-jazeera"
+  },
+  {
+    "sys": {
+      "id": "2MDaR5Vd7cljB7Cdh9ZJxp"
+    },
+    "name": "HP",
+    "uid": "hp"
+  },
+  {
+    "sys": {
+      "id": "74Iv4bsYrV1yhROd1MiHAr"
+    },
+    "name": "Ketel One Vodka",
+    "uid": "ketel-one"
+  },
+  {
+    "sys": {
+      "id": "2nC5yKBJ2nKWeQrxvEX4al"
+    },
+    "name": "Lilly",
+    "uid": "lilly"
+  },
+  {
+    "sys": {
+      "id": "SlB5pRIQnLQWpxVGQZ8lq"
+    },
+    "name": "EA SPORTS",
+    "uid": "ea-sports"
+  },
+  {
+    "sys": {
+      "id": "7qdcpd0aN40mTabXFVPsdS"
+    },
+    "name": "Dr. Martens",
+    "uid": "dr-martens"
+  },
+  {
+    "sys": {
+      "id": "3SPzoBbwT8jwMEGwQwQiwg"
+    },
+    "name": "Sega",
+    "uid": "sega"
+  },
+  {
+    "sys": {
+      "id": "7ENR7lGe6iOVUv7aRI40ax"
+    },
+    "name": "MTV",
+    "uid": "mtv"
+  }
+]

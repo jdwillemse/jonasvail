@@ -21,9 +21,8 @@ const Video = ({ url }) => {
       {load && (
         <iframe
           src={`https://www.youtube-nocookie.com/embed/${getYouTubeID(url)}`}
-          frameborder="0"
           allow="autoplay; encrypted-media"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       )}
     </div>

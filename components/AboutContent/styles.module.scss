@@ -1,8 +1,21 @@
 @import '../../styles/vars.scss';
 
 .wrap {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.col {
+  grid-column: 1 / span 12;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .link {
@@ -42,4 +55,13 @@
 
 .experienceDescription {
   margin-top: 0.5rem;
+}
+
+@media (min-width: 576px) {
+  .col {
+    grid-column: 1 / span 6;
+  }
+  .col:last-child {
+    grid-column: 7 / span 6;
+  }
 }

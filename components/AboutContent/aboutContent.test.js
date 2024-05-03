@@ -1,7 +1,8 @@
 import { render } from '@testing-library/react'
 
 import AboutContent from '.'
-import data from './mockdata.json'
+import data from '../../__mocks__/about.json'
+
 
 describe('AboutContent', () => {
   it('renders when content is passed', () => {
@@ -11,6 +12,6 @@ describe('AboutContent', () => {
 
   it('renders when content is not passed', () => {
     const { container } = render(<AboutContent />)
-    expect(container.querySelector('.col-sm-12').childNodes.length).toBe(0)
+    expect(container.querySelector('ul')).toBeNull()
   })
 })

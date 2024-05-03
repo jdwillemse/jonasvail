@@ -1,5 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`ProjectList filters the list based on the route: playstation 1`] = `"Twitch"`;
+
+exports[`ProjectList filters the list based on the route: playstation 2`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 3`] = `"Al Jazeera"`;
+
+exports[`ProjectList filters the list based on the route: playstation 4`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 5`] = `"HP"`;
+
+exports[`ProjectList filters the list based on the route: playstation 6`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 7`] = `"Ketel One Vodka"`;
+
+exports[`ProjectList filters the list based on the route: playstation 8`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 9`] = `"Dr. Martens"`;
+
+exports[`ProjectList filters the list based on the route: playstation 10`] = `"HP"`;
+
+exports[`ProjectList filters the list based on the route: playstation 11`] = `"adidas"`;
+
+exports[`ProjectList filters the list based on the route: playstation 12`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 13`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 14`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 15`] = `"HP"`;
+
+exports[`ProjectList filters the list based on the route: playstation 16`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 17`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 18`] = `"EA SPORTS"`;
+
+exports[`ProjectList filters the list based on the route: playstation 19`] = `"HP"`;
+
+exports[`ProjectList filters the list based on the route: playstation 20`] = `"Sega"`;
+
+exports[`ProjectList filters the list based on the route: playstation 21`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 22`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 23`] = `"Lilly"`;
+
+exports[`ProjectList filters the list based on the route: playstation 24`] = `"HP"`;
+
+exports[`ProjectList filters the list based on the route: playstation 25`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 26`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 27`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 28`] = `"EA SPORTS"`;
+
+exports[`ProjectList filters the list based on the route: playstation 29`] = `"HP"`;
+
+exports[`ProjectList filters the list based on the route: playstation 30`] = `"MTV"`;
+
 exports[`ProjectList renders a list of projects 1`] = `
 <div>
   <div
@@ -15,32 +75,21 @@ exports[`ProjectList renders a list of projects 1`] = `
       >
         <a
           class="link"
-          href="/twitch/twitch-creators-campaign"
+          href="/twitch/creators-campaign"
         >
           <div
             class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 56.25% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/c95286cf-7de8-44c0-90f0-9122f77fe5db_Twitch+logo.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
+          />
           <h1
             class="title"
           >
             Twitch Creators Campaign
           </h1>
+          <div
+            class="client"
+          >
+            Twitch
+          </div>
         </a>
       </article>
       <article
@@ -48,32 +97,21 @@ exports[`ProjectList renders a list of projects 1`] = `
       >
         <a
           class="link"
-          href="/playstation/psfc-welcome-the-worlds-biggest-club"
+          href="/playstation/detroit-how-far-would-you-go-to-be-free"
         >
           <div
             class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 77.50533049040513% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/cc888635-20f3-427a-9f40-61e858f66f3b_Screen+Shot+2020-04-10+at+18.06.21.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
+          />
           <h1
             class="title"
           >
-            Welcome to the World's Biggest Club
+            How far would you go to be free?
           </h1>
+          <div
+            class="client"
+          >
+            PlayStation
+          </div>
         </a>
       </article>
       <article
@@ -81,433 +119,21 @@ exports[`ProjectList renders a list of projects 1`] = `
       >
         <a
           class="link"
-          href="/hp/hp-ellie-goulding-burn"
+          href="/al-jazeera/demandpressfreedom"
         >
           <div
             class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 66.66666666666666% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/a322934c-f601-4e9d-95c1-586f2b6d1356_HP_ELLIE_GOULDING_CASE_STUDY_091015trimmed.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
+          />
           <h1
             class="title"
           >
-            Ellie Goulding
+            #DemandPressFreedom
           </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/hp/hp-everything-is-possible"
-        >
           <div
-            class="imageWrap"
+            class="client"
           >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 129.8828125% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/ff16671a-04f4-4846-9ec7-679d00a04aa8_thumb.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
+            Al Jazeera
           </div>
-          <h1
-            class="title"
-          >
-            Everything is Possible
-          </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/playstation/ps-vita-the-world-is-in-play"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 56.25% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/99b21ec8-1cb8-4b0a-8fc6-b5a8a16df9ee_The_World_Is_In_Play_70sec_Directors_Flame_Temp_Grade_PS_logo_H264-1.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            The World is in Play
-          </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/playstation/psvr-launch-live-the-game"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 56.191222570532915% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/70b0ebba-db91-4fad-9ced-1d5d9179c4d6_Screen+Shot+2017-10-26+at+11.40.08+AM.png?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            Live the Game
-          </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/playstation/driveclub-drive-together-win-together"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 77.21712538226299% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/101742ef-b583-46f5-a795-baa9db4bb9ba_PS_driveclub30-GENERIC_WIP_2014_09_23.jpeg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            Drive Together, Win Together
-          </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/playstation/ps4-launch-this-is-for-the-players"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 71.42857142857143% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/6e6dd2ba-9a0a-4bcb-a7f6-65beb04725c8_thumb5.jpeg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            This is for the Players
-          </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/ea-sports/ea-sports-fifa10-how-big-can-football-get"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 129.87012987012986% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/1ad49d20-b09a-4ac8-ad7c-2452fdfe7cc7_Wayne+thumb.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            How Big Can Football Get? 
-          </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/sega/sega-dreamcast-its-thinking"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 56.25% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/b65d63c5-5b52-46e4-98b9-9f56a9e153dc_dreamcast+Its+Thinking+ads+%28Clean%292.jpeg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            It’s Thinking
-          </h1>
-        </a>
-      </article>
-    </div>
-    <div
-      class="masonryColumn"
-      style="width: 33.333333333333336%;"
-    >
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/adidas/adidas-futurecraft-loop"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 70.71428571428572% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/070c2ce5-ca64-4565-bc5e-1ef307689489_551468.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            [FUTURECRAFT] Loop
-          </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/hp/hp-omen-challenge"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 66.66666666666666% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/93ab3bec-6545-4ac1-9cb3-439e066ebd3b_omen1thumb.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            The HP Omen Challenge
-          </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/hp/youhp"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 133.44370860927154% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/695f8c29-c383-4377-baa6-a6db5821360a_Camera.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            You+hp
-          </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/playstation/ps4-this-could-be-you"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 56.25% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/2dc740e4-ee89-492a-be4a-9c10b727f1d2_This+could+be+you+Fortnite+skydiver.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            This Could Be You
-          </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/playstation/could-you-be-the-last-of-us"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 140.05847953216374% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/3ad29c2d-694c-4835-84ea-f043b73532c7_Last+of+Us+thumb2.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            Could you be the Last of Us?
-          </h1>
         </a>
       </article>
       <article
@@ -519,28 +145,17 @@ exports[`ProjectList renders a list of projects 1`] = `
         >
           <div
             class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 71.36243386243386% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/ea3fbfdd-6f39-4280-acdf-2b5efa53aae2_thumb-1a.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
+          />
           <h1
             class="title"
           >
             Earth is Ours No More
           </h1>
+          <div
+            class="client"
+          >
+            PlayStation
+          </div>
         </a>
       </article>
       <article
@@ -548,32 +163,43 @@ exports[`ProjectList renders a list of projects 1`] = `
       >
         <a
           class="link"
-          href="/playstation/wonderful-life-of-a-ps4-player"
+          href="/hp/hp-ellie-goulding-burn"
         >
           <div
             class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 76.90417690417691% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/7d388b48-d62c-4938-8c1f-814b283b157d_PS4_60sec_International_Master_11-02-1080p_HD_MPEG_4.jpeg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
+          />
           <h1
             class="title"
           >
-            The Wonderful Life of a PS4 Player
+            Ellie Goulding
           </h1>
+          <div
+            class="client"
+          >
+            HP
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/playstation/driveclub-drive-together-win-together"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            Drive Together, Win Together
+          </h1>
+          <div
+            class="client"
+          >
+            PlayStation
+          </div>
         </a>
       </article>
       <article
@@ -585,28 +211,17 @@ exports[`ProjectList renders a list of projects 1`] = `
         >
           <div
             class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 66.66666666666666% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/89d915b9-0637-4b78-bd3e-e19dd2c4dfdd_K1_GIFiti_PRESS-031_600.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
+          />
           <h1
             class="title"
           >
             Do One Thing Well 
           </h1>
+          <div
+            class="client"
+          >
+            Ketel One Vodka
+          </div>
         </a>
       </article>
       <article
@@ -614,32 +229,21 @@ exports[`ProjectList renders a list of projects 1`] = `
       >
         <a
           class="link"
-          href="/ea-sports/ea-sports-fifa-street-3"
+          href="/playstation/ps-vita-the-world-is-in-play"
         >
           <div
             class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/1549b414-9692-41ae-a136-48b9e0317397_FIFA+STREET+3.jpeg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
+          />
           <h1
             class="title"
           >
-            FIFA Street 3
+            The World is in Play
           </h1>
+          <div
+            class="client"
+          >
+            PlayStation
+          </div>
         </a>
       </article>
       <article
@@ -647,32 +251,43 @@ exports[`ProjectList renders a list of projects 1`] = `
       >
         <a
           class="link"
-          href="/al-jazeera/al-jazeera-demandpressfreedom"
+          href="/dr-martens/freedm"
         >
           <div
             class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 116.68667466986795% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/85992254-0095-4d9c-a1ff-662477acbb37_Screen+Shot+2017-10-26+at+11.01.24+AM2.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
+          />
           <h1
             class="title"
           >
-            #DemandPressFreedom
+            FREEDM
           </h1>
+          <div
+            class="client"
+          >
+            Dr. Martens
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/hp/hp-everything-is-possible"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            Everything is Possible
+          </h1>
+          <div
+            class="client"
+          >
+            HP
+          </div>
         </a>
       </article>
     </div>
@@ -685,164 +300,21 @@ exports[`ProjectList renders a list of projects 1`] = `
       >
         <a
           class="link"
-          href="/playstation/detroit-how-far-would-you-go-to-be-free"
+          href="/adidas/futurecraft-loop"
         >
           <div
             class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 56.25% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/7f0c56d9-2181-4098-b505-73a28d836144_detroit-become-human.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
+          />
           <h1
             class="title"
           >
-            How far would you go to be free?
+            [FUTURECRAFT] Loop
           </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/hp/hp-epicmehp"
-        >
           <div
-            class="imageWrap"
+            class="client"
           >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100.59760956175299% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/ca60d584-4c27-432f-b5d6-8c35c023728c_Screen+Shot+2017-06-10+at+3.55.17+PM.png?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
+            adidas
           </div>
-          <h1
-            class="title"
-          >
-            #EpicMeHP
-          </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/hp/apple-ipod-from-hp"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 76.31160572337043% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/7bd29af8-6958-4f1e-90ec-349f29f67f86_HP_iPod_Mashup-1.jpeg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            You Let Musical Worlds Collide
-          </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/playstation/playlink-all-in-play-on"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 66.87179487179488% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/d52ea317-fd18-4860-8f1a-18a5483c002b_Screen+Shot+2017-10-26+at+11.29.05+AM.png?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            All in. Play on.
-          </h1>
-        </a>
-      </article>
-      <article
-        class="wrap"
-      >
-        <a
-          class="link"
-          href="/playstation/playstation-all-stars-battle-royale"
-        >
-          <div
-            class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/0caf5f83-b588-4c95-84a0-dab07a814d04_thumb2.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
-          <h1
-            class="title"
-          >
-            The Best of the Best of the Best
-          </h1>
         </a>
       </article>
       <article
@@ -854,28 +326,83 @@ exports[`ProjectList renders a list of projects 1`] = `
         >
           <div
             class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/78bf9234-89d0-4bd0-86e4-997e0816fc53_SIEE_GT_SPORT_WTWCTR_2017_MCLAREN_VSN_30_w4KTAG+%281%29.jpeg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
+          />
           <h1
             class="title"
           >
             Where the World Comes to Race
           </h1>
+          <div
+            class="client"
+          >
+            PlayStation
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/playstation/psvr-launch-live-the-game"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            Live the Game
+          </h1>
+          <div
+            class="client"
+          >
+            PlayStation
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/playstation/wonderful-life-of-a-ps4-player"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            The Wonderful Life of a PS4 Player
+          </h1>
+          <div
+            class="client"
+          >
+            PlayStation
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/hp/hp-omen-challenge"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            The HP Omen Challenge
+          </h1>
+          <div
+            class="client"
+          >
+            HP
+          </div>
         </a>
       </article>
       <article
@@ -887,28 +414,17 @@ exports[`ProjectList renders a list of projects 1`] = `
         >
           <div
             class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 74.85714285714286% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/5e66dc80-e863-4ad1-af1e-0c13f8272eee_vikings.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
+          />
           <h1
             class="title"
           >
             Welcome to the Future of Play
           </h1>
+          <div
+            class="client"
+          >
+            PlayStation
+          </div>
         </a>
       </article>
       <article
@@ -916,32 +432,158 @@ exports[`ProjectList renders a list of projects 1`] = `
       >
         <a
           class="link"
-          href="/lilly/lilly-diabetes-uk"
+          href="/playstation/playstation-all-stars-battle-royale"
         >
           <div
             class="imageWrap"
+          />
+          <h1
+            class="title"
           >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 140.0106269925611% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/433f32e4-df33-40b0-ad78-2d955f68efab_thumb.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
+            The Best of the Best of the Best
+          </h1>
+          <div
+            class="client"
+          >
+            PlayStation
           </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/ea-sports/ea-sports-fifa10-how-big-can-football-get"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            FIFA 10: How Big Can Football Get? 
+          </h1>
+          <div
+            class="client"
+          >
+            EA SPORTS
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/hp/apple-ipod-from-hp"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            You Let Musical Worlds Collide
+          </h1>
+          <div
+            class="client"
+          >
+            HP
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/sega/sega-dreamcast-its-thinking"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            It’s Thinking
+          </h1>
+          <div
+            class="client"
+          >
+            Sega
+          </div>
+        </a>
+      </article>
+    </div>
+    <div
+      class="masonryColumn"
+      style="width: 33.333333333333336%;"
+    >
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/playstation/ps4-this-could-be-you"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            This Could Be You
+          </h1>
+          <div
+            class="client"
+          >
+            PlayStation
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/playstation/playlink-all-in-play-on"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            All in. Play on.
+          </h1>
+          <div
+            class="client"
+          >
+            PlayStation
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/lilly/diabetes-uk"
+        >
+          <div
+            class="imageWrap"
+          />
           <h1
             class="title"
           >
             Lilly Diabetes UK
           </h1>
+          <div
+            class="client"
+          >
+            Lilly
+          </div>
         </a>
       </article>
       <article
@@ -949,32 +591,131 @@ exports[`ProjectList renders a list of projects 1`] = `
       >
         <a
           class="link"
-          href="/dr-martens/dr-martens-freedm"
+          href="/hp/hp-epicmehp"
         >
           <div
             class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 70.86477074869414% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/ceacf5bd-92ab-411b-b5cb-dece2c5946a3_Abel+Page+_Page_08.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
+          />
           <h1
             class="title"
           >
-            FREEDM
+            #EpicMeHP
           </h1>
+          <div
+            class="client"
+          >
+            HP
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/playstation/psfc-welcome-the-worlds-biggest-club"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            Welcome to the World's Biggest Club
+          </h1>
+          <div
+            class="client"
+          >
+            PlayStation
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/playstation/ps4-launch-this-is-for-the-players"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            PS4: This is for the Players
+          </h1>
+          <div
+            class="client"
+          >
+            PlayStation
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/playstation/could-you-be-the-last-of-us"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            Could you be the Last of Us?
+          </h1>
+          <div
+            class="client"
+          >
+            PlayStation
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/ea-sports/fifa-street-3"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            FIFA Street 3
+          </h1>
+          <div
+            class="client"
+          >
+            EA SPORTS
+          </div>
+        </a>
+      </article>
+      <article
+        class="wrap"
+      >
+        <a
+          class="link"
+          href="/hp/you+hp"
+        >
+          <div
+            class="imageWrap"
+          />
+          <h1
+            class="title"
+          >
+            You+hp
+          </h1>
+          <div
+            class="client"
+          >
+            HP
+          </div>
         </a>
       </article>
       <article
@@ -986,28 +727,17 @@ exports[`ProjectList renders a list of projects 1`] = `
         >
           <div
             class="imageWrap"
-          >
-            <span
-              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 134.93333333333334% 0px 0px 0px;"
-              />
-              <img
-                alt=""
-                data-nimg="responsive"
-                decoding="async"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; background-size: cover; background-position: 0% 0%; filter: blur(20px); background-image: url(https://images.prismic.io/jonasvail/f4f52125-d0a7-4b24-80b9-fc10a74647ef_mtv_bustarhymes_1998.jpg?auto=compress,format&w=10&q=1);"
-              />
-              <noscript />
-            </span>
-          </div>
+          />
           <h1
             class="title"
           >
             MTV
           </h1>
+          <div
+            class="client"
+          >
+            MTV
+          </div>
         </a>
       </article>
     </div>

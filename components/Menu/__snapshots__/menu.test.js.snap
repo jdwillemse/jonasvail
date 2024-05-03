@@ -113,7 +113,7 @@ exports[`Menu renders the list correctly 1`] = `
         <span
           class="linkInner"
         >
-          Ketel One
+          Ketel One Vodka
         </span>
       </a>
       <a
@@ -133,7 +133,7 @@ exports[`Menu renders the list correctly 1`] = `
         <span
           class="linkInner"
         >
-          EA Sports
+          EA SPORTS
         </span>
       </a>
       <a

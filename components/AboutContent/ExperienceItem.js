@@ -1,11 +1,8 @@
-'use server'
-import React from 'react'
-
 import css from './styles.module.scss'
 
 const ExperienceItem = ({ dates, jobTitle, employer, description }) => {
   return (
-    <div className={css.experienceWrap}>
+    <li className={css.experienceWrap}>
       {dates && <div className={css.awardDate}>{dates}</div>}
       {jobTitle && (
         <div className={!employer && css.experienceEmployer}>{jobTitle}</div>
@@ -14,7 +11,7 @@ const ExperienceItem = ({ dates, jobTitle, employer, description }) => {
       {description && (
         <div className={css.experienceDescription}>{description}</div>
       )}
-    </div>
+    </li>
   )
 }
 

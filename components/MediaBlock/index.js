@@ -33,28 +33,31 @@ const MediaBlock = ({ mediaBlockList, description }) => {
           )}
           {item.mediaCollection.items && (
             <div className={css.gallery} key={item.sys.id}>
-              {item.mediaCollection.items.map((image) => (
-                <button
-                  className={classnames(css.button, css.imageWrap)}
-                  onClick={handleClick}
-                  data-src={image.url}
-                  type="button"
-                  key={image.url}
-                  style={{
-                    flexBasis: `${(100 * image.width) / image.height}%`,
-                  }}
-                >
-                  <Image
-                    src={image.url}
-                    width={image.width}
-                    height={image.height}
-                    alt={image.description || ''}
-                    placeholder="blur"
-                    blurDataURL={`${image.url}&w=10&q=1`}
-                    sizes="50vw"
-                  />
-                </button>
-              ))}
+              {item.mediaCollection.items.map(
+                (image) =>
+                  image.url && (
+                    <button
+                      className={classnames(css.button, css.imageWrap)}
+                      onClick={handleClick}
+                      data-src={image.url}
+                      type="button"
+                      key={image.url}
+                      style={{
+                        flexBasis: `${(100 * image.width) / image.height}%`,
+                      }}
+                    >
+                      <Image
+                        src={image.url}
+                        width={image.width}
+                        height={image.height}
+                        alt={image.description || ''}
+                        placeholder="blur"
+                        blurDataURL={`${image.url}&w=10&q=1`}
+                        sizes="50vw"
+                      />
+                    </button>
+                  )
+              )}
             </div>
           )}
 

@@ -11,18 +11,26 @@ const AboutContent = ({
   accoladesList,
 } = {}) => {
   return (
-    <div className="row">
-      <div className="col-sm-12 col-md-6">
+    <div className={css.wrap}>
+      <div className={css.col}>
         <h3 className={css.title}>{experienceTitle}</h3>
-        {experienceList.items.map((item) => (
-          <ExperienceItem {...item} key={item.sys.id} />
-        ))}
+        {experienceList && (
+          <ul className={css.list}>
+            {experienceList?.items.map((item) => (
+              <ExperienceItem {...item} key={item.sys.id} />
+            ))}
+          </ul>
+        )}
       </div>
-      <div className="col-sm-12 col-md-6">
+      <div className={css.col}>
         <h3 className={css.title}>{accoladesTitle}</h3>
-        {accoladesList.items.map((item) => (
-          <AwardItem {...item} key={item.sys.id} />
-        ))}
+        {accoladesList && (
+          <ul className={css.list}>
+            {accoladesList?.items.map((item) => (
+              <AwardItem {...item} key={item.sys.id} />
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   )
