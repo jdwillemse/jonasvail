@@ -46,7 +46,7 @@
     "node-fetch": "^3.3.2",
     "postcss-preset-env": "^9.5.9",
     "prettier": "^3.2.5",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.5"
   },
   "license": "UNLICENSED",
   "engines": {
