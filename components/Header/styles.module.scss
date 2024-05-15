@@ -1,16 +1,15 @@
-@import '../../styles/vars.scss';
-
 .wrap {
   padding: 1rem 0;
 
-  @media (min-width: $break-md) {
+  @media (min-width: 768px) {
     padding: 3rem 0;
   }
 }
 
 .logo {
   font-size: 1rem;
-  color: $color-primary;
+  color: var(--color-primary-fallback);
+  color: var(--color-primary);
   text-decoration: none;
 }
 

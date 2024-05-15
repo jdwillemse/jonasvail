@@ -1,12 +1,10 @@
-@import '../../styles/vars.scss';
-
 .wrap {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 .link {
-  color: $color-dark;
+  color: var(--color-dark);
 }
 
 .chapeau {

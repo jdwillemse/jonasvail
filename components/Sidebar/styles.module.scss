@@ -1,11 +1,9 @@
-@import '../../styles/vars.scss';
-
 .wrap {
   position: sticky;
   top: 0;
   height: auto;
 
-  @media (min-width: $break-sm) {
+  @media (min-width: 576px) {
     margin-bottom: 3rem;
   }
 }
