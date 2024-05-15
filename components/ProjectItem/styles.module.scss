@@ -1,12 +1,10 @@
-@import '../../styles/vars.scss';
-
 .wrap {
   padding-bottom: 1.5rem;
   hyphens: auto;
 }
 
 .link {
-  color: $color-dark;
+  color: var(--color-dark);
   text-decoration: none;
 
   &:hover {

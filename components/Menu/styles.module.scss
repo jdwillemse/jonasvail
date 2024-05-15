@@ -1,9 +1,7 @@
-@import '../../styles/vars.scss';
-
 .clientWrap {
   margin: 0.5rem 0 1rem -1rem;
 
-  @media (min-width: $break-sm) {
+  @media (min-width: 576px) {
     margin-left: 0.5rem;
     margin-bottom: 2rem;
   }
@@ -29,7 +27,7 @@
     display: inline-block;
     margin-left: 1.5rem;
 
-    @media (min-width: $break-sm) {
+    @media (min-width: 576px) {
       display: block;
       margin-left: 0;
     }
@@ -46,8 +44,8 @@
     right: 0;
     bottom: -3px;
     height: 5px;
-    background: $color-primary-fallback;
-    background: $color-primary;
+    background: var(--color-primary-fallback);
+    background: var(--color-primary);
     transform: scale3d(1, 0, 1);
     transform-origin: 0 bottom;
     transition: transform 0.3s ease-out;

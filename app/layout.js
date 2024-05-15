@@ -1,3 +1,4 @@
+import '../styles/vars.css'
 import '../styles/index.css'
 import '../styles/main.scss'
 

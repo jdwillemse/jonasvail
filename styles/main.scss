@@ -1,8 +1,4 @@
-@import './vars.scss';
-
-// TODO: remove bootstrap dependency
-@import '~bootstrap/scss/bootstrap-reboot.scss';
-@import '~bootstrap/scss/bootstrap-grid.scss';
+@import '~modern-normalize/modern-normalize.css';
 
 @import './typography.scss';
 
@@ -20,7 +16,7 @@
     sans-serif;
   word-break: break-word;
   // hyphens: auto;
-  color: $color-dark;
+  color: var(--color-dark);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-variant-ligatures: common-ligatures;
@@ -32,13 +28,13 @@
 
 a {
   position: relative;
-  color: $color-dark;
+  color: var(--color-dark);
   transition: color 0.2s;
   text-decoration: underline;
 
   &:hover {
-    color: $color-primary-fallback;
-    color: $color-primary;
+    color: var(--color-primary-fallback);
+    color: var(--color-primary);
     text-decoration: inherit;
   }
 }
@@ -68,11 +64,11 @@ img {
   padding-left: 16px;
   padding-right: 16px;
 
-  @media (min-width: $break-md) {
+  @media (min-width: 768px) {
     padding-left: 32px;
     padding-right: 32px;
   }
-  @media (min-width: $break-lg) {
+  @media (min-width: 992px) {
     padding-left: 72px;
     padding-right: 72px;
   }
