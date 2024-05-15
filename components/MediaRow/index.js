@@ -4,11 +4,10 @@ import Image from 'next/legacy/image'
 import isEmpty from 'lodash/isEmpty'
 
 import css from './styles.module.scss'
-import RichText from '../RichText'
 import Video from '../Video'
 import { ModalContext } from '../../context/ModalProvider'
 
-const MediaRow = ({ primary, items = [] }) => {
+const MediaRow = ({ description, items = [] }) => {
   const { setImage } = useContext(ModalContext)
   const mediaBlocks = []
   const handleClick = useCallback(
@@ -66,11 +65,7 @@ const MediaRow = ({ primary, items = [] }) => {
 
   return (
     <div className={css.wrap}>
-      {primary.description && (
-        <div className={css.copy}>
-          <RichText content={primary.description} />
-        </div>
-      )}
+      {description && <div className={css.copy}>{description}</div>}
       <div className={classnames('row', css.row)}>{mediaBlocks}</div>
     </div>
   )

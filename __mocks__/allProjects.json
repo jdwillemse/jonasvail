@@ -1,1267 +1,1766 @@
 [
   {
-    "id": "X5Be0hIAACEAfgX0",
-    "uid": "twitch-creators-campaign",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X5Be0hIAACEAfgX0%22%29+%5D%5D",
-    "tags": ["twitch"],
-    "first_publication_date": "2020-10-21T16:30:18+0000",
-    "last_publication_date": "2023-11-17T13:27:06+0000",
-    "slugs": ["twitch-creators-campaign"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1200, "height": 675 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/c95286cf-7de8-44c0-90f0-9122f77fe5db_Twitch+logo.jpg?auto=compress,format",
-        "id": "X5BdZhIAACIAff-R",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2020-09-28",
-      "title": [
-        { "type": "heading1", "text": "Twitch Creators Campaign", "spans": [] }
-      ],
-      "client": {
-        "id": "X5BU4RIAACAAfdnF",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "twitch",
-        "first_publication_date": "2020-10-21T15:33:57+0000",
-        "last_publication_date": "2023-11-16T11:22:30+0000",
-        "uid": "twitch",
-        "data": { "name": "Twitch" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XpCc9RAAAO7Gzs__",
-    "uid": "adidas-futurecraft-loop",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpCc9RAAAO7Gzs__%22%29+%5D%5D",
-    "tags": ["adidas"],
-    "first_publication_date": "2020-04-10T16:21:13+0000",
-    "last_publication_date": "2023-11-17T13:27:06+0000",
-    "slugs": ["adidas-futurecraft-loop"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 7000, "height": 4950 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/070c2ce5-ca64-4565-bc5e-1ef307689489_551468.jpg?auto=compress,format",
-        "id": "X4__ZBIAABIVfFiV",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2019-04-10",
-      "title": [
-        { "type": "heading1", "text": "[FUTURECRAFT] Loop", "spans": [] }
-      ],
-      "client": {
-        "id": "X5BUpRIAACEAfdiv",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "adidas",
-        "first_publication_date": "2020-10-21T15:32:58+0000",
-        "last_publication_date": "2023-11-16T11:22:30+0000",
-        "uid": "adidas",
-        "data": { "name": "adidas" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XpCb4RAAACzKzssV",
-    "uid": "detroit-how-far-would-you-go-to-be-free",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpCb4RAAACzKzssV%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T16:16:37+0000",
-    "last_publication_date": "2023-11-17T13:22:27+0000",
-    "slugs": ["detroit-how-far-would-you-go-to-be-free"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1200, "height": 675 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/7f0c56d9-2181-4098-b505-73a28d836144_detroit-become-human.jpg?auto=compress,format",
-        "id": "X5AD9hIAABIVfG0i",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2018-04-13",
-      "title": [
+    "sys": {
+      "id": "3TUNFMUwZGU9urbIT7M30D"
+    },
+    "title": "Twitch Creators Campaign",
+    "uid": "creators-campaign",
+    "date": "2020-09-28T00:00:00.000Z",
+    "body": "Though Twitch is a live-streaming powerhouse in the US, its presence and growth in Europe to date had mostly been organic. As a first step in a concerted brand-building effort in Europe, the strategy was to celebrate some of the most interesting Twitch Creators from the UK, France, and Germany who go live on the platform, and help make it the weird, wonderful, and diverse community it is.\n\nThough starting relatively small—online, in social, and on outdoor spaces across London, Paris, Berlin, and beyond—the campaign was a sign of exciting things to come from Twitch in Europe.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "twitch",
+      "name": "Twitch"
+    },
+    "mediaBlockList": {
+      "items": [
         {
-          "type": "heading1",
-          "text": "How far would you go to be free?",
-          "spans": []
-        }
-      ],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XpCaTRAAAO7FzsPS",
-    "uid": "psfc-welcome-the-worlds-biggest-club",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpCaTRAAAO7FzsPS%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T16:09:54+0000",
-    "last_publication_date": "2023-11-17T13:22:26+0000",
-    "slugs": ["ps-f.c.-welcome-to-the-worlds-biggest-club"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1876, "height": 1454 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/cc888635-20f3-427a-9f40-61e858f66f3b_Screen+Shot+2020-04-10+at+18.06.21.jpg?auto=compress,format",
-        "id": "X5AF2RIAABIVfHW2",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2015-09-10",
-      "title": [
+          "sys": {
+            "id": "4vyRBVgV5zfNRNDenvJoAv"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/d_DTYNMhkDg"
+        },
         {
-          "type": "heading1",
-          "text": "Welcome to the World's Biggest Club",
-          "spans": []
-        }
-      ],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XpBtzRAAAO7GzfrM",
-    "uid": "hp-omen-challenge",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBtzRAAAO7GzfrM%22%29+%5D%5D",
-    "tags": ["hp"],
-    "first_publication_date": "2020-04-10T13:00:00+0000",
-    "last_publication_date": "2023-11-17T13:27:07+0000",
-    "slugs": ["the-hp-omen-challenge"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 672, "height": 448 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/93ab3bec-6545-4ac1-9cb3-439e066ebd3b_omen1thumb.jpg?auto=compress,format",
-        "id": "XpBtVxAAAO7Fzfic",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2015-10-15",
-      "title": [
-        { "type": "heading1", "text": "The HP Omen Challenge", "spans": [] }
-      ],
-      "client": {
-        "id": "XdqWVREAACBFEdzY",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "hp",
-        "first_publication_date": "2019-11-24T14:40:26+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "hp",
-        "data": { "name": "HP" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XpBsrxAAAO7GzfV9",
-    "uid": "hp-epicmehp",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBsrxAAAO7GzfV9%22%29+%5D%5D",
-    "tags": ["hp"],
-    "first_publication_date": "2020-04-10T12:55:16+0000",
-    "last_publication_date": "2023-11-17T13:27:09+0000",
-    "slugs": ["hp-epicmehp"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1004, "height": 1010 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/ca60d584-4c27-432f-b5d6-8c35c023728c_Screen+Shot+2017-06-10+at+3.55.17+PM.png?auto=compress,format",
-        "id": "XpBsnBAAACzKzfUd",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "transparent" }
-      },
-      "date": "2015-10-30",
-      "title": [{ "type": "heading1", "text": "#EpicMeHP", "spans": [] }],
-      "client": {
-        "id": "XdqWVREAACBFEdzY",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "hp",
-        "first_publication_date": "2019-11-24T14:40:26+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "hp",
-        "data": { "name": "HP" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XpBrNBAAAJ2-ze5_",
-    "uid": "hp-ellie-goulding-burn",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBrNBAAAJ2-ze5_%22%29+%5D%5D",
-    "tags": ["hp"],
-    "first_publication_date": "2020-04-10T12:49:04+0000",
-    "last_publication_date": "2023-11-17T13:22:28+0000",
-    "slugs": ["hp-ellie-goulding"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1620, "height": 1080 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/a322934c-f601-4e9d-95c1-586f2b6d1356_HP_ELLIE_GOULDING_CASE_STUDY_091015trimmed.jpg?auto=compress,format",
-        "id": "XpBrExAAAJ2-ze3m",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2015-10-21",
-      "title": [{ "type": "heading1", "text": "Ellie Goulding", "spans": [] }],
-      "client": {
-        "id": "XdqWVREAACBFEdzY",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "hp",
-        "first_publication_date": "2019-11-24T14:40:26+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "hp",
-        "data": { "name": "HP" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XpBqnRAAACzKzevE",
-    "uid": "youhp",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBqnRAAACzKzevE%22%29+%5D%5D",
-    "tags": ["hp"],
-    "first_publication_date": "2020-04-10T12:46:25+0000",
-    "last_publication_date": "2023-11-17T13:27:09+0000",
-    "slugs": ["youhp", "hp-youhp"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 2416, "height": 3224 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/695f8c29-c383-4377-baa6-a6db5821360a_Camera.jpg?auto=compress,format",
-        "id": "XpBn7xAAACzKzd93",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2004-03-11",
-      "title": [{ "type": "heading1", "text": "You+hp", "spans": [] }],
-      "client": {
-        "id": "XdqWVREAACBFEdzY",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "hp",
-        "first_publication_date": "2019-11-24T14:40:26+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "hp",
-        "data": { "name": "HP" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XpBnGBAAAO7Fzduh",
-    "uid": "apple-ipod-from-hp",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBnGBAAAO7Fzduh%22%29+%5D%5D",
-    "tags": ["hp"],
-    "first_publication_date": "2020-04-10T12:31:27+0000",
-    "last_publication_date": "2023-11-17T13:27:07+0000",
-    "slugs": ["apple-ipod-from-hp-you-let-musical-worlds-collide"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 629, "height": 480 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/7bd29af8-6958-4f1e-90ec-349f29f67f86_HP_iPod_Mashup-1.jpeg?auto=compress,format",
-        "id": "XpBm7BAAAJ2-zdrW",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2004-08-06",
-      "title": [
+          "sys": {
+            "id": "6zx7PkkQPoXwn645MLpxsu"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/HMdfhl0ZLvw"
+        },
         {
-          "type": "heading1",
-          "text": "You Let Musical Worlds Collide",
-          "spans": []
+          "sys": {
+            "id": "7qFlvo8cOS8dmVZdm4ZSa"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "1oR6qZfv7EuzwPt0P2cNhm"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/1oR6qZfv7EuzwPt0P2cNhm/2bbda63bb2b00e18bc269909c116ada3/3cdb6e9a-5364-4361-825e-58c8ad9473aa_Twitch_benjyfishy.png",
+                "width": 1938,
+                "height": 980,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "2NXyhH0Eg8tGN7SHopgoDW"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/2NXyhH0Eg8tGN7SHopgoDW/59b3a192be4cb9e5968ac5b96a723df7/Twitch_KigJae_Static.png",
+                "width": 1936,
+                "height": 982,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "3pfg7y9tQ6Aa0xACzTvFmq"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "6ZQmqLvDg626V9XZRNEPGL"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/6ZQmqLvDg626V9XZRNEPGL/7513792610231ca09fda122ab896e206/b64a8142-10eb-49ba-bc04-1b7d626181ca_Twitch_Berlin_posters.jpeg",
+                "width": 4032,
+                "height": 3024,
+                "description": null
+              }
+            ]
+          }
         }
-      ],
-      "client": {
-        "id": "XdqWVREAACBFEdzY",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "hp",
-        "first_publication_date": "2019-11-24T14:40:26+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "hp",
-        "data": { "name": "HP" },
-        "link_type": "Document",
-        "isBroken": false
-      }
+      ]
     }
   },
   {
-    "id": "XpBmNhAAACzKzdeG",
-    "uid": "hp-everything-is-possible",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBmNhAAACzKzdeG%22%29+%5D%5D",
-    "tags": ["hp"],
-    "first_publication_date": "2020-04-10T12:27:39+0000",
-    "last_publication_date": "2023-11-17T13:15:52+0000",
-    "slugs": ["hp-everything-is-possible"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 512, "height": 665 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/ff16671a-04f4-4846-9ec7-679d00a04aa8_thumb.jpg?auto=compress,format",
-        "id": "XpBl1BAAAO7FzdW8",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2003-10-09",
-      "title": [
-        { "type": "heading1", "text": "Everything is Possible", "spans": [] }
-      ],
-      "client": {
-        "id": "XdqWVREAACBFEdzY",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "hp",
-        "first_publication_date": "2019-11-24T14:40:26+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "hp",
-        "data": { "name": "HP" },
-        "link_type": "Document",
-        "isBroken": false
-      }
+    "sys": {
+      "id": "7La48RFzzc1Li8XNhVTqSU"
+    },
+    "title": "[FUTURECRAFT] Loop",
+    "uid": "futurecraft-loop",
+    "date": "2019-04-10T00:00:00.000Z",
+    "body": "Not a single running shoe on the planet, that has ever been made or used, is recyclable. They all end up in landfills. In April 2019 adidas announced the development of a new, 100% recyclable, all-TPU performance running shoe called \\[FUTURECRAFT\\] Loop. The idea is that you wear it out, send it back, and the shoes are ground up and the material is reused to help make the next generation of Loop shoes – and the process continues. The shoe itself was \"made to be remade\". It was part of adidas’ larger vision to stop the use of virgin polyesters in their products by 2024 and to enable a “closed loop” or circular manufacturing model. I worked with them to develop a creative strategy and campaign centered around the idea that the future is on all of us, and that with \\[FUTURECRAFT\\] Loop, adidas and its consumers could work together to end plastic waste.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "adidas",
+      "name": "adidas"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "4zN9AoVQsIeJBjyUXryPIG"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "3h4rUDTfTWNiAkaPWnMPk"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/3h4rUDTfTWNiAkaPWnMPk/a3f0ccf91498688986a7164bce64807c/cb2d7a4c-4fba-44ed-b80d-3a64ebcbf87c_551515.jpg",
+                "width": 3508,
+                "height": 2481,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "2CywPZsUoHydYYuHLpr6kG"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "ADHUOiQkOQVOiv7eTnWjq"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/ADHUOiQkOQVOiv7eTnWjq/ed7965ce6ebc016118de8ad0c29b5dc0/814a73f2-0748-42d0-a25a-7d219765bbcf_551517.jpg",
+                "width": 3425,
+                "height": 2422,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "1HGav8mxBWFvdAvzR0j1Z7"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/1HGav8mxBWFvdAvzR0j1Z7/1a38df42cc29b77f0cf47f221c7db307/a0741aad-3cf9-4b2b-99e9-af0fb0fedca2_551518.jpg",
+                "width": 3201,
+                "height": 2263,
+                "description": null
+              }
+            ]
+          }
+        }
+      ]
     }
   },
   {
-    "id": "XpBkZRAAAO7Fzc8p",
+    "sys": {
+      "id": "6rutYg4rz4bmPAJbSo1pwA"
+    },
+    "title": "This Could Be You",
     "uid": "ps4-this-could-be-you",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBkZRAAAO7Fzc8p%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T12:20:12+0000",
-    "last_publication_date": "2023-11-17T13:22:27+0000",
-    "slugs": ["ps4-2018-this-could-be-you"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1280, "height": 720 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/2dc740e4-ee89-492a-be4a-9c10b727f1d2_This+could+be+you+Fortnite+skydiver.jpg?auto=compress,format",
-        "id": "X5APGBIAACIAfJ-w",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2018-11-15",
-      "title": [
-        { "type": "heading1", "text": "This Could Be You", "spans": [] }
-      ],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XpBj-hAAAJ2-zc09",
-    "uid": "playlink-all-in-play-on",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBj-hAAAJ2-zc09%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T12:18:08+0000",
-    "last_publication_date": "2023-11-17T13:22:30+0000",
-    "slugs": ["playlink-all-in.-play-on."],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1950, "height": 1304 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/d52ea317-fd18-4860-8f1a-18a5483c002b_Screen+Shot+2017-10-26+at+11.29.05+AM.png?auto=compress,format",
-        "id": "XpBj6BAAAJ2-zczo",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "transparent" }
-      },
-      "date": "2017-11-16",
-      "title": [
-        { "type": "heading1", "text": "All in. Play on.", "spans": [] }
-      ],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XpBjPhAAAO7FzcnY",
-    "uid": "ps-vita-the-world-is-in-play",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBjPhAAAO7FzcnY%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T12:14:59+0000",
-    "last_publication_date": "2023-11-17T13:22:29+0000",
-    "slugs": ["ps-vita-launch-the-world-is-in-play"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1280, "height": 720 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/99b21ec8-1cb8-4b0a-8fc6-b5a8a16df9ee_The_World_Is_In_Play_70sec_Directors_Flame_Temp_Grade_PS_logo_H264-1.jpg?auto=compress,format",
-        "id": "XpBjMRAAACzKzcmh",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2012-02-14",
-      "title": [
-        { "type": "heading1", "text": "The World is in Play", "spans": [] }
-      ],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XpBiRxAAAO7FzcVW",
-    "uid": "could-you-be-the-last-of-us",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBiRxAAAO7FzcVW%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T12:10:54+0000",
-    "last_publication_date": "2023-11-17T13:27:10+0000",
-    "slugs": ["the-last-of-us-could-you-be-the-last-of-us"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1026, "height": 1437 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/3ad29c2d-694c-4835-84ea-f043b73532c7_Last+of+Us+thumb2.jpg?auto=compress,format",
-        "id": "XpBiOBAAAJ2-zcUK",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2012-11-22",
-      "title": [
+    "date": "2018-11-15T00:00:00.000Z",
+    "body": "With over 80 million PS4s sold worldwide, it felt like everyone already had one! Going into its sixth Christmas season, the strategy was to capitalize on that perception and instill a playful sense of FOMO in those gamers who had yet to upgrade. The campaign centered around gaming's ability to make you feel like a more extraordinary version of your everyday self – especially _Play_ on PS4, with its bigger community and greater games and experiences. In other words, if you're not a PS4 Player then you're truly missing out! \n\n\"This Could Be You\" was a playful invitation from current PS4 Players to their friends who've not yet joined, to come and be a part of what makes being a PS4 Player so extraordinary.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "mediaBlockList": {
+      "items": [
         {
-          "type": "heading1",
-          "text": "Could you be the Last of Us?",
-          "spans": []
+          "sys": {
+            "id": "2Q2uI227f5mFl4zd3DjfCc"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/VcS3-Hcc2aU"
         }
-      ],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
+      ]
     }
   },
   {
-    "id": "XpBhmxAAACzKzcJG",
-    "uid": "playstation-all-stars-battle-royale",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBhmxAAACzKzcJG%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T12:08:00+0000",
-    "last_publication_date": "2023-11-17T13:27:08+0000",
-    "slugs": ["ps-all-stars-battle-royale-the-best-of-the-best-of-the-best"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 576, "height": 576 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/0caf5f83-b588-4c95-84a0-dab07a814d04_thumb2.jpg?auto=compress,format",
-        "id": "XpBhjhAAAJ2-zcIG",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2012-11-15",
-      "title": [
+    "sys": {
+      "id": "53eqqcY9YB1lMBoY75qY35"
+    },
+    "title": "How far would you go to be free?",
+    "uid": "detroit-how-far-would-you-go-to-be-free",
+    "date": "2018-04-13T00:00:00.000Z",
+    "body": "Detroit: Become Human was a neo-Noir, existential thriller game set in a near-future world where androids have become everyday technology. You play as Kara, Connor, and Markus – androids who have become self-aware and who are each on their own individual paths to becoming human. \n\nThe game’s structure allows for decision making on an epic and unprecedented scale. Each decision you make as a Player actually has a profound effect on the outcome and end story. The strategy was to show Players that their choices actually determine the androids' fates and the trajectory of the game itself.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "mediaBlockList": {
+      "items": [
         {
-          "type": "heading1",
-          "text": "The Best of the Best of the Best",
-          "spans": []
+          "sys": {
+            "id": "5wJsLJxDfaalcv5cy4PKu1"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://www.youtube.com/watch?v=JYs2cC5mt5M"
         }
-      ],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
+      ]
     }
   },
   {
-    "id": "XpBg_BAAACzKzb9y",
-    "uid": "psvr-launch-live-the-game",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBg_BAAACzKzb9y%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T12:05:25+0000",
-    "last_publication_date": "2023-11-17T13:27:06+0000",
-    "slugs": ["ps-vr-launch-live-the-game"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 2552, "height": 1434 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/70b0ebba-db91-4fad-9ced-1d5d9179c4d6_Screen+Shot+2017-10-26+at+11.40.08+AM.png?auto=compress,format",
-        "id": "XpBg1RAAAO7Gzb7F",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "transparent" }
-      },
-      "date": "2016-09-16",
-      "title": [{ "type": "heading1", "text": "Live the Game", "spans": [] }],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XpBgNhAAAJ2-zbv7",
-    "uid": "earth-is-ours-no-more",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBgNhAAAJ2-zbv7%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T12:02:05+0000",
-    "last_publication_date": "2023-11-17T13:22:29+0000",
-    "slugs": ["horizon-zero-dawn-earth-is-ours-no-more"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1512, "height": 1079 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/ea3fbfdd-6f39-4280-acdf-2b5efa53aae2_thumb-1a.jpg?auto=compress,format",
-        "id": "XpBgLRAAAO7GzbvS",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2016-04-14",
-      "title": [
-        { "type": "heading1", "text": "Earth is Ours No More", "spans": [] }
-      ],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XpBfkhAAAO7FzbkU",
+    "sys": {
+      "id": "7mVXc0dBCSshuTBCxuhP4t"
+    },
+    "title": "Where the World Comes to Race",
     "uid": "gt-sport-where-the-world-comes-to-race",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBfkhAAAO7FzbkU%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T11:59:19+0000",
-    "last_publication_date": "2023-11-17T13:22:29+0000",
-    "slugs": ["gt-sport-where-the-world-comes-to-race"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 780, "height": 780 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/78bf9234-89d0-4bd0-86e4-997e0816fc53_SIEE_GT_SPORT_WTWCTR_2017_MCLAREN_VSN_30_w4KTAG+%281%29.jpeg?auto=compress,format",
-        "id": "XpBfiBAAACzKzbjr",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2017-11-23",
-      "title": [
+    "date": "2017-11-23T00:00:00.000Z",
+    "body": "Gran Turismo is the biggest PlayStation franchise of all time, with over 60 million GT games sold worldwide by the end of 2017. GT Sport was the latest GT game, and the first on PS4. The game brought people so close to the fun, excitement, and exhilaration of driving the world’s fastest cars that it was even endorsed by the FIA. The strategy was to focus on showing Players what it feels like to experience the turbo-charged, high-stakes thrill of racing the fastest cars on the planet.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "mediaBlockList": {
+      "items": [
         {
-          "type": "heading1",
-          "text": "Where the World Comes to Race",
-          "spans": []
+          "sys": {
+            "id": "48Oj0yQGW77bBlQyWaquDA"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/Fi2XJrYHvyc"
         }
-      ],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
+      ]
     }
   },
   {
-    "id": "XpBfARAAAJ2-zbaG",
-    "uid": "driveclub-drive-together-win-together",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBfARAAAJ2-zbaG%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T11:56:53+0000",
-    "last_publication_date": "2023-11-17T13:22:26+0000",
-    "slugs": ["driveclub-drive-together-win-together"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 654, "height": 505 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/101742ef-b583-46f5-a795-baa9db4bb9ba_PS_driveclub30-GENERIC_WIP_2014_09_23.jpeg?auto=compress,format",
-        "id": "XpBe9RAAAO7GzbZN",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2015-07-16",
-      "title": [
+    "sys": {
+      "id": "4keq5xF9ZPnlsHjDaKWL9"
+    },
+    "title": "All in. Play on.",
+    "uid": "playlink-all-in-play-on",
+    "date": "2017-11-16T00:00:00.000Z",
+    "body": "PlayLink was a new series of PlayStation games launched in 2017, that people could play on their PS4 using their smartphone or tablet as a controller. The strategy was to show a new, much broader audience that just because they don’t consider themselves “gamers”, they too can have fun and _PLAY_ on PS4 with PlayLink.  ",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "mediaBlockList": {
+      "items": [
         {
-          "type": "heading1",
-          "text": "Drive Together, Win Together",
-          "spans": []
+          "sys": {
+            "id": "rkZIET8IpBK6Jpi1rQG5Y"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://www.youtube.com/watch?v=KMGAvimQQeQ"
         }
-      ],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
+      ]
     }
   },
   {
-    "id": "XpBeaBAAAJ2-zbPJ",
+    "sys": {
+      "id": "3bqplhpiqvsmc9C8v8Ukxd"
+    },
+    "title": "#DemandPressFreedom",
+    "uid": "demandpressfreedom",
+    "date": "2017-06-02T00:00:00.000Z",
+    "body": "Across the globe, journalists are being censored, intimidated, and worse – simply for doing their job. The world’s access to news is becoming more and more obstructed. In June 2017, a Saudi-led coalition of governments in the region imposed sanctions on Qatar, including the demand to shut down Qatar-based news and media organization Al Jazeera.  \n\nThe strategy was to interrupt the news on the supposed demand deadline with a live broadcast outlining Al Jazeera’s own list of demands – a call for solidarity in the pursuit of press freedom.  \n\nFeaturing Al Jazeera journalists, the demands were a rallying cry to preserve press freedom and the rights of all people to be heard. There were farther-reaching implications than simply defending Al Jazeera’s journalistic integrity. Press freedom worldwide was under attack, and by not speaking up and fighting back, it would set a dangerous precedent for basic human rights worldwide.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "al-jazeera",
+      "name": "Al Jazeera"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "6t8r7YpnYogDJijpeZlhXP"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/6cfJK60kLEc"
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "7ECWgMY27bWhT6WBG7ksBc"
+    },
+    "title": "Live the Game",
+    "uid": "psvr-launch-live-the-game",
+    "date": "2016-09-16T00:00:00.000Z",
+    "body": "From McDonald’s Happy Meals to Oculus Rift, everyone in 2016 was jumping on the VR bandwagon. PlayStation VR, however, was the only VR headset developed from the ground up specifically for gaming. Once people tried it, they realized they could truly LIVE games, not just play them. The strategy for the “Live the Game” campaign was to fuel desire amongst PS4 Players to go out and try PS VR for themselves.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "gw9SIvABpVtaNd2SKnxby"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/oS3mtilCZGI"
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "2VCGmi4tLo16RmsjwzTFUS"
+    },
+    "title": "Lilly Diabetes UK",
+    "uid": "diabetes-uk",
+    "date": "2016-05-22T00:00:00.000Z",
+    "body": "We worked with global pharmaceutical company, Lilly, to refine and simplify their brand and product value proposition for their diabetes portfolio in the UK. We developed a brand positioning that was centered around simplifying the process for both health care providers and patients, and partnering with patients at every step of the disease. We created a product portfolio campaign off the back of it that spoke to patients in an easy to understand, and very human way.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "lilly",
+      "name": "Lilly"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "21c9frFjQSqKryifeqhnze"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "2loZgtXsraXaHPgbAe5qGW"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/2loZgtXsraXaHPgbAe5qGW/0f1bacd0dcd0214380bc967559456f78/a7702d7e-9c39-4388-881c-783ecaeeaaba_lilly_diabetes_01.jpg",
+                "width": 2480,
+                "height": 3508,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "1ev13xUEw5FKRrGsumqD9q"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/1ev13xUEw5FKRrGsumqD9q/a042bdbe8fa913461858c042a83812d4/55eb21f7-cb33-4600-a7a6-cd51fa543b49_lilly_diabetes_04.jpg",
+                "width": 2480,
+                "height": 3508,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "3gyOpo4rnmZll22MWQGnzK"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "2wEFBH5OyP5eGsR1WiMxt1"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/2wEFBH5OyP5eGsR1WiMxt1/b3d195a41eeafff4ce7861ea4658708f/67737a36-c4c6-4643-a9f9-746c26315fe8_lilly_diabetes_06.jpg",
+                "width": 2480,
+                "height": 3508,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "1IASs807CtwnIAsEZJvQbg"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/1IASs807CtwnIAsEZJvQbg/aba8c4630964798620f820935b94013a/Lilly_Diabetes_03.jpeg",
+                "width": 2480,
+                "height": 3508,
+                "description": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "Y6e0lUV2exEoBd0Hhiq7D"
+    },
+    "title": "Earth is Ours No More",
+    "uid": "earth-is-ours-no-more",
+    "date": "2016-04-14T00:00:00.000Z",
+    "body": "Horizon Zero Dawn was a completely new franchise from esteemed game studio Guerrilla Games, set in a post-post-apocalyptic Earth that had been taken over by gigantic robotic machines. The strategy was to intrigue Players about the various mysteries in the game by challenging them to solve the central mystery of why “Earth is Ours No More”.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "3mKeNdsAUbumfV2sTpyOLr"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/NkqxP3Pi0ZM"
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "54ys71Ptl85vjLIZMC2PTW"
+    },
+    "title": "The Wonderful Life of a PS4 Player",
     "uid": "wonderful-life-of-a-ps4-player",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBeaBAAAJ2-zbPJ%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T11:54:20+0000",
-    "last_publication_date": "2023-11-17T13:27:09+0000",
-    "slugs": ["ps4-2015-the-wonderful-life-of-a-ps4-player"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1221, "height": 939 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/7d388b48-d62c-4938-8c1f-814b283b157d_PS4_60sec_International_Master_11-02-1080p_HD_MPEG_4.jpeg?auto=compress,format",
-        "id": "XpBeXRAAAO7GzbOZ",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2015-11-19",
-      "title": [
+    "date": "2015-11-19T00:00:00.000Z",
+    "body": "For PS4’s third Xmas selling season, in 2015, the strategy was to inspire potential Players (who had yet to upgrade to a new gen console) to get PS4, by showing them just how much better and more wonderful life could be as a PS4 Player.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "mediaBlockList": {
+      "items": [
         {
-          "type": "heading1",
-          "text": "The Wonderful Life of a PS4 Player",
-          "spans": []
+          "sys": {
+            "id": "5vy1qGquM2HnWGxNid3vLN"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/3PkVEV02_ww"
         }
-      ],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
+      ]
     }
   },
   {
-    "id": "XpBdxhAAAJ2-zbDd",
+    "sys": {
+      "id": "6zpydakC203fjXFdWAGGJI"
+    },
+    "title": "#EpicMeHP",
+    "uid": "hp-epicmehp",
+    "date": "2015-10-30T00:00:00.000Z",
+    "body": "To help increase the relevance of HP laptops with “Young Millennials” in the UK, we teamed HP up with two extremely popular YouTubers, Caspar Lee and Callux. The idea was to ignite an Instagram competition asking their fans across the UK to add #EpicMeHP to their most boring Instagram photo for the chance to win their very own photo shoot to remake their Instagram feed in an epic way.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "hp",
+      "name": "HP"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "3yxrXCkiqtBP54W0jEr680"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/snl5X1hH6Gs"
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "3Je7KGguc9QfZ7owXy8HEz"
+    },
+    "title": "Ellie Goulding",
+    "uid": "hp-ellie-goulding-burn",
+    "date": "2015-10-21T00:00:00.000Z",
+    "body": "To create credibility, coolness, and talk-value for HP among “Young Millennials”, and to promote the HP X2 laptop in the UK, we put pop sensation Ellie Goulding and six animators and artists together with her fans, to create an animated, interactive music video for Ellie’s hit song “BURN”. By simply using the **H** and **P** keys on their keyboards, viewers could create a unique animated video every time they interacted with it.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "hp",
+      "name": "HP"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "21g1h5oU1njdYnlcG9z2w3"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/IAnC2MOxZCk"
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "5bpPpMofnRsnMHoE2DIqDw"
+    },
+    "title": "The HP Omen Challenge",
+    "uid": "hp-omen-challenge",
+    "date": "2015-10-15T00:00:00.000Z",
+    "body": "When hardcore PC gamers think of HP they think of a big, mass-market business brand that makes printers and office computers (if they think of them at all). To enter into the PC gaming market we needed to address HP's credibility in gaming. The strategy was to insert the HP brand, and HP Omen laptop, into PC gaming culture in a meaningful and relevant way, to both the give the brand and product credibility among this extremely skeptical audience. We created the HP Omen Challenge – a live competition event experience that tested both PC gaming heroes, and the HP Omen laptop itself. It was the first-ever live broadcast on Twitch, and viewers at home could vote on various physical tortures to be inflicted on the competing gamers.  \n  \nThe Omen Challenge became an entertainment franchise in its own right, with the Omen Challenge III being held at Gamescom 2016, in conjunction with ESL – the largest video game event company in the world, and the oldest professional e-Sports organization in operation.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "hp",
+      "name": "HP"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "5r8lFFVWAk3gSc4OV866dw"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/JukfGoN527k"
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "5P5UjJdUlAjUu7gyxYdlxv"
+    },
+    "title": "Welcome to the World's Biggest Club",
+    "uid": "psfc-welcome-the-worlds-biggest-club",
+    "date": "2015-09-10T00:00:00.000Z",
+    "body": "PlayStation is the official gaming partner of the UEFA Champions League, and had been a sponsor for over 20 years.\n\nWhile Football fans will happily lap up anything that will make their Football experience better, they don’t typically give a shit about the corporate sponsors and just see their advertising during matches as wallpaper. The strategy was to cement PlayStation’s leadership in Football gaming by creating an idea that would live beyond just match-day idents and perimeter boards.\n\nThe idea behind PS F.C. was that, across ALL platforms (PS4, PS3, Vita, PSP, etc.), more people played Football games (all FIFA versions and all PES versions) on PlayStation than on any other platform. As such, PS F.C. is the world’s biggest club – and football was therefore better on PlayStation.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "2jDfLUZM7QyfXmMao1VvpC"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/8MGU3T3zUwM"
+        },
+        {
+          "sys": {
+            "id": "6JZooh3tIjy8Xo715e5ee"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/SAClGbzirGw"
+        },
+        {
+          "sys": {
+            "id": "32nRmh2TcsWx9gdZjsVi9D"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": null
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "PaDGgvW83RNIQ0z9mHIG8"
+    },
+    "title": "Drive Together, Win Together",
+    "uid": "driveclub-drive-together-win-together",
+    "date": "2015-07-16T00:00:00.000Z",
+    "body": "#DRIVECLUB was not your typical racing game. It wasn’t just about cars or famous tracks, or even just about winning races. It was about driving in a club made up of your friends, and winning _together_. The strategy was to highlight this unique aspect of the game by showing a group of friends pledging allegiance to their driving club.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "XZfawT1KluqA3MlmqurkP"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/ya7ZhOrjH-0"
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "7vIf4OVgJO2gomrlMHlpvp"
+    },
+    "title": "Welcome to the Future of Play",
     "uid": "welcome-to-the-future-of-play",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBdxhAAAJ2-zbDd%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T11:51:38+0000",
-    "last_publication_date": "2023-11-17T13:27:07+0000",
-    "slugs": ["ps4-2014-welcome-to-the-future-of-play"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 350, "height": 262 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/5e66dc80-e863-4ad1-af1e-0c13f8272eee_vikings.jpg?auto=compress,format",
-        "id": "XpBdexAAAO7Gza-V",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2014-11-20",
-      "title": [
+    "date": "2014-11-20T00:00:00.000Z",
+    "body": "For PS4’s second Xmas selling season, in 2014, we needed to maintain the lead PS4 had achieved over Xbox One since launch by focusing on what really made PS4 different. The strategy was to demonstrate that PS4 was \"the future of play\" by bringing to life the innovative and unique features that distinguished \"play\" on PS4 from \"gaming\" on Xbox One.  \n  \nWe focused on the three new product features that were unique to PS4: sharing gameplay directly to YouTube, the PS4 companion app, and “Share Play” – which allowed PS4 owners to share their game and play with their other friends on PS4, even if their friends didn’t own the game themselves.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "mediaBlockList": {
+      "items": [
         {
-          "type": "heading1",
-          "text": "Welcome to the Future of Play",
-          "spans": []
+          "sys": {
+            "id": "7LWT7KlMr554BVE2M2hgFp"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/kELPUixe050"
         }
-      ],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
+      ]
     }
   },
   {
-    "id": "XpBc6RAAAO7Gza0K",
+    "sys": {
+      "id": "5Ku7xTRUwqRO7jjHASLysI"
+    },
+    "title": "PS4: This is for the Players",
     "uid": "ps4-launch-this-is-for-the-players",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XpBc6RAAAO7Gza0K%22%29+%5D%5D",
-    "tags": ["playstation"],
-    "first_publication_date": "2020-04-10T11:47:59+0000",
-    "last_publication_date": "2023-11-17T13:22:30+0000",
-    "slugs": ["ps4-launch-this-is-for-the-players"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1008, "height": 720 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/6e6dd2ba-9a0a-4bcb-a7f6-65beb04725c8_thumb5.jpeg?auto=compress,format",
-        "id": "XpBcLhAAACzKzam9",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2013-11-15",
-      "title": [
-        { "type": "heading1", "text": "This is for the Players", "spans": [] }
-      ],
-      "client": {
-        "id": "XdqWlREAACEAEd3-",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "playstation",
-        "first_publication_date": "2019-11-24T14:41:28+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "playstation",
-        "data": { "name": "PlayStation" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "Xdqi7BEAACMAEhRw",
-    "uid": "ketel-one-do-one-thing-well",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22Xdqi7BEAACMAEhRw%22%29+%5D%5D",
-    "tags": ["ketel-one"],
-    "first_publication_date": "2019-11-24T15:34:17+0000",
-    "last_publication_date": "2023-11-17T13:22:27+0000",
-    "slugs": [
-      "ketel-one-vodka-do-one-thing-well",
-      "ketel-one-do-one-thing-well",
-      "do-one-thing-well"
-    ],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 600, "height": 400 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/89d915b9-0637-4b78-bd3e-e19dd2c4dfdd_K1_GIFiti_PRESS-031_600.jpg?auto=compress,format",
-        "id": "XpBQPxAAAJ2-zXOR",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2013-06-06",
-      "title": [
-        { "type": "heading1", "text": "Do One Thing Well ", "spans": [] }
-      ],
-      "client": {
-        "id": "XdqWLhEAACMAEdwo",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "ketel-one",
-        "first_publication_date": "2019-11-24T14:39:44+0000",
-        "last_publication_date": "2023-11-16T11:22:27+0000",
-        "uid": "ketel-one",
-        "data": { "name": "Ketel One" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XdqivBEAADk9EhOa",
-    "uid": "lilly-diabetes-uk",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XdqivBEAADk9EhOa%22%29+%5D%5D",
-    "tags": ["lilly"],
-    "first_publication_date": "2019-11-24T15:33:19+0000",
-    "last_publication_date": "2023-11-17T13:22:30+0000",
-    "slugs": ["lilly-diabetes-uk"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1882, "height": 2635 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/433f32e4-df33-40b0-ad78-2d955f68efab_thumb.jpg?auto=compress,format",
-        "id": "XpBZJxAAAO7FzZt0",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2016-05-22",
-      "title": [
-        { "type": "heading1", "text": "Lilly Diabetes UK", "spans": [] }
-      ],
-      "client": {
-        "id": "XdqWEREAACMAEdum",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "lilly",
-        "first_publication_date": "2019-11-24T14:39:16+0000",
-        "last_publication_date": "2023-11-16T11:22:29+0000",
-        "uid": "lilly",
-        "data": { "name": "Lilly" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "XdqieBEAACMAEhJt",
-    "uid": "ea-sports-fifa10-how-big-can-football-get",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XdqieBEAACMAEhJt%22%29+%5D%5D",
-    "tags": ["ea-sports"],
-    "first_publication_date": "2019-11-24T15:32:11+0000",
-    "last_publication_date": "2023-11-17T13:27:07+0000",
-    "slugs": [
-      "ea-sports-fifa-10-how-big-can-football-get",
-      "how-big-can-football-get"
-    ],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 308, "height": 400 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/1ad49d20-b09a-4ac8-ad7c-2452fdfe7cc7_Wayne+thumb.jpg?auto=compress,format",
-        "id": "XpBXuBAAAO7GzZT2",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2010-09-24",
-      "title": [
+    "date": "2013-11-15T00:00:00.000Z",
+    "body": "Every time a new generation of consoles launches it’s as if there is a brand reset. While any past brand baggage doesn’t go away, a new console launch provides an opportunity for a total reconsideration of the brand – one that will set the course for the next six or seven years of that console’s life cycle. If you don’t get it right you risk losing that generation’s console war.\n\nGoing into the 2013 launch of PS4, PlayStation was feeling the heat from all sides. Despite new gaming competition from the likes of Apple and Android, the biggest battle would still come from arch-rival Xbox.  \n\nIt was a modern-day David vs. Goliath, with Microsoft outspending PlayStation across Europe and Australia by three to one. We couldn’t outspend them, so we had to outsmart them.  \n\nWhile Xbox One was giving gamers a back seat by positioning itself as a one-stop \"entertainment\" box, the strategy was to go back to PlayStation's roots as a brand by putting gamers and gaming at the very heart of everything PS4 stood for. In so doing, we rebranded those gamers in an own-able way that Xbox couldn’t – as \"Players\". \n\n“FOR THE PLAYERS” became a Euro Effie Grand Prix winning launch campaign, and drove market leadership in 50 markets versus XBox. \n\nThe “FOR THE PLAYERS” platform transcended the launch to become a business driving idea that guided every aspect of the PlayStation business for the six years that followed. The platform also led us to develop an entire brand ecosystem, complete with a brand book including brand purpose, mission, tone of voice, behaviors, and Player segmentation. \n",
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "awards": {
+      "items": [
         {
-          "type": "heading1",
-          "text": "How Big Can Football Get? ",
-          "spans": []
+          "sys": {
+            "id": "2vKlGQtRJDbCmPHx5gqGpj"
+          },
+          "title": "Grand Prix and Gold Euro Effie, and Global Effie Finalist",
+          "year": "2014/15"
         }
-      ],
-      "client": {
-        "id": "XdqV8xEAACBFEdsd",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "ea-sports",
-        "first_publication_date": "2019-11-24T14:38:46+0000",
-        "last_publication_date": "2023-11-16T11:22:27+0000",
-        "uid": "ea-sports",
-        "data": { "name": "EA Sports" },
-        "link_type": "Document",
-        "isBroken": false
-      }
+      ]
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "5dJsDEghHZiC3iAuMZkJx4"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/thNhYGQCTQY"
+        },
+        {
+          "sys": {
+            "id": "1VLMi5Gv3m7oejCduBE3va"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "77jFaCNcxrXyOiXLrWYP1E"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/77jFaCNcxrXyOiXLrWYP1E/a3e0bf8c8b650caef3c6a7aff347978d/1ed3d596-6ccc-43f8-9eb5-e8203b53a55d_PS4_UK_Oxo_Tower_Take_over.jpg",
+                "width": 4129,
+                "height": 2637,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "WlGO3qetSpZbf2WEBBx2l"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/WlGO3qetSpZbf2WEBBx2l/8a3343c31edeb21f768856c591fe986b/9a521fba-4f1e-401a-8893-e77939d08492_PS4_Online_Monument_01.jpg",
+                "width": 1920,
+                "height": 1080,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "2boh2J0toHWC2NTDI1OZMu"
+          },
+          "text": "Ahead of launch we created teaser films to intrigue gamers about what might be coming to PS4.",
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/5VWOF3T0chc"
+        },
+        {
+          "sys": {
+            "id": "5AVrWD1Vbi03fiqFeEX6dV"
+          },
+          "text": "The campaign won the 2014 Euro Effie Grand Prix and Euro Effie Gold for Leisure & Entertainment, and was a 2015 Global Effie Finalist.",
+          "video": "https://youtu.be/hQ9pIJ8fGjs",
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "61EB3w5jZLOKSD4iPYiwOY"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/61EB3w5jZLOKSD4iPYiwOY/a0e590cd62bd2bdc4b5a1fb9c3aaa2b8/PS4_Effies.jpeg",
+                "width": 3600,
+                "height": 2400,
+                "description": null
+              }
+            ]
+          }
+        }
+      ]
     }
   },
   {
-    "id": "XdqhoxEAADk9Eg61",
-    "uid": "ea-sports-fifa-street-3",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XdqhoxEAADk9Eg61%22%29+%5D%5D",
-    "tags": ["ea-sports"],
-    "first_publication_date": "2019-11-24T15:29:54+0000",
-    "last_publication_date": "2023-11-17T13:27:08+0000",
-    "slugs": ["ea-sports-fifa-street-3", "fifa-street-3"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 414, "height": 414 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/1549b414-9692-41ae-a136-48b9e0317397_FIFA+STREET+3.jpeg?auto=compress,format",
-        "id": "XpBaGRAAAF3AzZ_m",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2007-10-10",
-      "title": [{ "type": "heading1", "text": "FIFA Street 3", "spans": [] }],
-      "client": {
-        "id": "XdqV8xEAACBFEdsd",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "ea-sports",
-        "first_publication_date": "2019-11-24T14:38:46+0000",
-        "last_publication_date": "2023-11-16T11:22:27+0000",
-        "uid": "ea-sports",
-        "data": { "name": "EA Sports" },
-        "link_type": "Document",
-        "isBroken": false
-      }
+    "sys": {
+      "id": "cYw6fNqGqAVNM2QsYQO7N"
+    },
+    "title": "Do One Thing Well ",
+    "uid": "ketel-one-do-one-thing-well",
+    "date": "2013-06-06T00:00:00.000Z",
+    "body": "Despite being a massive success in the US for decades, Ketel One Vodka was mostly unknown in Europe and the rest of the world. To establish the brand in the rest of the world, we developed the “Do One Thing Well” platform to inspire their global target consumer who was in a life stage in which he was realizing that the best way to stand out was by being himself. The strategy was to inspire him to focus on what he loves doing in life, and forget the rest – just like the Nolet family which had been making spirits for 11 generations.\n\nAs part of the “Do One Thing Well” platform, we focused on collaborations with artists and craftspeople who embodied the brand's spirit of doing one thing well. We collaborated with “GIF-fiti” artist INSA to create a one-of-a-kind art installation at a popular bar in Amsterdam.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "ketel-one",
+      "name": "Ketel One Vodka"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "6rb8u8v2hStGbn4VZVduar"
+          },
+          "text": null,
+          "video": "https://youtu.be/W0flIdpqBzQ",
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "3LTJd7TsqPoBLq9NBxhBXh"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/3LTJd7TsqPoBLq9NBxhBXh/7cfd4dfba0ee2fddbcfd6c740269ddae/88cc4dd0-b07a-40aa-bf27-e0d7e61e1587_K1_INSA_GIF-ITI_26MAR13_600pix.gif",
+                "width": 795,
+                "height": 528,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "6injdudyiFHOkgbmsTCDq8"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "58qzhRvsqqVvYx9JAko4Fn"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/58qzhRvsqqVvYx9JAko4Fn/a71ee53e3f766df5d6c8942f431e55bd/89d915b9-0637-4b78-bd3e-e19dd2c4dfdd_K1_GIFiti_PRESS-031_600.jpg",
+                "width": 600,
+                "height": 400,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "1kQhOtbYKarx8PA83LoUut"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/1kQhOtbYKarx8PA83LoUut/8327aba000c583b18b4a553f673b8599/Ketel_One_Vodka_GIF-ITI_02.jpeg",
+                "width": 940,
+                "height": 470,
+                "description": null
+              }
+            ]
+          }
+        }
+      ]
     }
   },
   {
-    "id": "XdqgZREAADk9Egky",
-    "uid": "dr-martens-freedm",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XdqgZREAADk9Egky%22%29+%5D%5D",
-    "tags": ["dr-martens"],
-    "first_publication_date": "2019-11-24T15:23:20+0000",
-    "last_publication_date": "2023-11-17T13:22:30+0000",
-    "slugs": ["dr.-martens-freedm", "freedm"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1723, "height": 1221 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/ceacf5bd-92ab-411b-b5cb-dece2c5946a3_Abel+Page+_Page_08.jpg?auto=compress,format",
-        "id": "XhtIaxUAACQAJlfU",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2007-03-26",
-      "title": [{ "type": "heading1", "text": "FREEDM", "spans": [] }],
-      "client": {
-        "id": "XdqVuxEAACMAEdoc",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "dr.-martens",
-        "first_publication_date": "2019-11-24T14:37:50+0000",
-        "last_publication_date": "2023-11-16T11:22:27+0000",
-        "uid": "dr-martens",
-        "data": { "name": "Dr. Martens" },
-        "link_type": "Document",
-        "isBroken": false
-      }
+    "sys": {
+      "id": "5cpmcIz5XisByT9h6Pf9Ik"
+    },
+    "title": "The Best of the Best of the Best",
+    "uid": "playstation-all-stars-battle-royale",
+    "date": "2012-11-15T00:00:00.000Z",
+    "body": "PlayStation All Stars: Battle Royale was a fighting game that pitted some of PlayStation’s funniest and best known characters against one another. Our challenge was to launch the game with a campaign that was as fun, unexpected, and irreverent as the game itself.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "3OfunFfJ0DUoVhtSul15qB"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/DqzebJx_AE8"
+        }
+      ]
     }
   },
   {
-    "id": "XdqfxxEAACEAEgZ4",
+    "sys": {
+      "id": "6GERoP2os5nVKrQtPYmxyW"
+    },
+    "title": "Could you be the Last of Us?",
+    "uid": "could-you-be-the-last-of-us",
+    "date": "2012-11-11T00:00:00.000Z",
+    "body": "You've probably watched the HBO series, well, this is where it all started! The Last of Us was a PS3 game about all the horrific and dehumanizing things you’d have to do to survive in a world destroyed by a zombie-like plague. On the surface, The Last of Us could be confused with any other another \"post-apocalyptic zombie\" game. In reality though, it was a game about two characters whose lives become a series of desperate choices, who must kill for food and weapons, and who must do whatever it takes — *whatever it takes* — to survive. \n\nThe strategy was to recreate this desperate feeling for gamers, challenging them to put themselves in the shoes of the main character, Joel, and ask how far they would go to survive.",
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "0l4gmWn5K8rYGpVSU2D2U"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://www.youtube.com/watch?v=WL8LVEsYmIM"
+        }
+      ]
+    },
+    "awards": {
+      "items": [
+        {
+          "sys": {
+            "id": "3exlI4OJXPqpORQTMrUyNa"
+          },
+          "title": "Bronze Cannes Lion",
+          "year": "2013"
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "62JfRP98OTIwMTeSMQ7F7F"
+    },
+    "title": "The World is in Play",
+    "uid": "ps-vita-the-world-is-in-play",
+    "date": "2012-02-14T00:00:00.000Z",
+    "body": "In the minds of most serious gamers, mobile gaming was seen as “gaming lite”. However the launch of PlayStation Vita in 2012 represented a step-change. PS Vita ushered in a whole new era of uncompromised, rich, powerful, and immersive portable gaming experiences like only PlayStation could deliver. Combined with new tactile gaming functionality and on-the-go social connectivity, it meant that for gamers, the entire world was “in Play”. The strategy was to present PS Vita as portable gaming like gamers had always wished it could be.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "playstation",
+      "name": "PlayStation"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "4X2lWKC4u96ZGPnktsdr5F"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://www.youtube.com/watch?v=K4ifQuZxEAY"
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "4LNo931U22gypZbqqFrG02"
+    },
+    "title": "FIFA 10: How Big Can Football Get? ",
+    "uid": "ea-sports-fifa10-how-big-can-football-get",
+    "date": "2010-09-24T00:00:00.000Z",
+    "body": "The FIFA franchise is one of EA SPORTS’ two biggest franchises globally, and EA SPORTS' success in Europe rests on the success of FIFA. The strategy for the FIFA10 campaign was centered around FIFA’s unrivaled ability to connect gamers across the world through their passion for competing with one another in Football. With data showing over 2 million FIFA10 games being played globally every day, we asked ourselves: when augmented and enhanced by the experience of playing FIFA10, “How Big Can Football Get?”",
+    "client": {
+      "uid": "ea-sports",
+      "name": "EA SPORTS"
+    },
+    "awards": {
+      "items": [
+        {
+          "sys": {
+            "id": "lHgOX1uWo8YUs103Xy5Nq"
+          },
+          "title": "Silver Euro Effie",
+          "year": "2010"
+        }
+      ]
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "1Jlz7ODpEcbvbYGfGlq54k"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/gQLpBwopzN0"
+        },
+        {
+          "sys": {
+            "id": "3tKOfVlHKQvgsLGRcri7Yh"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "4KD4ETL0eV2Vwf3OHz9s1e"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/4KD4ETL0eV2Vwf3OHz9s1e/4f28efe2caae7eea4e38ece8162570f9/3d1aeefa-2ee6-4c9b-b307-e1776c16a970_Print_04_Wieden_and_Kennedy_Amsterdam.jpg",
+                "width": 1191,
+                "height": 842,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "5qm1P1TZr8mvkufBvgcVfs"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/5qm1P1TZr8mvkufBvgcVfs/9d61dc4ca625b18e30af6ffe617b7014/b91413d4-93a3-443b-a1e6-b3f2cad77ea7_Print_02_Wieden_and_Kennedy_Amsterdam.jpg",
+                "width": 1191,
+                "height": 842,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "2Qg2Jt0kU7yV9ENhlQUclV"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "7fns2aiWnOcQKTROmK7CYe"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/7fns2aiWnOcQKTROmK7CYe/763238a916e11b6bf26d3e0cd08d123f/1c2a0990-df12-4fad-948c-c7e1263fdd60_Print_05_Wieden_and_Kennedy_Amsterdam.jpg",
+                "width": 1191,
+                "height": 842,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "u2ODVnFQL3ge7degOKOTm"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/u2ODVnFQL3ge7degOKOTm/731449c8161ca143cc5e00d74cf22adc/21c14bc2-33e2-464b-913c-e4baf89b167b_Print_03_Wieden_and_Kennedy_Amsterdam.jpg",
+                "width": 1191,
+                "height": 842,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "5goA05COUDtYIeQOcL7Xcw"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/uCJ2ISM-Fek"
+        },
+        {
+          "sys": {
+            "id": "7JOZwXvaiVgl7DUvVtNx0g"
+          },
+          "text": "The campaign won a 2010 Silver Euro Effie for Leisure & Entertainment.",
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/l6a4abpjqqg"
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "3rkv0JPEGufjez9SLCh3n2"
+    },
+    "title": "FIFA Street 3",
+    "uid": "fifa-street-3",
+    "date": "2007-10-10T00:00:00.000Z",
+    "body": "FIFA Street 3 was a street Football game where rules didn’t quite apply, and winning was dependent on tricks and moves that you’d never get away with, or even physically be able to pull off, on the real pitch. The strategy was to get gamers and Football fans around the world talking about the game. We created a film that showed off some of the tricks in the game, but to such an extreme as to make people wonder if the tricks in the film were actually real.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "ea-sports",
+      "name": "EA SPORTS"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "1vjD1dTrPB6MWOQ5f2uJWP"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://www.youtube.com/watch?v=CH-PKUYiJl8"
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "27MlF2yzPvTKhZwXMPmWbc"
+    },
+    "title": "FREEDM",
+    "uid": "freedm",
+    "date": "2007-03-26T00:00:00.000Z",
+    "body": "In 2006/2007, the Dr. Martens brand was in a period of reinvigoration and rebirth, aligning around the brand idea of “liberating creativity”. The strategy was to bring this brand idea to life by creating a cultural movement called FREEDM. The FREEDM Movement was centred around an online community, as well as real‐world events where emerging artists could showcase their own creativity with the possibility of being discovered – and where people could personally experience the Dr. Martens brand.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "dr-martens",
+      "name": "Dr. Martens"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "23AuxUdBHybpfOOnUix1UW"
+          },
+          "text": "## FREEDM Recruitment\n\nWe commissioned then up-and-coming FREEDM artist Abel Macias to illustrate a recruitment booklet to inspire other artists and creatives to join the FREEDM movement. We distributed the recruitment piece in stores and events in London, New York, and San Francisco. ",
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "6R1Rhrzi3vZykgG6woEY3C"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/6R1Rhrzi3vZykgG6woEY3C/0a5d29a21098594e4b5c20b0afcb7d41/freedm-Abel_Page__Page_01.jpg",
+                "width": 860,
+                "height": 1220,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "5NVn0l8wiKcSKcyY63qf8K"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/5NVn0l8wiKcSKcyY63qf8K/068337c6073fd3b2b753675fd6c01b6a/freedm-Abel_Page__Page_03.jpg",
+                "width": 614,
+                "height": 435,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "65nK475n4Z22dsFhyyMKYW"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/65nK475n4Z22dsFhyyMKYW/bee5a315ec3393eb49a435f3fdff7b7f/freedm-Abel_Page__Page_04.jpg",
+                "width": 614,
+                "height": 435,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "7McPdIgYrpqoVbEEjLy4yh"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/7McPdIgYrpqoVbEEjLy4yh/d5cf6bec75ab173300fc3ac16035eea9/freedm-Abel_Page__Page_06.jpg",
+                "width": 1732,
+                "height": 1221,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "78yr0PRcxVByl2U4KWe6W5"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "1bHcYIbUqACb0jsvzKi9Gm"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/1bHcYIbUqACb0jsvzKi9Gm/c614c821c952f489d48235977bd3d83c/freedm-Abel_Page__Page_11.jpg",
+                "width": 1723,
+                "height": 1221,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "4fFZZFA54V98gEoEiThsff"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/4fFZZFA54V98gEoEiThsff/e62d406f392acc9d1efddcefab15a2ff/freedm-Abel_Page__Page_07.jpg",
+                "width": 1723,
+                "height": 1221,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "ZwQmTfKChhMXiigRnAIdp"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/ZwQmTfKChhMXiigRnAIdp/a4ccf8fc0d5312491a6571dd731a3bdd/freedm-Abel_Page__Page_08.jpg",
+                "width": 1723,
+                "height": 1221,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "2ZSTf9m3m6lO3BIjgEcKMT"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/2ZSTf9m3m6lO3BIjgEcKMT/60bf78d5154dc8b75bbadf7df902fcdd/freedm-Abel_Page__Page_09.jpg",
+                "width": 1723,
+                "height": 1221,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "7KMlPzDewRjcWzQHKPdTvi"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/7KMlPzDewRjcWzQHKPdTvi/8ce3efb6350137392d47d1e1d84fa2a4/freedm-Abel_Page__Page_10.jpg",
+                "width": 1723,
+                "height": 1221,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "7G0XUjARB8NDVyW1YchbZU"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "7CVTKdSpDL0quYsP1LR28H"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/7CVTKdSpDL0quYsP1LR28H/72c0aa8441a54649d546a8c073bb43c1/freedm-Abel_Page__Page_12.jpg",
+                "width": 1723,
+                "height": 1221,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "x2kzKFVR9epn7pcYPgAIN"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/x2kzKFVR9epn7pcYPgAIN/01325f769c344e6721238b4edd2c5a8f/freedm-Abel_Page__Page_13.jpg",
+                "width": 614,
+                "height": 435,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "4Ltqeo0PX8t2sh0j7GxnVl"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/4Ltqeo0PX8t2sh0j7GxnVl/45dbb703b077c14cfdaa12010f6c516d/freedm-Abel_Page__Page_02.jpg",
+                "width": 614,
+                "height": 435,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "4H8nEDlAMeLSvnx72fclvz"
+          },
+          "text": "We also commissioned Abel to paint a FREEDM mural in the flagship Dr. Martens store in Covent Garden, and hosted an event with bands and DJs to unveil the mural and give people the opportunity to interact with Abel, the brand, and the shoes all at the same time.",
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/rhMahf9tsac"
+        },
+        {
+          "sys": {
+            "id": "7H3vpch8lMWzV3zYUZvfLV"
+          },
+          "text": "## FREEDM Zine\n\nWe published a zine featuring the work of four different FREEDM artists and distributed it in New York, San Francisco, and London.",
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "5gX2EBXUqc2HYWB0dan2mY"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/5gX2EBXUqc2HYWB0dan2mY/1a333f8e38ea9e9098dc2b66fb576cb0/freedm-Magazine_Page__Page_01.jpg",
+                "width": 804,
+                "height": 1152,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "1mFbgSEj4HnfpiyeQPCJy0"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/1mFbgSEj4HnfpiyeQPCJy0/0243d2f880ef1d2737b49e642cd32762/freedm-Magazine_Page__Page_10.jpg",
+                "width": 1584,
+                "height": 1152,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "1OlEctRffY6I3AuCcH8bIx"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/1OlEctRffY6I3AuCcH8bIx/8a3b55591698bc3b39f8504398f87fb7/freedm-Magazine_Page__Page_11.jpg",
+                "width": 1584,
+                "height": 1152,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "3TlCHSCgrEj8yUXkDX7Ocl"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "6tfyv5bLnN3a9DMuK743VE"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/6tfyv5bLnN3a9DMuK743VE/40de0f8d29852e68f6b19955baaff54e/freedm-Magazine_Page__Page_03.jpg",
+                "width": 1584,
+                "height": 1152,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "7FlJeIDqbnmWVRFU7Bqatk"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/7FlJeIDqbnmWVRFU7Bqatk/856600e8a825d90362daca5283a7d08e/freedm-Magazine_Page__Page_04.jpg",
+                "width": 1584,
+                "height": 1152,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "3inLOuur2KxmM1iRbKGTFr"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/3inLOuur2KxmM1iRbKGTFr/a36ab99d7dc0310a3b1936b76c8a32be/freedm-Magazine_Page__Page_12.jpg",
+                "width": 4400,
+                "height": 3200,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "q2mxHXVKQeHDxvyELqazP"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/q2mxHXVKQeHDxvyELqazP/2e88d5938914253e1068ba799ae56990/freedm-Magazine_Page__Page_02.jpg",
+                "width": 4400,
+                "height": 3200,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "66BbFwJSHWn9jsyoSeD8Sf"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/66BbFwJSHWn9jsyoSeD8Sf/6946aeb8832ba50af3825d7a52dbd329/freedm-Magazine_Page__Page_08.jpg",
+                "width": 1584,
+                "height": 1152,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "57c8FNYUJ0o0TdImNi9Jl3"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/57c8FNYUJ0o0TdImNi9Jl3/bab79b482a91d98bb57fa025a410b5e1/freedm-Magazine_Page__Page_09.jpg",
+                "width": 1606,
+                "height": 1168,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "zpRsn3Wra3S6lVPFM2SvO"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/zpRsn3Wra3S6lVPFM2SvO/76f7271627d17e5c8fc406db552fdf5d/freedm-Magazine_Page__Page_05.jpg",
+                "width": 4400,
+                "height": 3200,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "6o0g1lACtocv4O7eYac7iy"
+          },
+          "text": "## Noise Pop\nWe partnered with acclaimed San Francisco music festival [Noise Pop](https://noisepop.com/about) to create a FREEDM opening event. We showcased the work of 22 FREEDM artists at the event, which included a number of indie bands, work and invitation by Shepard Fairy, and a partnership with Dave Egger’s foundation [826 Valencia](https://826valencia.org/).",
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "1kvWqreGqHQDWQQ0vrnbSf"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/1kvWqreGqHQDWQQ0vrnbSf/9f14053bf81b809192afbf4380a675e5/freedm-Shepard_Tapes_vip.gif",
+                "width": 640,
+                "height": 990,
+                "description": "FREEDM Night at Noise Pop Festival poster"
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "hKuMGIEzKqGD3LxaPf5iL"
+          },
+          "text": "## FREEDM Artist films\nWe created a series of online films profiling a number of FREEDM artists from the UK and US.",
+          "mediaCollection": {
+            "items": []
+          },
+          "video": null
+        },
+        {
+          "sys": {
+            "id": "NcIxNgyyl3urrgIlCTjTP"
+          },
+          "text": "## FREEDM Billboards\nWe ran a contest to choose 5 different FREEDM artists whose work we reproduced as outdoor billboards in Brooklyn and San Francisco.",
+          "mediaCollection": {
+            "items": []
+          },
+          "video": null
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "53yvSGXhPxp9ujkhqnZhOn"
+    },
+    "title": "You Let Musical Worlds Collide",
+    "uid": "apple-ipod-from-hp",
+    "date": "2004-08-06T00:00:00.000Z",
+    "body": "Within the YOU+hp consumer campaign, we also developed a campaign to launch an HP branded iPod (US only). Living in a bubble in San Francisco, both clients and agency thought everyone (in 2003) knew what an iPod was. It turned out that PC owners really didn’t! So the strategy was to educate PC users on the benefits of iPod ownership – a thousand songs in your pocket – using the inspiring and connective power of music.  ",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "hp",
+      "name": "HP"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "5kzu0uYGfHUgDXDwVVJ1V0"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/VKSikEpDeyY"
+        },
+        {
+          "sys": {
+            "id": "52bPcO9SeYJ24wqCG4Kwst"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/bC6E50odVe8"
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "XRDG8f4syxcfikersGnKU"
+    },
+    "title": "You+hp",
+    "uid": "you+hp",
+    "date": "2004-03-11T00:00:00.000Z",
+    "body": "In 2003, digital cameras were a luxury item for the ultra tech savvy. However, HP was (rightly so) betting it’s multi-million-dollar global consumer business on the masses moving to digital photography and building their entire consumer brand around it. The strategy behind the “YOU+hp” platform was to demystify digital photography by inspiring and enabling people around the world to use HP technology (including cameras, printers, and ink) to express themselves and their creativity.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "hp",
+      "name": "HP"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "bvaxqRvnt6bSkHT0VdolK"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/0O6MbSkGQ80"
+        },
+        {
+          "sys": {
+            "id": "1vtIeOdKpFSFiCfCFsvNL2"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/FE62osft7c8"
+        },
+        {
+          "sys": {
+            "id": "5Zv7xuHhK7pxheAEXPQ14m"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "PKsbvqKaMpXpqMEK9Egem"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/PKsbvqKaMpXpqMEK9Egem/d059577b770bbcbe55d222aa913a697b/Magazine_Page_02.jpg",
+                "width": 4861,
+                "height": 3224,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "4agllQIdrj7oj11ajXf4zP"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/4agllQIdrj7oj11ajXf4zP/7e91db98cd42c2057b7ec74b243704ee/Magazine_Page_03.jpg",
+                "width": 1167,
+                "height": 774,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "1t3EIOTRaAx97OWApzOpVI"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/1t3EIOTRaAx97OWApzOpVI/69516e6c0320ae7479e97dc67fd3c53d/5337a8c5-ed25-45dd-9fd0-8e579c1fa5b9_Magazine_Page_05.jpg",
+                "width": 1167,
+                "height": 775,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "25apc5H45GW1kiYn7nJwf9"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/25apc5H45GW1kiYn7nJwf9/69d47250d356e38ae250e5e74a1690de/Magazine_Page_08.jpg",
+                "width": 1170,
+                "height": 772,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "JBLzqORNGlgDdsHkJ4nDE"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "3zGJxNw1AZE8GATVlzHKn7"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/3zGJxNw1AZE8GATVlzHKn7/fd2efdb864bdc7a03c17141d0eff9af5/Magazine_Page_06.jpg",
+                "width": 1171,
+                "height": 781,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "37X6ueuIKaakeQCbklqTtJ"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/37X6ueuIKaakeQCbklqTtJ/ea6cd73755dc4789e869539edc69218a/Magazine_Page_04.jpg",
+                "width": 3233,
+                "height": 2142,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "2WUsAk6wg2VDSeayrQvUmV"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/2WUsAk6wg2VDSeayrQvUmV/4392c24d25a8ec0592e27b6296393f12/Magazine_Page_10.jpg",
+                "width": 1598,
+                "height": 1065,
+                "description": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "5qNMZ0wrXoRYjYg6Bf9Jv7"
+    },
+    "title": "Everything is Possible",
+    "uid": "hp-everything-is-possible",
+    "date": "2003-10-09T00:00:00.000Z",
+    "body": "The 2002 merger between tech giants HP and Compaq was highly contested and in the media on a daily basis. The strategy was to legitimize and shine a positive light on the merger by focusing on Fortune 500 companies that partnered with HP for tech infrastructure and services. The idea behind the “+hp” brand platform, which launched globally after the merger, was to show HP’s human, collaborative approach to partnerships, vs. the “our way or the highway” attitude of rival IBM",
+    "client": {
+      "uid": "hp",
+      "name": "HP"
+    },
+    "awards": {
+      "items": [
+        {
+          "sys": {
+            "id": "1FpCzDqU3gIoiUC4zGX5ly"
+          },
+          "title": "Campaign Magazine’s “International Advertiser of the Year”",
+          "year": "2004"
+        },
+        {
+          "sys": {
+            "id": "5kczBAdORXliaPluKlcjJ2"
+          },
+          "title": "Creativity Magazine’s “Campaign of the Year”",
+          "year": "2003"
+        }
+      ]
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "2jES3EH2hcScAz2ux5Ts5O"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/N5rxphsGQY8"
+        },
+        {
+          "sys": {
+            "id": "1GAsn9DOsuUxvUyYdOuuiK"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "2cieQaJ7kEztURe4hUMisE"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/2cieQaJ7kEztURe4hUMisE/cf20662d04aa8c618653ec39b6b2d1ec/thumb.jpg",
+                "width": 512,
+                "height": 665,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "7qlt6ZgHGyjo8HyYZxtHAO"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/7qlt6ZgHGyjo8HyYZxtHAO/5f0457692bb3ede5542948106733eb1a/bccb350e-0300-4113-bad9-06ccfc058e9f_amazon.jpg",
+                "width": 2520,
+                "height": 1673,
+                "description": null
+              }
+            ]
+          }
+        },
+        {
+          "sys": {
+            "id": "724wSVb6xMPwOJXeS5mdlD"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "5t7N8aXNUMtxzkL4wnIFkC"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/5t7N8aXNUMtxzkL4wnIFkC/9ab1526db85a6334e4a60f6147f62b36/8b5e828a-c235-45a7-bd00-6eb30f57b765_NYSE.jpg",
+                "width": 1168,
+                "height": 800,
+                "description": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "sys": {
+      "id": "2g6DUySRBYuBTj0uNI8GKG"
+    },
+    "title": "It’s Thinking",
     "uid": "sega-dreamcast-its-thinking",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XdqfxxEAACEAEgZ4%22%29+%5D%5D",
-    "tags": ["sega"],
-    "first_publication_date": "2019-11-24T15:20:43+0000",
-    "last_publication_date": "2023-11-17T13:22:28+0000",
-    "slugs": [
-      "sega-dreamcast-launch-its-thinking",
-      "sega-its-thinking",
-      "its-thinking"
-    ],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 1280, "height": 720 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/b65d63c5-5b52-46e4-98b9-9f56a9e153dc_dreamcast+Its+Thinking+ads+%28Clean%292.jpeg?auto=compress,format",
-        "id": "XpBYvxAAAO7GzZmi",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "1999-09-09",
-      "title": [{ "type": "heading1", "text": "It’s Thinking", "spans": [] }],
-      "client": {
-        "id": "XdqVhhEAACMAEdkw",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "sega",
-        "first_publication_date": "2019-11-24T14:36:57+0000",
-        "last_publication_date": "2023-11-16T11:22:26+0000",
-        "uid": "sega",
-        "data": { "name": "Sega" },
-        "link_type": "Document",
-        "isBroken": false
-      }
+    "date": "1999-09-09T00:00:00.000Z",
+    "body": "To help fight tooth and nail against new, mega-competitors PlayStation and Xbox, we developed a campaign to try to re‐establish Sega within the video gaming category and launch their newest (and last) major hardware platform, the Sega Dreamcast, in the US on 9-9-99\\. The strategy was to position Dreamcast as being so advanced that its AI could outsmart you – making it the ultimate gaming competitor.",
+    "client": {
+      "uid": "sega",
+      "name": "Sega"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "5JtkTrTXw7Qm3MT5XPmnLr"
+          },
+          "text": null,
+          "mediaCollection": {
+            "items": []
+          },
+          "video": "https://youtu.be/mbX9-pWFFik"
+        }
+      ]
+    },
+    "awards": {
+      "items": [
+        {
+          "sys": {
+            "id": "4Z7He9o1qesUPeC6ysvMK6"
+          },
+          "title": "Bronze and Silver North America Effies",
+          "year": "2000/01"
+        }
+      ]
     }
   },
   {
-    "id": "Xa9jDBAAACMA64sD",
-    "uid": "al-jazeera-demandpressfreedom",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22Xa9jDBAAACMA64sD%22%29+%5D%5D",
-    "tags": ["al-jazeera"],
-    "first_publication_date": "2019-10-22T20:19:08+0000",
-    "last_publication_date": "2023-11-17T13:22:28+0000",
-    "slugs": ["al-jazeera-demandpressfreedom", "demandpressfreedom"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 833, "height": 972 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/85992254-0095-4d9c-a1ff-662477acbb37_Screen+Shot+2017-10-26+at+11.01.24+AM2.jpg?auto=compress,format",
-        "id": "XpBukRAAACzKzf5P",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "2017-06-02",
-      "title": [
-        { "type": "heading1", "text": "#DemandPressFreedom", "spans": [] }
-      ],
-      "client": {
-        "id": "XdqWYhEAACEAEd0b",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "al-jazeera",
-        "first_publication_date": "2019-11-24T14:40:37+0000",
-        "last_publication_date": "2023-11-16T11:22:28+0000",
-        "uid": "al-jazeera",
-        "data": { "name": "Al Jazeera" },
-        "link_type": "Document",
-        "isBroken": false
-      }
-    }
-  },
-  {
-    "id": "Xa9ivRAAACEA64me",
+    "sys": {
+      "id": "6mPXyAduoyrBFqULnmSC6K"
+    },
+    "title": "MTV",
     "uid": "mtv",
-    "url": null,
-    "type": "project",
-    "href": "https://jonasvail.cdn.prismic.io/api/v2/documents/search?ref=ZVdqLhAAACIAuGAG&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22Xa9ivRAAACEA64me%22%29+%5D%5D",
-    "tags": ["mtv"],
-    "first_publication_date": "2019-10-22T20:12:47+0000",
-    "last_publication_date": "2023-11-17T13:22:31+0000",
-    "slugs": ["mtv-brand", "mtv"],
-    "linked_documents": [],
-    "lang": "en-gb",
-    "alternate_languages": [],
-    "data": {
-      "list_image": {
-        "dimensions": { "width": 750, "height": 1012 },
-        "alt": null,
-        "copyright": null,
-        "url": "https://images.prismic.io/jonasvail/f4f52125-d0a7-4b24-80b9-fc10a74647ef_mtv_bustarhymes_1998.jpg?auto=compress,format",
-        "id": "Xdrc2hEAACBFExSI",
-        "edit": { "x": 0, "y": 0, "zoom": 1, "background": "#fff" }
-      },
-      "date": "1999-06-21",
-      "title": [{ "type": "heading1", "text": "MTV", "spans": [] }],
-      "client": {
-        "id": "Xa9lxxAAACAA65dI",
-        "type": "client",
-        "tags": [],
-        "lang": "en-gb",
-        "slug": "mtv",
-        "first_publication_date": "2019-10-22T20:25:46+0000",
-        "last_publication_date": "2023-11-16T11:22:26+0000",
-        "uid": "mtv",
-        "data": { "name": "MTV" },
-        "link_type": "Document",
-        "isBroken": false
-      }
+    "date": "1999-06-21T00:00:00.000Z",
+    "body": "At the time, in 1998, MTV was actually still mostly playing music videos. It was only just starting to show more programming besides The Real World and Road Rules. However people were complaining that the brand was losing sight of its music roots. The strategy was to prove that the **M** in **M**TV still stood for music, by focusing on close-up photos of different musicians' distinguishing features. If you knew who the musicians were then you knew as much about music as MTV.",
+    "awards": {
+      "items": []
+    },
+    "client": {
+      "uid": "mtv",
+      "name": "MTV"
+    },
+    "mediaBlockList": {
+      "items": [
+        {
+          "sys": {
+            "id": "1ztn0dpzY3PKUQHRhdh1jY"
+          },
+          "text": null,
+          "video": null,
+          "mediaCollection": {
+            "items": [
+              {
+                "sys": {
+                  "id": "10ifgfas8i2zRB38O4Xyhq"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/10ifgfas8i2zRB38O4Xyhq/f6c30aca9dadd7d4114c11b12e919423/f4f52125-d0a7-4b24-80b9-fc10a74647ef_mtv_bustarhymes_1998.jpg",
+                "width": 750,
+                "height": 1012,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "DLYQ3s0UvSPFSAc0Cl2nX"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/DLYQ3s0UvSPFSAc0Cl2nX/18f2fa75d1556450b69570cd4a98207e/80480431-b631-44fc-82c1-e440a34f8310_mtv_missymisdemeanorelliot_1998.jpg",
+                "width": 750,
+                "height": 1012,
+                "description": null
+              },
+              {
+                "sys": {
+                  "id": "3GvE08BwbUIkBvkZhNIDUN"
+                },
+                "url": "https://images.ctfassets.net/jnzxx8eydhfs/3GvE08BwbUIkBvkZhNIDUN/45b98caf0a67240c5c49b81ffe52949a/031916eb-fab3-4f50-b97a-b0ef4635d91f_mtx_puffdaddy_1998.jpg",
+                "width": 750,
+                "height": 1012,
+                "description": null
+              }
+            ]
+          }
+        }
+      ]
     }
   }
 ]

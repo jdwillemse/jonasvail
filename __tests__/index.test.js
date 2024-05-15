@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react'
 
-import PageLayout from '../app/layout'
 import HomePage from '../app/page'
 import mockedProjects from '../__mocks__/allProjects.json'
 

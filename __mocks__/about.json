@@ -1,0 +1,169 @@
+{
+  "title": "About",
+  "body": "__Strategy consultant for brands playing in creativity and culture__\n28 years of building global brands—and counting.\nI have an avid interest in the way people think, feel, and behave, the worlds in which they live, and the cultures that connect them. \n\nAspiring television and film writer.\n\nNationalities: American and Dutch",
+  "experienceTitle": "Work Experience",
+  "accoladesTitle": "Awards & Recognition",
+  "experienceList": {
+    "items": [
+      {
+        "sys": {
+          "id": "3SRYtYZOrTP9DLERCoz4tD"
+        },
+        "dates": "12.2017 – Present",
+        "jobTitle": "Freelance Strategist",
+        "employer": null,
+        "description": "Clients: DEPT for Philips; adidas Brand Design; Miniac; R/GA for Siemens; DesignBridge for Lipton; BFD, Inc. for Twitch; 180 Amsterdam for PlayStation and Lay’s; Seventy Agency Stockholm for Ericsson; Tommy Hilfiger\nPitches won: Twitch EMEA\n"
+      },
+      {
+        "sys": {
+          "id": "7JtCsL5NvLFDZN0JuEBE6i"
+        },
+        "dates": "4.2011 – 12.2017",
+        "jobTitle": "Strategic Planning Director",
+        "employer": "180 Amsterdam",
+        "description": "Clients: Sony PlayStation (PS4, PS VR, games), Hewlett-Packard, Diageo, Lilly Diabetes UK, ASICS\nPitches won: Ketel One, Sky, Lilly, Replay, Qatar Airways, Al Jazeera, VAT 69, PlayStation"
+      },
+      {
+        "sys": {
+          "id": "2sMTGRqZmag12qUn5inye3"
+        },
+        "dates": "9.2007 – 4.2011",
+        "jobTitle": " Strategic Planning Director",
+        "employer": " Wieden+Kennedy, Amsterdam",
+        "description": "Clients: EA SPORTS FIFA, BASF, Nokia\nPitches won: BASF"
+      },
+      {
+        "sys": {
+          "id": "2z5Ve65hsbI0Jv7FJxEF0D"
+        },
+        "dates": "3.2005 – 6.2007",
+        "jobTitle": " Planning Director",
+        "employer": " Saatchi & Saatchi, London",
+        "description": "Clients: Dr. Martens, T-Mobile, Sagatiba"
+      },
+      {
+        "sys": {
+          "id": "4OpO3oe6Cn0BuzXp5IhDPB"
+        },
+        "dates": "12.1999 – 3.2005",
+        "jobTitle": "Senior Account Planner ",
+        "employer": "Goodby, Silverstein & Partners, San Francisco",
+        "description": "Clients: Hewlett-Packard (HP), Saturn (a division of GM), Frito-Lay, Hotwire.com, Epinions.com"
+      },
+      {
+        "sys": {
+          "id": "33VhpkJ0gEX1kGWBnoCuo0"
+        },
+        "dates": "1.1998 – 12.1999",
+        "jobTitle": "Account Planner",
+        "employer": "Foote, Cone & Belding, San Francisco",
+        "description": "Clients: Sega, MTV, Slates (a Levi-Strauss & Co. brand)"
+      },
+      {
+        "sys": {
+          "id": "oD0ds2ti2d9AwyZsVev3i"
+        },
+        "dates": "9.1995 – 12.1997",
+        "jobTitle": " Market Research/Product Development",
+        "employer": "Lambesis, Inc., Del Mar",
+        "description": "Clients: Cadillac, Airwalk, The NFL, Rossignol, Mattel, Columbia-Tristar, Calvin Klein"
+      }
+    ]
+  },
+  "accoladesList": {
+    "items": [
+      {
+        "sys": {
+          "id": "2vKlGQtRJDbCmPHx5gqGpj"
+        },
+        "year": "2014/15",
+        "title": "Grand Prix and Gold Euro Effie, and Global Effie Finalist",
+        "project": {
+          "title": "PS4: This is for the Players",
+          "uid": "ps4-launch-this-is-for-the-players",
+          "client": {
+            "uid": "playstation"
+          }
+        }
+      },
+      {
+        "sys": {
+          "id": "3exlI4OJXPqpORQTMrUyNa"
+        },
+        "year": "2013",
+        "title": "Bronze Cannes Lion",
+        "project": {
+          "title": "Could you be the Last of Us?",
+          "uid": "could-you-be-the-last-of-us",
+          "client": {
+            "uid": "playstation"
+          }
+        }
+      },
+      {
+        "sys": {
+          "id": "lHgOX1uWo8YUs103Xy5Nq"
+        },
+        "year": "2010",
+        "title": "Silver Euro Effie",
+        "project": {
+          "title": "FIFA 10: How Big Can Football Get? ",
+          "uid": "ea-sports-fifa10-how-big-can-football-get",
+          "client": {
+            "uid": "ea-sports"
+          }
+        }
+      },
+      {
+        "sys": {
+          "id": "1FpCzDqU3gIoiUC4zGX5ly"
+        },
+        "year": "2004",
+        "title": "Campaign Magazine’s “International Advertiser of the Year”",
+        "project": {
+          "title": "Everything is Possible",
+          "uid": "hp-everything-is-possible",
+          "client": {
+            "uid": "hp"
+          }
+        }
+      },
+      {
+        "sys": {
+          "id": "5kczBAdORXliaPluKlcjJ2"
+        },
+        "year": "2003",
+        "title": "Creativity Magazine’s “Campaign of the Year”",
+        "project": {
+          "title": "Everything is Possible",
+          "uid": "hp-everything-is-possible",
+          "client": {
+            "uid": "hp"
+          }
+        }
+      },
+      {
+        "sys": {
+          "id": "4Z7He9o1qesUPeC6ysvMK6"
+        },
+        "year": "2000/01",
+        "title": "Bronze and Silver North America Effies",
+        "project": {
+          "title": "It’s Thinking",
+          "uid": "sega-dreamcast-its-thinking",
+          "client": {
+            "uid": "sega"
+          }
+        }
+      },
+      {
+        "sys": {
+          "id": "7kXhXdSxU7fPhdV89HJaZF"
+        },
+        "year": "1997",
+        "title": "Mentioned in the New Yorker article “The Coolhunt”, by Malcolm Gladwell",
+        "project": null
+      }
+    ]
+  }
+}

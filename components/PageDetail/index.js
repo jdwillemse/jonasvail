@@ -1,21 +1,33 @@
 import React from 'react'
+import Markdown from 'react-markdown'
 
 import css from './styles.module.scss'
-import { asText } from '../../utils/prismic'
-import RichText from '../RichText'
 
 const PageDetail = ({ content, children }) => {
-  if (typeof content.data === 'undefined') {
+  if (typeof content === 'undefined') {
     return null
   }
 
-  const { title, body, client } = content.data
-
   return (
     <article className={css.wrap}>
-      {client && <div className={css.chapeau}>{client.name}</div>}
-      <h1 className={css.title}>{asText(title)}</h1>
-      <RichText content={body} className={css.content} />
+      {content.client && (
+        <div className={css.chapeau}>{content.client?.name}</div>
+      )}
+      <h1 className={css.title}>{content.title}</h1>
+      <div className={css.body}>
+        <Markdown>{content.body}</Markdown>
+      </div>
+      {/* only relevant on project pages */}
+      {content.awards?.items.length > 0 && (
+        <div className={css.awardsWrap}>
+          <h2 className={css.title2}>Awards</h2>
+          {content.awards.items.map((award) => (
+            <div key={award.sys.id}>
+              {award.year} {award.title}
+            </div>
+          ))}
+        </div>
+      )}
       {children}
     </article>
   )

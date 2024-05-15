@@ -1,9 +1,8 @@
-import { getProjectsByClient, getClient } from '../../lib/api'
+import { getProjectsByClient } from '../../lib/api'
 import ProjectList from '../../components/ProjectList'
 
 export default async function ClientPage({ params }) {
-  const client = await getClient(params?.client)
-  const projects = await getProjectsByClient(client?.id)
+  const projects = await getProjectsByClient(params?.client)
 
   // if no ID redirect to 404
   if (!projects || projects.length === 0) {
@@ -13,7 +12,7 @@ export default async function ClientPage({ params }) {
   return (
     <>
       <h1 style={{ fontSize: '1.25rem', marginBottom: '2rem' }}>
-        {client.data.name}
+        {projects[0].client.name}
       </h1>
       <ProjectList projects={projects} />
     </>

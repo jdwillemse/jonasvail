@@ -3,7 +3,7 @@ import Head from 'next/head'
 // component
 // ==========================================================================================
 const HeadComponent = ({ project, data, settings = {} }) => {
-  const { title, description, image, company_name } = settings.data
+  const { title, description, image, companyName } = settings
   // project pages passed in project. about page passed data
   const { meta_title, meta_description, meta_image } = project || data || {}
   const pageDescription = meta_description || description
@@ -26,7 +26,7 @@ const HeadComponent = ({ project, data, settings = {} }) => {
   return (
     <Head>
       <title>
-        {meta_title || title} | {company_name}
+        {meta_title || title} | {companyName}
       </title>
       {meta.map((props, i) => (
         <meta {...props} key={i} />

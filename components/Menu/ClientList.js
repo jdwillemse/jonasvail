@@ -16,7 +16,7 @@ export default function ClientList({ clients }) {
         <ClientItem
           {...client}
           isActive={client.uid === pathname}
-          key={client.id}
+          key={client.sys.id}
         />
       ))}
     </div>

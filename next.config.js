@@ -7,7 +7,7 @@ module.exports = withBundleAnalyzer({
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'images.prismic.io',
+        hostname: 'images.ctfassets.net',
         port: '',
         pathname: '/**',
       },

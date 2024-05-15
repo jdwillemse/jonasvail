@@ -2,7 +2,6 @@ import { render } from '@testing-library/react'
 
 import ProjectList from '.'
 import data from '../../__mocks__/allProjects.json'
-import { mockNextUseRouter } from '../../utils/testUtils'
 
 describe('ProjectList', () => {
   it('renders a list of projects', () => {

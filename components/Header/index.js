@@ -3,12 +3,12 @@ import Link from 'next/link'
 
 import css from './styles.module.scss'
 
-const Header = ({ data }) => (
+const Header = (data) => (
   <header className={css.wrap}>
     <Link href="/" className={css.logo}>
-      {data?.company_name}
+      {data?.companyName}
     </Link>
-    <div>{data?.subtitle}</div>
+    <div className={css.subtitle}>{data?.subtitle}</div>
   </header>
 )
 
