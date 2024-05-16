@@ -1,7 +1,7 @@
 import { getAbout } from '../../lib/api'
 
 const data = {
-   heroCopy: "I believe that a brand represents the relationship someone has with that company or product.",
+   heroCopy: "A strong brand is the emotional echo of a customer's journey with a company or product.",
    sections: [
       {
          title: "Brand Development and Strategy",
