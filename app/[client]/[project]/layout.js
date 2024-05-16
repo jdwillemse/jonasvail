@@ -1,8 +1,8 @@
-import '../../../styles/vars.css'
-import '../../../styles/index.css'
-import '../../../styles/main.css'
+import '@/styles/vars.css'
+import '@/styles/index.css'
+import '@/styles/main.css'
 
-import Layout from '../../../components/Layout'
+import Layout from '@/components/Layout'
 import { Karla } from 'next/font/google'
 
 const karla = Karla({

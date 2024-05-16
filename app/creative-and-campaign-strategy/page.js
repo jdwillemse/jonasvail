@@ -1,20 +1,12 @@
 import { getAbout } from '../../lib/api'
 
 const data = {
-   heroCopy: "I believe that a brand represents the relationship someone has with that company or product.",
+   heroCopy: "Effective campaigns are built on a deep understanding of what makes a brand tick.",
    sections: [
       {
          title: "Brand Development and Strategy",
-         copy: "A brand transcends the company or product itself. It's the dynamic connection a customer fosters with what you offer. Like any strong relationship, brands require dedicated investment to build trust and emotional resonance. They evolve and flourish over time, occupying a cherished space within the customer's experience — not just their mind, but their heart as well.\n\nBelow, you'll find examples of brands I've had the privilege of collaborating with to develop their core positioning, purpose, character, voice, and behavior."
+         copy: "Crafting a compelling creative campaign is the ultimate embodiment of a brand in action. However, a strong foundation is crucial. Without a deep understanding of a brand's core identity and values, crafting an effective campaign is impossible. Brand and product are inextricably linked; a well-developed brand informs impactful creative, and vice versa.\n\nHere are some examples of brands where I've developed successful creative strategies and campaigns."
       },
-      {
-         title: "About",
-         copy: "For almost 30 years, I've wrangled stories for some of the world's most iconic brands and agencies. I help them ditch the fluff and connect with people on a real level.\n\nSan Francisco is my hometown, but wanderlust took me to the world: a few years in London, canal-side in Amsterdam for 12 years, a quick 18-month stint in weird and wonderful Reykjavík, and finally, Berlin – where I've been for five years and one pandemic."
-      },
-      {
-         title: "Side Hustle",
-         copy: "When I'm not styling and directing, I provide creative consulting for luxury fashion brands across the globe. My travels have inspired my first book project, a coffee table book featuring street photography of the most fashionable people waiting for public transit."
-      }
    ]
 }
 
@@ -104,7 +96,7 @@ export default async function AboutPage(props) {
                         <div className="sqs-block html-block sqs-block-html" data-block-type="2" id="block-6257a0b5668e8b40d0acfaf8">
                            <div className="sqs-block-content">
                               <div className="sqs-html-content">
-                                 <h2 style={{ "white-space": "pre-wrap;" }}><a href="/creative-and-campaign-strategy">Creative and Campaign Strategy</a></h2>
+                                 <h2 style={{ "white-space": "pre-wrap;" }}><a href="/brand-development-and-strategy">Brand Development and Strategy</a></h2>
                               </div>
                            </div>
                         </div>
