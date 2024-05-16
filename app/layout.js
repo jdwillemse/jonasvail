@@ -1,6 +1,6 @@
 import '../styles/vars.css'
 import '../styles/index.css'
-import '../styles/main.scss'
+import '../styles/main.css'
 
 import Layout from '../components/Layout'
 import { Karla } from 'next/font/google'
