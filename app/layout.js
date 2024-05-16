@@ -1,23 +1,13 @@
-import '../styles/vars.css'
-import '../styles/index.css'
-import '../styles/main.css'
-
-import Layout from '../components/Layout'
-import { Karla } from 'next/font/google'
-
-const karla = Karla({
-  weight: ['400', '700'],
-  subsets: ['latin'],
-  display: 'swap',
-})
+import '@/styles/fonts.css'
+import '@/styles/static.css'
+import '@/styles/site-good-colours.css'
+import '@/styles/inline.css'
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={karla.className}>
+    <html lang="en">
       <body>
-        <div id="app-root">
-          <Layout>{children}</Layout>
-        </div>
+        {children}
       </body>
     </html>
   )
