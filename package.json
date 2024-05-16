@@ -53,7 +53,7 @@
   },
   "license": "UNLICENSED",
   "engines": {
-    "node": "22.x"
+    "node": "20.x"
   },
   "packageManager": "yarn@4.1.1",
   "private": true
