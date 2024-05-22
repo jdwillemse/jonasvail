@@ -1,4 +1,5 @@
 
+import Hero from '@/components/Hero'
 import { getAbout } from '@/lib/api'
 
 
@@ -25,25 +26,7 @@ export default async function AboutPage(props) {
 
    return (
       <article className="sections" id="sections" data-page-sections="624b503e5190ea02985eeeac">
-         <section data-test="page-section" data-section-id="6257a010aa3761dc51fb4382" data-controller="SectionWrapperController" style={{ "min-height": "10vh", "padding-top": "86.7344px" }} data-controllers-bound="SectionWrapperController" data-active="true">
-            <div className="content-wrapper" style={{ "padding-top": "calc(10vmax / 10)", "padding-bottom": "calc(10vmax / 10)" }}>
-               <div className="content">
-                  <div data-fluid-engine="true">
-                     <div className="fluid-engine fe-6257a010f3f192cadb19506c">
-                        <div className="fe-block fe-block-6257a010aff28dd687afbc78">
-                           <div className="sqs-block html-block sqs-block-html" data-block-type="2" id="block-6257a010aff28dd687afbc78">
-                              <div className="sqs-block-content">
-                                 <div className="sqs-html-content">
-                                    <h1 style={{ "white-space": "pre-wrap;" }}>{data.heroCopy}</h1>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
+         <Hero {...data} />
          <section data-test="page-section" className="page-section 
             full-bleed-section
             layout-engine-section
