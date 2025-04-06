@@ -1,0 +1,81 @@
+
+@font-face{
+  font-family: minion-pro;
+  src: url(https://use.typekit.net/af/1286c7/0000000000000000000151d6/27/l?subset_id=2&fvd=n4&v=3) format("woff2"); 
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: minion-pro;
+  src: url(https://use.typekit.net/af/ea8d85/0000000000000000000151d1/27/l?subset_id=2&fvd=n7&v=3) format("woff2"); 
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: minion-pro;
+  src: url(https://use.typekit.net/af/5033af/0000000000000000000151d3/27/l?subset_id=2&fvd=i4&v=3) format("woff2"); 
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: minion-pro;
+  src: url(https://use.typekit.net/af/bc1d75/0000000000000000000151d2/27/l?subset_id=2&fvd=i7&v=3) format("woff2"); 
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: neue-haas-grotesk-display;
+  src: url(https://use.typekit.net/af/1ba16c/00000000000000007735bb5a/30/l?subset_id=2&fvd=n5&v=3) format("woff2"); 
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: neue-haas-grotesk-display;
+  src: url(https://use.typekit.net/af/153042/00000000000000007735bb62/30/l?subset_id=2&fvd=n6&v=3) format("woff2"); 
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: neue-haas-grotesk-display;
+  src: url(https://use.typekit.net/af/384d9b/00000000000000007735bb6a/30/l?subset_id=2&fvd=n7&v=3) format("woff2"); 
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: neue-haas-grotesk-display;
+  src: url(https://use.typekit.net/af/6c4da4/00000000000000007735bb5e/30/l?subset_id=2&fvd=i5&v=3) format("woff2"); 
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: neue-haas-grotesk-display;
+  src: url(https://use.typekit.net/af/8a7571/00000000000000007735bb67/30/l?subset_id=2&fvd=i6&v=3) format("woff2"); 
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: neue-haas-grotesk-display;
+  src: url(https://use.typekit.net/af/fcc1c9/00000000000000007735bb6c/30/l?subset_id=2&fvd=i7&v=3) format("woff2"); 
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: auto;
+}

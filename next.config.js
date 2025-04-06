@@ -2,7 +2,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
-module.exports = withBundleAnalyzer({
+module.exports = {
   images: {
     remotePatterns: [
       {
@@ -17,4 +17,4 @@ module.exports = withBundleAnalyzer({
     imageSizes: [4, 8, 32, 48, 64],
   },
   swcMinify: true,
-})
+}
