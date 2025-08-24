@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [
-    process.env.NODE_ENV === 'production'
+    process.env.NODE_ENV === 'production-xxx'
       ? [
           '@fullhuman/postcss-purgecss',
           {
