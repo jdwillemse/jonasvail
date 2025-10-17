@@ -1,4 +1,4 @@
-import React, { useCallback, useContext } from 'react'
+import React, { Fragment, useCallback, useContext } from 'react'
 import classnames from 'classnames'
 import Image from 'next/image'
 import Markdown from 'react-markdown'
@@ -17,20 +17,20 @@ const MediaBlock = ({ mediaBlockList, description }) => {
     [setImage]
   )
 
-  if (mediaBlockList.items.length === 0) {
+  if (!mediaBlockList || mediaBlockList.items.length === 0) {
     return null
   }
 
   return (
     <div className={css.wrap}>
       {mediaBlockList.items.map((item) => (
-        <>
+        <Fragment key={item.sys.id}>
           {item.text && (
             <div className={css.copy}>
               <Markdown>{item.text}</Markdown>
             </div>
           )}
-          {item.mediaCollection.items && (
+          {item.mediaCollection?.items && (
             <div className={css.gallery} key={item.sys.id}>
               {item.mediaCollection.items.map(
                 (image) =>
@@ -67,7 +67,7 @@ const MediaBlock = ({ mediaBlockList, description }) => {
               </div>
             </div>
           )}
-        </>
+        </Fragment>
       ))}
     </div>
   )
