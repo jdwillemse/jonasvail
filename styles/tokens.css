@@ -3,7 +3,7 @@
 :root {
   /* Colour */
   --color-accent: hsl(19.6 90.9% 47.5%);
-  --color-text: hsl(0 0% 100%);
+  --color-text: #15274e;
 
   /* Font families */
   --font-heading: 'Helvetica Neue', Arial, sans-serif;

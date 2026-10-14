@@ -6,11 +6,13 @@ import '@/styles/typography.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import GetInTouch from '@/components/GetInTouch'
+import PageColour from '@/components/PageColour'
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <PageColour />
         <Header />
         <main id="main">
           {children}
