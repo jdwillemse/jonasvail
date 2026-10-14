@@ -39,6 +39,7 @@ export default async function BrandDevelopmentPage() {
         }))}
       />
       <CaseList
+        stacked
         items={[
           {
             label: <strong>See what else I do</strong>,

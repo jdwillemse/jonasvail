@@ -20,6 +20,7 @@ export default async function CreativeAndCampaignPage() {
         }))}
       />
       <CaseList
+        stacked
         items={[
           {
             label: <strong>See what else I do</strong>,

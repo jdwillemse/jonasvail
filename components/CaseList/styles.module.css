@@ -27,3 +27,14 @@
     grid-column: 2 / 10;
   }
 }
+
+@media (min-width: 768px) {
+  .stacked .label,
+  .stacked .title {
+    grid-column: 7 / 26;
+  }
+}
+
+.stacked .title {
+  --size: var(--size-h3);
+}
