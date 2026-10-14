@@ -6,8 +6,8 @@
   --color-text: #15274e;
 
   /* Font families */
-  --font-heading: 'Helvetica Neue', Arial, sans-serif;
-  --font-body: minion-pro, Georgia, serif;
+  --font-heading: 'ABC Diatype', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'ABC Laica', Georgia, serif;
 
   /*
    * Fluid type: size = (value - 1) * unit + 1rem, where value is the theme's

@@ -27,9 +27,9 @@
   z-index: 1;
   font-family: var(--font-heading);
   font-size: calc((var(--size-site-title) - 1) * var(--type-unit) + 1rem);
-  font-weight: 700;
-  line-height: 1.4;
-  letter-spacing: -0.02em;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: normal;
   text-decoration: none;
 }
 
@@ -100,9 +100,9 @@
     background: var(--color-accent);
     font-family: var(--font-heading);
     font-size: calc((var(--size-h3) - 1) * var(--type-unit) + 1rem);
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -0.02em;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: normal;
     visibility: hidden;
     opacity: 0;
     transition:
