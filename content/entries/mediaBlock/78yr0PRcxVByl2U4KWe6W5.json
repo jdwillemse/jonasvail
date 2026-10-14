@@ -34,42 +34,38 @@
     "locale": "en-US"
   },
   "fields": {
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "1bHcYIbUqACb0jsvzKi9Gm"
+    "rows": [
+      [
+        {
+          "image": "1bHcYIbUqACb0jsvzKi9Gm",
+          "from": 1,
+          "to": -1
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "4fFZZFA54V98gEoEiThsff"
+      ],
+      [
+        {
+          "image": "4fFZZFA54V98gEoEiThsff",
+          "from": 1,
+          "to": 20
+        },
+        {
+          "image": "ZwQmTfKChhMXiigRnAIdp",
+          "from": 21,
+          "to": -1
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "ZwQmTfKChhMXiigRnAIdp"
+      ],
+      [
+        {
+          "image": "2ZSTf9m3m6lO3BIjgEcKMT",
+          "from": 1,
+          "to": 12
+        },
+        {
+          "image": "7KMlPzDewRjcWzQHKPdTvi",
+          "from": 14,
+          "to": -1
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "2ZSTf9m3m6lO3BIjgEcKMT"
-        }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "7KMlPzDewRjcWzQHKPdTvi"
-        }
-      }
+      ]
     ]
   }
 }

@@ -34,29 +34,28 @@
     "locale": "en-US"
   },
   "fields": {
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "3zGJxNw1AZE8GATVlzHKn7"
+    "title_internal": "You+hp — 3",
+    "rows": [
+      [
+        {
+          "image": "3zGJxNw1AZE8GATVlzHKn7",
+          "from": 1,
+          "to": 10,
+          "align": "center"
+        },
+        {
+          "image": "37X6ueuIKaakeQCbklqTtJ",
+          "from": 12,
+          "to": -1
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "37X6ueuIKaakeQCbklqTtJ"
+      ],
+      [
+        {
+          "image": "2WUsAk6wg2VDSeayrQvUmV",
+          "from": 1,
+          "to": -6
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "2WUsAk6wg2VDSeayrQvUmV"
-        }
-      }
-    ],
-    "title_internal": "You+hp — 3"
+      ]
+    ]
   }
 }

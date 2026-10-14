@@ -5,13 +5,6 @@
         "sys": {
           "type": "Link",
           "linkType": "Tag",
-          "id": "brand-strategy"
-        }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Tag",
           "id": "campaign-strategy"
         }
       },

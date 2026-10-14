@@ -35,7 +35,15 @@
   },
   "fields": {
     "text": "The campaign won a 2010 Silver Euro Effie for Leisure & Entertainment.",
-    "video": "https://youtu.be/l6a4abpjqqg",
-    "title_internal": "How Big Can Football Get?  — 4"
+    "title_internal": "How Big Can Football Get?  — 4",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/l6a4abpjqqg",
+          "from": 7,
+          "to": -1
+        }
+      ]
+    ]
   }
 }

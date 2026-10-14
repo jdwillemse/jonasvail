@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://www.youtube.com/watch?v=KMGAvimQQeQ",
-    "title_internal": "All in. Play on. — 0"
+    "title_internal": "All in. Play on. — 0",
+    "rows": [
+      [
+        {
+          "video": "https://www.youtube.com/watch?v=KMGAvimQQeQ",
+          "from": 1,
+          "to": -5
+        }
+      ]
+    ]
   }
 }

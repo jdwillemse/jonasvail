@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://youtu.be/gQLpBwopzN0",
-    "title_internal": "How Big Can Football Get?  — 0"
+    "title_internal": "How Big Can Football Get?  — 0",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/gQLpBwopzN0",
+          "from": 1,
+          "to": -1
+        }
+      ]
+    ]
   }
 }

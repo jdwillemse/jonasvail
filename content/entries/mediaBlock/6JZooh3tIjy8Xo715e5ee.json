@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://youtu.be/SAClGbzirGw",
-    "title_internal": "Welcome to the World's Biggest Club — 1"
+    "title_internal": "Welcome to the World's Biggest Club — 1",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/SAClGbzirGw",
+          "from": 7,
+          "to": -1
+        }
+      ]
+    ]
   }
 }

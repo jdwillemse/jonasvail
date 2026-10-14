@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://youtu.be/thNhYGQCTQY",
-    "title_internal": "This is for the Players — 0"
+    "title_internal": "This is for the Players — 0",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/thNhYGQCTQY",
+          "from": 1,
+          "to": -1
+        }
+      ]
+    ]
   }
 }

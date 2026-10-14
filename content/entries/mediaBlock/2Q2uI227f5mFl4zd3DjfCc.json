@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://youtu.be/VcS3-Hcc2aU",
-    "title_internal": "This Could Be You — 0"
+    "title_internal": "This Could Be You — 0",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/VcS3-Hcc2aU",
+          "from": 1,
+          "to": -7
+        }
+      ]
+    ]
   }
 }

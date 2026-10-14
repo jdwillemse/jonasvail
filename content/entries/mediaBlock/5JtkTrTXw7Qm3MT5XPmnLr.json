@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://youtu.be/mbX9-pWFFik",
-    "title_internal": "It’s Thinking — 0"
+    "title_internal": "It’s Thinking — 0",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/mbX9-pWFFik",
+          "from": 1,
+          "to": -7
+        }
+      ]
+    ]
   }
 }

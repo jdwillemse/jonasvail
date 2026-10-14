@@ -34,15 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "6ZQmqLvDg626V9XZRNEPGL"
+    "title_internal": "Twitch Creators Campaign — 4",
+    "rows": [
+      [
+        {
+          "image": "6ZQmqLvDg626V9XZRNEPGL",
+          "from": 3,
+          "to": -5
         }
-      }
-    ],
-    "title_internal": "Twitch Creators Campaign — 4"
+      ]
+    ]
   }
 }

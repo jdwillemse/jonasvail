@@ -34,22 +34,21 @@
     "locale": "en-US"
   },
   "fields": {
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "ADHUOiQkOQVOiv7eTnWjq"
+    "title_internal": "[FUTURECRAFT] Loop — 1",
+    "rows": [
+      [
+        {
+          "image": "ADHUOiQkOQVOiv7eTnWjq",
+          "from": 3,
+          "to": 13
+        },
+        {
+          "image": "1HGav8mxBWFvdAvzR0j1Z7",
+          "from": 15,
+          "to": -1,
+          "align": "bottom"
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "1HGav8mxBWFvdAvzR0j1Z7"
-        }
-      }
-    ],
-    "title_internal": "[FUTURECRAFT] Loop — 1"
+      ]
+    ]
   }
 }

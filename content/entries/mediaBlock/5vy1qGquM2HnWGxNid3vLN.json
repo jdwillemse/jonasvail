@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://youtu.be/3PkVEV02_ww",
-    "title_internal": "The Wonderful Life of a PS4 Player — 0"
+    "title_internal": "The Wonderful Life of a PS4 Player — 0",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/3PkVEV02_ww",
+          "from": 5,
+          "to": -1
+        }
+      ]
+    ]
   }
 }

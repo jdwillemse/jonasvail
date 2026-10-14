@@ -34,15 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "5t7N8aXNUMtxzkL4wnIFkC"
+    "title_internal": "Everything is Possible — 2",
+    "rows": [
+      [
+        {
+          "image": "5t7N8aXNUMtxzkL4wnIFkC",
+          "from": 1,
+          "to": -9
         }
-      }
-    ],
-    "title_internal": "Everything is Possible — 2"
+      ]
+    ]
   }
 }

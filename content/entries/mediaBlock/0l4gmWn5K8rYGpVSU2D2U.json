@@ -34,6 +34,14 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://www.youtube.com/watch?v=WL8LVEsYmIM"
+    "rows": [
+      [
+        {
+          "video": "https://www.youtube.com/watch?v=WL8LVEsYmIM",
+          "from": 7,
+          "to": -1
+        }
+      ]
+    ]
   }
 }

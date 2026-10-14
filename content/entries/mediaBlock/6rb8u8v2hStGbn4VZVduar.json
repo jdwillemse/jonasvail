@@ -34,16 +34,22 @@
     "locale": "en-US"
   },
   "fields": {
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "3LTJd7TsqPoBLq9NBxhBXh"
+    "title_internal": "Do One Thing Well  — 0",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/W0flIdpqBzQ",
+          "from": 1,
+          "to": -5
         }
-      }
-    ],
-    "video": "https://youtu.be/W0flIdpqBzQ",
-    "title_internal": "Do One Thing Well  — 0"
+      ],
+      [
+        {
+          "image": "3LTJd7TsqPoBLq9NBxhBXh",
+          "from": 11,
+          "to": -1
+        }
+      ]
+    ]
   }
 }

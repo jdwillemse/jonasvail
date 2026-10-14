@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://youtu.be/HMdfhl0ZLvw",
-    "title_internal": "Twitch Creators Campaign — 2"
+    "title_internal": "Twitch Creators Campaign — 2",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/HMdfhl0ZLvw",
+          "from": 5,
+          "to": -1
+        }
+      ]
+    ]
   }
 }

@@ -34,22 +34,20 @@
     "locale": "en-US"
   },
   "fields": {
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "7fns2aiWnOcQKTROmK7CYe"
+    "title_internal": "How Big Can Football Get?  — 2",
+    "rows": [
+      [
+        {
+          "image": "7fns2aiWnOcQKTROmK7CYe",
+          "from": 3,
+          "to": 11
+        },
+        {
+          "image": "u2ODVnFQL3ge7degOKOTm",
+          "from": 13,
+          "to": -1
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "u2ODVnFQL3ge7degOKOTm"
-        }
-      }
-    ],
-    "title_internal": "How Big Can Football Get?  — 2"
+      ]
+    ]
   }
 }

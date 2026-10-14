@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://www.youtube.com/watch?v=JYs2cC5mt5M",
-    "title_internal": "How far would you go to be free? — 0"
+    "title_internal": "How far would you go to be free? — 0",
+    "rows": [
+      [
+        {
+          "video": "https://www.youtube.com/watch?v=JYs2cC5mt5M",
+          "from": 3,
+          "to": -3
+        }
+      ]
+    ]
   }
 }

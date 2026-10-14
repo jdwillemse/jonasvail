@@ -34,29 +34,27 @@
     "locale": "en-US"
   },
   "fields": {
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "10ifgfas8i2zRB38O4Xyhq"
+    "title_internal": "MTV — 0",
+    "rows": [
+      [
+        {
+          "image": "10ifgfas8i2zRB38O4Xyhq",
+          "from": 1,
+          "to": 9
+        },
+        {
+          "image": "DLYQ3s0UvSPFSAc0Cl2nX",
+          "from": 10,
+          "to": 16,
+          "align": "bottom"
+        },
+        {
+          "image": "3GvE08BwbUIkBvkZhNIDUN",
+          "from": 18,
+          "to": -1,
+          "align": "center"
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "DLYQ3s0UvSPFSAc0Cl2nX"
-        }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "3GvE08BwbUIkBvkZhNIDUN"
-        }
-      }
-    ],
-    "title_internal": "MTV — 0"
+      ]
+    ]
   }
 }

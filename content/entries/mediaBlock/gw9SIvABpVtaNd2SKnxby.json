@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://youtu.be/oS3mtilCZGI",
-    "title_internal": "Live the Game — 0"
+    "title_internal": "Live the Game — 0",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/oS3mtilCZGI",
+          "from": 1,
+          "to": -7
+        }
+      ]
+    ]
   }
 }

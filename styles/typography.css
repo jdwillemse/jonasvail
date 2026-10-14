@@ -1,8 +1,60 @@
+body {
+  font-family: var(--font-body);
+  font-size: calc((var(--size-normal) - 1) * var(--type-unit) + 1rem);
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
+  --size: var(--size-h1);
+
   margin: 0;
-  font-weight: normal;
+  font-family: var(--font-heading);
+  font-size: calc((var(--size) - 1) * var(--type-unit) + 1rem);
+  font-weight: 700;
+  /* The theme tightens line height as headings grow. */
+  line-height: calc(1.4 * (1 + (1 - var(--size)) / 25));
+  letter-spacing: -0.02em;
+  overflow-wrap: break-word;
+}
+
+h2 {
+  --size: var(--size-h2);
+}
+
+h3 {
+  --size: var(--size-h3);
+}
+
+h4 {
+  --size: var(--size-h4);
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* Links inside copy and headings */
+p a,
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.text-large {
+  font-size: calc((var(--size-large) - 1) * var(--type-unit) + 1rem);
+}
+
+.text-small {
+  font-size: calc((var(--size-small) - 1) * var(--type-unit) + 1rem);
 }

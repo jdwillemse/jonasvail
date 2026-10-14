@@ -34,22 +34,22 @@
     "locale": "en-US"
   },
   "fields": {
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "1oR6qZfv7EuzwPt0P2cNhm"
+    "title_internal": "Twitch Creators Campaign — 3",
+    "rows": [
+      [
+        {
+          "image": "1oR6qZfv7EuzwPt0P2cNhm",
+          "from": 1,
+          "to": -9
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "2NXyhH0Eg8tGN7SHopgoDW"
+      ],
+      [
+        {
+          "image": "2NXyhH0Eg8tGN7SHopgoDW",
+          "from": 9,
+          "to": -1
         }
-      }
-    ],
-    "title_internal": "Twitch Creators Campaign — 3"
+      ]
+    ]
   }
 }

@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://youtu.be/VKSikEpDeyY",
-    "title_internal": "You Let Musical Worlds Collide — 0"
+    "title_internal": "You Let Musical Worlds Collide — 0",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/VKSikEpDeyY",
+          "from": 1,
+          "to": -7
+        }
+      ]
+    ]
   }
 }

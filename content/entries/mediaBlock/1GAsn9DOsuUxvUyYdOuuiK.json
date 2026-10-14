@@ -34,22 +34,21 @@
     "locale": "en-US"
   },
   "fields": {
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "2cieQaJ7kEztURe4hUMisE"
+    "title_internal": "Everything is Possible — 1",
+    "rows": [
+      [
+        {
+          "image": "2cieQaJ7kEztURe4hUMisE",
+          "from": 1,
+          "to": 7,
+          "align": "bottom"
+        },
+        {
+          "image": "7qlt6ZgHGyjo8HyYZxtHAO",
+          "from": 9,
+          "to": -1
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "7qlt6ZgHGyjo8HyYZxtHAO"
-        }
-      }
-    ],
-    "title_internal": "Everything is Possible — 1"
+      ]
+    ]
   }
 }

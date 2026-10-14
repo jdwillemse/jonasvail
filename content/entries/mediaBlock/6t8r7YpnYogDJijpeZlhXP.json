@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://youtu.be/6cfJK60kLEc",
-    "title_internal": "#DemandPressFreedom — 0"
+    "title_internal": "#DemandPressFreedom — 0",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/6cfJK60kLEc",
+          "from": 2,
+          "to": -2
+        }
+      ]
+    ]
   }
 }

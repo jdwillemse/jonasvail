@@ -35,28 +35,32 @@
   },
   "fields": {
     "text": "## FREEDM Zine\n\nWe published a zine featuring the work of four different FREEDM artists and distributed it in New York, San Francisco, and London.",
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "5gX2EBXUqc2HYWB0dan2mY"
+    "rows": [
+      [
+        {
+          "image": "5gX2EBXUqc2HYWB0dan2mY",
+          "from": 1,
+          "to": 10
+        },
+        {
+          "image": "1mFbgSEj4HnfpiyeQPCJy0",
+          "from": 12,
+          "to": -1,
+          "align": "bottom"
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "1mFbgSEj4HnfpiyeQPCJy0"
+      ],
+      [
+        {
+          "image": "1OlEctRffY6I3AuCcH8bIx",
+          "from": 1,
+          "to": 12
+        },
+        {
+          "image": "6tfyv5bLnN3a9DMuK743VE",
+          "from": 14,
+          "to": -1
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "1OlEctRffY6I3AuCcH8bIx"
-        }
-      }
+      ]
     ]
   }
 }

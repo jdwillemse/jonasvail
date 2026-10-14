@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://youtu.be/ya7ZhOrjH-0",
-    "title_internal": "Drive Together, Win Together — 0"
+    "title_internal": "Drive Together, Win Together — 0",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/ya7ZhOrjH-0",
+          "from": 3,
+          "to": -3
+        }
+      ]
+    ]
   }
 }

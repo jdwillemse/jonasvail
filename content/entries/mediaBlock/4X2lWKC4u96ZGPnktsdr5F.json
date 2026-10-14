@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://www.youtube.com/watch?v=K4ifQuZxEAY",
-    "title_internal": "The World is in Play — 0"
+    "title_internal": "The World is in Play — 0",
+    "rows": [
+      [
+        {
+          "video": "https://www.youtube.com/watch?v=K4ifQuZxEAY",
+          "from": 3,
+          "to": -3
+        }
+      ]
+    ]
   }
 }

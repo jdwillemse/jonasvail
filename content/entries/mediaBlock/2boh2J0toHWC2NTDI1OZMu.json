@@ -35,7 +35,15 @@
   },
   "fields": {
     "text": "Ahead of launch we created teaser films to intrigue gamers about what might be coming to PS4.",
-    "video": "https://youtu.be/5VWOF3T0chc",
-    "title_internal": "This is for the Players — 2"
+    "title_internal": "This is for the Players — 2",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/5VWOF3T0chc",
+          "from": 5,
+          "to": -1
+        }
+      ]
+    ]
   }
 }

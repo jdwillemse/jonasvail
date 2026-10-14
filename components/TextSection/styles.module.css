@@ -1,0 +1,21 @@
+.section {
+  composes: grid from '@/styles/grid.module.css';
+  align-items: start;
+  row-gap: var(--grid-row);
+  padding-block: var(--grid-row);
+}
+
+.label {
+  grid-column: 7 / 14;
+}
+
+.body {
+  grid-column: 15 / 26;
+}
+
+@media (max-width: 767px) {
+  .label,
+  .body {
+    grid-column: 2 / 10;
+  }
+}

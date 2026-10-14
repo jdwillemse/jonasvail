@@ -35,16 +35,22 @@
   },
   "fields": {
     "text": "The campaign won the 2014 Euro Effie Grand Prix and Euro Effie Gold for Leisure & Entertainment, and was a 2015 Global Effie Finalist.",
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "61EB3w5jZLOKSD4iPYiwOY"
+    "title_internal": "This is for the Players — 3",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/hQ9pIJ8fGjs",
+          "from": 1,
+          "to": -7
         }
-      }
-    ],
-    "video": "https://youtu.be/hQ9pIJ8fGjs",
-    "title_internal": "This is for the Players — 3"
+      ],
+      [
+        {
+          "image": "61EB3w5jZLOKSD4iPYiwOY",
+          "from": 9,
+          "to": -1
+        }
+      ]
+    ]
   }
 }

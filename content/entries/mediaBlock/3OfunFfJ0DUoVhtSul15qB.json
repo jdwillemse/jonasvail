@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://youtu.be/DqzebJx_AE8",
-    "title_internal": "The Best of the Best of the Best — 0"
+    "title_internal": "The Best of the Best of the Best — 0",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/DqzebJx_AE8",
+          "from": 1,
+          "to": -5
+        }
+      ]
+    ]
   }
 }

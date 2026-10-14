@@ -34,15 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "3h4rUDTfTWNiAkaPWnMPk"
+    "title_internal": "[FUTURECRAFT] Loop — 0",
+    "rows": [
+      [
+        {
+          "image": "3h4rUDTfTWNiAkaPWnMPk",
+          "from": 1,
+          "to": -1
         }
-      }
-    ],
-    "title_internal": "[FUTURECRAFT] Loop — 0"
+      ]
+    ]
   }
 }

@@ -34,7 +34,15 @@
     "locale": "en-US"
   },
   "fields": {
-    "video": "https://youtu.be/Fi2XJrYHvyc",
-    "title_internal": "Where the World Comes to Race — 0"
+    "title_internal": "Where the World Comes to Race — 0",
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/Fi2XJrYHvyc",
+          "from": 2,
+          "to": -2
+        }
+      ]
+    ]
   }
 }

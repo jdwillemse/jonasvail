@@ -34,22 +34,21 @@
     "locale": "en-US"
   },
   "fields": {
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "77jFaCNcxrXyOiXLrWYP1E"
+    "title_internal": "This is for the Players — 1",
+    "rows": [
+      [
+        {
+          "image": "77jFaCNcxrXyOiXLrWYP1E",
+          "from": 1,
+          "to": 14
+        },
+        {
+          "image": "WlGO3qetSpZbf2WEBBx2l",
+          "from": 16,
+          "to": -1,
+          "align": "bottom"
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "WlGO3qetSpZbf2WEBBx2l"
-        }
-      }
-    ],
-    "title_internal": "This is for the Players — 1"
+      ]
+    ]
   }
 }

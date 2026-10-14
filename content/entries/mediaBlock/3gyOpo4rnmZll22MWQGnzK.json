@@ -34,22 +34,21 @@
     "locale": "en-US"
   },
   "fields": {
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "2wEFBH5OyP5eGsR1WiMxt1"
+    "title_internal": "Lilly Diabetes UK — 1",
+    "rows": [
+      [
+        {
+          "image": "2wEFBH5OyP5eGsR1WiMxt1",
+          "from": 3,
+          "to": 11
+        },
+        {
+          "image": "1IASs807CtwnIAsEZJvQbg",
+          "from": 13,
+          "to": -3,
+          "align": "center"
         }
-      },
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "1IASs807CtwnIAsEZJvQbg"
-        }
-      }
-    ],
-    "title_internal": "Lilly Diabetes UK — 1"
+      ]
+    ]
   }
 }

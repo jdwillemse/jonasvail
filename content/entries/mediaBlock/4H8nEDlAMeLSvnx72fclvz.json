@@ -35,6 +35,14 @@
   },
   "fields": {
     "text": "We also commissioned Abel to paint a FREEDM mural in the flagship Dr. Martens store in Covent Garden, and hosted an event with bands and DJs to unveil the mural and give people the opportunity to interact with Abel, the brand, and the shoes all at the same time.",
-    "video": "https://youtu.be/rhMahf9tsac"
+    "rows": [
+      [
+        {
+          "video": "https://youtu.be/rhMahf9tsac",
+          "from": 3,
+          "to": -3
+        }
+      ]
+    ]
   }
 }

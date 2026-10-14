@@ -35,14 +35,14 @@
   },
   "fields": {
     "text": "## Noise Pop\nWe partnered with acclaimed San Francisco music festival [Noise Pop](https://noisepop.com/about) to create a FREEDM opening event. We showcased the work of 22 FREEDM artists at the event, which included a number of indie bands, work and invitation by Shepard Fairy, and a partnership with Dave Egger’s foundation [826 Valencia](https://826valencia.org/).",
-    "media": [
-      {
-        "sys": {
-          "type": "Link",
-          "linkType": "Asset",
-          "id": "1kvWqreGqHQDWQQ0vrnbSf"
+    "rows": [
+      [
+        {
+          "image": "1kvWqreGqHQDWQQ0vrnbSf",
+          "from": 3,
+          "to": -3
         }
-      }
+      ]
     ]
   }
 }

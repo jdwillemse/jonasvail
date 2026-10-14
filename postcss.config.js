@@ -1,21 +1,3 @@
 module.exports = {
-  plugins: [
-    process.env.NODE_ENV === 'production-xxx'
-      ? [
-          '@fullhuman/postcss-purgecss',
-          {
-            content: [
-              './pages/**/*.{js,jsx,ts,tsx}',
-              './components/**/*.{js,jsx,ts,tsx}',
-            ],
-            defaultExtractor: (content) =>
-              content.match(/[\w-/:]+(?<!:)/g) || [],
-            safelist: ['iframe'],
-            rejected: true,
-            keyframes: true,
-          },
-        ]
-      : undefined,
-    'postcss-preset-env',
-  ],
+  plugins: ['postcss-preset-env'],
 }

@@ -1,0 +1,27 @@
+.list {
+  display: grid;
+  row-gap: calc(var(--grid-row) * 2 - var(--grid-gap));
+  margin: 0;
+  padding: var(--grid-row) 0;
+  list-style: none;
+}
+
+.item {
+  composes: grid from '@/styles/grid.module.css';
+  align-items: start;
+}
+
+.label {
+  grid-column: 7 / 12;
+}
+
+.title {
+  grid-column: 12 / 26;
+}
+
+@media (max-width: 767px) {
+  .label,
+  .title {
+    grid-column: 2 / 10;
+  }
+}
