@@ -4,34 +4,34 @@ exports[`Menu does not throw errors when data is not passed 1`] = `
 <div>
   <nav>
     <a
-      className="link"
+      class="link"
       href="/"
     >
       <span
-        className="linkInner"
+        class="linkInner"
       >
         Clients
       </span>
     </a>
     <div
-      className="clientWrap"
+      class="clientWrap"
     />
     <a
-      className="link"
+      class="link"
       href="/about"
     >
       <span
-        className="linkInner"
+        class="linkInner"
       >
         About
       </span>
     </a>
     <a
-      className="link"
+      class="link"
       href="mailto:jonasvail@gmail.com?Subject=Hoi%20Hoi%20Hello!"
     >
       <span
-        className="linkInner"
+        class="linkInner"
       >
         Contact
       </span>
@@ -44,145 +44,145 @@ exports[`Menu renders the list correctly 1`] = `
 <div>
   <nav>
     <a
-      className="link"
+      class="link"
       href="/"
     >
       <span
-        className="linkInner"
+        class="linkInner"
       >
         Clients
       </span>
     </a>
     <div
-      className="clientWrap"
+      class="clientWrap"
     >
       <a
-        className="link"
+        class="link"
         href="/twitch"
       >
         <span
-          className="linkInner"
+          class="linkInner"
         >
           Twitch
         </span>
       </a>
       <a
-        className="link"
+        class="link"
         href="/adidas"
       >
         <span
-          className="linkInner"
+          class="linkInner"
         >
           adidas
         </span>
       </a>
       <a
-        className="link"
+        class="link"
         href="/playstation"
       >
         <span
-          className="linkInner"
+          class="linkInner"
         >
           PlayStation
         </span>
       </a>
       <a
-        className="link"
+        class="link"
         href="/al-jazeera"
       >
         <span
-          className="linkInner"
+          class="linkInner"
         >
           Al Jazeera
         </span>
       </a>
       <a
-        className="link"
+        class="link"
         href="/hp"
       >
         <span
-          className="linkInner"
+          class="linkInner"
         >
           HP
         </span>
       </a>
       <a
-        className="link"
+        class="link"
         href="/ketel-one"
       >
         <span
-          className="linkInner"
+          class="linkInner"
         >
           Ketel One Vodka
         </span>
       </a>
       <a
-        className="link"
+        class="link"
         href="/lilly"
       >
         <span
-          className="linkInner"
+          class="linkInner"
         >
           Lilly
         </span>
       </a>
       <a
-        className="link"
+        class="link"
         href="/ea-sports"
       >
         <span
-          className="linkInner"
+          class="linkInner"
         >
           EA SPORTS
         </span>
       </a>
       <a
-        className="link"
+        class="link"
         href="/dr-martens"
       >
         <span
-          className="linkInner"
+          class="linkInner"
         >
           Dr. Martens
         </span>
       </a>
       <a
-        className="link"
+        class="link"
         href="/sega"
       >
         <span
-          className="linkInner"
+          class="linkInner"
         >
           Sega
         </span>
       </a>
       <a
-        className="link"
+        class="link"
         href="/mtv"
       >
         <span
-          className="linkInner"
+          class="linkInner"
         >
           MTV
         </span>
       </a>
     </div>
     <a
-      className="link"
+      class="link"
       href="/about"
     >
       <span
-        className="linkInner"
+        class="linkInner"
       >
-        Aboutxxx
+        About
       </span>
     </a>
     <a
-      className="link"
+      class="link"
       href="mailto:jonasvail@gmail.com?Subject=Hoi%20Hoi%20Hello!"
     >
       <span
-        className="linkInner"
+        class="linkInner"
       >
         Contact
       </span>
