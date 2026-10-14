@@ -13,10 +13,6 @@
   text-decoration: none;
 }
 
-.footer a:hover {
-  text-decoration: underline;
-}
-
 .name {
   grid-column: 7 / 11;
 }

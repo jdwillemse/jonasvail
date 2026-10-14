@@ -72,6 +72,40 @@ a {
   color: inherit;
 }
 
+/*
+ * On hover the underline becomes a wave that drifts sideways. The wave is
+ * one seamless period of an SVG tile repeated along the link, so wrapped
+ * links get it on every line. Its stroke is --color-text: a data URL can't
+ * read CSS variables, so update both together.
+ */
+a:hover {
+  --wave-height: clamp(5px, 0.16em, 16px);
+  --wave-width: calc(var(--wave-height) * 4);
+  text-decoration: none;
+  /* Room for the wave below the text, cancelled out so nothing shifts. */
+  padding-bottom: var(--wave-height);
+  margin-bottom: calc(var(--wave-height) * -1);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 10'%3E%3Cpath d='M0 5C5 .5 15 .5 20 5S35 9.5 40 5' fill='none' stroke='%2315274e' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: var(--wave-width) var(--wave-height);
+  background-repeat: repeat-x;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  animation: link-wave 3s linear infinite;
+}
+
+@keyframes link-wave {
+  to {
+    background-position-x: var(--wave-width);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a:hover {
+    animation: none;
+  }
+}
+
 :focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 4px;
