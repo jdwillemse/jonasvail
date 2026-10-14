@@ -17,4 +17,14 @@ module.exports = {
     imageSizes: [4, 8, 32, 48, 64],
   },
   swcMinify: true,
+  // Client URLs come from client names, which renamed Ketel One's.
+  async redirects() {
+    return [
+      {
+        source: '/ketel-one/:path*',
+        destination: '/ketel-one-vodka/:path*',
+        permanent: true,
+      },
+    ]
+  },
 }

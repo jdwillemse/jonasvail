@@ -5,7 +5,9 @@ const ExperienceItem = ({ dates, jobTitle, employer, description }) => {
     <li className={css.experienceWrap}>
       {dates && <div className={css.awardDate}>{dates}</div>}
       {jobTitle && (
-        <div className={!employer && css.experienceEmployer}>{jobTitle}</div>
+        <div className={employer ? undefined : css.experienceEmployer}>
+          {jobTitle}
+        </div>
       )}
       {employer && <div className={css.experienceEmployer}>{employer}</div>}
       {description && (
