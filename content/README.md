@@ -8,6 +8,18 @@ is a full `https://images.ctfassets.net/…` address.
 | `projects/<name>.md` | One case study. The file name is its web address. |
 | `about.md`           | The About page, work experience and awards        |
 | `settings.md`        | Site name and description                         |
+| `pages/<name>.md`    | Copy for the home and case-study list pages       |
+
+## A page file
+
+`hero:` is the large line at the top. Each `## Heading` starts a text section,
+with the heading as its small label.
+
+On the home page the sections appear in a fixed order: Work, About, then Side
+Hustle below the case studies. Keep three sections there.
+
+On `brand-development-and-strategy.md`, `projects:` sets the order of the case
+studies. Each entry is a project's file name without `.md`.
 
 ## A project file
 
