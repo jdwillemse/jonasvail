@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "campaign-strategy"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "ea-sports"
+        }
+      }
+    ],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "4LNo931U22gypZbqqFrG02",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:33:28.638Z",
+    "updatedAt": "2025-04-06T13:00:45.908Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 10,
+    "revision": 4,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "project"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "FIFA 10: How Big Can Football Get? ",
+    "uid": "ea-sports-fifa10-how-big-can-football-get",
+    "client": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "SlB5pRIQnLQWpxVGQZ8lq"
+      }
+    },
+    "date": "2010-09-24",
+    "body": "The FIFA franchise is one of EA SPORTS’ two biggest franchises globally, and EA SPORTS' success in Europe rests on the success of FIFA. The strategy for the FIFA10 campaign was centered around FIFA’s unrivaled ability to connect gamers across the world through their passion for competing with one another in Football. With data showing over 2 million FIFA10 games being played globally every day, we asked ourselves: when augmented and enhanced by the experience of playing FIFA10, “How Big Can Football Get?”",
+    "mediaBlockList": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "1Jlz7ODpEcbvbYGfGlq54k"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "3tKOfVlHKQvgsLGRcri7Yh"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "2Qg2Jt0kU7yV9ENhlQUclV"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "5goA05COUDtYIeQOcL7Xcw"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "7JOZwXvaiVgl7DUvVtNx0g"
+        }
+      }
+    ],
+    "listviewImage": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "7g9e33mj3wcVBuSGodPzSz"
+      }
+    },
+    "awards": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "lHgOX1uWo8YUs103Xy5Nq"
+        }
+      }
+    ]
+  }
+}

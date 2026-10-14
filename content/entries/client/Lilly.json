@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "2nC5yKBJ2nKWeQrxvEX4al",
+    "type": "Entry",
+    "createdAt": "2023-12-27T16:06:20.487Z",
+    "updatedAt": "2024-04-26T11:17:00.678Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 6,
+    "revision": 2,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "client"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "name": "Lilly",
+    "uid": "lilly"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "5Zv7xuHhK7pxheAEXPQ14m",
+    "type": "Entry",
+    "createdAt": "2024-04-26T12:00:46.041Z",
+    "updatedAt": "2024-04-26T12:00:46.041Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 3,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "media": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "PKsbvqKaMpXpqMEK9Egem"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "4agllQIdrj7oj11ajXf4zP"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "1t3EIOTRaAx97OWApzOpVI"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "25apc5H45GW1kiYn7nJwf9"
+        }
+      }
+    ],
+    "title_internal": "You+hp — 2"
+  }
+}

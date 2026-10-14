@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "1GAsn9DOsuUxvUyYdOuuiK",
+    "type": "Entry",
+    "createdAt": "2024-04-26T11:39:59.205Z",
+    "updatedAt": "2024-04-26T11:39:59.205Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "media": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "2cieQaJ7kEztURe4hUMisE"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "7qlt6ZgHGyjo8HyYZxtHAO"
+        }
+      }
+    ],
+    "title_internal": "Everything is Possible — 1"
+  }
+}

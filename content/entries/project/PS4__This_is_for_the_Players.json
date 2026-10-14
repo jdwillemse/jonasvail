@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "brand-strategy"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "playstation"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "campaign-strategy"
+        }
+      }
+    ],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "5Ku7xTRUwqRO7jjHASLysI",
+    "type": "Entry",
+    "createdAt": "2024-04-26T11:36:21.875Z",
+    "updatedAt": "2025-11-17T14:02:00.977Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 33,
+    "revision": 4,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "project"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "PS4: This is for the Players",
+    "uid": "ps4-launch-this-is-for-the-players",
+    "client": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "7lxbas4vu5iUik9lgCZUEw"
+      }
+    },
+    "date": "2013-11-15",
+    "body": "__Repositioning PlayStation by putting gamers back at the heart of the brand.__\n\nA new console launch is a rare chance to redefine the brand for the next six or seven years. Going into the 2013 launch of PS4, PlayStation faced intense pressure. Competition from Apple and Android was rising, and Xbox was outspending PlayStation across Europe and Australia by three to one. We couldn’t outspend them, so we had to outsmart them.\n\nWhile Xbox positioned itself as an all-in-one entertainment device, our strategy was to return PlayStation to its roots by putting gamers and gaming at the center of the brand. We reframed the audience in a way Xbox could't: not as gamers, but as Players. “For the Players” became a powerful brand platform that launched PS4, won the Euro Effie Grand Prix, and helped PlayStation achieve market leadership in 50 markets.\n\nThe creative platform did more than support the launch. It evolved into a business-driving brand idea that shaped PlayStation’s purpose, mission, tone of voice, behaviors, Player segmentation, and overall brand ecosystem for the six years that followed.",
+    "mediaBlockList": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "5dJsDEghHZiC3iAuMZkJx4"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "1VLMi5Gv3m7oejCduBE3va"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "2boh2J0toHWC2NTDI1OZMu"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "5AVrWD1Vbi03fiqFeEX6dV"
+        }
+      }
+    ],
+    "listviewImage": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "4AF3ZaSlY1jU63atIEb5Gp"
+      }
+    },
+    "awards": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "2vKlGQtRJDbCmPHx5gqGpj"
+        }
+      }
+    ]
+  }
+}

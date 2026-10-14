@@ -1,0 +1,65 @@
+{
+  "sys": {
+    "id": "default",
+    "type": "EditorInterface",
+    "space": {
+      "sys": {
+        "id": "jnzxx8eydhfs",
+        "type": "Link",
+        "linkType": "Space"
+      }
+    },
+    "version": 6,
+    "createdAt": "2024-04-26T12:48:46.001Z",
+    "createdBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "updatedAt": "2024-04-26T12:54:13.823Z",
+    "updatedBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "contentType": {
+      "sys": {
+        "id": "award",
+        "type": "Link",
+        "linkType": "ContentType"
+      }
+    },
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    }
+  },
+  "controls": [
+    {
+      "fieldId": "year",
+      "widgetId": "singleLine",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "title",
+      "widgetId": "singleLine",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "project",
+      "settings": {
+        "showLinkEntityAction": true,
+        "showCreateEntityAction": false
+      },
+      "widgetId": "entryLinkEditor",
+      "widgetNamespace": "builtin"
+    }
+  ]
+}

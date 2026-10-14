@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "6t8r7YpnYogDJijpeZlhXP",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:45:13.980Z",
+    "updatedAt": "2024-04-26T10:45:13.980Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "video": "https://youtu.be/6cfJK60kLEc",
+    "title_internal": "#DemandPressFreedom — 0"
+  }
+}

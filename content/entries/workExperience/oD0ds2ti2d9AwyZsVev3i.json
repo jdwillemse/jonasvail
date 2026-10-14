@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "oD0ds2ti2d9AwyZsVev3i",
+    "type": "Entry",
+    "createdAt": "2024-05-03T11:20:54.470Z",
+    "updatedAt": "2024-05-03T12:11:45.708Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 13,
+    "revision": 2,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "workExperience"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "dates": "9.1995 – 12.1997",
+    "jobTitle": " Market Research/Product Development",
+    "employer": "Lambesis, Inc., Del Mar",
+    "description": "Clients: Cadillac, Airwalk, The NFL, Rossignol, Mattel, Columbia-Tristar, Calvin Klein"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "7LWT7KlMr554BVE2M2hgFp",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:41:10.600Z",
+    "updatedAt": "2024-04-26T10:41:10.600Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "video": "https://youtu.be/kELPUixe050",
+    "title_internal": "Welcome to the Future of Play — 0"
+  }
+}

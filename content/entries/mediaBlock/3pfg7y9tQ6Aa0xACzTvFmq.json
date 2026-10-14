@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "3pfg7y9tQ6Aa0xACzTvFmq",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:40:17.246Z",
+    "updatedAt": "2024-04-26T10:48:32.983Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 5,
+    "revision": 2,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "media": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "6ZQmqLvDg626V9XZRNEPGL"
+        }
+      }
+    ],
+    "title_internal": "Twitch Creators Campaign — 4"
+  }
+}

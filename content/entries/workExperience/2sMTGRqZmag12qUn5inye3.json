@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "2sMTGRqZmag12qUn5inye3",
+    "type": "Entry",
+    "createdAt": "2024-05-03T11:20:53.951Z",
+    "updatedAt": "2025-10-28T12:30:01.587Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 15,
+    "revision": 4,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "workExperience"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "dates": "9.2007 – 4.2011",
+    "jobTitle": " Strategic Planning Director",
+    "employer": " Wieden+Kennedy, Amsterdam",
+    "description": "Clients: EA SPORTS FIFA, BASF, Nokia.\n\nPitches won: BASF"
+  }
+}

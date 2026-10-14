@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "2z5Ve65hsbI0Jv7FJxEF0D",
+    "type": "Entry",
+    "createdAt": "2024-05-03T11:20:53.972Z",
+    "updatedAt": "2024-05-03T12:11:45.624Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 12,
+    "revision": 2,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "workExperience"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "dates": "3.2005 – 6.2007",
+    "jobTitle": " Planning Director",
+    "employer": " Saatchi & Saatchi, London",
+    "description": "Clients: Dr. Martens, T-Mobile, Sagatiba"
+  }
+}

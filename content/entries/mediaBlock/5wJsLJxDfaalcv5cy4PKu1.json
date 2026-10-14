@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "5wJsLJxDfaalcv5cy4PKu1",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:13:13.851Z",
+    "updatedAt": "2024-04-26T10:13:13.851Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "video": "https://www.youtube.com/watch?v=JYs2cC5mt5M",
+    "title_internal": "How far would you go to be free? — 0"
+  }
+}

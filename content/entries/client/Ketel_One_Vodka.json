@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "74Iv4bsYrV1yhROd1MiHAr",
+    "type": "Entry",
+    "createdAt": "2023-12-27T16:06:30.613Z",
+    "updatedAt": "2024-04-26T10:55:47.106Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 5,
+    "revision": 2,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "client"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "name": "Ketel One Vodka",
+    "uid": "ketel-one"
+  }
+}

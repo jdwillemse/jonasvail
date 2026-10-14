@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "48Oj0yQGW77bBlQyWaquDA",
+    "type": "Entry",
+    "createdAt": "2024-04-26T11:19:38.485Z",
+    "updatedAt": "2024-04-26T11:19:38.485Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "video": "https://youtu.be/Fi2XJrYHvyc",
+    "title_internal": "Where the World Comes to Race — 0"
+  }
+}

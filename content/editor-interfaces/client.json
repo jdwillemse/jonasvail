@@ -1,0 +1,60 @@
+{
+  "sys": {
+    "id": "default",
+    "type": "EditorInterface",
+    "space": {
+      "sys": {
+        "id": "jnzxx8eydhfs",
+        "type": "Link",
+        "linkType": "Space"
+      }
+    },
+    "version": 6,
+    "createdAt": "2023-12-20T17:19:00.451Z",
+    "createdBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "updatedAt": "2023-12-20T17:47:00.863Z",
+    "updatedBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "contentType": {
+      "sys": {
+        "id": "client",
+        "type": "Link",
+        "linkType": "ContentType"
+      }
+    },
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    }
+  },
+  "controls": [
+    {
+      "fieldId": "name",
+      "widgetId": "singleLine",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "uid",
+      "settings": {
+        "helpText": "URL-safe name",
+        "trackingFieldId": "name"
+      },
+      "widgetId": "slugEditor",
+      "widgetNamespace": "builtin"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "33VhpkJ0gEX1kGWBnoCuo0",
+    "type": "Entry",
+    "createdAt": "2024-05-03T11:20:54.278Z",
+    "updatedAt": "2024-05-03T12:11:45.689Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 12,
+    "revision": 2,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "workExperience"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "dates": "1.1998 – 12.1999",
+    "jobTitle": "Account Planner",
+    "employer": "Foote, Cone & Belding, San Francisco",
+    "description": "Clients: Sega, MTV, Slates (a Levi-Strauss & Co. brand)"
+  }
+}

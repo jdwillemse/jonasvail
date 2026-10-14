@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "5bWxN0dG3gTbFXLovL4QKJ",
+    "type": "Entry",
+    "createdAt": "2023-12-20T17:01:59.783Z",
+    "updatedAt": "2025-11-14T16:31:33.572Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 9,
+    "revision": 2,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "config"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "companyName": "Jonas Vail",
+    "subtitle": "Brand Strategist | Cultural and Creative Strategy Consultant",
+    "title": "Brand Strategist | Cultural and Creative Strategy Consultant",
+    "description": "I help brands grow by turning cultural and behavioral insight into clear strategic direction. "
+  }
+}

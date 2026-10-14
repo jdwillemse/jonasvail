@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "3exlI4OJXPqpORQTMrUyNa",
+    "type": "Entry",
+    "createdAt": "2024-04-26T13:00:32.264Z",
+    "updatedAt": "2024-04-26T13:00:32.264Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 3,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "award"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "year": "2013",
+    "title": "Bronze Cannes Lion",
+    "project": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "6GERoP2os5nVKrQtPYmxyW"
+      }
+    }
+  }
+}

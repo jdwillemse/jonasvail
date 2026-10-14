@@ -1,0 +1,78 @@
+{
+  "sys": {
+    "id": "default",
+    "type": "EditorInterface",
+    "space": {
+      "sys": {
+        "id": "jnzxx8eydhfs",
+        "type": "Link",
+        "linkType": "Space"
+      }
+    },
+    "version": 28,
+    "createdAt": "2023-12-27T12:39:01.042Z",
+    "createdBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "updatedAt": "2025-08-05T11:05:10.878Z",
+    "updatedBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "contentType": {
+      "sys": {
+        "id": "mediaBlock",
+        "type": "Link",
+        "linkType": "ContentType"
+      }
+    },
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    }
+  },
+  "controls": [
+    {
+      "fieldId": "text",
+      "settings": {
+        "helpText": "Use heading 2 (##) for top level headings where needed"
+      },
+      "widgetId": "markdown",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "media",
+      "settings": {
+        "showLinkEntityAction": true,
+        "showCreateEntityAction": false
+      },
+      "widgetId": "assetGalleryEditor",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "images",
+      "widgetId": "entryCardsEditor",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "video",
+      "widgetId": "urlEditor",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "title_internal",
+      "widgetId": "singleLine",
+      "widgetNamespace": "builtin"
+    }
+  ]
+}

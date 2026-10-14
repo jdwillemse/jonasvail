@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "6JZooh3tIjy8Xo715e5ee",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:42:58.981Z",
+    "updatedAt": "2024-04-26T10:42:58.981Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "video": "https://youtu.be/SAClGbzirGw",
+    "title_internal": "Welcome to the World's Biggest Club — 1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "5AVrWD1Vbi03fiqFeEX6dV",
+    "type": "Entry",
+    "createdAt": "2024-04-26T11:35:48.246Z",
+    "updatedAt": "2024-04-26T11:35:48.246Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 5,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "text": "The campaign won the 2014 Euro Effie Grand Prix and Euro Effie Gold for Leisure & Entertainment, and was a 2015 Global Effie Finalist.",
+    "media": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "61EB3w5jZLOKSD4iPYiwOY"
+        }
+      }
+    ],
+    "video": "https://youtu.be/hQ9pIJ8fGjs",
+    "title_internal": "This is for the Players — 3"
+  }
+}

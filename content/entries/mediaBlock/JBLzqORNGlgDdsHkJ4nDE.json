@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "JBLzqORNGlgDdsHkJ4nDE",
+    "type": "Entry",
+    "createdAt": "2024-04-26T12:01:28.952Z",
+    "updatedAt": "2024-04-26T12:01:28.952Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 3,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "media": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "3zGJxNw1AZE8GATVlzHKn7"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "37X6ueuIKaakeQCbklqTtJ"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "2WUsAk6wg2VDSeayrQvUmV"
+        }
+      }
+    ],
+    "title_internal": "You+hp — 3"
+  }
+}

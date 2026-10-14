@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "3SRYtYZOrTP9DLERCoz4tD",
+    "type": "Entry",
+    "createdAt": "2024-05-03T11:20:53.914Z",
+    "updatedAt": "2025-10-28T12:27:32.686Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 41,
+    "revision": 8,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "workExperience"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "dates": "12.2017 – Present",
+    "jobTitle": "Freelance Strategist",
+    "description": "Clients: Havas Play UK; Battle Royal Studios; adidas Brand Design; United Imaginations for Wolt; DEPT for Philips; Calvin Klein; Miniac; R/GA for Siemens; DesignBridge for Lipton; BFD, Inc. for Twitch; 180 Amsterdam for PlayStation and Lay’s; Seventy Agency Stockholm for Ericsson; Tommy Hilfiger\n\nPitches won: EE and adidas Women's World Cup 2025 activations for Havas Play UK; Twitch EMEA for BFD, Inc.\n"
+  }
+}

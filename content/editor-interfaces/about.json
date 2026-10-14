@@ -1,0 +1,120 @@
+{
+  "sys": {
+    "id": "default",
+    "type": "EditorInterface",
+    "space": {
+      "sys": {
+        "id": "jnzxx8eydhfs",
+        "type": "Link",
+        "linkType": "Space"
+      }
+    },
+    "version": 6,
+    "createdAt": "2024-04-26T12:46:35.762Z",
+    "createdBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "updatedAt": "2024-05-03T11:12:58.066Z",
+    "updatedBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "contentType": {
+      "sys": {
+        "id": "about",
+        "type": "Link",
+        "linkType": "ContentType"
+      }
+    },
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    }
+  },
+  "controls": [
+    {
+      "fieldId": "title",
+      "widgetId": "singleLine",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "body",
+      "widgetId": "markdown",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "experienceTitle",
+      "widgetId": "singleLine",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "experienceList",
+      "widgetId": "entryLinksEditor",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "accoladesTitle",
+      "widgetId": "singleLine",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "accolades",
+      "widgetId": "entryLinksEditor",
+      "widgetNamespace": "builtin"
+    }
+  ],
+  "editorLayout": [
+    {
+      "name": "Content",
+      "items": [
+        {
+          "fieldId": "body"
+        },
+        {
+          "fieldId": "experienceTitle"
+        },
+        {
+          "fieldId": "experienceList"
+        },
+        {
+          "fieldId": "accoladesTitle"
+        },
+        {
+          "fieldId": "accolades"
+        }
+      ],
+      "groupId": "content"
+    },
+    {
+      "name": "Page Settings",
+      "items": [
+        {
+          "fieldId": "title"
+        }
+      ],
+      "groupId": "pageSettings"
+    }
+  ],
+  "groupControls": [
+    {
+      "groupId": "content",
+      "widgetId": "topLevelTab",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "groupId": "pageSettings",
+      "widgetId": "topLevelTab",
+      "widgetNamespace": "builtin"
+    }
+  ]
+}

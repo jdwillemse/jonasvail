@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "1ztn0dpzY3PKUQHRhdh1jY",
+    "type": "Entry",
+    "createdAt": "2024-04-26T11:08:00.358Z",
+    "updatedAt": "2024-04-26T11:08:00.358Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "media": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "10ifgfas8i2zRB38O4Xyhq"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "DLYQ3s0UvSPFSAc0Cl2nX"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "3GvE08BwbUIkBvkZhNIDUN"
+        }
+      }
+    ],
+    "title_internal": "MTV — 0"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "playstation"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "campaign-strategy"
+        }
+      }
+    ],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "5cpmcIz5XisByT9h6Pf9Ik",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:14:40.445Z",
+    "updatedAt": "2024-04-26T10:14:40.445Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "project"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "The Best of the Best of the Best",
+    "uid": "playstation-all-stars-battle-royale",
+    "client": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "7lxbas4vu5iUik9lgCZUEw"
+      }
+    },
+    "date": "2012-11-15",
+    "body": "PlayStation All Stars: Battle Royale was a fighting game that pitted some of PlayStation’s funniest and best known characters against one another. Our challenge was to launch the game with a campaign that was as fun, unexpected, and irreverent as the game itself.",
+    "mediaBlockList": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "3OfunFfJ0DUoVhtSul15qB"
+        }
+      }
+    ],
+    "listviewImage": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "2nh1jctQ7BpOZLreqfXwWL"
+      }
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "sys": {
+    "id": "default",
+    "type": "EditorInterface",
+    "space": {
+      "sys": {
+        "id": "jnzxx8eydhfs",
+        "type": "Link",
+        "linkType": "Space"
+      }
+    },
+    "version": 39,
+    "createdAt": "2023-12-20T21:14:31.741Z",
+    "createdBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "updatedAt": "2025-08-05T11:18:00.135Z",
+    "updatedBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "contentType": {
+      "sys": {
+        "id": "project",
+        "type": "Link",
+        "linkType": "ContentType"
+      }
+    },
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    }
+  },
+  "sidebar": [
+    {
+      "settings": {},
+      "widgetId": "publication-widget",
+      "widgetNamespace": "sidebar-builtin"
+    },
+    {
+      "settings": {},
+      "widgetId": "content-preview-widget",
+      "widgetNamespace": "sidebar-builtin"
+    },
+    {
+      "settings": {},
+      "widgetId": "incoming-links-widget",
+      "widgetNamespace": "sidebar-builtin"
+    },
+    {
+      "settings": {},
+      "widgetId": "versions-widget",
+      "widgetNamespace": "sidebar-builtin"
+    },
+    {
+      "disabled": true,
+      "settings": {},
+      "widgetId": "translation-widget",
+      "widgetNamespace": "sidebar-builtin"
+    }
+  ],
+  "controls": [
+    {
+      "fieldId": "title",
+      "settings": {
+        "helpText": "Do not add the client's name"
+      },
+      "widgetId": "singleLine",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "uid",
+      "settings": {
+        "helpText": "Do not use punctuation or capitalisation",
+        "trackingFieldId": "title"
+      },
+      "widgetId": "slugEditor",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "client",
+      "settings": {
+        "showLinkEntityAction": true,
+        "showCreateEntityAction": false
+      },
+      "widgetId": "entryLinkEditor",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "date",
+      "settings": {
+        "ampm": "24",
+        "format": "dateonly",
+        "helpText": "The projects are ordered by date"
+      },
+      "widgetId": "datePicker",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "body",
+      "settings": {
+        "helpText": "Formatting is done using Markdown https://www.markdownguide.org/cheat-sheet/"
+      },
+      "widgetId": "markdown",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "mediaBlockList",
+      "widgetId": "entryLinksEditor",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "listviewTitle",
+      "settings": {
+        "helpText": "If this is left empty the project title will be used"
+      },
+      "widgetId": "singleLine",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "listviewImage",
+      "settings": {
+        "helpText": "This is the clickable thumbnail that links to the project page",
+        "showLinkEntityAction": true,
+        "showCreateEntityAction": false
+      },
+      "widgetId": "assetLinkEditor",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "awards",
+      "settings": {
+        "bulkEditing": false,
+        "showLinkEntityAction": true,
+        "showCreateEntityAction": false
+      },
+      "widgetId": "entryLinksEditor",
+      "widgetNamespace": "builtin"
+    }
+  ],
+  "editorLayout": [
+    {
+      "name": "Content",
+      "items": [
+        {
+          "fieldId": "title"
+        },
+        {
+          "fieldId": "uid"
+        },
+        {
+          "fieldId": "client"
+        },
+        {
+          "fieldId": "date"
+        },
+        {
+          "fieldId": "body"
+        },
+        {
+          "fieldId": "mediaBlockList"
+        },
+        {
+          "name": "List view",
+          "items": [
+            {
+              "fieldId": "listviewTitle"
+            },
+            {
+              "fieldId": "listviewImage"
+            }
+          ],
+          "groupId": "listView"
+        },
+        {
+          "fieldId": "awards"
+        }
+      ],
+      "groupId": "content"
+    }
+  ],
+  "groupControls": [
+    {
+      "groupId": "content",
+      "settings": {},
+      "widgetId": "topLevelTab",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "groupId": "listView",
+      "settings": {
+        "helpText": "The clickable item on the home page",
+        "collapsedByDefault": false
+      },
+      "widgetId": "fieldset",
+      "widgetNamespace": "builtin"
+    }
+  ]
+}

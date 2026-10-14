@@ -3,20 +3,20 @@
 exports[`AboutContent renders when content is passed 1`] = `
 <div>
   <div
-    class="wrap"
+    className="wrap"
   >
     <div
-      class="col"
+      className="col"
     >
       <h3
-        class="title"
+        className="title"
       />
     </div>
     <div
-      class="col"
+      className="col"
     >
       <h3
-        class="title"
+        className="title"
       />
     </div>
   </div>

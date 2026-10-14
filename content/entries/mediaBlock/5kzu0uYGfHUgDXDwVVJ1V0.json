@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "5kzu0uYGfHUgDXDwVVJ1V0",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:45:37.170Z",
+    "updatedAt": "2024-04-26T10:45:37.170Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "video": "https://youtu.be/VKSikEpDeyY",
+    "title_internal": "You Let Musical Worlds Collide — 0"
+  }
+}

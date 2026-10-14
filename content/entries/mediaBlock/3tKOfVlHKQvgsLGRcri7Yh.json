@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "3tKOfVlHKQvgsLGRcri7Yh",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:24:18.975Z",
+    "updatedAt": "2024-04-26T10:24:18.975Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "media": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "4KD4ETL0eV2Vwf3OHz9s1e"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "5qm1P1TZr8mvkufBvgcVfs"
+        }
+      }
+    ],
+    "title_internal": "How Big Can Football Get?  — 1"
+  }
+}

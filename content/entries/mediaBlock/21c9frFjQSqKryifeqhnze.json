@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "21c9frFjQSqKryifeqhnze",
+    "type": "Entry",
+    "createdAt": "2024-04-26T11:13:11.404Z",
+    "updatedAt": "2024-04-26T11:13:11.404Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "media": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "2loZgtXsraXaHPgbAe5qGW"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "1ev13xUEw5FKRrGsumqD9q"
+        }
+      }
+    ],
+    "title_internal": "Lilly Diabetes UK — 0"
+  }
+}

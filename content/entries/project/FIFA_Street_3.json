@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "ea-sports"
+        }
+      }
+    ],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "3rkv0JPEGufjez9SLCh3n2",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:07:18.200Z",
+    "updatedAt": "2024-04-26T11:26:19.254Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 3,
+    "revision": 2,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "project"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "FIFA Street 3",
+    "uid": "fifa-street-3",
+    "client": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "SlB5pRIQnLQWpxVGQZ8lq"
+      }
+    },
+    "date": "2007-10-10",
+    "body": "FIFA Street 3 was a street Football game where rules didn’t quite apply, and winning was dependent on tricks and moves that you’d never get away with, or even physically be able to pull off, on the real pitch. The strategy was to get gamers and Football fans around the world talking about the game. We created a film that showed off some of the tricks in the game, but to such an extreme as to make people wonder if the tricks in the film were actually real.",
+    "mediaBlockList": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "1vjD1dTrPB6MWOQ5f2uJWP"
+        }
+      }
+    ],
+    "listviewImage": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "75iireu4adDBy3U062dixS"
+      }
+    }
+  }
+}

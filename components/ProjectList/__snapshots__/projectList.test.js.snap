@@ -63,228 +63,228 @@ exports[`ProjectList filters the list based on the route: playstation 30`] = `"M
 exports[`ProjectList renders a list of projects 1`] = `
 <div>
   <div
-    class="masonryGrid"
+    className="masonryGrid"
     data-test-id="masonry-wrap"
   >
     <div
-      class="masonryColumn"
+      className="masonryColumn"
       style="width: 33.333333333333336%;"
     >
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/twitch/creators-campaign"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             Twitch Creators Campaign
           </h1>
           <div
-            class="client"
+            className="client"
           >
             Twitch
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/detroit-how-far-would-you-go-to-be-free"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             How far would you go to be free?
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/al-jazeera/demandpressfreedom"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             #DemandPressFreedom
           </h1>
           <div
-            class="client"
+            className="client"
           >
             Al Jazeera
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/earth-is-ours-no-more"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             Earth is Ours No More
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/hp/hp-ellie-goulding-burn"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             Ellie Goulding
           </h1>
           <div
-            class="client"
+            className="client"
           >
             HP
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/driveclub-drive-together-win-together"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             Drive Together, Win Together
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/ketel-one/ketel-one-do-one-thing-well"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             Do One Thing Well 
           </h1>
           <div
-            class="client"
+            className="client"
           >
             Ketel One Vodka
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/ps-vita-the-world-is-in-play"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             The World is in Play
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/dr-martens/freedm"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             FREEDM
           </h1>
           <div
-            class="client"
+            className="client"
           >
             Dr. Martens
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/hp/hp-everything-is-possible"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             Everything is Possible
           </h1>
           <div
-            class="client"
+            className="client"
           >
             HP
           </div>
@@ -292,224 +292,224 @@ exports[`ProjectList renders a list of projects 1`] = `
       </article>
     </div>
     <div
-      class="masonryColumn"
+      className="masonryColumn"
       style="width: 33.333333333333336%;"
     >
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/adidas/futurecraft-loop"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             [FUTURECRAFT] Loop
           </h1>
           <div
-            class="client"
+            className="client"
           >
             adidas
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/gt-sport-where-the-world-comes-to-race"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             Where the World Comes to Race
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/psvr-launch-live-the-game"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             Live the Game
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/wonderful-life-of-a-ps4-player"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             The Wonderful Life of a PS4 Player
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/hp/hp-omen-challenge"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             The HP Omen Challenge
           </h1>
           <div
-            class="client"
+            className="client"
           >
             HP
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/welcome-to-the-future-of-play"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             Welcome to the Future of Play
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/playstation-all-stars-battle-royale"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             The Best of the Best of the Best
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/ea-sports/ea-sports-fifa10-how-big-can-football-get"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             FIFA 10: How Big Can Football Get? 
           </h1>
           <div
-            class="client"
+            className="client"
           >
             EA SPORTS
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/hp/apple-ipod-from-hp"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             You Let Musical Worlds Collide
           </h1>
           <div
-            class="client"
+            className="client"
           >
             HP
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/sega/sega-dreamcast-its-thinking"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             It’s Thinking
           </h1>
           <div
-            class="client"
+            className="client"
           >
             Sega
           </div>
@@ -517,224 +517,224 @@ exports[`ProjectList renders a list of projects 1`] = `
       </article>
     </div>
     <div
-      class="masonryColumn"
+      className="masonryColumn"
       style="width: 33.333333333333336%;"
     >
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/ps4-this-could-be-you"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             This Could Be You
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/playlink-all-in-play-on"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             All in. Play on.
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/lilly/diabetes-uk"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             Lilly Diabetes UK
           </h1>
           <div
-            class="client"
+            className="client"
           >
             Lilly
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/hp/hp-epicmehp"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             #EpicMeHP
           </h1>
           <div
-            class="client"
+            className="client"
           >
             HP
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/psfc-welcome-the-worlds-biggest-club"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             Welcome to the World's Biggest Club
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/ps4-launch-this-is-for-the-players"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             PS4: This is for the Players
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/playstation/could-you-be-the-last-of-us"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             Could you be the Last of Us?
           </h1>
           <div
-            class="client"
+            className="client"
           >
             PlayStation
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/ea-sports/fifa-street-3"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             FIFA Street 3
           </h1>
           <div
-            class="client"
+            className="client"
           >
             EA SPORTS
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/hp/you+hp"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             You+hp
           </h1>
           <div
-            class="client"
+            className="client"
           >
             HP
           </div>
         </a>
       </article>
       <article
-        class="wrap"
+        className="wrap"
       >
         <a
-          class="link"
+          className="link"
           href="/mtv/mtv"
         >
           <div
-            class="imageWrap"
+            className="imageWrap"
           />
           <h1
-            class="title"
+            className="title"
           >
             MTV
           </h1>
           <div
-            class="client"
+            className="client"
           >
             MTV
           </div>

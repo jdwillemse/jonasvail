@@ -1,0 +1,8 @@
+# Replace with your age PUBLIC recipient. Never put a private key here.
+creation_rules:
+  - path_regex: '^\.env(\.local)?\.enc\.json$'
+    # JD home laptop
+    # JD work laptop
+    age: >-
+      age1f9rzv0dqg375lwl9jpgx80w355ycsn6g3qanyn8vk7ftn3capq0q548dlg,
+      age10y5re9dumqce6999aasdjky3jpzcqely0swla5g4ncyg3lsv8egqzm054x

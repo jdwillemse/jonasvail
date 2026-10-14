@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "playstation"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "campaign-strategy"
+        }
+      }
+    ],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "7ECWgMY27bWhT6WBG7ksBc",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:40:49.402Z",
+    "updatedAt": "2024-04-26T10:40:49.402Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "project"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "Live the Game",
+    "uid": "psvr-launch-live-the-game",
+    "client": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "7lxbas4vu5iUik9lgCZUEw"
+      }
+    },
+    "date": "2016-09-16",
+    "body": "From McDonald’s Happy Meals to Oculus Rift, everyone in 2016 was jumping on the VR bandwagon. PlayStation VR, however, was the only VR headset developed from the ground up specifically for gaming. Once people tried it, they realized they could truly LIVE games, not just play them. The strategy for the “Live the Game” campaign was to fuel desire amongst PS4 Players to go out and try PS VR for themselves.",
+    "mediaBlockList": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "gw9SIvABpVtaNd2SKnxby"
+        }
+      }
+    ],
+    "listviewImage": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "1cs8Yaek46f2VCo6EfCvK4"
+      }
+    }
+  }
+}

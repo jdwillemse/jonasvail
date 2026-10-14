@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "playstation"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "campaign-strategy"
+        }
+      }
+    ],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "PaDGgvW83RNIQ0z9mHIG8",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:13:33.211Z",
+    "updatedAt": "2024-04-26T10:13:33.211Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "project"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "Drive Together, Win Together",
+    "uid": "driveclub-drive-together-win-together",
+    "client": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "7lxbas4vu5iUik9lgCZUEw"
+      }
+    },
+    "date": "2015-07-16",
+    "body": "#DRIVECLUB was not your typical racing game. It wasn’t just about cars or famous tracks, or even just about winning races. It was about driving in a club made up of your friends, and winning _together_. The strategy was to highlight this unique aspect of the game by showing a group of friends pledging allegiance to their driving club.",
+    "mediaBlockList": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "XZfawT1KluqA3MlmqurkP"
+        }
+      }
+    ],
+    "listviewImage": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "67uP443YFCtHZ5pNTjhmwo"
+      }
+    }
+  }
+}

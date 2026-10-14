@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "23AuxUdBHybpfOOnUix1UW",
+    "type": "Entry",
+    "createdAt": "2023-12-27T13:25:53.624Z",
+    "updatedAt": "2025-08-05T12:32:03.037Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 11,
+    "revision": 3,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "text": "## FREEDM Recruitment\n\nWe commissioned then up-and-coming FREEDM artist Abel Macias to illustrate a recruitment booklet to inspire other artists and creatives to join the FREEDM movement. We distributed the recruitment piece in stores and events in London, New York, and San Francisco. ",
+    "media": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "6R1Rhrzi3vZykgG6woEY3C"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "5NVn0l8wiKcSKcyY63qf8K"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "65nK475n4Z22dsFhyyMKYW"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "7McPdIgYrpqoVbEEjLy4yh"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "nuF9tBC8TM0D450LMlnwN"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "5geGmsdBPgxIIcJPDrdVfN"
+        }
+      }
+    ]
+  }
+}

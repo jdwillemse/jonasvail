@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "7ENR7lGe6iOVUv7aRI40ax",
+    "type": "Entry",
+    "createdAt": "2023-12-20T17:47:05.801Z",
+    "updatedAt": "2023-12-20T17:47:05.801Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 2,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "client"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "name": "MTV",
+    "uid": "mtv"
+  }
+}

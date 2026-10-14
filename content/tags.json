@@ -1,0 +1,517 @@
+{
+  "sys": {
+    "type": "Array"
+  },
+  "total": 13,
+  "skip": 0,
+  "limit": 100,
+  "items": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "jnzxx8eydhfs"
+          }
+        },
+        "id": "brand-strategy",
+        "type": "Tag",
+        "createdAt": "2024-04-26T12:08:48.051Z",
+        "updatedAt": "2024-04-26T12:08:48.051Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "Brand strategy"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "jnzxx8eydhfs"
+          }
+        },
+        "id": "campaign-strategy",
+        "type": "Tag",
+        "createdAt": "2024-04-26T12:08:25.366Z",
+        "updatedAt": "2024-04-26T12:08:25.366Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "Campaign strategy"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "jnzxx8eydhfs"
+          }
+        },
+        "id": "ea-sports",
+        "type": "Tag",
+        "createdAt": "2024-04-26T10:06:29.233Z",
+        "updatedAt": "2024-04-26T10:06:29.233Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "EA Sports"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "jnzxx8eydhfs"
+          }
+        },
+        "id": "twitch",
+        "type": "Tag",
+        "createdAt": "2024-04-18T14:13:55.341Z",
+        "updatedAt": "2024-04-18T14:13:55.341Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "Twitch"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "jnzxx8eydhfs"
+          }
+        },
+        "id": "adidas",
+        "type": "Tag",
+        "createdAt": "2024-04-18T14:13:47.300Z",
+        "updatedAt": "2024-04-18T14:13:47.300Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "adidas"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "jnzxx8eydhfs"
+          }
+        },
+        "id": "mtv",
+        "type": "Tag",
+        "createdAt": "2024-04-18T14:13:39.489Z",
+        "updatedAt": "2024-04-18T14:13:39.489Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "MTV"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "jnzxx8eydhfs"
+          }
+        },
+        "id": "lilly",
+        "type": "Tag",
+        "createdAt": "2024-04-18T14:13:26.911Z",
+        "updatedAt": "2024-04-18T14:13:26.911Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "Lilly"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "jnzxx8eydhfs"
+          }
+        },
+        "id": "al-jazeera",
+        "type": "Tag",
+        "createdAt": "2024-04-18T14:13:16.319Z",
+        "updatedAt": "2024-04-18T14:13:16.319Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "Al Jazeera"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "jnzxx8eydhfs"
+          }
+        },
+        "id": "sega",
+        "type": "Tag",
+        "createdAt": "2024-04-18T14:13:02.487Z",
+        "updatedAt": "2024-04-18T14:13:02.487Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "SEGA"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "jnzxx8eydhfs"
+          }
+        },
+        "id": "ketel-one",
+        "type": "Tag",
+        "createdAt": "2024-04-18T14:12:54.038Z",
+        "updatedAt": "2024-04-18T14:12:54.038Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "Ketel One"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "jnzxx8eydhfs"
+          }
+        },
+        "id": "playstation",
+        "type": "Tag",
+        "createdAt": "2024-04-18T14:12:37.828Z",
+        "updatedAt": "2024-04-18T14:12:37.828Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "PlayStation"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "jnzxx8eydhfs"
+          }
+        },
+        "id": "hp",
+        "type": "Tag",
+        "createdAt": "2024-04-18T14:12:11.110Z",
+        "updatedAt": "2024-04-18T14:12:11.110Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "HP"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "jnzxx8eydhfs"
+          }
+        },
+        "id": "dr-martens",
+        "type": "Tag",
+        "createdAt": "2024-04-18T14:10:28.628Z",
+        "updatedAt": "2024-04-18T14:10:28.628Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5ddVhhOC0tqI3cbXFI1swB"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "Dr Martens"
+    }
+  ]
+}

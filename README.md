@@ -1,5 +1,47 @@
 # A statically generated blog example using Next.js and Prismic
 
+## Secret management
+
+Use the official SOPS and age CLIs directly; no custom scripts are needed.
+Install them with Homebrew (`brew install sops age`).
+
+1. Create an age identity outside the repository with `age-keygen -o "$HOME/.config/sops/age/keys.txt"`
+   after creating its parent directory. Restrict the directory to permissions
+   0700 and the key to 0600. Back up the private key securely; never commit it.
+2. Put the **public** recipient printed by age-keygen into [.sops.yaml](.sops.yaml),
+   replacing `REPLACE_WITH_YOUR_AGE_PUBLIC_RECIPIENT`. Set
+   `export SOPS_AGE_KEY_FILE="$HOME/.config/sops/age/keys.txt"` in your shell.
+   On macOS, SOPS otherwise looks in the user's Library/Application Support
+   directory rather than the location above. Add the export to your shell
+   profile if you want it available in future terminal sessions.
+3. Encrypt with `sops encrypt --input-type binary --output-type json --filename-override .env.enc.json --output .env.enc.json .env`.
+   Repeat for the local override using the same command with `.env.local` and
+   `.env.local.enc.json`. Binary input protects the entire file, including comments.
+4. Decrypt for Next.js with `sops decrypt --input-type json --output-type binary --output .env .env.enc.json`.
+   Repeat for the local override. Decryption overwrites the destination, so back
+   up local changes first and restrict plaintext files to permissions 0600.
+5. Commit only encrypted files and the public SOPS configuration. Plaintext
+   environment files and private age keys are ignored by Git. Re-encrypt after
+   changing secrets; normal development commands remain unchanged.
+
+Vercel still needs secrets in its environment-variable settings; it does not
+automatically decrypt SOPS files. Rotate any credentials previously committed
+in plaintext, including the hardcoded Contentful export tokens: SOPS cannot
+remove exposed credentials from Git history.
+
+### Contentful export
+
+The [export script](scripts/export-contentful.mjs) requires
+`CONTENTFUL_ACCESS_TOKEN` (Content Delivery API) and
+`CONTENTFUL_MANAGEMENT_TOKEN` (Content Management API). Set both in your shell
+environment or in the ignored local environment file, using
+[.env.local.example](.env.local.example) as a template. Never commit token values.
+
+With Node.js 25, run `node --env-file=.env.local scripts/export-contentful.mjs`
+to load the local environment file, or `node scripts/export-contentful.mjs` if
+the variables are already exported. The script fails before making requests or
+writing files if either token is missing or blank.
+
 This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using [Prismic](https://prismic.io/) as the data source.
 
 ## Demo

@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "hKuMGIEzKqGD3LxaPf5iL",
+    "type": "Entry",
+    "createdAt": "2023-12-27T14:22:18.347Z",
+    "updatedAt": "2023-12-27T14:22:18.347Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 2,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "text": "## FREEDM Artist films\nWe created a series of online films profiling a number of FREEDM artists from the UK and US."
+  }
+}

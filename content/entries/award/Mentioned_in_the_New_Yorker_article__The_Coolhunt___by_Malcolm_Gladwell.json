@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "7kXhXdSxU7fPhdV89HJaZF",
+    "type": "Entry",
+    "createdAt": "2024-05-03T11:20:54.487Z",
+    "updatedAt": "2024-05-03T11:20:54.487Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 3,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "award"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "year": "1997",
+    "title": "Mentioned in the New Yorker article “The Coolhunt”, by Malcolm Gladwell"
+  }
+}

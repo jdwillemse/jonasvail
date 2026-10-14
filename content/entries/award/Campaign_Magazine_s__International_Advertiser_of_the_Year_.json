@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "1FpCzDqU3gIoiUC4zGX5ly",
+    "type": "Entry",
+    "createdAt": "2024-04-26T12:59:37.092Z",
+    "updatedAt": "2024-04-26T12:59:37.092Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 3,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "award"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "year": "2004",
+    "title": "Campaign Magazine’s “International Advertiser of the Year”",
+    "project": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "5qNMZ0wrXoRYjYg6Bf9Jv7"
+      }
+    }
+  }
+}

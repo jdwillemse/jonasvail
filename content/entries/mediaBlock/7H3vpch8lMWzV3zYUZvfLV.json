@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "7H3vpch8lMWzV3zYUZvfLV",
+    "type": "Entry",
+    "createdAt": "2023-12-27T13:38:32.557Z",
+    "updatedAt": "2023-12-27T13:38:32.557Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 3,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "text": "## FREEDM Zine\n\nWe published a zine featuring the work of four different FREEDM artists and distributed it in New York, San Francisco, and London.",
+    "media": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "5gX2EBXUqc2HYWB0dan2mY"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "1mFbgSEj4HnfpiyeQPCJy0"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "1OlEctRffY6I3AuCcH8bIx"
+        }
+      }
+    ]
+  }
+}

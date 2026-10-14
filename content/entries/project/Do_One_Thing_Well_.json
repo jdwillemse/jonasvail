@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "brand-strategy"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "ketel-one"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "campaign-strategy"
+        }
+      }
+    ],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "cYw6fNqGqAVNM2QsYQO7N",
+    "type": "Entry",
+    "createdAt": "2024-04-26T11:02:26.489Z",
+    "updatedAt": "2025-04-06T13:00:45.658Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 10,
+    "revision": 2,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "project"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "Do One Thing Well ",
+    "uid": "ketel-one-do-one-thing-well",
+    "client": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "74Iv4bsYrV1yhROd1MiHAr"
+      }
+    },
+    "date": "2013-06-06",
+    "body": "Despite being a massive success in the US for decades, Ketel One Vodka was mostly unknown in Europe and the rest of the world. To establish the brand in the rest of the world, we developed the “Do One Thing Well” platform to inspire their global target consumer who was in a life stage in which he was realizing that the best way to stand out was by being himself. The strategy was to inspire him to focus on what he loves doing in life, and forget the rest – just like the Nolet family which had been making spirits for 11 generations.\n\nAs part of the “Do One Thing Well” platform, we focused on collaborations with artists and craftspeople who embodied the brand's spirit of doing one thing well. We collaborated with “GIF-fiti” artist INSA to create a one-of-a-kind art installation at a popular bar in Amsterdam.",
+    "mediaBlockList": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "6rb8u8v2hStGbn4VZVduar"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "6injdudyiFHOkgbmsTCDq8"
+        }
+      }
+    ],
+    "listviewImage": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "58qzhRvsqqVvYx9JAko4Fn"
+      }
+    }
+  }
+}

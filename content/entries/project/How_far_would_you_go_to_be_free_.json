@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "playstation"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "campaign-strategy"
+        }
+      }
+    ],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "53eqqcY9YB1lMBoY75qY35",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:13:13.796Z",
+    "updatedAt": "2024-04-26T10:13:13.796Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "project"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "How far would you go to be free?",
+    "uid": "detroit-how-far-would-you-go-to-be-free",
+    "client": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "7lxbas4vu5iUik9lgCZUEw"
+      }
+    },
+    "date": "2018-04-13",
+    "body": "Detroit: Become Human was a neo-Noir, existential thriller game set in a near-future world where androids have become everyday technology. You play as Kara, Connor, and Markus – androids who have become self-aware and who are each on their own individual paths to becoming human. \n\nThe game’s structure allows for decision making on an epic and unprecedented scale. Each decision you make as a Player actually has a profound effect on the outcome and end story. The strategy was to show Players that their choices actually determine the androids' fates and the trajectory of the game itself.",
+    "mediaBlockList": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "5wJsLJxDfaalcv5cy4PKu1"
+        }
+      }
+    ],
+    "listviewImage": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "60B1qLgVksWgn7hAD9G8Va"
+      }
+    }
+  }
+}

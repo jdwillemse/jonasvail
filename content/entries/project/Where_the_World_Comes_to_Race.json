@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "playstation"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "campaign-strategy"
+        }
+      }
+    ],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "7mVXc0dBCSshuTBCxuhP4t",
+    "type": "Entry",
+    "createdAt": "2024-04-26T11:20:56.898Z",
+    "updatedAt": "2024-04-26T11:20:56.898Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 3,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "project"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "Where the World Comes to Race",
+    "uid": "gt-sport-where-the-world-comes-to-race",
+    "client": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "7lxbas4vu5iUik9lgCZUEw"
+      }
+    },
+    "date": "2017-11-23",
+    "body": "Gran Turismo is the biggest PlayStation franchise of all time, with over 60 million GT games sold worldwide by the end of 2017. GT Sport was the latest GT game, and the first on PS4. The game brought people so close to the fun, excitement, and exhilaration of driving the world’s fastest cars that it was even endorsed by the FIA. The strategy was to focus on showing Players what it feels like to experience the turbo-charged, high-stakes thrill of racing the fastest cars on the planet.",
+    "mediaBlockList": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "48Oj0yQGW77bBlQyWaquDA"
+        }
+      }
+    ],
+    "listviewImage": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "2AXDucBFlUDFqndYBdPI8B"
+      }
+    }
+  }
+}

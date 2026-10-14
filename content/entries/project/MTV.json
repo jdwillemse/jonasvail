@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "mtv"
+        }
+      }
+    ],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "6mPXyAduoyrBFqULnmSC6K",
+    "type": "Entry",
+    "createdAt": "2024-04-26T11:11:04.455Z",
+    "updatedAt": "2024-04-26T11:11:04.455Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 3,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "project"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "MTV",
+    "uid": "mtv",
+    "client": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "7ENR7lGe6iOVUv7aRI40ax"
+      }
+    },
+    "date": "1999-06-21",
+    "body": "At the time, in 1998, MTV was actually still mostly playing music videos. It was only just starting to show more programming besides The Real World and Road Rules. However people were complaining that the brand was losing sight of its music roots. The strategy was to prove that the **M** in **M**TV still stood for music, by focusing on close-up photos of different musicians' distinguishing features. If you knew who the musicians were then you knew as much about music as MTV.",
+    "mediaBlockList": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "1ztn0dpzY3PKUQHRhdh1jY"
+        }
+      }
+    ],
+    "listviewImage": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "10ifgfas8i2zRB38O4Xyhq"
+      }
+    }
+  }
+}

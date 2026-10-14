@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "campaign-strategy"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "playstation"
+        }
+      }
+    ],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "Y6e0lUV2exEoBd0Hhiq7D",
+    "type": "Entry",
+    "createdAt": "2024-04-26T11:51:21.450Z",
+    "updatedAt": "2025-04-06T13:00:45.960Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 4,
+    "revision": 2,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "project"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "Earth is Ours No More",
+    "uid": "earth-is-ours-no-more",
+    "client": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "7lxbas4vu5iUik9lgCZUEw"
+      }
+    },
+    "date": "2016-04-14",
+    "body": "Horizon Zero Dawn was a completely new franchise from esteemed game studio Guerrilla Games, set in a post-post-apocalyptic Earth that had been taken over by gigantic robotic machines. The strategy was to intrigue Players about the various mysteries in the game by challenging them to solve the central mystery of why “Earth is Ours No More”.",
+    "mediaBlockList": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "3mKeNdsAUbumfV2sTpyOLr"
+        }
+      }
+    ],
+    "listviewImage": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "78CS8I4757DIY3XQOjqM6z"
+      }
+    }
+  }
+}

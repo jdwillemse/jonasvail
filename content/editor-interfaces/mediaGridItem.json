@@ -1,0 +1,75 @@
+{
+  "sys": {
+    "id": "default",
+    "type": "EditorInterface",
+    "space": {
+      "sys": {
+        "id": "jnzxx8eydhfs",
+        "type": "Link",
+        "linkType": "Space"
+      }
+    },
+    "version": 4,
+    "createdAt": "2025-08-05T11:01:20.071Z",
+    "createdBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "updatedAt": "2025-08-05T11:11:58.170Z",
+    "updatedBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "contentType": {
+      "sys": {
+        "id": "mediaGridItem",
+        "type": "Link",
+        "linkType": "ContentType"
+      }
+    },
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    }
+  },
+  "controls": [
+    {
+      "fieldId": "mediaItem",
+      "widgetId": "assetLinkEditor",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "fromColumn",
+      "settings": {
+        "helpText": "Start column to place the image into"
+      },
+      "widgetId": "numberEditor",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "toColumn",
+      "settings": {
+        "helpText": "Which column the image stretches to"
+      },
+      "widgetId": "numberEditor",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "verticalAlignment",
+      "settings": {
+        "helpText": "Most items should be aligned to the top not to look weird"
+      },
+      "widgetId": "dropdown",
+      "widgetNamespace": "builtin"
+    }
+  ]
+}

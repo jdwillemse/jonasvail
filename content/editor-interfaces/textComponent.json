@@ -1,0 +1,62 @@
+{
+  "sys": {
+    "id": "default",
+    "type": "EditorInterface",
+    "space": {
+      "sys": {
+        "id": "jnzxx8eydhfs",
+        "type": "Link",
+        "linkType": "Space"
+      }
+    },
+    "version": 8,
+    "createdAt": "2025-08-05T11:16:49.670Z",
+    "createdBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "updatedAt": "2025-08-05T11:17:30.120Z",
+    "updatedBy": {
+      "sys": {
+        "id": "5ddVhhOC0tqI3cbXFI1swB",
+        "type": "Link",
+        "linkType": "User"
+      }
+    },
+    "contentType": {
+      "sys": {
+        "id": "textComponent",
+        "type": "Link",
+        "linkType": "ContentType"
+      }
+    },
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    }
+  },
+  "controls": [
+    {
+      "fieldId": "title",
+      "settings": {
+        "helpText": "This is an optional field"
+      },
+      "widgetId": "singleLine",
+      "widgetNamespace": "builtin"
+    },
+    {
+      "fieldId": "body",
+      "settings": {
+        "helpText": "You can use markdown formatting in this text area"
+      },
+      "widgetId": "markdown",
+      "widgetNamespace": "builtin"
+    }
+  ]
+}

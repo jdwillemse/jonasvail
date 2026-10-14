@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "6rb8u8v2hStGbn4VZVduar",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:57:50.782Z",
+    "updatedAt": "2024-04-26T10:57:50.782Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "mediaBlock"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "media": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Asset",
+          "id": "3LTJd7TsqPoBLq9NBxhBXh"
+        }
+      }
+    ],
+    "video": "https://youtu.be/W0flIdpqBzQ",
+    "title_internal": "Do One Thing Well  — 0"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "campaign-strategy"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "hp"
+        }
+      }
+    ],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "5bpPpMofnRsnMHoE2DIqDw",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:14:32.102Z",
+    "updatedAt": "2025-04-06T13:00:45.855Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 16,
+    "revision": 8,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "project"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "The HP Omen Challenge",
+    "uid": "hp-omen-challenge",
+    "client": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "2MDaR5Vd7cljB7Cdh9ZJxp"
+      }
+    },
+    "date": "2015-10-15",
+    "body": "When hardcore PC gamers think of HP they think of a big, mass-market business brand that makes printers and office computers (if they think of them at all). To enter into the PC gaming market we needed to address HP's credibility in gaming. The strategy was to insert the HP brand and HP Omen laptop into PC gaming culture in a meaningful and relevant way, to give both the brand and the product credibility among this extremely skeptical audience. We created the HP Omen Challenge — a live competition event experience that tested both PC gaming heroes, and the HP Omen laptop itself. It was the first-ever live broadcast on Twitch, and viewers at home could vote on various physical tortures to be inflicted on the competing gamers.  \n\nThe Omen Challenge became an entertainment franchise in its own right, with the Omen Challenge III being held at Gamescom 2016, in conjunction with ESL — the largest video game event company in the world, and the oldest professional e-Sports organization in operation.",
+    "mediaBlockList": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "5r8lFFVWAk3gSc4OV866dw"
+        }
+      }
+    ],
+    "listviewImage": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "xNQmnWwV5gZjyFtGkgJvq"
+      }
+    }
+  }
+}

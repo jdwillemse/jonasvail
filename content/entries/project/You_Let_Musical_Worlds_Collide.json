@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "tags": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Tag",
+          "id": "hp"
+        }
+      }
+    ],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "53yvSGXhPxp9ujkhqnZhOn",
+    "type": "Entry",
+    "createdAt": "2024-04-26T10:45:37.120Z",
+    "updatedAt": "2024-04-26T10:45:37.120Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "project"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "You Let Musical Worlds Collide",
+    "uid": "apple-ipod-from-hp",
+    "client": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "2MDaR5Vd7cljB7Cdh9ZJxp"
+      }
+    },
+    "date": "2004-08-06",
+    "body": "Within the YOU+hp consumer campaign, we also developed a campaign to launch an HP branded iPod (US only). Living in a bubble in San Francisco, both clients and agency thought everyone (in 2003) knew what an iPod was. It turned out that PC owners really didn’t! So the strategy was to educate PC users on the benefits of iPod ownership – a thousand songs in your pocket – using the inspiring and connective power of music.  ",
+    "mediaBlockList": [
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "5kzu0uYGfHUgDXDwVVJ1V0"
+        }
+      },
+      {
+        "sys": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "52bPcO9SeYJ24wqCG4Kwst"
+        }
+      }
+    ],
+    "listviewImage": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Asset",
+        "id": "2IEYQMvLWQGjLDoA5FPBpI"
+      }
+    }
+  }
+}

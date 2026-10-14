@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "3wWSkBXhytWDd8FJ4aCtdR",
+    "type": "Entry",
+    "createdAt": "2023-12-27T16:07:29.484Z",
+    "updatedAt": "2023-12-27T16:07:29.484Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 2,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "client"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "name": "Twitch",
+    "uid": "twitch"
+  }
+}

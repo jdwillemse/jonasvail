@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "jnzxx8eydhfs"
+      }
+    },
+    "id": "2MDaR5Vd7cljB7Cdh9ZJxp",
+    "type": "Entry",
+    "createdAt": "2023-12-27T16:06:37.512Z",
+    "updatedAt": "2023-12-27T16:06:37.512Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 2,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "client"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "name": "HP",
+    "uid": "hp"
+  }
+}
