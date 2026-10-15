@@ -2,7 +2,7 @@ import { getProjectsByClient } from '../../lib/api'
 import ProjectList from '../../components/ProjectList'
 
 export default async function ClientPage({ params }) {
-  const projects = await getProjectsByClient(params?.client)
+  const projects = await getProjectsByClient((await params).client)
 
   // if no ID redirect to 404
   if (!projects || projects.length === 0) {

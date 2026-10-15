@@ -16,7 +16,6 @@ module.exports = {
     deviceSizes: [576, 768, 992, 1200, 1400],
     imageSizes: [4, 8, 32, 48, 64],
   },
-  swcMinify: true,
   // Client URLs come from client names, which renamed Ketel One's.
   async redirects() {
     return [

@@ -6,7 +6,7 @@ import TextSection from '@/components/TextSection'
 import MediaBlock from '@/components/MediaBlock'
 
 export default async function ProjectPage({ params }) {
-  const project = await getProject(params.project)
+  const project = await getProject((await params).project)
   if (!project) notFound()
 
   return (
