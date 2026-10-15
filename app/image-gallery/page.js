@@ -73,7 +73,7 @@ export default async function AboutPage(props) {
                         <div className="sqs-block-content">
                           <div className="sqs-html-content">
                             <p style={{ 'white-space': 'pre-wrap;' }}>
-                              <strong>{section.title}</strong>
+                              {section.title}
                             </p>
                           </div>
                         </div>
@@ -539,7 +539,7 @@ export default async function AboutPage(props) {
                     <div className="sqs-block-content">
                       <div className="sqs-html-content">
                         <p style={{ 'white-space': 'pre-wrap;' }}>
-                          <strong>Case Studies</strong>
+                          Case Studies
                         </p>
                       </div>
                     </div>

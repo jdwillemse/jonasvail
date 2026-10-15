@@ -32,9 +32,7 @@ export default async function AboutPage(props) {
       <section>
         <div className={styles.titleWrap}>
           <div className={styles.title}>
-            <p>
-              <strong>{data.sections[0].title}</strong>
-            </p>
+            <p>{data.sections[0].title}</p>
           </div>
           <div className={styles.intro}>
             <p className="sqsrte-large">{data.sections[0].copy}</p>
@@ -44,9 +42,7 @@ export default async function AboutPage(props) {
       <section>
         <div className={styles.projectWrap}>
           <div className={styles.projectClient}>
-            <p>
-              <strong>Case Studies</strong>
-            </p>
+            <p>Case Studies</p>
           </div>
           <div className={styles.projectTitle}>
             <h2>

@@ -10,7 +10,7 @@ export default function CaseList({ items, as: Heading = 'h2', stacked }) {
     <ul className={stacked ? `${css.list} ${css.stacked}` : css.list}>
       {items.map(({ label, title, href }) => (
         <li key={href} className={css.item}>
-          {label && <p className={css.label}>{label}</p>}
+          {label && <p className={`${css.label} text-label`}>{label}</p>}
           <Heading className={css.title}>
             <Link href={href}>{title}</Link>
           </Heading>

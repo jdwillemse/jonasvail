@@ -7,13 +7,7 @@ import css from './styles.module.css'
 export default function TextSection({ title, copy, aside }) {
   return (
     <section className={css.section}>
-      <div className={css.label}>
-        {aside ?? (
-          <p>
-            <strong>{title}</strong>
-          </p>
-        )}
-      </div>
+      <div className={`${css.label} text-label`}>{aside ?? <p>{title}</p>}</div>
       <div className={`${css.body} text-large`}>
         <Markdown>{copy}</Markdown>
       </div>

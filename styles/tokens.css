@@ -8,6 +8,7 @@
   /* Font families */
   --font-heading: 'ABC Diatype', 'Helvetica Neue', Arial, sans-serif;
   --font-body: 'ABC Laica', Georgia, serif;
+  --font-label: 'ABC Diatype Mono', ui-monospace, monospace;
 
   /*
    * Fluid type: size = (value - 1) * unit + 1rem, where value is the theme's

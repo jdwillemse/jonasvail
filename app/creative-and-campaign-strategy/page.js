@@ -23,7 +23,7 @@ export default async function CreativeAndCampaignPage() {
         stacked
         items={[
           {
-            label: <strong>See what else I do</strong>,
+            label: 'See what else I do',
             title: 'Brand Development and Strategy',
             href: '/brand-development-and-strategy',
           },

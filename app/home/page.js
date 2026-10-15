@@ -15,7 +15,7 @@ export default async function HomePage() {
       <CaseList
         items={[
           {
-            label: <strong>Case Studies</strong>,
+            label: 'Case Studies',
             title: 'Brand Development and Strategy',
             href: '/brand-development-and-strategy',
           },
