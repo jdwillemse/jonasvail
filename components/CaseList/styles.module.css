@@ -8,6 +8,8 @@
 
 .item {
   composes: grid from '@/styles/grid.module.css';
+  /* Anchors the title link's hit area and WaveLink's canvas. */
+  position: relative;
   align-items: start;
 }
 
@@ -19,6 +21,13 @@
   --size: var(--size-h2);
 
   grid-column: 12 / 26;
+}
+
+/* Stretch the link's hit area over the whole row, page edge to page edge. */
+.title a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
 }
 
 @media (max-width: 767px) {
