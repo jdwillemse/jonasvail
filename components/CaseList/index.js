@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import WaveLink from '@/components/WaveLink'
 
 import css from './styles.module.css'
 
@@ -12,7 +12,7 @@ export default function CaseList({ items, as: Heading = 'h2', stacked }) {
         <li key={href} className={css.item}>
           {label && <p className={`${css.label} text-label`}>{label}</p>}
           <Heading className={css.title}>
-            <Link href={href}>{title}</Link>
+            <WaveLink href={href}>{title}</WaveLink>
           </Heading>
         </li>
       ))}
