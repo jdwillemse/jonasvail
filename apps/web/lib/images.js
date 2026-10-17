@@ -41,9 +41,12 @@ export async function optimiseMedia(blocks) {
       if (item.video) {
         // hqdefault exists for every video; maxresdefault doesn't.
         const id = getYouTubeID(item.video)
-        item.thumbnail = await optimise(
-          `https://i.ytimg.com/vi/${id}/hqdefault.jpg`
-        )
+        const src = `https://i.ytimg.com/vi/${id}/hqdefault.jpg`
+        // YouTube's image server keeps dropping downloads from Vercel. A video
+        // without a thumbnail still plays, so this doesn't fail the build.
+        item.thumbnail = await optimise(src).catch((error) => {
+          console.warn(`No thumbnail for ${item.video}: ${error.message}`)
+        })
       } else if (item.image?.url) {
         item.image.formats = await optimise(sanity(item.image.url))
       }
