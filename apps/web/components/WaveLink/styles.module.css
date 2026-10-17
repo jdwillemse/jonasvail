@@ -9,12 +9,13 @@
   color: transparent;
 }
 
-/* Client logos stamped on the left of the hovered row. They sit on the body,
-   outside the row, since the row's reveal transform would isolate the blend. */
+/* Client logos stamped in the hovered row, left of its content. They sit on
+   the body, outside the row, since the row's reveal transform would isolate
+   the blend. */
 .stamp {
   position: absolute;
   z-index: 10;
-  width: auto;
+  object-fit: contain;
   pointer-events: none;
   /* Drops any white in a logo into the page colour behind it. */
   mix-blend-mode: darken;

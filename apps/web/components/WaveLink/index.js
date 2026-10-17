@@ -32,16 +32,25 @@ const SPEED = 0.003
 
 const random = (min, max) => min + Math.random() * (max - min)
 
-// A few copies of `logo` scattered over the left of `row`, in page pixels.
-// Each is sized to the row's height and kept inside it.
+// A few copies of `logo` scattered over the empty space in `row` left of its
+// content (the client name, or the title when there is none), in page pixels.
+// Each box is sized to the row's height and kept inside that space, though up
+// to half of it may run off the left edge; the logo is fitted into the box
+// whatever its shape.
 function scatter(row) {
-  const { left, top, width, height } = row.getBoundingClientRect()
+  const { left, top, height } = row.getBoundingClientRect()
+  const content = Math.min(
+    ...[...row.children].map((child) => child.getBoundingClientRect().left)
+  )
+  const space = content - left
   return Array.from({ length: Math.round(random(3, 5)) }, () => {
-    const size = height * random(0.4, 0.8)
+    const h = height * random(0.4, 0.8)
+    const w = Math.min(h * 1.6, space)
     return {
-      x: scrollX + left + width * random(0.04, 0.36),
-      y: scrollY + top + random(size / 2, height - size / 2),
-      size,
+      x: scrollX + left + random(0, space - w / 2),
+      y: scrollY + top + random(h / 2, height - h / 2),
+      w,
+      h,
       turn: random(-25, 25),
     }
   })
@@ -104,7 +113,7 @@ export default function WaveLink({ href, logo, children }) {
       {children}
       {stamps.length > 0 &&
         createPortal(
-          stamps.map(({ x, y, size, turn }, i) => (
+          stamps.map(({ x, y, w, h, turn }, i) => (
             // eslint-disable-next-line @next/next/no-img-element
             <img
               key={i}
@@ -114,7 +123,8 @@ export default function WaveLink({ href, logo, children }) {
               style={{
                 left: x,
                 top: y,
-                height: size,
+                width: w,
+                height: h,
                 '--turn': `${turn}deg`,
                 animationDelay: `${i * 70}ms`,
               }}
