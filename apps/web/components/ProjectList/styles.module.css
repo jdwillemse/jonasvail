@@ -1,10 +1,17 @@
-.masonryGrid {
-  display: flex;
-  margin-left: calc(var(--gutter) * -1); /* gutter size offset */
-  width: auto;
-}
+/* Projects fill each column top to bottom, at the old masonry breakpoints. */
+.list {
+  columns: 2;
+  column-gap: var(--gutter);
 
-.masonryColumn {
-  padding-left: var(--gutter); /* gutter size */
-  background-clip: padding-box;
+  @media (min-width: 901px) {
+    columns: 3;
+  }
+
+  @media (min-width: 1301px) {
+    columns: 4;
+  }
+
+  & > * {
+    break-inside: avoid;
+  }
 }
