@@ -2,7 +2,9 @@
 
 :root {
   /* Colour */
-  --color-accent: hsl(19.6 90.9% 47.5%);
+  /* The homepage's colours, for routes PageColour has none for */
+  --color-accent: #ffee99;
+  --color-accent-end: #fff7cc;
   --color-text: #15274e;
 
   /* Font families. The --font-* variables come from app/fonts.js. */

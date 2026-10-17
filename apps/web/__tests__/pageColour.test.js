@@ -11,6 +11,7 @@ describe('pageColour', () => {
       '#9ec5fe',
       '#cfe2ff',
     ])
+    expect(pageColour('/about')).toEqual(['#f7b0d3', '#fbd8e9'])
     expect(pageColour('/ketel-one-vodka/some-project')).toEqual([
       '#cbb0f3',
       '#e5d8f9',
@@ -18,7 +19,6 @@ describe('pageColour', () => {
   })
 
   it('leaves other routes on the default colour', () => {
-    expect(pageColour('/about')).toBeNull()
     expect(pageColour('/ketel-one-vodka')).toBeNull()
   })
 })

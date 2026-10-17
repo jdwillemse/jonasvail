@@ -9,6 +9,7 @@ const colours = {
   '/': ['#ffee99', '#fff7cc'],
   '/brand-development-and-strategy': ['#9fd5b1', '#cfead8'],
   '/creative-and-campaign-strategy': ['#9ec5fe', '#cfe2ff'],
+  '/about': ['#f7b0d3', '#fbd8e9'],
 }
 const projectColour = ['#cbb0f3', '#e5d8f9']
 

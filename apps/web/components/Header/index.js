@@ -8,6 +8,7 @@ import css from './styles.module.css'
 const links = [
   { href: '/brand-development-and-strategy', label: 'Brand Development' },
   { href: '/creative-and-campaign-strategy', label: 'Creative & Campaign' },
+  { href: '/about', label: 'About' },
 ]
 
 export default function Header({ email }) {
