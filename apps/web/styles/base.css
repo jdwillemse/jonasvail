@@ -4,6 +4,21 @@ body {
   color: var(--color-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor:
+    url("/cursors/default.svg") 2 0,
+    auto;
+}
+
+a,
+button {
+  cursor:
+    url("/cursors/pointer.svg") 12 0,
+    pointer;
+}
+
+::selection {
+  background: #ff2226;
+  color: #000;
 }
 
 /*

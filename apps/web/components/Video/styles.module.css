@@ -22,7 +22,6 @@
   background: #000;
   color: inherit;
   font: inherit;
-  cursor: pointer;
 }
 
 /* The 4:3 thumbnail has black bars, which covering a 16:9 box crops. */
