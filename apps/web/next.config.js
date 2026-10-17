@@ -3,8 +3,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 module.exports = withBundleAnalyzer({
-  // Jest compiles these ES-module-only packages through next/jest.
-  transpilePackages: ['@portabletext/react', '@portabletext/toolkit'],
   images: {
     loader: 'custom',
     loaderFile: './lib/imageLoader.js',

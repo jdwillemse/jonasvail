@@ -1,4 +1,5 @@
-import { render } from '@testing-library/react'
+import { describe, expect, it } from 'bun:test'
+import { prettyDOM, render } from '@testing-library/react'
 
 import ProjectList from '.'
 import data from '../../__mocks__/allProjects.json'
@@ -6,7 +7,10 @@ import data from '../../__mocks__/allProjects.json'
 describe('ProjectList', () => {
   it('renders a list of projects', () => {
     const { container } = render(<ProjectList projects={data} />)
-    expect(container).toMatchSnapshot()
+    // Bun can't serialise a DOM node, so this snapshots its markup.
+    expect(
+      prettyDOM(container, Infinity, { highlight: false })
+    ).toMatchSnapshot()
   })
 
   it('filters the list based on the route', () => {

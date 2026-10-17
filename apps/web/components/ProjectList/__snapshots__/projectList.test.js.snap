@@ -1,67 +1,7 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
-
-exports[`ProjectList filters the list based on the route: playstation 1`] = `"Twitch"`;
-
-exports[`ProjectList filters the list based on the route: playstation 2`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 3`] = `"Al Jazeera"`;
-
-exports[`ProjectList filters the list based on the route: playstation 4`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 5`] = `"HP"`;
-
-exports[`ProjectList filters the list based on the route: playstation 6`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 7`] = `"Ketel One Vodka"`;
-
-exports[`ProjectList filters the list based on the route: playstation 8`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 9`] = `"Dr. Martens"`;
-
-exports[`ProjectList filters the list based on the route: playstation 10`] = `"HP"`;
-
-exports[`ProjectList filters the list based on the route: playstation 11`] = `"adidas"`;
-
-exports[`ProjectList filters the list based on the route: playstation 12`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 13`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 14`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 15`] = `"HP"`;
-
-exports[`ProjectList filters the list based on the route: playstation 16`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 17`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 18`] = `"EA SPORTS"`;
-
-exports[`ProjectList filters the list based on the route: playstation 19`] = `"HP"`;
-
-exports[`ProjectList filters the list based on the route: playstation 20`] = `"Sega"`;
-
-exports[`ProjectList filters the list based on the route: playstation 21`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 22`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 23`] = `"Lilly"`;
-
-exports[`ProjectList filters the list based on the route: playstation 24`] = `"HP"`;
-
-exports[`ProjectList filters the list based on the route: playstation 25`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 26`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 27`] = `"PlayStation"`;
-
-exports[`ProjectList filters the list based on the route: playstation 28`] = `"EA SPORTS"`;
-
-exports[`ProjectList filters the list based on the route: playstation 29`] = `"HP"`;
-
-exports[`ProjectList filters the list based on the route: playstation 30`] = `"MTV"`;
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
 
 exports[`ProjectList renders a list of projects 1`] = `
-<div>
+"<div>
   <div
     class="masonryGrid"
     data-test-id="masonry-wrap"
@@ -742,5 +682,65 @@ exports[`ProjectList renders a list of projects 1`] = `
       </article>
     </div>
   </div>
-</div>
+</div>"
 `;
+
+exports[`ProjectList filters the list based on the route: playstation 1`] = `"Twitch"`;
+
+exports[`ProjectList filters the list based on the route: playstation 2`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 3`] = `"Al Jazeera"`;
+
+exports[`ProjectList filters the list based on the route: playstation 4`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 5`] = `"HP"`;
+
+exports[`ProjectList filters the list based on the route: playstation 6`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 7`] = `"Ketel One Vodka"`;
+
+exports[`ProjectList filters the list based on the route: playstation 8`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 9`] = `"Dr. Martens"`;
+
+exports[`ProjectList filters the list based on the route: playstation 10`] = `"HP"`;
+
+exports[`ProjectList filters the list based on the route: playstation 11`] = `"adidas"`;
+
+exports[`ProjectList filters the list based on the route: playstation 12`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 13`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 14`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 15`] = `"HP"`;
+
+exports[`ProjectList filters the list based on the route: playstation 16`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 17`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 18`] = `"EA SPORTS"`;
+
+exports[`ProjectList filters the list based on the route: playstation 19`] = `"HP"`;
+
+exports[`ProjectList filters the list based on the route: playstation 20`] = `"Sega"`;
+
+exports[`ProjectList filters the list based on the route: playstation 21`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 22`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 23`] = `"Lilly"`;
+
+exports[`ProjectList filters the list based on the route: playstation 24`] = `"HP"`;
+
+exports[`ProjectList filters the list based on the route: playstation 25`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 26`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 27`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 28`] = `"EA SPORTS"`;
+
+exports[`ProjectList filters the list based on the route: playstation 29`] = `"HP"`;
+
+exports[`ProjectList filters the list based on the route: playstation 30`] = `"MTV"`;

@@ -5,8 +5,8 @@
     "build": "next build",
     "analyze": "ANALYZE=true next build",
     "start": "next start",
-    "test:watch": "jest --watch",
-    "test": "jest --coverage",
+    "test:watch": "bun test --watch",
+    "test": "bun test --coverage",
     "sops:encrypt": "sops encrypt --input-type binary --output-type json --filename-override .env.local.enc.json --output .env.local.enc.json .env.local",
     "sops:decrypt": "umask 077 && SOPS_AGE_KEY_FILE=\"${SOPS_AGE_KEY_FILE:-$HOME/.config/sops/age/keys.txt}\" sops decrypt --input-type json --output-type binary --output .env.local .env.local.enc.json && chmod 600 .env.local",
     "sops:updatekeys": "SOPS_AGE_KEY_FILE=\"${SOPS_AGE_KEY_FILE:-$HOME/.config/sops/age/keys.txt}\" sops updatekeys --yes .env.local.enc.json"
@@ -25,15 +25,12 @@
     "sass": "^1.105.1"
   },
   "devDependencies": {
+    "@happy-dom/global-registrator": "^21.0.3",
     "@next/bundle-analyzer": "^16.4.0",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
-    "@testing-library/user-event": "^14.6.8",
-    "babel-jest": "^30.5.2",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^30.5.2",
-    "jest-environment-jsdom": "^30.5.2",
+    "bun": "^1.4.3",
     "postcss-preset-env": "^11.6.1",
     "typescript": "^6.0.3"
   },

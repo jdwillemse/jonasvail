@@ -1,6 +1,5 @@
+import { beforeAll, afterEach, describe, expect, it, mock } from 'bun:test'
 import { render, screen } from '@testing-library/react'
-
-import HomePage from '../app/page'
 
 const text = (value) => [
   {
@@ -12,8 +11,8 @@ const text = (value) => [
   },
 ]
 
-jest.mock('../lib/api', () => ({
-  getPage: jest.fn(async () => ({
+mock.module('../lib/api', () => ({
+  getPage: mock(async () => ({
     title: 'Home',
     hero: 'Hero copy',
     sections: [
@@ -36,11 +35,14 @@ jest.mock('../lib/api', () => ({
   })),
 }))
 
+// Imported after the mock, so the page never loads the Sanity client.
+const { default: HomePage } = await import('../app/page')
+
 describe('HomePage', () => {
   beforeAll(() => {
     // Mock warn & error to catch errors thrown by React into the console
-    console.warn = jest.fn()
-    console.error = jest.fn()
+    console.warn = mock()
+    console.error = mock()
   })
 
   afterEach(() => {
