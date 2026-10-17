@@ -8,20 +8,6 @@
   padding: 3vw var(--page-gutter);
 }
 
-.skip {
-  position: absolute;
-  top: 0.5em;
-  left: var(--page-gutter);
-  padding: 0.5em 1em;
-  background: var(--color-text);
-  color: var(--color-accent);
-  transform: translateY(-200%);
-}
-
-.skip:focus {
-  transform: none;
-}
-
 .title {
   position: relative;
   z-index: 1;

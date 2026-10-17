@@ -59,10 +59,6 @@ h4 a {
   font-size: calc((var(--size-large) - 1) * var(--type-unit) + 1rem);
 }
 
-.text-small {
-  font-size: calc((var(--size-small) - 1) * var(--type-unit) + 1rem);
-}
-
 /* Small all-caps labels, styled like chooseanew.com's buttons. 0.75× body size keeps them in step with the body copy. */
 .text-label {
   font-family: var(--font-label);

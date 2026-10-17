@@ -35,7 +35,6 @@ const IMAGE = `{
   "url": asset->url,
   "width": asset->metadata.dimensions.width,
   "height": asset->metadata.dimensions.height,
-  "lqip": asset->metadata.lqip,
   "description": alt
 }`
 
@@ -45,7 +44,6 @@ const PROJECT_CARD = `
   "sys": { "id": _id },
   "uid": slug.current,
   title,
-  date,
   "client": client->${CLIENT},
   "listviewImage": listImage${IMAGE}
 `
@@ -54,12 +52,6 @@ const SEO = `seo{ title, description, "image": image${IMAGE} }`
 
 const allProjectsQuery = defineQuery(`
   *[_type == "project"] | order(date desc) { ${PROJECT_CARD} }
-`)
-
-const clientProjectsQuery = defineQuery(`
-  *[_type == "project" && client->slug.current == $uid] | order(date desc) {
-    ${PROJECT_CARD}
-  }
 `)
 
 const projectQuery = defineQuery(`
@@ -77,14 +69,6 @@ const projectQuery = defineQuery(`
     },
     ${SEO}
   }
-`)
-
-// Ordered by each client's newest project
-const clientsQuery = defineQuery(`
-  *[_type == "client"] {
-    ...${CLIENT},
-    "latest": *[_type == "project" && references(^._id)] | order(date desc)[0].date
-  } | order(latest desc)
 `)
 
 const aboutQuery = defineQuery(`
@@ -165,20 +149,12 @@ export function getAllProjects() {
   return sanityFetch(allProjectsQuery, {}, ['project', 'client'])
 }
 
-export function getProjectsByClient(uid = '') {
-  return sanityFetch(clientProjectsQuery, { uid }, ['project', 'client'])
-}
-
 export async function getProject(uid) {
   const project = await sanityFetch(projectQuery, { uid }, [
     'project',
     'client',
   ])
   return project && { ...project, mediaBlockList: mediaBlocks(project.body) }
-}
-
-export function getAllClients() {
-  return sanityFetch(clientsQuery, {}, ['project', 'client'])
 }
 
 export function getAbout() {

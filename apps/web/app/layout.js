@@ -37,7 +37,7 @@ export default async function RootLayout({ children }) {
         <PageColour />
         <Squiggle />
         <Header email={settings.email} />
-        <main id="main">
+        <main>
           {children}
           <GetInTouch email={settings.email} />
         </main>
