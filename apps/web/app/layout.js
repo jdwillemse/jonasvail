@@ -1,8 +1,8 @@
 import '@/styles/tokens.css'
-import '@/styles/fonts.css'
 import '@/styles/base.css'
 import '@/styles/typography.css'
 
+import { laica, diatype, diatypeMono } from './fonts'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import GetInTouch from '@/components/GetInTouch'
@@ -29,7 +29,10 @@ export default async function RootLayout({ children }) {
   const settings = (await getSettings()) ?? {}
 
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className={`${laica.variable} ${diatype.variable} ${diatypeMono.variable}`}
+    >
       <body>
         <PageColour />
         <Squiggle />

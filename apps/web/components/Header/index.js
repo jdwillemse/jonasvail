@@ -14,10 +14,7 @@ export default function Header({ email }) {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className={css.header}>
-      <a href="#main" className={css.skip}>
-        Skip to content
-      </a>
+    <header className={`${css.header} reveal-fade`}>
       <Link href="/" className={css.title}>
         Jonas Vail
       </Link>
@@ -31,12 +28,21 @@ export default function Header({ email }) {
         <span className="visually-hidden">{open ? 'Close' : 'Open'} menu</span>
       </button>
       <nav id="site-nav" className={css.nav} data-open={open}>
-        {links.map(({ href, label }) => (
-          <Link key={href} href={href} onClick={() => setOpen(false)}>
+        {links.map(({ href, label }, i) => (
+          <Link
+            key={href}
+            href={href}
+            onClick={() => setOpen(false)}
+            style={{ '--i': i }}
+          >
             {label}
           </Link>
         ))}
-        {email && <a href={`mailto:${email}`}>Contact</a>}
+        {email && (
+          <a href={`mailto:${email}`} style={{ '--i': links.length }}>
+            Contact
+          </a>
+        )}
       </nav>
     </header>
   )

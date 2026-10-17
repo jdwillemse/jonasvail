@@ -9,3 +9,31 @@
   color: transparent;
 }
 
+/* Client logos stamped on the left of the hovered row. They sit on the body,
+   outside the row, since the row's reveal transform would isolate the blend. */
+.stamp {
+  position: absolute;
+  z-index: 10;
+  width: auto;
+  pointer-events: none;
+  /* Drops any white in a logo into the page colour behind it. */
+  mix-blend-mode: darken;
+  transform: translate(-50%, -50%) rotate(var(--turn)) scale(0);
+  animation: stamp 220ms cubic-bezier(0.3, 0, 0.2, 1) forwards;
+}
+
+/* Comes down from big to slightly squashed, then settles. */
+@keyframes stamp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(var(--turn)) scale(1.8);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(var(--turn)) scale(0.92);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(var(--turn)) scale(1);
+  }
+}

@@ -5,10 +5,10 @@
   --color-accent: hsl(19.6 90.9% 47.5%);
   --color-text: #15274e;
 
-  /* Font families */
-  --font-heading: 'ABC Diatype', 'Helvetica Neue', Arial, sans-serif;
-  --font-body: 'ABC Laica', Georgia, serif;
-  --font-label: 'ABC Diatype Mono', ui-monospace, monospace;
+  /* Font families. The --font-* variables come from app/fonts.js. */
+  --font-heading: var(--font-diatype), sans-serif;
+  --font-body: var(--font-laica), serif;
+  --font-label: var(--font-diatype-mono);
 
   /*
    * Fluid type: size = (value - 1) * unit + 1rem, where value is the theme's

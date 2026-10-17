@@ -1,0 +1,36 @@
+.section {
+  composes: grid from '@/styles/grid.module.css';
+  align-items: start;
+  row-gap: var(--grid-row);
+  padding-block: var(--grid-row);
+}
+
+.label {
+  grid-column: 7 / 14;
+}
+
+.list {
+  display: grid;
+  grid-column: 15 / 26;
+  row-gap: var(--grid-row);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item h3 {
+  --size: var(--size-h4);
+
+  margin-top: 0.5em;
+}
+
+.subtitle {
+  margin-bottom: 1em;
+}
+
+@media (max-width: 767px) {
+  .label,
+  .list {
+    grid-column: 2 / 10;
+  }
+}

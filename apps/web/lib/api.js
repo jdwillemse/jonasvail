@@ -39,7 +39,7 @@ const IMAGE = `{
   "description": alt
 }`
 
-const CLIENT = `{ "sys": { "id": _id }, name, "uid": slug.current }`
+const CLIENT = `{ "sys": { "id": _id }, name, "uid": slug.current, "logo": logo.asset->url }`
 
 const PROJECT_CARD = `
   "sys": { "id": _id },
@@ -92,15 +92,9 @@ const aboutQuery = defineQuery(`
     title,
     body,
     experienceTitle,
-    "experienceList": { "items": experience[] { ..., "sys": { "id": _key } } },
+    experience,
     accoladesTitle,
-    "accoladesList": {
-      "items": accolades[] {
-        ...,
-        "sys": { "id": _key },
-        "project": project->{ ${PROJECT_CARD} }
-      }
-    }
+    accolades[] { ..., "project": project->{ ${PROJECT_CARD} } }
   }
 `)
 

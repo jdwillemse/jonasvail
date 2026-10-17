@@ -49,3 +49,4 @@ public/images/
 # sanity
 dist
 .sanity
+.env*

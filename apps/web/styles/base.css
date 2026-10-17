@@ -90,3 +90,42 @@ a:hover {
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
+
+/*
+ * Page build-up. `.reveal` slides content in on first paint, staggered by
+ * --i; it runs before hydration since it's plain CSS. `.reveal-scroll` instead
+ * ties it to the element entering the viewport, for content below the fold.
+ * Only opacity and transform animate, so it all runs on the compositor.
+ */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    animation: reveal 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+    /* Capped so a long list doesn't keep the fold waiting. */
+    animation-delay: calc(min(var(--i, 0), 8) * 80ms + 100ms);
+  }
+
+  .reveal-fade {
+    animation: reveal-fade 0.6s ease-out both;
+  }
+
+  @supports (animation-timeline: view()) {
+    .reveal-scroll {
+      animation: reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+  }
+
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      transform: translateY(1.5rem);
+    }
+  }
+
+  @keyframes reveal-fade {
+    from {
+      opacity: 0;
+    }
+  }
+}
