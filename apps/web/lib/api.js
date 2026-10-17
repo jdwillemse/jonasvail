@@ -116,6 +116,10 @@ const pageQuery = defineQuery(`
     hero,
     sections[] {
       ...,
+      _type == "textSection" => {
+        "video": video.asset->url,
+        "videoHevc": videoHevc.asset->url
+      },
       _type == "projectList" => { "projects": projects[]->{ ${PROJECT_CARD} } },
       _type == "pageLinks" => {
         "pages": pages[]->{ title, "slug": slug.current }

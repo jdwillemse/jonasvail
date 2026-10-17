@@ -42,6 +42,22 @@ export const page = defineType({
           fields: [
             defineField({ name: 'title', type: 'string' }),
             defineField({ name: 'copy', type: 'richText' }),
+            defineField({
+              name: 'video',
+              type: 'file',
+              description:
+                'Optional. Plays muted on a loop in a cropped circle beside the copy. For a transparent background, use WebM with transparency.',
+              options: { accept: 'video/*' },
+            }),
+            defineField({
+              name: 'videoHevc',
+              title: 'Video for Safari',
+              type: 'file',
+              description:
+                'Only for a transparent video: the same clip as HEVC with transparency (.mov), since Safari can’t show WebM transparency.',
+              options: { accept: 'video/quicktime' },
+              hidden: ({ parent }) => !parent?.video,
+            }),
           ],
         }),
         defineArrayMember({
