@@ -24,6 +24,7 @@ export default function PageView({ page }) {
                 key={section._key}
                 reveal={reveal}
                 as="h1"
+                list={section._key}
                 items={(section.projects ?? []).map((project) => ({
                   label: project.client?.name,
                   title: project.title,

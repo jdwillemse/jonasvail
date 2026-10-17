@@ -1,5 +1,6 @@
 import Hero from '@/components/Hero'
 import MediaBlock from '@/components/MediaBlock'
+import ProjectNav from '@/components/ProjectNav'
 import TextSection from '@/components/TextSection'
 import { pageMeta } from '@/lib/metadata'
 import renderPage from '@/lib/render'
@@ -21,6 +22,7 @@ export function render({ project, ...data }) {
       <Hero heroCopy={project.title} />
       <TextSection title={project.client?.name} copy={project.intro} />
       <MediaBlock blocks={project.mediaBlockList} />
+      <ProjectNav pages={data.pages} project={project} />
     </article>,
     pageMeta(data.settings, { ...project, image: project.listviewImage })
   )

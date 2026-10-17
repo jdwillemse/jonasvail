@@ -1,0 +1,44 @@
+/* Previous on the left half, Next on the right, each keeping its side when
+   it's alone. */
+.nav {
+  composes: grid from "@/styles/grid.module.css";
+  align-items: start;
+  padding-block: var(--grid-row);
+}
+
+.nav[hidden] {
+  display: none;
+}
+
+.prev,
+.next {
+  display: grid;
+  row-gap: calc(var(--grid-gap) * 2);
+}
+
+.prev {
+  grid-column: 2 / 14;
+}
+
+.next {
+  grid-column: 14 / 26;
+  text-align: end;
+}
+
+.title {
+  --size: var(--size-h3);
+}
+
+@media (max-width: 767px) {
+  .prev {
+    grid-column: 2 / 6;
+  }
+
+  .next {
+    grid-column: 6 / 10;
+  }
+
+  .title {
+    --size: var(--size-h4);
+  }
+}

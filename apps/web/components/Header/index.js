@@ -9,13 +9,13 @@ const links = [
 // The burger opens and closes the menu through ./client.js.
 export default function Header({ email }) {
   return (
-    <header className={`${css.header} reveal-fade`}>
+    <header className={css.header}>
       <a href="/" className={css.title}>
         Jonas Vail
       </a>
       <button
         type="button"
-        className={css.burger}
+        className={`${css.burger} reveal-fade`}
         aria-expanded="false"
         aria-controls="site-nav"
       >
