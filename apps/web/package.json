@@ -1,10 +1,9 @@
 {
   "name": "web",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "analyze": "next analyze",
-    "start": "next start",
+    "dev": "eleventy --serve",
+    "build": "eleventy",
     "test:watch": "bun test --watch",
     "test": "bun test --coverage",
     "sops:encrypt": "sops encrypt --input-type binary --output-type json --filename-override .env.local.enc.json --output .env.local.enc.json .env.local",
@@ -12,13 +11,16 @@
     "sops:updatekeys": "SOPS_AGE_KEY_FILE=\"${SOPS_AGE_KEY_FILE:-$HOME/.config/sops/age/keys.txt}\" sops updatekeys --yes .env.local.enc.json"
   },
   "dependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "@11ty/eleventy-img": "^7.0.0",
     "@portabletext/react": "^8.0.1",
     "@sanity/client": "^8.9.0",
     "@sanity/webhook": "^4.0.4",
+    "esbuild": "^0.28.2",
     "get-youtube-id": "^1.0.1",
     "groq": "^6.19.0",
+    "lightningcss": "^1.33.0",
     "modern-normalize": "^3.0.1",
-    "next": "^16.4.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   },
@@ -27,8 +29,7 @@
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
-    "bun": "^1.4.3",
-    "postcss-preset-env": "^11.6.1"
+    "bun": "^1.4.3"
   },
   "license": "UNLICENSED",
   "engines": {

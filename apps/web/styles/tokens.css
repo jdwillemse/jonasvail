@@ -7,7 +7,7 @@
   --color-accent-end: #fff7cc;
   --color-text: #15274e;
 
-  /* Font families. The --font-* variables come from app/fonts.js. */
+  /* Font families. The --font-* variables come from styles/fonts.css. */
   --font-heading: var(--font-diatype), sans-serif;
   --font-body: var(--font-laica), serif;
   --font-label: var(--font-diatype-mono);

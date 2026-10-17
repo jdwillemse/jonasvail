@@ -1,8 +1,3 @@
-'use client'
-
-import { useState } from 'react'
-import Link from 'next/link'
-
 import css from './styles.module.css'
 
 const links = [
@@ -11,33 +6,26 @@ const links = [
   { href: '/about', label: 'About' },
 ]
 
+// The burger opens and closes the menu through ./client.js.
 export default function Header({ email }) {
-  const [open, setOpen] = useState(false)
-
   return (
     <header className={`${css.header} reveal-fade`}>
-      <Link href="/" className={css.title}>
+      <a href="/" className={css.title}>
         Jonas Vail
-      </Link>
+      </a>
       <button
         type="button"
         className={css.burger}
-        aria-expanded={open}
+        aria-expanded="false"
         aria-controls="site-nav"
-        onClick={() => setOpen(!open)}
       >
-        <span className="visually-hidden">{open ? 'Close' : 'Open'} menu</span>
+        <span className="visually-hidden">Open menu</span>
       </button>
-      <nav id="site-nav" className={css.nav} data-open={open}>
+      <nav id="site-nav" className={css.nav} data-open="false">
         {links.map(({ href, label }, i) => (
-          <Link
-            key={href}
-            href={href}
-            onClick={() => setOpen(false)}
-            style={{ '--i': i }}
-          >
+          <a key={href} href={href} style={{ '--i': i }}>
             {label}
-          </Link>
+          </a>
         ))}
         {email && (
           <a href={`mailto:${email}`} style={{ '--i': links.length }}>

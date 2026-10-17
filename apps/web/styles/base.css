@@ -1,5 +1,3 @@
-@import "modern-normalize/modern-normalize.css";
-
 body {
   margin: 0;
   background: var(--color-accent);
@@ -39,11 +37,46 @@ body {
   }
 }
 
-/* Slow colour fade between pages, started by components/PageColour. */
+/*
+ * Slow colour fade between pages (components/PageColour sets the colours).
+ * The content has its own snapshots, which switch to the new page at once,
+ * so only the background is left in `root` to fade.
+ */
+@view-transition {
+  navigation: auto;
+}
+
+body > header {
+  view-transition-name: header;
+}
+
+main {
+  view-transition-name: main;
+}
+
+body > footer {
+  view-transition-name: footer;
+}
+
 ::view-transition-old(root),
 ::view-transition-new(root) {
   animation-duration: 1.2s;
   animation-timing-function: ease-in-out;
+}
+
+::view-transition-group(header),
+::view-transition-group(main),
+::view-transition-group(footer),
+::view-transition-new(header),
+::view-transition-new(main),
+::view-transition-new(footer) {
+  animation: none;
+}
+
+::view-transition-old(header),
+::view-transition-old(main),
+::view-transition-old(footer) {
+  display: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -93,7 +126,7 @@ a:hover {
 
 /*
  * Page build-up. `.reveal` slides content in on first paint, staggered by
- * --i; it runs before hydration since it's plain CSS. `.reveal-scroll` instead
+ * --i; it's plain CSS, so it runs on first paint. `.reveal-scroll` instead
  * ties it to the element entering the viewport, for content below the fold.
  * Only opacity and transform animate, so it all runs on the compositor.
  */

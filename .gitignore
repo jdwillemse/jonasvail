@@ -50,3 +50,7 @@ public/images/
 dist
 .sanity
 .env*
+
+# eleventy
+_site
+.cache

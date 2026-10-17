@@ -146,25 +146,22 @@ function mediaBlocks(body = []) {
 
 // Newest first
 export function getAllProjects() {
-  return sanityFetch(allProjectsQuery, {}, ['project', 'client'])
+  return sanityFetch(allProjectsQuery)
 }
 
 export async function getProject(uid) {
-  const project = await sanityFetch(projectQuery, { uid }, [
-    'project',
-    'client',
-  ])
+  const project = await sanityFetch(projectQuery, { uid })
   return project && { ...project, mediaBlockList: mediaBlocks(project.body) }
 }
 
 export function getAbout() {
-  return sanityFetch(aboutQuery, {}, ['about', 'project', 'client'])
+  return sanityFetch(aboutQuery)
 }
 
 export function getSettings() {
-  return sanityFetch(settingsQuery, {}, ['settings'])
+  return sanityFetch(settingsQuery)
 }
 
 export function getPage(slug) {
-  return sanityFetch(pageQuery, { slug }, ['page', 'project', 'client'])
+  return sanityFetch(pageQuery, { slug })
 }

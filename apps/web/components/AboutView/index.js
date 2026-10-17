@@ -1,16 +1,7 @@
-import Link from 'next/link'
-import { notFound } from 'next/navigation'
-
-import { getAbout } from '@/lib/api'
-import { seoMetadata } from '@/lib/metadata'
 import Hero from '@/components/Hero'
 import TextSection from '@/components/TextSection'
 
 import css from './styles.module.css'
-
-export async function generateMetadata() {
-  return seoMetadata(await getAbout())
-}
 
 // A section title in the label column beside a list of dated entries.
 function DatedList({ title, children }) {
@@ -22,9 +13,7 @@ function DatedList({ title, children }) {
   )
 }
 
-export default async function AboutPage() {
-  const about = await getAbout()
-  if (!about) notFound()
+export default function AboutView({ about }) {
   const {
     title,
     body,
@@ -62,9 +51,9 @@ export default async function AboutPage() {
               <h3>{title}</h3>
               {project && (
                 <p className={css.subtitle}>
-                  <Link href={`/${project.client?.uid}/${project.uid}`}>
+                  <a href={`/${project.client?.uid}/${project.uid}`}>
                     {project.title}
-                  </Link>
+                  </a>
                 </p>
               )}
             </li>

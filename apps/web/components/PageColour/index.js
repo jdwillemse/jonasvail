@@ -1,9 +1,3 @@
-'use client'
-
-import { useEffect, useState } from 'react'
-import { flushSync } from 'react-dom'
-import { usePathname } from 'next/navigation'
-
 // [top of page, bottom of page]. The page fades between them as it scrolls.
 const colours = {
   '/': ['#ffee99', '#fff7cc'],
@@ -20,19 +14,10 @@ export function pageColour(pathname) {
   return null
 }
 
-// Sets the page background per route. On client navigation the new page
-// renders first, then a view transition fades the old colour into the new one.
-export default function PageColour() {
-  const pathname = usePathname()
-  const [colour, setColour] = useState(() => pageColour(pathname))
-
-  useEffect(() => {
-    const next = pageColour(pathname)
-    if (next === colour) return
-    if (!document.startViewTransition) return setColour(next)
-    document.startViewTransition(() => flushSync(() => setColour(next)))
-  }, [pathname, colour])
-
+// Sets the page background for `pathname`. Between pages a cross-document
+// view transition fades the old colour into the new one (styles/base.css).
+export default function PageColour({ pathname }) {
+  const colour = pageColour(pathname)
   if (!colour) return null
   const [top, bottom] = colour
   return (

@@ -1,6 +1,8 @@
 import { beforeAll, afterEach, describe, expect, it, mock } from 'bun:test'
 import { render, screen } from '@testing-library/react'
 
+import PageView from '../components/PageView'
+
 const text = (value) => [
   {
     _key: value,
@@ -11,34 +13,29 @@ const text = (value) => [
   },
 ]
 
-mock.module('../lib/api', () => ({
-  getPage: mock(async () => ({
-    title: 'Home',
-    hero: 'Hero copy',
-    sections: [
-      {
-        _key: 'a',
-        _type: 'textSection',
-        title: 'Work',
-        copy: text('Work copy'),
-      },
-      {
-        _key: 'b',
-        _type: 'pageLinks',
-        label: 'Case Studies',
-        pages: [
-          { title: 'Brand', slug: 'brand-development-and-strategy' },
-          { title: 'Home again', slug: 'home' },
-        ],
-      },
-    ],
-  })),
-}))
+const page = {
+  title: 'Home',
+  hero: 'Hero copy',
+  sections: [
+    {
+      _key: 'a',
+      _type: 'textSection',
+      title: 'Work',
+      copy: text('Work copy'),
+    },
+    {
+      _key: 'b',
+      _type: 'pageLinks',
+      label: 'Case Studies',
+      pages: [
+        { title: 'Brand', slug: 'brand-development-and-strategy' },
+        { title: 'Home again', slug: 'home' },
+      ],
+    },
+  ],
+}
 
-// Imported after the mock, so the page never loads the Sanity client.
-const { default: HomePage } = await import('../app/page')
-
-describe('HomePage', () => {
+describe('PageView', () => {
   beforeAll(() => {
     // Mock warn & error to catch errors thrown by React into the console
     console.warn = mock()
@@ -50,8 +47,8 @@ describe('HomePage', () => {
     expect(console.error).not.toHaveBeenCalled()
   })
 
-  it('renders the sections in order', async () => {
-    render(await HomePage())
+  it('renders the sections in order', () => {
+    render(<PageView page={page} />)
     expect(screen.getByText('Hero copy')).toBeInTheDocument()
     expect(screen.getByText('Work copy')).toBeInTheDocument()
     expect(screen.getByText('Case Studies')).toBeInTheDocument()

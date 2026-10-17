@@ -1,9 +1,7 @@
-'use client'
-
-import React from 'react'
-import Image from 'next/image'
+import { Fragment } from 'react'
 import { PortableText } from '@portabletext/react'
 
+import Picture from '@/components/Picture'
 import styles from './styles.module.css'
 import Video from '../Video'
 
@@ -17,7 +15,7 @@ const MediaBlock = ({ blocks = [] }) => {
   return (
     <section className={styles.wrap}>
       {blocks.map((block) => (
-        <React.Fragment key={block.sys.id}>
+        <Fragment key={block.sys.id}>
           {block.text && (
             <div className={styles.row}>
               <div className={styles.text}>
@@ -39,12 +37,10 @@ const MediaBlock = ({ blocks = [] }) => {
                   }}
                 >
                   {item.video ? (
-                    <Video url={item.video} />
+                    <Video url={item.video} thumbnail={item.thumbnail} />
                   ) : (
-                    <Image
-                      src={item.image.url}
-                      width={item.image.width}
-                      height={item.image.height}
+                    <Picture
+                      image={item.image.formats}
                       alt={item.image.description || ''}
                       sizes="(min-width: 768px) 50vw, 100vw"
                     />
@@ -53,7 +49,7 @@ const MediaBlock = ({ blocks = [] }) => {
               ))}
             </div>
           ))}
-        </React.Fragment>
+        </Fragment>
       ))}
     </section>
   )

@@ -5,7 +5,7 @@
     "build": {
       "dependsOn": ["^build"],
       "env": ["SANITY_STUDIO_*"],
-      "outputs": [".next/**", "!.next/cache/**", "dist/**"]
+      "outputs": ["_site/**", "dist/**"]
     },
     "dev": {
       "cache": false,

@@ -27,6 +27,10 @@
 
 /* The 4:3 thumbnail has black bars, which covering a 16:9 box crops. */
 .thumbnail {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 

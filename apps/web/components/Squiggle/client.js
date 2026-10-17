@@ -1,9 +1,3 @@
-'use client'
-
-import { useEffect } from 'react'
-
-import css from './styles.module.css'
-
 // Hand-drawn underlines from Osmo's "Draw Random Underline"
 // (codepen.io/osmosupply/pen/qEEKRrx), in a 310×40 box. Each hover takes
 // the next one.
@@ -22,70 +16,62 @@ const DRAW = { duration: 500, easing: 'cubic-bezier(0.45, 0, 0.55, 1)' }
 
 // Draws a squiggle under any link on hover and rubs it out on leave.
 // Links that bring their own hover effect opt out with data-no-squiggle.
-export default function Squiggle() {
-  useEffect(() => {
-    if (!matchMedia('(hover: hover)').matches) return
-    const reduce = matchMedia('(prefers-reduced-motion: reduce)')
-    const links = new WeakMap()
-    let next = Math.floor(Math.random() * PATHS.length)
+export default function squiggle() {
+  if (!matchMedia('(hover: hover)').matches) return
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)')
+  const links = new WeakMap()
+  let next = Math.floor(Math.random() * PATHS.length)
 
-    const animate = (svgs, from, to) =>
-      svgs.map((svg) =>
-        svg.firstChild.animate(
-          { strokeDashoffset: [from, to] },
-          {
-            ...DRAW,
-            duration: reduce.matches ? 0 : DRAW.duration,
-            fill: 'forwards',
-          }
-        )
-      )
-
-    function draw(link) {
-      const s = links.get(link)
-      if (s && !s.erasing) return (s.hovered = true)
-      s?.svgs.forEach((svg) => svg.remove())
-      const svgs = place(link, PATHS[next])
-      if (!svgs.length) return
-      next = (next + 1) % PATHS.length
-      links.set(link, {
-        hovered: true,
-        svgs,
-        drawn: animate(svgs, '1', '0')[0],
-      })
-    }
-
-    function erase(link) {
-      const s = links.get(link)
-      if (!s) return
-      s.hovered = false
-      // Let the line finish drawing before rubbing it out.
-      s.drawn.finished.then(() => {
-        if (s.hovered || s.erasing || links.get(link) !== s) return
-        s.erasing = true
-        animate(s.svgs, '0', '-1')[0].onfinish = () => {
-          if (links.get(link) !== s) return
-          s.svgs.forEach((svg) => svg.remove())
-          links.delete(link)
+  const animate = (svgs, from, to) =>
+    svgs.map((svg) =>
+      svg.firstChild.animate(
+        { strokeDashoffset: [from, to] },
+        {
+          ...DRAW,
+          duration: reduce.matches ? 0 : DRAW.duration,
+          fill: 'forwards',
         }
-      })
-    }
+      )
+    )
 
-    const handle = (fn) => (e) => {
-      const link = e.target.closest?.('a:not([data-no-squiggle])')
-      if (link && !link.contains(e.relatedTarget)) fn(link)
-    }
-    const over = handle(draw)
-    const out = handle(erase)
-    document.addEventListener('mouseover', over)
-    document.addEventListener('mouseout', out)
-    return () => {
-      document.removeEventListener('mouseover', over)
-      document.removeEventListener('mouseout', out)
-    }
-  }, [])
+  function draw(link) {
+    const s = links.get(link)
+    if (s && !s.erasing) return (s.hovered = true)
+    s?.svgs.forEach((svg) => svg.remove())
+    const svgs = place(link, PATHS[next])
+    if (!svgs.length) return
+    next = (next + 1) % PATHS.length
+    links.set(link, {
+      hovered: true,
+      svgs,
+      drawn: animate(svgs, '1', '0')[0],
+    })
+  }
 
-  return null
+  function erase(link) {
+    const s = links.get(link)
+    if (!s) return
+    s.hovered = false
+    // Let the line finish drawing before rubbing it out.
+    s.drawn.finished.then(() => {
+      if (s.hovered || s.erasing || links.get(link) !== s) return
+      s.erasing = true
+      animate(s.svgs, '0', '-1')[0].onfinish = () => {
+        if (links.get(link) !== s) return
+        s.svgs.forEach((svg) => svg.remove())
+        links.delete(link)
+      }
+    })
+  }
+
+  const handle = (fn) => (e) => {
+    const link = e.target.closest?.('a:not([data-no-squiggle])')
+    if (link && !link.contains(e.relatedTarget)) fn(link)
+  }
+  const over = handle(draw)
+  const out = handle(erase)
+  document.addEventListener('mouseover', over)
+  document.addEventListener('mouseout', out)
 }
 
 // One squiggle under each line the link wraps onto.
@@ -93,7 +79,7 @@ function place(link, d) {
   const svgs = [...link.getClientRects()].map((line) => {
     link.insertAdjacentHTML(
       'beforeend',
-      `<svg class="${css.squiggle}" viewBox="0 0 310 40" preserveAspectRatio="none" aria-hidden="true"><path d="${d}" pathLength="1" /></svg>`
+      `<svg class="squiggle" viewBox="0 0 310 40" preserveAspectRatio="none" aria-hidden="true"><path d="${d}" pathLength="1" /></svg>`
     )
     return [link.lastChild, line]
   })

@@ -43,7 +43,7 @@
         "useIterableCallbackReturn": "off"
       }
     },
-    "domains": { "next": "recommended", "react": "recommended" }
+    "domains": { "react": "recommended" }
   },
   "assist": { "enabled": false }
 }

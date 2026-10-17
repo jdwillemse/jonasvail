@@ -1,14 +1,14 @@
-// Next metadata for a page or project. Empty fields are left out, because
-// Next treats an undefined key as "clear", not "use the root layout's", and
-// the root layout's come from Settings.
-export function seoMetadata({ title, seo, image } = {}) {
-  const share = seo?.image ?? image
-  const metadata = {
-    title: seo?.title ?? title,
-    description: seo?.description,
-    openGraph: share?.url && {
-      images: [{ url: share.url, width: share.width, height: share.height }],
-    },
+// A page's <title>, description and share image. The page's own win; Settings
+// fills the rest. A page title goes before the company name, and without one
+// the site title from Settings stands alone.
+export function pageMeta(settings, { title, seo, image } = {}) {
+  const name = settings?.companyName
+  const pageTitle = seo?.title ?? title
+  return {
+    title: pageTitle
+      ? `${pageTitle} | ${name}`
+      : [name, settings?.title].filter(Boolean).join(' | '),
+    description: seo?.description ?? settings?.description,
+    image: [seo?.image, image, settings?.ogImage].find((i) => i?.url),
   }
-  return Object.fromEntries(Object.entries(metadata).filter(([, v]) => v))
 }
