@@ -24,8 +24,6 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-        env:
-          HUSKY: 0
 
       - name: Prettier
         run: pnpm prettier

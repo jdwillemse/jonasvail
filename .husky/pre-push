@@ -1,3 +1,0 @@
-# .husky/pre-push
-
-pnpm test

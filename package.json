@@ -2,7 +2,7 @@
   "name": "jonasvail",
   "private": true,
   "scripts": {
-    "prepare": "husky",
+    "prepare": "lefthook install",
     "dev": "turbo run dev",
     "build": "turbo run build",
     "lint": "turbo run lint",
@@ -12,7 +12,7 @@
     "prettier:fix": "prettier --write \"**/*.{js,jsx,md,mdx,ts,tsx,mjs,json,css,scss}\""
   },
   "devDependencies": {
-    "husky": "^9.1.7",
+    "lefthook": "^2.2.2",
     "prettier": "^3.9.10",
     "turbo": "^2.11.8"
   },
