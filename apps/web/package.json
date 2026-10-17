@@ -27,7 +27,6 @@
     "plaiceholder": "^3.0.0",
     "prop-types": "^15.8.1",
     "react": "^19.3.0",
-    "react-cookie-consent": "^10.0.2",
     "react-dom": "^19.3.0",
     "react-masonry-css": "^1.0.16",
     "react-modal": "^3.16.3",

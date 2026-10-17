@@ -3,7 +3,6 @@ import Head from '../Head'
 import Header from '../Header'
 import Menu from '../Menu'
 import Sidebar from '../Sidebar'
-import Analytics from '../Analytics'
 import { getSettings } from '../../lib/api'
 import css from './styles.module.scss'
 
@@ -24,8 +23,6 @@ const Layout = async ({ children, preview }) => {
       <main className="content">
         <section className={css.wrap}>{children}</section>
       </main>
-
-      <Analytics />
     </div>
   )
 }

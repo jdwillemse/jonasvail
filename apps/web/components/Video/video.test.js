@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react'
+import { render, fireEvent } from '@testing-library/react'
 import getYouTubeID from 'get-youtube-id'
 
 import Video from './'
@@ -8,8 +8,10 @@ const data = {
 }
 
 describe('Video', () => {
-  it('renders when content passed', () => {
+  it('loads nothing from YouTube until clicked', () => {
     const { container } = render(<Video {...data} />)
+    expect(container.querySelector('iframe')).toBeNull()
+    fireEvent.click(container.querySelector('button'))
     const id = getYouTubeID(data.url)
     expect(container.querySelector('iframe').src.includes(id)).toBe(true)
   })
