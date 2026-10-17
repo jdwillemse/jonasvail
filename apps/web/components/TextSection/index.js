@@ -2,6 +2,9 @@ import { PortableText } from '@portabletext/react'
 
 import css from './styles.module.css'
 
+// TEMP: video hidden for now; set to true to bring it back.
+const showVideo = false
+
 // A small label beside large body copy. `aside` replaces the label, such as
 // with a portrait. `copy` is rich text. `video` is a decorative cropped circle
 // between the two; `videoHevc` is its transparent version for Safari, which
@@ -17,7 +20,7 @@ export default function TextSection({
   return (
     <section className={reveal ? `${css.section} ${reveal}` : css.section}>
       <div className={`${css.label} text-label`}>{aside ?? <p>{title}</p>}</div>
-      {video && (
+      {showVideo && video && (
         <div className={css.media} aria-hidden="true">
           <video autoPlay muted loop playsInline>
             {/* Only Safari accepts QuickTime, so the others skip to `video`. */}
