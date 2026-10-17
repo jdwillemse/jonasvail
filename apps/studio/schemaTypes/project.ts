@@ -26,7 +26,8 @@ export const project = defineType({
       name: 'slug',
       type: 'slug',
       group: 'content',
-      description: 'The last part of the URL. Changing it breaks existing links.',
+      description:
+        'The last part of the URL. Changing it breaks existing links.',
       options: { source: 'title' },
       validation: (rule) => rule.required(),
     }),

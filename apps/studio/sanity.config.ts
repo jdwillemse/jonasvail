@@ -23,7 +23,8 @@ export default defineConfig({
       SINGLETONS.includes(schemaType)
         ? actions.filter(
             ({ action }) =>
-              action && ['publish', 'discardChanges', 'restore'].includes(action)
+              action &&
+              ['publish', 'discardChanges', 'restore'].includes(action)
           )
         : actions,
   },

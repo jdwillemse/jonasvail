@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import { useState } from 'react'
 import getYouTubeID from 'get-youtube-id'
 
 import css from './styles.module.scss'
@@ -21,13 +21,20 @@ const Video = ({ url }) => {
       {load ? (
         <iframe
           src={`https://www.youtube-nocookie.com/embed/${getYouTubeID(url)}?autoplay=1`}
+          title="YouTube video"
           allow="autoplay; encrypted-media"
           allowFullScreen
         ></iframe>
       ) : (
-        <button type="button" className={css.consent} onClick={() => setLoad(true)}>
+        <button
+          type="button"
+          className={css.consent}
+          onClick={() => setLoad(true)}
+        >
           <strong>Play video</strong>
-          <span>This loads the video from YouTube, which sends your data to Google.</span>
+          <span>
+            This loads the video from YouTube, which sends your data to Google.
+          </span>
         </button>
       )}
     </div>

@@ -41,6 +41,7 @@ const MAX_VELOCITY = 60
 export default function Hero({ heroCopy }) {
   const copyRef = useRef(null)
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: redraw the canvas when the copy changes
   useEffect(() => {
     const copy = copyRef.current
     let frame = 0

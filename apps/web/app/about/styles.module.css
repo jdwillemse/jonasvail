@@ -1,5 +1,5 @@
 .section {
-  composes: grid from '@/styles/grid.module.css';
+  composes: grid from "@/styles/grid.module.css";
   align-items: start;
   row-gap: var(--grid-row);
   padding-block: var(--grid-row);

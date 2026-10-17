@@ -10,7 +10,7 @@ env:
 
 jobs:
   check:
-    name: Prettier, lint, test and build
+    name: Lint, test and build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,8 +25,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Prettier
-        run: pnpm prettier
+      - name: Lint
+        run: pnpm lint
 
-      - name: Lint, test and build
-        run: pnpm turbo run lint test build
+      - name: Test and build
+        run: pnpm turbo run test build

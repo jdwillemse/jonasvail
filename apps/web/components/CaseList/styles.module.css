@@ -7,7 +7,7 @@
 }
 
 .item {
-  composes: grid from '@/styles/grid.module.css';
+  composes: grid from "@/styles/grid.module.css";
   /* Anchors the title link's hit area and WaveLink's canvas. */
   position: relative;
   align-items: start;
@@ -25,7 +25,7 @@
 
 /* Stretch the link's hit area over the whole row, page edge to page edge. */
 .title a::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
 }
@@ -42,7 +42,9 @@
      height, cap tops sit 0.23em below the line top. */
   .list:not(.stacked) .label {
     margin-top: calc(
-      0.23 * ((var(--size-h2) - 1) * var(--type-unit) + 1rem) - 0.23em
+      0.23 *
+      ((var(--size-h2) - 1) * var(--type-unit) + 1rem) -
+      0.23em
     );
   }
 

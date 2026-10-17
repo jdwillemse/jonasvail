@@ -1,6 +1,6 @@
 'use client'
 
-export default function ClientPage(props) {
+export default function ClientPage() {
   return (
     <div>
       <h1>Client not found</h1>

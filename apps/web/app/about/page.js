@@ -25,8 +25,14 @@ function DatedList({ title, children }) {
 export default async function AboutPage() {
   const about = await getAbout()
   if (!about) notFound()
-  const { title, body, experienceTitle, experience, accoladesTitle, accolades } =
-    about
+  const {
+    title,
+    body,
+    experienceTitle,
+    experience,
+    accoladesTitle,
+    accolades,
+  } = about
 
   return (
     <article>
@@ -34,16 +40,18 @@ export default async function AboutPage() {
       {body && <TextSection copy={body} reveal="reveal" />}
       {experience?.length > 0 && (
         <DatedList title={experienceTitle}>
-          {experience.map(({ _key, dates, jobTitle, employer, description }) => (
-            <li key={_key} className={css.item}>
-              <p className="text-label">{dates}</p>
-              <h3>{jobTitle}</h3>
-              {employer && <p className={css.subtitle}>{employer}</p>}
-              {description?.split(/\n\s*\n/).map((para, i) => (
-                <p key={i}>{para}</p>
-              ))}
-            </li>
-          ))}
+          {experience.map(
+            ({ _key, dates, jobTitle, employer, description }) => (
+              <li key={_key} className={css.item}>
+                <p className="text-label">{dates}</p>
+                <h3>{jobTitle}</h3>
+                {employer && <p className={css.subtitle}>{employer}</p>}
+                {description?.split(/\n\s*\n/).map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </li>
+            )
+          )}
         </DatedList>
       )}
       {accolades?.length > 0 && (

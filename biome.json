@@ -1,0 +1,49 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.5.15/schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "includes": [
+      "**",
+      "!**/.agents",
+      "!**/.claude",
+      "!**/coverage",
+      "!**/*.svg",
+      "!**/apps/studio/schema.json"
+    ]
+  },
+  "formatter": {
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf"
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "semicolons": "asNeeded",
+      "trailingCommas": "es5"
+    }
+  },
+  "css": {
+    "parser": { "cssModules": true }
+  },
+  "linter": {
+    "rules": {
+      "preset": "recommended",
+      "correctness": {
+        "useHookAtTopLevel": "off"
+      },
+      "suspicious": {
+        "noArrayIndexKey": "off",
+        "noAssignInExpressions": "off",
+        "noDuplicateProperties": "off",
+        "useIterableCallbackReturn": "off"
+      }
+    },
+    "domains": { "next": "recommended", "react": "recommended" }
+  },
+  "assist": { "enabled": false }
+}

@@ -8,7 +8,7 @@
   --gutter-column: calc(var(--page-gutter) - var(--grid-gap));
   --cell-max: calc(
     (var(--page-max-width) - var(--grid-gap) * (var(--grid-columns) - 1)) /
-      var(--grid-columns)
+    var(--grid-columns)
   );
 
   display: grid;

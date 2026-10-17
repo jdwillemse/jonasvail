@@ -57,7 +57,9 @@ let keys = 0
 const key = () => `k${(keys++).toString(36)}`
 
 async function read(path: string) {
-  const { data, content } = matter(await readFile(new URL(path, CONTENT), 'utf-8'))
+  const { data, content } = matter(
+    await readFile(new URL(path, CONTENT), 'utf-8')
+  )
   return { data, body: content.trim() }
 }
 
@@ -173,7 +175,10 @@ async function row(layout: string, lines: string, file: string) {
         if (!match) throw new Error(`${file}: not an image or video: ${line}`)
         const [, alt, src, attrs = ''] = match
         const { align, from, to } = Object.fromEntries(
-          attrs.split(/\s+/).filter(Boolean).map((a) => a.split('='))
+          attrs
+            .split(/\s+/)
+            .filter(Boolean)
+            .map((a) => a.split('='))
         )
         const placement = {
           _key: key(),
@@ -200,7 +205,8 @@ async function body(markdown: string, file: string) {
   const out: object[] = []
   for (let i = 0; i < parts.length; i += 3) {
     out.push(...blocks(parts[i]))
-    if (i + 2 < parts.length) out.push(await row(parts[i + 1], parts[i + 2], file))
+    if (i + 2 < parts.length)
+      out.push(await row(parts[i + 1], parts[i + 2], file))
   }
   return { intro: blocks(intro), body: out }
 }
@@ -225,7 +231,9 @@ async function projects() {
       client: ref('client', slugify(data.client)),
       clientName: data.client as string,
       date,
-      categories: (data.tags ?? []).filter((t: string) => CATEGORIES.includes(t)),
+      categories: (data.tags ?? []).filter((t: string) =>
+        CATEGORIES.includes(t)
+      ),
       ...(data.listImage && { listImage: await image(data.listImage) }),
       ...(await body(markdown, file)),
     })
@@ -287,7 +295,11 @@ const BRAND = 'brand-development-and-strategy'
 const CAMPAIGN = 'creative-and-campaign-strategy'
 
 async function pages(all: Awaited<ReturnType<typeof projects>>) {
-  const page = async (slug: string, title: string, sections: (text: object[], data: Record<string, any>) => object[]) => {
+  const page = async (
+    slug: string,
+    title: string,
+    sections: (text: object[], data: Record<string, any>) => object[]
+  ) => {
     const { data, body: markdown } = await read(`pages/${slug}.md`)
     return {
       _id: `page-${slug}`,

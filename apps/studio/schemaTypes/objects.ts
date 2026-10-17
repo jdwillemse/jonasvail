@@ -52,7 +52,8 @@ const placementFields = [
     title: 'From column',
     type: 'number',
     fieldset: 'advanced',
-    description: 'Overrides the row layout. 1 to 24, or -1 for the last column.',
+    description:
+      'Overrides the row layout. 1 to 24, or -1 for the last column.',
     validation: (rule) => rule.integer().min(-24).max(24),
   }),
   defineField({

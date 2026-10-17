@@ -1,4 +1,4 @@
-@import 'modern-normalize/modern-normalize.css';
+@import "modern-normalize/modern-normalize.css";
 
 h1,
 h2,
@@ -13,7 +13,7 @@ h5 {
   width: 100%;
   height: 100vh;
   font:
-    16px/1.4375em 'Karla',
+    16px / 1.4375em "Karla",
     sans-serif;
   word-break: break-word;
   color: var(--color-dark);
@@ -97,12 +97,14 @@ img {
 .fluid-grid {
   --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11px);
   --cell-max-width: calc(
-    (var(--sqs-site-max-width, 1500px) - (11px * (8 - 1))) / 8
+    (var(--sqs-site-max-width, 1500px) - (11px * (8 - 1))) /
+    8
   );
   --row-height-scaling-factor: 0.0215;
   --container-width: 1;
   --grid-row-height: calc(
-    var(--container-width) * var(--row-height-scaling-factor)
+    var(--container-width) *
+    var(--row-height-scaling-factor)
   );
 
   display: grid;
@@ -116,7 +118,8 @@ img {
   @media (min-width: 768px) {
     --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11px);
     --cell-max-width: calc(
-      (var(--sqs-site-max-width, 1500px) - (11px * (24 - 1))) / 24
+      (var(--sqs-site-max-width, 1500px) - (11px * (24 - 1))) /
+      24
     );
     --inset-padding: 0vw;
     --container-width: min(

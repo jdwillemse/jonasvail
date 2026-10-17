@@ -5,7 +5,7 @@
 }
 
 .row {
-  composes: grid from '@/styles/grid.module.css';
+  composes: grid from "@/styles/grid.module.css";
   row-gap: var(--grid-gap);
 }
 

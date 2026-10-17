@@ -114,7 +114,7 @@ export default function WaveLink({ href, logo, children }) {
       {stamps.length > 0 &&
         createPortal(
           stamps.map(({ x, y, w, h, turn }, i) => (
-            // eslint-disable-next-line @next/next/no-img-element
+            // biome-ignore lint/performance/noImgElement: next/image adds nothing to a portalled stamp
             <img
               key={i}
               src={logo}

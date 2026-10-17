@@ -34,8 +34,9 @@
   --grid-columns: 24;
   /* One theme grid row: rows grow with the page width. */
   --grid-row: calc(
-    min(var(--page-max-width), 100vw - var(--page-gutter) * 2) * 0.0215 +
-      var(--grid-gap)
+    min(var(--page-max-width), 100vw - var(--page-gutter) * 2) *
+    0.0215 +
+    var(--grid-gap)
   );
 }
 

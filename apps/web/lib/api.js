@@ -145,7 +145,12 @@ function mediaBlocks(body = []) {
     const last = blocks.at(-1)
     if (part._type === 'mediaRow') {
       if (last) last.rows.push(placeRow(part))
-      else blocks.push({ sys: { id: part._key }, text: null, rows: [placeRow(part)] })
+      else
+        blocks.push({
+          sys: { id: part._key },
+          text: null,
+          rows: [placeRow(part)],
+        })
     } else if (last && !last.rows.length) {
       last.text.push(part)
     } else {
@@ -165,7 +170,10 @@ export function getProjectsByClient(uid = '') {
 }
 
 export async function getProject(uid) {
-  const project = await sanityFetch(projectQuery, { uid }, ['project', 'client'])
+  const project = await sanityFetch(projectQuery, { uid }, [
+    'project',
+    'client',
+  ])
   return project && { ...project, mediaBlockList: mediaBlocks(project.body) }
 }
 

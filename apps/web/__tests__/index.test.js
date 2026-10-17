@@ -17,7 +17,12 @@ jest.mock('../lib/api', () => ({
     title: 'Home',
     hero: 'Hero copy',
     sections: [
-      { _key: 'a', _type: 'textSection', title: 'Work', copy: text('Work copy') },
+      {
+        _key: 'a',
+        _type: 'textSection',
+        title: 'Work',
+        copy: text('Work copy'),
+      },
       {
         _key: 'b',
         _type: 'pageLinks',

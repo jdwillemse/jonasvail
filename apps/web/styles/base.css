@@ -1,4 +1,4 @@
-@import 'modern-normalize/modern-normalize.css';
+@import "modern-normalize/modern-normalize.css";
 
 body {
   margin: 0;
@@ -16,7 +16,7 @@ body {
  */
 @supports (animation-timeline: scroll()) {
   body::before {
-    content: '';
+    content: "";
     position: fixed;
     inset: 0;
     z-index: -1;
