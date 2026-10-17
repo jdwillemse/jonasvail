@@ -1,14 +1,14 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import css from './styles.module.scss'
-import Link from '../Link'
 
 const ProjectItem = ({ title, listviewImage = {}, client = {}, uid }) => {
   return (
     <article className={css.wrap}>
-      <Link link={{ client, uid, type: 'project' }} className={css.link}>
+      <Link href={`/${client.uid}/${uid}`} className={css.link}>
         <div className={css.imageWrap}>
           {listviewImage.url && (
             <Image

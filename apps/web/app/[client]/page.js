@@ -1,5 +1,12 @@
-import { getProjectsByClient } from '../../lib/api'
+import { getAllProjects, getProjectsByClient } from '../../lib/api'
 import ProjectList from '../../components/ProjectList'
+
+// Only clients with projects, since this page throws for a client without any.
+export async function generateStaticParams() {
+  const projects = (await getAllProjects()) ?? []
+  const uids = new Set(projects.map((p) => p.client?.uid).filter(Boolean))
+  return [...uids].map((client) => ({ client }))
+}
 
 export async function generateMetadata({ params }) {
   const projects = await getProjectsByClient((await params).client)

@@ -1,10 +1,17 @@
 import { notFound } from 'next/navigation'
-import { getProject } from '@/lib/api'
+import { getAllProjects, getProject } from '@/lib/api'
 import { seoMetadata } from '@/lib/metadata'
 
 import Hero from '@/components/Hero'
 import TextSection from '@/components/TextSection'
 import MediaBlock from '@/components/MediaBlock'
+
+export async function generateStaticParams() {
+  const projects = (await getAllProjects()) ?? []
+  return projects
+    .filter((p) => p.client?.uid)
+    .map((p) => ({ client: p.client.uid, project: p.uid }))
+}
 
 export async function generateMetadata({ params }) {
   const project = await getProject((await params).project)
