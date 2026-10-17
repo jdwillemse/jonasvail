@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import css from './styles.module.scss'
+import css from './styles.module.css'
 
 const ProjectItem = ({ title, listviewImage = {}, client = {}, uid }) => {
   return (

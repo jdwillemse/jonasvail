@@ -2,8 +2,6 @@ packages:
   - apps/*
 
 allowBuilds:
-  '@parcel/watcher': true
   bun: true
   lefthook: false
   sharp: true
-  unrs-resolver: false

@@ -1,7 +1,0 @@
-/* Colours */
-
-:root {
-  --color-primary-fallback: #ff4500;
-  --color-primary: color(display-p3 1 0 0.331);
-  --color-dark: #404040;
-}

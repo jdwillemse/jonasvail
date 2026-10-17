@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import getYouTubeID from 'get-youtube-id'
 
-import css from './styles.module.scss'
+import css from './styles.module.css'
 
 // component
 // ==========================================================================================
