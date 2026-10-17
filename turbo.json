@@ -1,0 +1,21 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "globalEnv": ["NEXT_PUBLIC_SANITY_PROJECT_ID", "NEXT_PUBLIC_SANITY_DATASET"],
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "env": ["SANITY_STUDIO_*"],
+      "outputs": ["_site/**", "dist/**"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "test": {
+      "outputs": ["coverage/**"]
+    },
+    "typegen": {
+      "outputs": ["schema.json", "sanity.types.ts"]
+    }
+  }
+}

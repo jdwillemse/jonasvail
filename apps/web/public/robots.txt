@@ -1,0 +1,6 @@
+User-Agent: *
+
+Allow: /
+
+Disallow: /invoice
+Sitemap: https://www.jonasvail.com/sitemap.xml

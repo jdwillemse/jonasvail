@@ -1,0 +1,74 @@
+body {
+  font-family: var(--font-body);
+  font-size: calc((var(--size-normal) - 1) * var(--type-unit) + 1rem);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  --size: var(--size-h1);
+
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: calc((var(--size) - 1) * var(--type-unit) + 1rem);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: normal;
+  overflow-wrap: break-word;
+}
+
+h2 {
+  --size: var(--size-h2);
+}
+
+h3 {
+  --size: var(--size-h3);
+}
+
+h4 {
+  --size: var(--size-h4);
+  line-height: 1.375;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* Links inside copy and headings */
+p a {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  text-decoration: none;
+}
+
+.text-large {
+  font-size: calc((var(--size-large) - 1) * var(--type-unit) + 1rem);
+}
+
+/* Small all-caps labels, styled like chooseanew.com's buttons. 0.75× body size keeps them in step with the body copy. */
+.text-label {
+  font-family: var(--font-label);
+  font-size: calc(0.75 * ((var(--size-normal) - 1) * var(--type-unit) + 1rem));
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.text-label strong {
+  font-weight: inherit;
+}

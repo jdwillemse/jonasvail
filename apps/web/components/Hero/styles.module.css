@@ -1,0 +1,49 @@
+.hero {
+  composes: grid from "@/styles/grid.module.css";
+  padding-block: calc(var(--grid-row) * 3);
+}
+
+.copy {
+  grid-column: 7 / 26;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding-block: var(--grid-row) calc(var(--grid-row) * 2);
+  }
+
+  .copy {
+    grid-column: 2 / 10;
+  }
+}
+
+/* While the WebGL copy is on screen, hide the DOM text it was drawn from. */
+.copy:global(.wobbling) {
+  color: transparent;
+}
+
+/*
+ * On load a soft-edged gradient mask sweeps across the copy from its top-left
+ * corner to its bottom-right. The mask is 2.5 times the copy's size, which
+ * puts the soft edge right at the copy's corners at the start and end, so no
+ * part of the run is spent off the text. It only exists while the
+ * animation runs (fill `backwards`), so it never clips the wobble canvas.
+ */
+@media (prefers-reduced-motion: no-preference) {
+  .copy {
+    animation: wipe 1.8s cubic-bezier(0.5, 0, 0.2, 1) backwards;
+  }
+
+  @keyframes wipe {
+    from {
+      mask-image: linear-gradient(135deg, #000 40%, transparent 60%);
+      mask-size: 250% 250%;
+      mask-position: 100% 100%;
+    }
+    to {
+      mask-image: linear-gradient(135deg, #000 40%, transparent 60%);
+      mask-size: 250% 250%;
+      mask-position: 0 0;
+    }
+  }
+}

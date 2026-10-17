@@ -1,0 +1,20 @@
+/*
+ * The theme's page grid: a gutter column on each side and 24 content
+ * columns (8 on phones), capped at the max page width. Column lines
+ * therefore run 2 to 26 on desktop and 2 to 10 on phones.
+ * Components use it with `composes: grid from '@/styles/grid.module.css'`.
+ */
+.grid {
+  --gutter-column: calc(var(--page-gutter) - var(--grid-gap));
+  --cell-max: calc(
+    (var(--page-max-width) - var(--grid-gap) * (var(--grid-columns) - 1)) /
+    var(--grid-columns)
+  );
+
+  display: grid;
+  grid-template-columns:
+    minmax(var(--gutter-column), 1fr)
+    repeat(var(--grid-columns), minmax(0, var(--cell-max)))
+    minmax(var(--gutter-column), 1fr);
+  column-gap: var(--grid-gap);
+}

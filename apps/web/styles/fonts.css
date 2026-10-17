@@ -1,0 +1,49 @@
+/*
+ * ABC Laica and ABC Diatype are licensed Dinamo fonts, preloaded by
+ * components/Layout. The fallbacks are sized to match (the overrides
+ * next/font worked out), so the swap doesn't shift the layout.
+ */
+@font-face {
+  font-family: laica;
+  src: url("/fonts/ABCLaica-Regular.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "laica Fallback";
+  src: local("Times New Roman");
+  ascent-override: 83.82%;
+  descent-override: 27.3%;
+  line-gap-override: 0%;
+  size-adjust: 114.29%;
+}
+
+@font-face {
+  font-family: diatype;
+  src: url("/fonts/ABCDiatype-Medium.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "diatype Fallback";
+  src: local("Arial");
+  ascent-override: 96.35%;
+  descent-override: 35.63%;
+  line-gap-override: 0%;
+  size-adjust: 100.46%;
+}
+
+@font-face {
+  font-family: diatypeMono;
+  src: url("/fonts/ABCDiatypeMono-Regular.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+}
+
+:root {
+  --font-laica: "laica", "laica Fallback";
+  --font-diatype: "diatype", "diatype Fallback";
+  --font-diatype-mono: "diatypeMono", ui-monospace, monospace;
+}

@@ -8,26 +8,22 @@ jobs:
   update-db:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - name: Restore cache
-        id: npm-cache
-        uses: actions/cache@v3
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
         with:
-          path: |
-            node_modules
-            */*/node_modules
-          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          node-version: 24
+          cache: pnpm
 
-      - name: Install project dependencies
-        if: steps.npm-cache.outputs.cache-hit != 'true'
-        run: yarn install --frozen-lockfile
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Upgrade browser list
-        run: npx browserslist@latest --update-db
+        run: pnpm dlx update-browserslist-db@latest
 
       - name: Commit updated lockfile
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: update caniuse-lite database'

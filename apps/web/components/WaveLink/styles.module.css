@@ -1,0 +1,40 @@
+/* The warp is the hover cue, so no underline (and no squiggle, see
+   data-no-squiggle). */
+.link {
+  text-decoration: none;
+}
+
+/* While the WebGL copy is on screen, hide the DOM text it was drawn from. */
+.link:global(.warping) {
+  color: transparent;
+}
+
+/* Client logos stamped in the hovered row, left of its content. They sit on
+   the body, outside the row, since the row's reveal transform would isolate
+   the blend. */
+:global(.stamp) {
+  position: absolute;
+  z-index: 10;
+  object-fit: contain;
+  pointer-events: none;
+  /* Drops any white in a logo into the page colour behind it. */
+  mix-blend-mode: darken;
+  transform: translate(-50%, -50%) rotate(var(--turn)) scale(0);
+  animation: stamp 220ms cubic-bezier(0.3, 0, 0.2, 1) forwards;
+}
+
+/* Comes down from big to slightly squashed, then settles. */
+@keyframes stamp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(var(--turn)) scale(1.8);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(var(--turn)) scale(0.92);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(var(--turn)) scale(1);
+  }
+}

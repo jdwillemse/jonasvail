@@ -1,0 +1,39 @@
+.footer {
+  composes: grid from "@/styles/grid.module.css";
+  align-items: start;
+  row-gap: var(--grid-gap);
+  padding-block: var(--grid-row) calc(var(--grid-row) * 2);
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.name {
+  grid-column: 7 / 11;
+}
+
+.contact {
+  grid-column: 12 / 21;
+}
+
+.address {
+  grid-column: 21 / 26;
+  justify-self: end;
+}
+
+@media (max-width: 767px) {
+  .name {
+    grid-column: 2 / 6;
+  }
+
+  .contact,
+  .address {
+    grid-column: 6 / 10;
+    justify-self: start;
+  }
+}

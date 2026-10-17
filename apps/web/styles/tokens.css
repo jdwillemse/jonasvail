@@ -1,0 +1,54 @@
+/* Design tokens taken from the Squarespace "Suhama" fluid theme. */
+
+:root {
+  /* Colour */
+  /* The homepage's colours, for routes PageColour has none for */
+  --color-accent: #ffee99;
+  --color-accent-end: #fff7cc;
+  --color-text: #15274e;
+
+  /* Font families. The --font-* variables come from styles/fonts.css. */
+  --font-heading: var(--font-diatype), sans-serif;
+  --font-body: var(--font-laica), serif;
+  --font-label: var(--font-diatype-mono);
+
+  /*
+   * Fluid type: size = (value - 1) * unit + 1rem, where value is the theme's
+   * size in rem. The unit tracks viewport width and stops growing at the
+   * theme's 1800px max page width. Portrait phones scale with height instead.
+   */
+  --type-unit: min(1.2vw, 21.6px);
+  --size-h1: 6.5;
+  --size-h2: 4.2;
+  --size-h3: 2.8;
+  --size-h4: 1.6;
+  --size-large: 1.5;
+  --size-normal: 1.1;
+  --size-site-title: 2;
+
+  /* Layout */
+  --page-max-width: 1800px;
+  --page-gutter: 4vw;
+  --grid-gap: 11px;
+  --grid-columns: 24;
+  /* One theme grid row: rows grow with the page width. */
+  --grid-row: calc(
+    min(var(--page-max-width), 100vw - var(--page-gutter) * 2) *
+    0.0215 +
+    var(--grid-gap)
+  );
+}
+
+@media (max-width: 767px) {
+  :root {
+    --page-gutter: 6vw;
+    --grid-columns: 8;
+    --grid-row: calc(24px + var(--grid-gap));
+  }
+}
+
+@media (max-width: 767px) and (orientation: portrait) {
+  :root {
+    --type-unit: calc(0.012 * min(100vh, 900px));
+  }
+}

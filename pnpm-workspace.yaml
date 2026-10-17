@@ -1,0 +1,8 @@
+packages:
+  - apps/*
+
+allowBuilds:
+  bun: true
+  esbuild: true
+  lefthook: false
+  sharp: true

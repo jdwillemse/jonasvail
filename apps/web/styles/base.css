@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  background: var(--color-accent);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor:
+    url("/cursors/default.svg") 2 0,
+    auto;
+}
+
+a,
+button {
+  cursor:
+    url("/cursors/pointer.svg") 12 0,
+    pointer;
+}
+
+::selection {
+  background: #ff2226;
+  color: #000;
+}
+
+/*
+ * Scroll fade: a fixed layer in the bottom colour fades in as the page
+ * scrolls. Opacity on a scroll timeline runs on the compositor, so it adds
+ * no work to scrolling. Without scroll-timeline support the page keeps the
+ * top colour.
+ */
+@supports (animation-timeline: scroll()) {
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: var(--color-accent-end, var(--color-accent));
+    opacity: 0;
+    pointer-events: none;
+    will-change: opacity;
+    animation: page-scroll-fade linear both;
+    animation-timeline: scroll(root);
+  }
+
+  @keyframes page-scroll-fade {
+    from {
+      opacity: 0;
+      animation-timing-function: ease-in-out;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+/*
+ * Slow colour fade between pages (components/PageColour sets the colours).
+ * The content has its own snapshots, which switch to the new page at once,
+ * so only the background is left in `root` to fade.
+ */
+@view-transition {
+  navigation: auto;
+}
+
+body > header {
+  view-transition-name: header;
+}
+
+main {
+  view-transition-name: main;
+}
+
+body > footer {
+  view-transition-name: footer;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+}
+
+::view-transition-group(header),
+::view-transition-group(main),
+::view-transition-group(footer),
+::view-transition-new(header),
+::view-transition-new(main),
+::view-transition-new(footer) {
+  animation: none;
+}
+
+::view-transition-old(header),
+::view-transition-old(main),
+::view-transition-old(footer) {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+}
+
+img,
+video,
+iframe {
+  display: block;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+img {
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+/* On hover components/Squiggle draws a hand-drawn line in its place. */
+a:hover {
+  text-decoration: none;
+}
+
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/*
+ * Page build-up. `.reveal` slides content in on first paint, staggered by
+ * --i; it's plain CSS, so it runs on first paint. `.reveal-scroll` instead
+ * ties it to the element entering the viewport, for content below the fold.
+ * Only opacity and transform animate, so it all runs on the compositor.
+ */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    animation: reveal 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+    /* Capped so a long list doesn't keep the fold waiting. */
+    animation-delay: calc(min(var(--i, 0), 8) * 80ms + 100ms);
+  }
+
+  .reveal-fade {
+    animation: reveal-fade 0.6s ease-out both;
+  }
+
+  @supports (animation-timeline: view()) {
+    .reveal-scroll {
+      animation: reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+  }
+
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      transform: translateY(1.5rem);
+    }
+  }
+
+  @keyframes reveal-fade {
+    from {
+      opacity: 0;
+    }
+  }
+}

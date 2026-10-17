@@ -1,19 +1,19 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+node_modules
 /.pnp
 .pnp.js
 
 # testing
-/coverage
+coverage
 
 # next.js
-/.next/
-/out/
+.next/
+out/
 
 # production
-/build
+build
 
 # misc
 .DS_Store
@@ -25,10 +25,13 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env
+.env.*
+!.env*.example
+!.env*.enc.json
+
+# SOPS private keys and temporary plaintext
+*.agekey
 
 # vercel
 .vercel
@@ -37,3 +40,17 @@ yarn-error.log*
 .yarn
 
 __content
+# Local copies of the Contentful images, not served yet
+public/images/
+
+# turbo
+.turbo
+
+# sanity
+dist
+.sanity
+.env*
+
+# eleventy
+_site
+.cache

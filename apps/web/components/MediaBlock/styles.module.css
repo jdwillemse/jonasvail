@@ -1,0 +1,38 @@
+.wrap {
+  display: grid;
+  row-gap: calc(var(--grid-row) * 2);
+  padding-block: var(--grid-row);
+}
+
+.row {
+  composes: grid from "@/styles/grid.module.css";
+  row-gap: var(--grid-gap);
+}
+
+.text {
+  grid-column: 2 / 14;
+}
+
+.text h2 {
+  margin-bottom: 0.25em;
+}
+
+.item {
+  grid-column: 2 / -2;
+}
+
+.item img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .item {
+    grid-column: var(--from-col) / var(--to-col);
+  }
+}
+
+@media (max-width: 767px) {
+  .text {
+    grid-column: 2 / -2;
+  }
+}
