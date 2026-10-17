@@ -38,6 +38,11 @@
 }
 
 @media (min-width: 768px) {
+  .stacked .label,
+  .stacked .title {
+    grid-column: 7 / 26;
+  }
+
   /* Line up the label's cap tops with the title's. In ABC Diatype at 1.25 line
      height, cap tops sit 0.23em below the line top. */
   .list:not(.stacked) .label {
@@ -46,11 +51,6 @@
       ((var(--size-h2) - 1) * var(--type-unit) + 1rem) -
       0.23em
     );
-  }
-
-  .stacked .label,
-  .stacked .title {
-    grid-column: 7 / 26;
   }
 }
 
