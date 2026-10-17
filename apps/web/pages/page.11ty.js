@@ -3,7 +3,12 @@ import { pageMeta } from '@/lib/metadata'
 import renderPage from '@/lib/render'
 
 export const data = {
-  pagination: { data: 'pages', size: 1, alias: 'sanityPage' },
+  pagination: {
+    data: 'pages',
+    size: 1,
+    alias: 'sanityPage',
+    addAllPagesToCollections: true,
+  },
   permalink: ({ sanityPage }) =>
     sanityPage.slug === 'home' ? '/' : `/${sanityPage.slug}/`,
 }

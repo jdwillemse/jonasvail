@@ -1,6 +1,9 @@
 import renderPage from '@/lib/render'
 
-export const data = { permalink: '/404.html' }
+export const data = {
+  permalink: '/404.html',
+  eleventyExcludeFromCollections: true,
+}
 
 // Next.js's default 404, which the site showed before.
 export function render(data) {

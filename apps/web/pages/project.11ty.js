@@ -5,7 +5,12 @@ import { pageMeta } from '@/lib/metadata'
 import renderPage from '@/lib/render'
 
 export const data = {
-  pagination: { data: 'projects', size: 1, alias: 'project' },
+  pagination: {
+    data: 'projects',
+    size: 1,
+    alias: 'project',
+    addAllPagesToCollections: true,
+  },
   permalink: ({ project }) => `/${project.client.uid}/${project.uid}/`,
 }
 
