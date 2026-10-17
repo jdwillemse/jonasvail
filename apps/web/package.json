@@ -1,0 +1,59 @@
+{
+  "name": "web",
+  "scripts": {
+    "dev": "next dev",
+    "build": "ANALYZE=true next build",
+    "start": "next start",
+    "test:watch": "jest --watch",
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "sops:encrypt": "sops encrypt --input-type binary --output-type json --filename-override .env.local.enc.json --output .env.local.enc.json .env.local",
+    "sops:decrypt": "umask 077 && SOPS_AGE_KEY_FILE=\"${SOPS_AGE_KEY_FILE:-$HOME/.config/sops/age/keys.txt}\" sops decrypt --input-type json --output-type binary --output .env.local .env.local.enc.json && chmod 600 .env.local",
+    "sops:updatekeys": "SOPS_AGE_KEY_FILE=\"${SOPS_AGE_KEY_FILE:-$HOME/.config/sops/age/keys.txt}\" sops updatekeys --yes .env.local.enc.json"
+  },
+  "dependencies": {
+    "@portabletext/react": "^8.0.1",
+    "@sanity/client": "^8.9.0",
+    "@sanity/webhook": "^4.0.4",
+    "classnames": "^2.5.1",
+    "clsx": "^2.1.1",
+    "get-youtube-id": "^1.0.1",
+    "groq": "^6.19.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.get": "^4.4.2",
+    "lodash.isempty": "^4.4.0",
+    "modern-normalize": "^3.0.1",
+    "next": "^16.4.0",
+    "plaiceholder": "^3.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^19.3.0",
+    "react-cookie-consent": "^10.0.2",
+    "react-dom": "^19.3.0",
+    "react-masonry-css": "^1.0.16",
+    "react-modal": "^3.16.3",
+    "sass": "^1.105.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^8.0.0",
+    "@next/bundle-analyzer": "^16.4.0",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.8",
+    "babel-jest": "^30.5.2",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2",
+    "node-fetch": "^3.3.2",
+    "postcss-preset-env": "^11.6.1",
+    "purify-css": "^1.2.5",
+    "typescript": "^6.0.3"
+  },
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "24.x"
+  },
+  "private": true
+}

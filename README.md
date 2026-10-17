@@ -1,6 +1,33 @@
-# A statically generated blog example using Next.js and Prismic
+# jonasvail.com
+
+A Turborepo monorepo with two apps:
+
+- `apps/web`: the Next.js site, deployed on Vercel with `apps/web` as its root directory
+- `apps/studio`: the Sanity Studio, deployed to jonasvail.sanity.studio with `pnpm --filter studio deploy`
+
+Run `pnpm dev` to start both, or `pnpm --filter web dev` for one.
+
+## Content
+
+All content and images live in the Sanity project `3hjgtb6q`, dataset
+`production`. The site reads it with GROQ queries in
+[apps/web/lib/api.js](apps/web/lib/api.js). Each query is tagged with the
+document types it reads. A Sanity webhook posts to `/api/revalidate` when a
+document changes, which refreshes every page that uses that type.
+
+Set up the webhook in Sanity under API, then Webhooks:
+
+1. URL: `https://<live domain>/api/revalidate`
+2. Trigger on create, update and delete, for all documents
+3. Projection: `{_type}`
+4. Secret: the value of `SANITY_REVALIDATE_SECRET`, which Vercel also needs
+
+After a schema change, run `pnpm typegen` to update
+`apps/studio/sanity.types.ts`.
 
 ## Secret management
+
+The encrypted environment files live in `apps/web`. Run these commands there.
 
 Use the official SOPS and age CLIs directly; no custom scripts are needed.
 Install them with Homebrew (`brew install sops age`).

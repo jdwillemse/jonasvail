@@ -1,0 +1,92 @@
+@import 'modern-normalize/modern-normalize.css';
+
+body {
+  margin: 0;
+  background: var(--color-accent);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+ * Scroll fade: a fixed layer in the bottom colour fades in as the page
+ * scrolls. Opacity on a scroll timeline runs on the compositor, so it adds
+ * no work to scrolling. Without scroll-timeline support the page keeps the
+ * top colour.
+ */
+@supports (animation-timeline: scroll()) {
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: var(--color-accent-end, var(--color-accent));
+    opacity: 0;
+    pointer-events: none;
+    will-change: opacity;
+    animation: page-scroll-fade linear both;
+    animation-timeline: scroll(root);
+  }
+
+  @keyframes page-scroll-fade {
+    from {
+      opacity: 0;
+      animation-timing-function: ease-in-out;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+/* Slow colour fade between pages, started by components/PageColour. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+}
+
+img,
+video,
+iframe {
+  display: block;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+img {
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+/* On hover components/Squiggle draws a hand-drawn line in its place. */
+a:hover {
+  text-decoration: none;
+}
+
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

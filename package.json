@@ -1,66 +1,23 @@
 {
-  "name": "jonasvail.com",
-  "version": "1.0.0",
+  "name": "jonasvail",
+  "private": true,
   "scripts": {
     "prepare": "husky",
-    "postinstall": "husky",
-    "dev": "next dev",
-    "build": "ANALYZE=true next build",
-    "start": "next start",
-    "test:watch": "jest --watch",
-    "test": "jest --coverage",
-    "lint": "eslint .",
-    "sops:encrypt": "sops encrypt --input-type binary --output-type json --filename-override .env.local.enc.json --output .env.local.enc.json .env.local",
-    "sops:decrypt": "umask 077 && SOPS_AGE_KEY_FILE=\"${SOPS_AGE_KEY_FILE:-$HOME/.config/sops/age/keys.txt}\" sops decrypt --input-type json --output-type binary --output .env.local .env.local.enc.json && chmod 600 .env.local",
-    "sops:updatekeys": "SOPS_AGE_KEY_FILE=\"${SOPS_AGE_KEY_FILE:-$HOME/.config/sops/age/keys.txt}\" sops updatekeys --yes .env.local.enc.json",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typegen": "turbo run typegen",
     "prettier": "prettier --check --cache \"**/*.{js,jsx,md,mdx,ts,tsx,mjs,json,css,scss}\"",
-    "prettier:fix": "npx prettier --write \"**/*.{js,jsx,md,mdx,ts,tsx,mjs,json,css,scss}\""
-  },
-  "dependencies": {
-    "classnames": "^2.5.1",
-    "clsx": "^2.1.1",
-    "get-youtube-id": "^1.0.1",
-    "gray-matter": "4.0.3",
-    "lodash.debounce": "^4.0.8",
-    "lodash.get": "^4.4.2",
-    "lodash.isempty": "^4.4.0",
-    "modern-normalize": "^3.0.1",
-    "next": "^16.4.0",
-    "plaiceholder": "^3.0.0",
-    "prop-types": "^15.8.1",
-    "react": "^19.3.0",
-    "react-cookie-consent": "^10.0.2",
-    "react-dom": "^19.3.0",
-    "react-markdown": "^10.1.0",
-    "react-masonry-css": "^1.0.16",
-    "react-modal": "^3.16.3",
-    "sass": "^1.105.1",
-    "sharp": "^0.35.5"
+    "prettier:fix": "prettier --write \"**/*.{js,jsx,md,mdx,ts,tsx,mjs,json,css,scss}\""
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^8.0.0",
-    "@next/bundle-analyzer": "^16.4.0",
-    "@testing-library/dom": "^10.4.2",
-    "@testing-library/jest-dom": "^7.0.1",
-    "@testing-library/react": "^16.3.3",
-    "@testing-library/user-event": "^14.6.8",
-    "babel-jest": "^30.5.2",
-    "eslint": "^9.39.5",
-    "eslint-config-next": "^16.4.0",
     "husky": "^9.1.7",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^30.5.2",
-    "jest-environment-jsdom": "^30.5.2",
-    "node-fetch": "^3.3.2",
-    "postcss-preset-env": "^11.6.1",
     "prettier": "^3.9.10",
-    "purify-css": "^1.2.5",
-    "typescript": "^6.0.3"
+    "turbo": "^2.11.8"
   },
-  "license": "UNLICENSED",
   "engines": {
     "node": "24.x"
   },
-  "packageManager": "pnpm@11.5.0+sha512.dbfcc4f81cf48597afd4bc391ffdf12c11f1a9fb83a395bfa6b0a2d9cc2fd8ffebafdb1ccbd529632153f793904c2615b7f09fe1a345473fd1c35845172a8eb1",
-  "private": true
+  "packageManager": "pnpm@11.5.0+sha512.dbfcc4f81cf48597afd4bc391ffdf12c11f1a9fb83a395bfa6b0a2d9cc2fd8ffebafdb1ccbd529632153f793904c2615b7f09fe1a345473fd1c35845172a8eb1"
 }

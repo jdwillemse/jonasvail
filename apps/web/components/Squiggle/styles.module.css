@@ -1,0 +1,14 @@
+.squiggle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0.625em;
+  overflow: visible;
+  pointer-events: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-dasharray: 1 2;
+  stroke-dashoffset: 1;
+}

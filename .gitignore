@@ -1,19 +1,19 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+node_modules
 /.pnp
 .pnp.js
 
 # testing
-/coverage
+coverage
 
 # next.js
-/.next/
-/out/
+.next/
+out/
 
 # production
-/build
+build
 
 # misc
 .DS_Store
@@ -41,4 +41,11 @@ yarn-error.log*
 
 __content
 # Local copies of the Contentful images, not served yet
-/public/images/
+public/images/
+
+# turbo
+.turbo
+
+# sanity
+dist
+.sanity

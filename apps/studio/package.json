@@ -1,0 +1,29 @@
+{
+  "name": "studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "typegen": "sanity schema extract --enforce-required-fields && sanity typegen generate",
+    "import": "sanity exec scripts/import-markdown.ts --with-user-token --"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "@sanity/vision": "^6.19.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sanity": "^6.19.0",
+    "sanity-plugin-media": "^6.3.5",
+    "styled-components": "^6.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "gray-matter": "^4.0.3",
+    "sharp": "^0.35.5",
+    "typescript": "^6.0.3"
+  }
+}

@@ -1,0 +1,11 @@
+/* The warp is the hover cue, so no underline (and no squiggle, see
+   data-no-squiggle). */
+.link {
+  text-decoration: none;
+}
+
+/* While the WebGL copy is on screen, hide the DOM text it was drawn from. */
+.link.warping {
+  color: transparent;
+}
+

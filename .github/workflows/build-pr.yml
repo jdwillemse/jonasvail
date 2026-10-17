@@ -2,169 +2,33 @@ name: build-pr
 on:
   pull_request:
     branches:
-      - master
+      - main
+
+env:
+  NEXT_PUBLIC_SANITY_PROJECT_ID: 3hjgtb6q
+  NEXT_PUBLIC_SANITY_DATASET: production
 
 jobs:
-  prettier:
-    name: Format validation
+  check:
+    name: Prettier, lint, test and build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Restore Yarn cache
-        uses: actions/cache@v3
-        env:
-          cache-name: yarn-cache
-        with:
-          path: .yarn/cache
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ env.cache-name }}
-      - name: Restore Prettier cache
-        uses: actions/cache@v3
-        env:
-          cache-name: prettier-cache
-        with:
-          path: ./node_modules/.cache/prettier
-          key: ${{ runner.os }}-${{ env.cache-name }}
+      - uses: pnpm/action-setup@v4
 
-      - name: Enable Corepack
-        run: corepack enable
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
 
       - name: Install dependencies
-        run: yarn install --immutable
-        env:
-          HUSKY: 0
-          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: true
-
-      - name: Run Prettier
-        run: yarn prettier
-
-  eslint:
-    name: Lint validation
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Restore Yarn cache
-        uses: actions/cache@v3
-        env:
-          cache-name: yarn-cache
-        with:
-          path: .yarn/cache
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ env.cache-name }}
-
-      - name: Enable Corepack
-        run: corepack enable
-
-      - name: Install dependencies
-        run: yarn install --immutable
+        run: pnpm install --frozen-lockfile
         env:
           HUSKY: 0
 
-      - name: Run linting
-        run: |
-          yarn lint
+      - name: Prettier
+        run: pnpm prettier
 
-  unit-tests:
-    name: Jest tests
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Restore Yarn cache
-        uses: actions/cache@v3
-        env:
-          cache-name: yarn-cache
-        with:
-          path: .yarn/cache
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ env.cache-name }}
-
-      - name: Enable Corepack
-        run: corepack enable
-
-      - name: Install dependencies
-        run: yarn install --immutable
-        env:
-          HUSKY: 0
-
-      - name: Run unit tests
-        run: yarn test
-
-  # e2e-tests:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-
-  #     - name: Restore cache
-  #       id: yarn-cache
-  #       uses: actions/cache@v2
-  #       with:
-  #         path: |
-  #           node_modules
-  #           */*/node_modules
-  #         key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
-
-  #     - name: Install project dependencies
-  #       if: steps.yarn-cache.outputs.cache-hit != 'true'
-  #       run: yarn
-
-  #     - name: Generate files
-  #       run: |
-  #         yarn lerna run generate
-
-  #     - name: Run e2e tests
-  #       run: |
-  #         yarn workspace @telekom/scale-components test --e2e --max-workers=8 --debug
-
-  # visual-tests:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-
-  #     - name: Restore cache
-  #       id: yarn-cache
-  #       uses: actions/cache@v2
-  #       with:
-  #         path: |
-  #           node_modules
-  #           */*/node_modules
-  #         key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
-
-  #     - name: Install project dependencies
-  #       if: steps.yarn-cache.outputs.cache-hit != 'true'
-  #       run: yarn
-
-  #     - name: Generate files
-  #       run: |
-  #         yarn lerna run generate
-
-  #     - name: Build Components
-  #       run: |
-  #         yarn workspace @telekom/scale-components build
-
-  #     - name: Build Storybook
-  #       run: |
-  #         yarn workspace @telekom/scale-storybook-vue build --quiet
-
-  #     - name: Copy Storybook for visual tests
-  #       run: |
-  #         yarn workspace @telekom/scale-visual-tests copy
-
-  #     - name: Run visual tests
-  #       run: |
-  #         yarn workspace @telekom/scale-visual-tests test:ci
-
-  #     - name: Upload Diff output
-  #       uses: actions/upload-artifact@v2
-  #       if: failure()
-  #       with:
-  #         name: diff-output
-  #         path: packages/visual-tests/src/__image_snapshots__/__diff_output__
+      - name: Lint, test and build
+        run: pnpm turbo run lint test build
