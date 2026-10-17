@@ -18,7 +18,19 @@ const OPTIONS = {
 // Sanity resizes the original first: some are 7000px wide.
 const sanity = (url) => `${url}?w=${OPTIONS.widths.at(-1)}&fit=max&q=100`
 
-export const optimise = (src) => Image(src, OPTIONS)
+// Downloads sometimes drop on Vercel's build machines ("fetch failed"), and
+// one failure fails the build, so retry. eleventy-img keeps each call's
+// promise in memory, keyed by its options, so `attempt` makes each retry a
+// new call. Output filenames don't depend on it.
+export async function optimise(src, attempt = 1) {
+  try {
+    return await Image(src, { ...OPTIONS, attempt })
+  } catch (error) {
+    if (attempt >= 3) throw error
+    await new Promise((resolve) => setTimeout(resolve, attempt * 1000))
+    return optimise(src, attempt + 1)
+  }
+}
 
 // Adds `formats` to each image in a project's media blocks, and a
 // `thumbnail` to each video.
