@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.6",
-    "@11ty/eleventy-img": "^7.0.0",
+    "@11ty/eleventy-img": "^7.1.1",
     "@portabletext/react": "^8.0.1",
     "@sanity/client": "^8.9.0",
     "@sanity/webhook": "^4.0.4",
